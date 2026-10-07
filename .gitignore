@@ -30,3 +30,19 @@ node_modules/
 data/processed/prism_resume_intelligence/
 data/processed/recommendations/
 data/processed/prism_job_descriptions/adzuna_global_job_listings_2025.csv
+
+# Optional ESCO support files kept local
+data/processed/prism_esco/ISCOGroups_en.csv
+data/processed/prism_esco/broaderRelationsOccPillar_en.csv
+data/processed/prism_esco/broaderRelationsSkillPillar_en.csv
+data/processed/prism_esco/conceptSchemes_en.csv
+data/processed/prism_esco/dictionary_en.csv
+data/processed/prism_esco/digCompSkillsCollection_en.csv
+data/processed/prism_esco/digitalSkillsCollection_en.csv
+data/processed/prism_esco/greenShareOcc_en.csv
+data/processed/prism_esco/greenSkillsCollection_en.csv
+data/processed/prism_esco/languageSkillsCollection_en.csv
+data/processed/prism_esco/researchOccupationsCollection_en.csv
+data/processed/prism_esco/researchSkillsCollection_en.csv
+data/processed/prism_esco/skillGroups_en.csv
+data/processed/prism_esco/transversalSkillsCollection_en.csv
