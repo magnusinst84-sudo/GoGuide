@@ -1,0 +1,38 @@
+cpc_code,description,parent_code,full_description
+A,AI technologies,,AI technologies
+A01,AI systems and methods,A,AI technologies AI systems and methods
+A01C,Advanced ai applications,A01,AI technologies AI systems and methods Advanced ai applications
+A01C0/00,machine learning techniques,A01C,AI technologies AI systems and methods Advanced ai applications machine learning techniques
+A01C1/00,deep neural networks techniques,A01C,AI technologies AI systems and methods Advanced ai applications deep neural networks techniques
+A01C2/00,data mining techniques,A01C,AI technologies AI systems and methods Advanced ai applications data mining techniques
+A01C3/00,natural language processing techniques,A01C,AI technologies AI systems and methods Advanced ai applications natural language processing techniques
+A01C4/00,computer vision techniques,A01C,AI technologies AI systems and methods Advanced ai applications computer vision techniques
+B,Electronics technologies,,Electronics technologies
+B01,Electronics systems and methods,B,Electronics technologies Electronics systems and methods
+B01C,Advanced electronics applications,B01,Electronics technologies Electronics systems and methods Advanced electronics applications
+B01C0/00,electronic circuits techniques,B01C,Electronics technologies Electronics systems and methods Advanced electronics applications electronic circuits techniques
+B01C1/00,sensor systems techniques,B01C,Electronics technologies Electronics systems and methods Advanced electronics applications sensor systems techniques
+B01C2/00,optical devices techniques,B01C,Electronics technologies Electronics systems and methods Advanced electronics applications optical devices techniques
+B01C3/00,signal processing techniques,B01C,Electronics technologies Electronics systems and methods Advanced electronics applications signal processing techniques
+B01C4/00,embedded systems techniques,B01C,Electronics technologies Electronics systems and methods Advanced electronics applications embedded systems techniques
+C,ICT technologies,,ICT technologies
+C01,ICT systems and methods,C,ICT technologies ICT systems and methods
+C01C,Advanced ict applications,C01,ICT technologies ICT systems and methods Advanced ict applications
+C01C0/00,information systems techniques,C01C,ICT technologies ICT systems and methods Advanced ict applications information systems techniques
+C01C1/00,communication networks techniques,C01C,ICT technologies ICT systems and methods Advanced ict applications communication networks techniques
+C01C2/00,wireless transmission techniques,C01C,ICT technologies ICT systems and methods Advanced ict applications wireless transmission techniques
+C01C3/00,network security techniques,C01C,ICT technologies ICT systems and methods Advanced ict applications network security techniques
+D,Manufacturing technologies,,Manufacturing technologies
+D01,Manufacturing systems and methods,D,Manufacturing technologies Manufacturing systems and methods
+D01C,Advanced manufacturing applications,D01,Manufacturing technologies Manufacturing systems and methods Advanced manufacturing applications
+D01C0/00,industrial automation techniques,D01C,Manufacturing technologies Manufacturing systems and methods Advanced manufacturing applications industrial automation techniques
+D01C1/00,robotic systems techniques,D01C,Manufacturing technologies Manufacturing systems and methods Advanced manufacturing applications robotic systems techniques
+D01C2/00,production optimization techniques,D01C,Manufacturing technologies Manufacturing systems and methods Advanced manufacturing applications production optimization techniques
+D01C3/00,process control techniques,D01C,Manufacturing technologies Manufacturing systems and methods Advanced manufacturing applications process control techniques
+E,Biotech technologies,,Biotech technologies
+E01,Biotech systems and methods,E,Biotech technologies Biotech systems and methods
+E01C,Advanced biotech applications,E01,Biotech technologies Biotech systems and methods Advanced biotech applications
+E01C0/00,biomedical data analysis techniques,E01C,Biotech technologies Biotech systems and methods Advanced biotech applications biomedical data analysis techniques
+E01C1/00,genetic sequencing techniques,E01C,Biotech technologies Biotech systems and methods Advanced biotech applications genetic sequencing techniques
+E01C2/00,diagnostic systems techniques,E01C,Biotech technologies Biotech systems and methods Advanced biotech applications diagnostic systems techniques
+E01C3/00,laboratory automation techniques,E01C,Biotech technologies Biotech systems and methods Advanced biotech applications laboratory automation techniques

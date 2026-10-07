@@ -1,0 +1,62 @@
+industry_id,industry_name,sub_industry
+IND-ACADEMIC_RESEARCH,Academic Research,National Laboratories & Research Institutes
+IND-ADVERTISING___MEDIA,Advertising & Media,Performance Advertising & Creative Agencies
+IND-AGRICULTURE___SEEDS,Agriculture & Seeds,Crop Genetics & Plant Biotechnology
+IND-AGRI_BUSINESS___FARMING,Agri-Business & Farming,Commercial Farms & Agri-Input Companies
+IND-AUTOMOTIVE___HEAVY_INDUSTRY,Automotive & Heavy Industry,Electric Mobility & Assembly
+IND-AVIATION___AIRLINES,Aviation & Airlines,Commercial Airlines & Airport Operators
+IND-BANKING___FINANCE,Banking & Finance,Algorithmic Trading & Analytics GCCs
+IND-BANKING___FINANCIAL_SERVICES,Banking & Financial Services,Commercial & Retail Lending Operations
+IND-BIOTECHNOLOGY___LIFE_SCIENCES,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO)
+IND-CAPITAL_MARKETS,Capital Markets,Investment Banking & Wealth Advisory
+IND-CONSTRUCTION___INFRASTRUCTURE,Construction & Infrastructure,Commercial High-Rise & Turnkey Fit-Outs
+IND-CONSULTING___PROFESSIONAL_SERVICES,Consulting & Professional Services,Business Advisory Services
+IND-CONSUMER_HARDWARE,Consumer Hardware,Industrial Product Styling & Ergonomics
+IND-CORPORATE_COMMUNICATIONS,Corporate Communications,Enterprise PR & Reputation Management
+IND-CORPORATE_OPERATIONS,Corporate Operations,Global Business Services & Shared Centers
+IND-CORPORATE_SECTOR,Corporate Sector,In-House Legal & Regulatory Compliance
+IND-CREATIVE___ADVERTISING,Creative & Advertising,"Branding, Packaging & Motion Animation"
+IND-DEFENSE_PRODUCTION,Defense Production,Ordnance & Private Aerospace Component Hubs
+IND-DEFENSE___PUBLIC_SECTOR,Defense & Public Sector,Critical Infrastructure & Homeland Defense
+IND-EDTECH___CORPORATE_LEARNING,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling
+IND-ENERGY___UTILITIES,Energy & Utilities,Renewable Solar/Wind & Power Transmission
+IND-ENTERTAINMENT___FILM,Entertainment & Film,OTT Streaming Platforms & Production Houses
+IND-E_COMMERCE_LOGISTICS,E-Commerce Logistics,Fulfillment Centers & Last-Mile Delivery
+IND-E_COMMERCE___RETAIL,E-Commerce & Retail,Customer Personalization & Logistics AI
+IND-FACILITY_MANAGEMENT,Facility Management,Commercial IT Parks & Corporate Campuses
+IND-FAST_MOVING_CONSUMER_GOODS,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push
+IND-FINANCIAL_SERVICES,Financial Services,FinTech & Digital Payments
+IND-FOOD_PROCESSING,Food Processing,Post-Harvest Processing & Cold Chains
+IND-FOOD___BEVERAGE,Food & Beverage,Fine Dining Chains & Cloud Kitchen Networks
+IND-HEALTHCARE,Healthcare,HealthTech & Telemedicine
+IND-HEALTHCARE___HOSPITALS,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care
+IND-HIGHER_EDUCATION___ACADEMIA,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges"
+IND-HOSPITALITY___LEISURE,Hospitality & Leisure,Resort Masterplanning & Heritage Restoration
+IND-HOSPITALITY___TOURISM,Hospitality & Tourism,Five-Star Luxury Hotels & International Chains
+IND-INDUSTRIAL_GOODS,Industrial Goods,Heavy Electricals & Process Equipment
+IND-INDUSTRIAL_PRODUCTS,Industrial Products,B2B Industrial Machinery & OEM Parts
+IND-INFORMATION_SECURITY,Information Security,Managed Security Services (MSSP)
+IND-INFORMATION_TECHNOLOGY,Information Technology,Enterprise Software & SaaS
+IND-INFRASTRUCTURE___CONSTRUCTION,Infrastructure & Construction,Civil EPC & Structural Real Estate
+IND-JUDICIARY___DISPUTE_RESOLUTION,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers
+IND-K_12_EDUCATION,K-12 Education,CBSE/ICSE Schools & International Academies
+IND-LEGAL_PRACTICE,Legal Practice,Full-Service Corporate Law Firms
+IND-MANAGEMENT_CONSULTING,Management Consulting,Strategic Transformation & Operations
+IND-MARITIME___PORTS,Maritime & Ports,Container Terminals & Container Freight Stations
+IND-NEWS___DIGITAL_PUBLISHING,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms"
+IND-PHARMACEUTICALS,Pharmaceuticals,Formulation R&D & Clinical Manufacturing
+IND-PRECISION_ENGINEERING,Precision Engineering,Automotive Component & Machine Tool Plants
+IND-PROFESSIONAL_SERVICES,Professional Services,Statutory Audit & Tax Consulting
+IND-PUBLIC_ADMINISTRATION,Public Administration,Central & State Civil Services Secretariat
+IND-PUBLIC_HEALTH,Public Health,Government Health Missions & Community Clinics
+IND-REAL_ESTATE___URBAN_PLANNING,Real Estate & Urban Planning,Architectural Consultancies & Smart Cities
+IND-RETAIL___FMCG,Retail & FMCG,Supply Chain & Multi-Brand Distribution
+IND-RURAL_DEVELOPMENT,Rural Development,Government Agriculture Directorates
+IND-SUPPLY_CHAIN___FREIGHT,Supply Chain & Freight,Third-Party Logistics (3PL) & Express Cargo
+IND-TECHNOLOGY___DIGITAL_PRODUCTS,Technology & Digital Products,Digital User Experience & SaaS Interfaces
+IND-TECHNOLOGY___INTERNET,Technology & Internet,Digital Product Delivery & Program Management
+IND-TECHNOLOGY___SAAS,Technology & SaaS,Product Marketing & B2B Inbound Growth
+IND-TECHNOLOGY___TELECOMMUNICATIONS,Technology & Telecommunications,Enterprise Software & Cloud Licensing
+IND-THINK_TANKS___MULTILATERAL_AGENCIES,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations
+IND-TRAVEL___CRUISE_LINES,Travel & Cruise Lines,Corporate Travel & Luxury Cruise Operators
+IND-URBAN_GOVERNANCE___SMART_CITIES,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities

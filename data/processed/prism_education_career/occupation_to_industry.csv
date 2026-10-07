@@ -1,0 +1,1024 @@
+occupation_id,occupation_name,industry,sub_industry,common_employers_type,employment_share_estimate,india_hub_locations
+OCC_0001,Software Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0001,Software Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0001,Software Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0002,Senior Software Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0002,Senior Software Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0002,Senior Software Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0003,Staff Software Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, NCR"
+OCC_0003,Staff Software Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0003,Staff Software Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, NCR"
+OCC_0004,Frontend Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0004,Frontend Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0004,Frontend Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0005,Backend Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0005,Backend Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0005,Backend Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0006,Full Stack Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0006,Full Stack Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0006,Full Stack Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0007,DevOps Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0007,DevOps Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0007,DevOps Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0008,Site Reliability Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0008,Site Reliability Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0008,Site Reliability Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0009,Cloud Solutions Architect,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0009,Cloud Solutions Architect,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0009,Cloud Solutions Architect,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0010,Systems Software Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Chennai"
+OCC_0010,Systems Software Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Chennai"
+OCC_0010,Systems Software Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Chennai"
+OCC_0011,Mobile App Developer - Android,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0011,Mobile App Developer - Android,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0011,Mobile App Developer - Android,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0012,Mobile App Developer - iOS,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0012,Mobile App Developer - iOS,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0012,Mobile App Developer - iOS,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0013,Embedded Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0013,Embedded Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0013,Embedded Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0014,Firmware Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad, Pune"
+OCC_0014,Firmware Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad, Pune"
+OCC_0014,Firmware Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad, Pune"
+OCC_0015,QA Automation Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Pune, Hyderabad, Chennai, Kolkata"
+OCC_0015,QA Automation Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Pune, Hyderabad, Chennai, Kolkata"
+OCC_0015,QA Automation Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Pune, Hyderabad, Chennai, Kolkata"
+OCC_0016,Performance Test Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Pune, Hyderabad, Chennai"
+OCC_0016,Performance Test Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Pune, Hyderabad, Chennai"
+OCC_0016,Performance Test Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Pune, Hyderabad, Chennai"
+OCC_0017,Database Administrator,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Pune, Hyderabad, NCR, Chennai"
+OCC_0017,Database Administrator,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Pune, Hyderabad, NCR, Chennai"
+OCC_0017,Database Administrator,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Pune, Hyderabad, NCR, Chennai"
+OCC_0018,Linux Systems Administrator,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Pune, Chennai, Bengaluru, Kolkata, NCR"
+OCC_0018,Linux Systems Administrator,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Pune, Chennai, Bengaluru, Kolkata, NCR"
+OCC_0018,Linux Systems Administrator,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Pune, Chennai, Bengaluru, Kolkata, NCR"
+OCC_0019,Enterprise Network Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0019,Enterprise Network Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0019,Enterprise Network Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0020,Scrum Master,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0020,Scrum Master,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0020,Scrum Master,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0021,Engineering Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0021,Engineering Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0021,Engineering Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0022,Director of Engineering,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, NCR"
+OCC_0022,Director of Engineering,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, NCR"
+OCC_0022,Director of Engineering,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0023,Microservices Architect,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, NCR"
+OCC_0023,Microservices Architect,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0023,Microservices Architect,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, NCR"
+OCC_0024,Salesforce Developer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune, Jaipur"
+OCC_0024,Salesforce Developer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune, Jaipur"
+OCC_0024,Salesforce Developer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune, Jaipur"
+OCC_0025,SAP Functional Consultant,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Mumbai, Pune, Bengaluru, NCR, Kolkata"
+OCC_0025,SAP Functional Consultant,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Mumbai, Pune, Bengaluru, NCR, Kolkata"
+OCC_0025,SAP Functional Consultant,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Mumbai, Pune, Bengaluru, NCR, Kolkata"
+OCC_0026,IT Support Specialist,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,National / All Tier-1 & Tier-2 Cities
+OCC_0026,IT Support Specialist,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,National / All Tier-1 & Tier-2 Cities
+OCC_0026,IT Support Specialist,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,National / All Tier-1 & Tier-2 Cities
+OCC_0027,Build and Release Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune"
+OCC_0027,Build and Release Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune"
+OCC_0027,Build and Release Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune"
+OCC_0028,ERP Technical Architect,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Mumbai, NCR, Bengaluru"
+OCC_0028,ERP Technical Architect,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0028,ERP Technical Architect,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Mumbai, NCR, Bengaluru"
+OCC_0029,Blockchain Developer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, NCR, Goa"
+OCC_0029,Blockchain Developer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, NCR, Goa"
+OCC_0029,Blockchain Developer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, NCR, Goa"
+OCC_0030,IoT Solutions Architect,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Pune, Hyderabad"
+OCC_0030,IoT Solutions Architect,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Pune, Hyderabad"
+OCC_0030,IoT Solutions Architect,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Pune, Hyderabad"
+OCC_0031,AR / VR Software Developer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune"
+OCC_0031,AR / VR Software Developer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune"
+OCC_0031,AR / VR Software Developer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune"
+OCC_0032,Game Programmer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0032,Game Programmer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0032,Game Programmer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0033,Technical Solutions Consultant,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Mumbai, NCR"
+OCC_0033,Technical Solutions Consultant,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Mumbai, NCR"
+OCC_0033,Technical Solutions Consultant,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Mumbai, NCR"
+OCC_0034,Mainframe Systems Specialist,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Chennai, Pune, Bengaluru, Kolkata"
+OCC_0034,Mainframe Systems Specialist,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Chennai, Pune, Bengaluru, Kolkata"
+OCC_0034,Mainframe Systems Specialist,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Chennai, Pune, Bengaluru, Kolkata"
+OCC_0035,API Platform Engineer,Information Technology,Enterprise Software & SaaS,Global IT MNCs & SaaS Unicorns,High,"Bengaluru, Hyderabad, Pune"
+OCC_0035,API Platform Engineer,Financial Services,FinTech & Digital Payments,Top Tier Banks & FinTech Scale-ups,Medium,"Bengaluru, Hyderabad, Pune"
+OCC_0035,API Platform Engineer,Healthcare,HealthTech & Telemedicine,HealthTech Ventures & Hospital Networks,Niche,"Bengaluru, Hyderabad, Pune"
+OCC_0036,Data Analyst,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0036,Data Analyst,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0036,Data Analyst,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0037,Senior Data Analyst,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0037,Senior Data Analyst,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0037,Senior Data Analyst,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0038,Business Intelligence Developer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Pune, Hyderabad, Chennai, Kolkata"
+OCC_0038,Business Intelligence Developer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Pune, Hyderabad, Chennai, Kolkata"
+OCC_0038,Business Intelligence Developer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Pune, Hyderabad, Chennai, Kolkata"
+OCC_0039,Data Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0039,Data Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0039,Data Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0040,Senior Data Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0040,Senior Data Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0040,Senior Data Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0041,Big Data Architect,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, NCR"
+OCC_0041,Big Data Architect,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, NCR"
+OCC_0041,Big Data Architect,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0042,Data Scientist,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0042,Data Scientist,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0042,Data Scientist,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR, Mumbai"
+OCC_0043,Senior Data Scientist,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0043,Senior Data Scientist,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0043,Senior Data Scientist,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0044,Lead Data Scientist,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, NCR"
+OCC_0044,Lead Data Scientist,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, NCR"
+OCC_0044,Lead Data Scientist,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0045,Machine Learning Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0045,Machine Learning Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0045,Machine Learning Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0046,Senior Machine Learning Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0046,Senior Machine Learning Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0046,Senior Machine Learning Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0047,MLOps Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0047,MLOps Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0047,MLOps Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0048,Computer Vision Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Pune"
+OCC_0048,Computer Vision Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Pune"
+OCC_0048,Computer Vision Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Pune"
+OCC_0049,Natural Language Processing Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, NCR"
+OCC_0049,Natural Language Processing Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, NCR"
+OCC_0049,Natural Language Processing Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0050,Generative AI Application Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, NCR"
+OCC_0050,Generative AI Application Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, NCR"
+OCC_0050,Generative AI Application Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0051,AI Prompt Engineer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, NCR, Remote"
+OCC_0051,AI Prompt Engineer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, NCR, Remote"
+OCC_0051,AI Prompt Engineer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, NCR, Remote"
+OCC_0052,Deep Learning Research Scientist,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad"
+OCC_0052,Deep Learning Research Scientist,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad"
+OCC_0052,Deep Learning Research Scientist,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad"
+OCC_0053,AI Ethics and Compliance Officer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, NCR, Mumbai"
+OCC_0053,AI Ethics and Compliance Officer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, NCR, Mumbai"
+OCC_0053,AI Ethics and Compliance Officer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0054,Analytics Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0054,Analytics Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0054,Analytics Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0055,Head of Analytics,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Mumbai, NCR"
+OCC_0055,Head of Analytics,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Mumbai, NCR"
+OCC_0055,Head of Analytics,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Mumbai, NCR"
+OCC_0056,Decision Scientist,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, NCR, Hyderabad"
+OCC_0056,Decision Scientist,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, NCR, Hyderabad"
+OCC_0056,Decision Scientist,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, NCR, Hyderabad"
+OCC_0057,Healthcare Data Analyst,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Hyderabad, Chennai, NCR"
+OCC_0057,Healthcare Data Analyst,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Hyderabad, Chennai, NCR"
+OCC_0057,Healthcare Data Analyst,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Hyderabad, Chennai, NCR"
+OCC_0058,Financial Data Analyst,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0058,Financial Data Analyst,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0058,Financial Data Analyst,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0059,Geospatial Data Scientist,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Hyderabad, Bengaluru, Dehradun, NCR"
+OCC_0059,Geospatial Data Scientist,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Hyderabad, Bengaluru, Dehradun, NCR"
+OCC_0059,Geospatial Data Scientist,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Hyderabad, Bengaluru, Dehradun, NCR"
+OCC_0060,Quantitative Research Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, Gurugram"
+OCC_0060,Quantitative Research Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, Gurugram"
+OCC_0060,Quantitative Research Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, Gurugram"
+OCC_0061,Lead Business Intelligence Developer,Information Technology,AI Platforms & Cloud Intelligence,AI Research Labs & Big Tech,High,"Bengaluru, Pune, Hyderabad, NCR"
+OCC_0061,Lead Business Intelligence Developer,Banking & Finance,Algorithmic Trading & Analytics GCCs,Global In-house Centers (GCCs) & Banks,High,"Bengaluru, Pune, Hyderabad, NCR"
+OCC_0061,Lead Business Intelligence Developer,E-Commerce & Retail,Customer Personalization & Logistics AI,E-Commerce Giants & Retail Conglomerates,Medium,"Bengaluru, Pune, Hyderabad, NCR"
+OCC_0062,Cybersecurity Analyst,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0062,Cybersecurity Analyst,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0062,Cybersecurity Analyst,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0063,Senior Cybersecurity Analyst,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0063,Senior Cybersecurity Analyst,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0063,Senior Cybersecurity Analyst,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0064,Penetration Tester,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0064,Penetration Tester,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0064,Penetration Tester,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, NCR, Hyderabad, Pune"
+OCC_0065,Cyber Incident Response Specialist,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0065,Cyber Incident Response Specialist,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0065,Cyber Incident Response Specialist,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0066,Security Operations Center Analyst,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Pune, Chennai, NCR"
+OCC_0066,Security Operations Center Analyst,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Pune, Chennai, NCR"
+OCC_0066,Security Operations Center Analyst,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Pune, Chennai, NCR"
+OCC_0067,Information Security Architect,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0067,Information Security Architect,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0067,Information Security Architect,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0068,Application Security Engineer,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0068,Application Security Engineer,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0068,Application Security Engineer,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0069,Cloud Security Specialist,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0069,Cloud Security Specialist,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0069,Cloud Security Specialist,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0070,Cryptographic Systems Engineer,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad"
+OCC_0070,Cryptographic Systems Engineer,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad"
+OCC_0070,Cryptographic Systems Engineer,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad"
+OCC_0071,Threat Intelligence Analyst,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, NCR, Hyderabad"
+OCC_0071,Threat Intelligence Analyst,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, NCR, Hyderabad"
+OCC_0071,Threat Intelligence Analyst,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, NCR, Hyderabad"
+OCC_0072,Digital Forensics Investigator,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"NCR, Mumbai, Bengaluru, Hyderabad"
+OCC_0072,Digital Forensics Investigator,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"NCR, Mumbai, Bengaluru, Hyderabad"
+OCC_0072,Digital Forensics Investigator,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"NCR, Mumbai, Bengaluru, Hyderabad"
+OCC_0073,IT GRC Auditor,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0073,IT GRC Auditor,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0073,IT GRC Auditor,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0074,Vulnerability Management Analyst,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Pune, Chennai"
+OCC_0074,Vulnerability Management Analyst,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Pune, Chennai"
+OCC_0074,Vulnerability Management Analyst,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Pune, Chennai"
+OCC_0075,Identity and Access Management Engineer,Information Security,Managed Security Services (MSSP),Specialized Cyber Consultancies & SOCs,High,"Bengaluru, Hyderabad, Pune, Chennai"
+OCC_0075,Identity and Access Management Engineer,Banking & Financial Services,BFSI Threat Defense & Fraud Control,"Public & Private Sector Banks, Card Networks",High,"Bengaluru, Hyderabad, Pune, Chennai"
+OCC_0075,Identity and Access Management Engineer,Defense & Public Sector,Critical Infrastructure & Homeland Defense,Government Agencies & Defense Contractors,Niche,"Bengaluru, Hyderabad, Pune, Chennai"
+OCC_0076,Chief Information Security Officer,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Bengaluru, NCR"
+OCC_0076,Chief Information Security Officer,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Bengaluru, NCR"
+OCC_0076,Chief Information Security Officer,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Bengaluru, NCR"
+OCC_0077,Mechanical Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Chennai, Bengaluru, Ahmedabad"
+OCC_0077,Mechanical Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Chennai, Bengaluru, Ahmedabad"
+OCC_0077,Mechanical Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Chennai, Bengaluru, Ahmedabad"
+OCC_0078,Senior Mechanical Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Chennai, Bengaluru, NCR"
+OCC_0078,Senior Mechanical Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Chennai, Bengaluru, NCR"
+OCC_0078,Senior Mechanical Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Chennai, Bengaluru, NCR"
+OCC_0079,CAD / CAM Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Coimbatore, Chennai, Rajkot"
+OCC_0079,CAD / CAM Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Coimbatore, Chennai, Rajkot"
+OCC_0079,CAD / CAM Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Coimbatore, Chennai, Rajkot"
+OCC_0080,FEA Simulation Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0080,FEA Simulation Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0080,FEA Simulation Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0081,CFD Simulation Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Pune, Hyderabad"
+OCC_0081,CFD Simulation Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Pune, Hyderabad"
+OCC_0081,CFD Simulation Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Pune, Hyderabad"
+OCC_0082,Thermal Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Chennai, Vadodara, Pune, NCR"
+OCC_0082,Thermal Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Chennai, Vadodara, Pune, NCR"
+OCC_0082,Thermal Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Chennai, Vadodara, Pune, NCR"
+OCC_0083,HVAC Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0083,HVAC Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0083,HVAC Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0084,Automotive Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Chennai, Pune, Gurugram, Bengaluru"
+OCC_0084,Automotive Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Chennai, Pune, Gurugram, Bengaluru"
+OCC_0084,Automotive Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Chennai, Pune, Gurugram, Bengaluru"
+OCC_0085,Electric Vehicle Powertrain Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Pune, Chennai, Hosur"
+OCC_0085,Electric Vehicle Powertrain Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Pune, Chennai, Hosur"
+OCC_0085,Electric Vehicle Powertrain Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Pune, Chennai, Hosur"
+OCC_0086,Battery Management System Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0086,Battery Management System Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0086,Battery Management System Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Pune, Chennai, Hyderabad"
+OCC_0087,Robotics Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Pune, Chennai, NCR"
+OCC_0087,Robotics Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Pune, Chennai, NCR"
+OCC_0087,Robotics Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Pune, Chennai, NCR"
+OCC_0088,Industrial Automation and PLC Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Ahmedabad, Chennai, Bengaluru"
+OCC_0088,Industrial Automation and PLC Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Ahmedabad, Chennai, Bengaluru"
+OCC_0088,Industrial Automation and PLC Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Ahmedabad, Chennai, Bengaluru"
+OCC_0089,Mechatronics Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Bengaluru, Chennai"
+OCC_0089,Mechatronics Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Bengaluru, Chennai"
+OCC_0089,Mechatronics Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Bengaluru, Chennai"
+OCC_0090,Manufacturing Process Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Chennai, Ahmedabad, Jamshedpur"
+OCC_0090,Manufacturing Process Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Chennai, Ahmedabad, Jamshedpur"
+OCC_0090,Manufacturing Process Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Chennai, Ahmedabad, Jamshedpur"
+OCC_0091,Tool and Die Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Ludhiana, Coimbatore, Rajkot"
+OCC_0091,Tool and Die Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Ludhiana, Coimbatore, Rajkot"
+OCC_0091,Tool and Die Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Ludhiana, Coimbatore, Rajkot"
+OCC_0092,Quality Control Engineer - Manufacturing,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Chennai, Pune, Aurangabad, NCR"
+OCC_0092,Quality Control Engineer - Manufacturing,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Chennai, Pune, Aurangabad, NCR"
+OCC_0092,Quality Control Engineer - Manufacturing,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Chennai, Pune, Aurangabad, NCR"
+OCC_0093,Plant Operations Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Pune, Chennai, Gujarat Industrial Belt"
+OCC_0093,Plant Operations Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Pune, Chennai, Gujarat Industrial Belt"
+OCC_0093,Plant Operations Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Pune, Chennai, Gujarat Industrial Belt"
+OCC_0094,Civil Site Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,National / All Metro & Developing Cities
+OCC_0094,Civil Site Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,National / All Metro & Developing Cities
+OCC_0094,Civil Site Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,National / All Metro & Developing Cities
+OCC_0095,Structural Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, NCR, Bengaluru, Hyderabad, Chennai"
+OCC_0095,Structural Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, NCR, Bengaluru, Hyderabad, Chennai"
+OCC_0095,Structural Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, NCR, Bengaluru, Hyderabad, Chennai"
+OCC_0096,Senior Structural Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, NCR, Bengaluru"
+OCC_0096,Senior Structural Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, NCR, Bengaluru"
+OCC_0096,Senior Structural Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0097,Geotechnical Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, NCR, Kolkata, Chennai"
+OCC_0097,Geotechnical Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, NCR, Kolkata, Chennai"
+OCC_0097,Geotechnical Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, NCR, Kolkata, Chennai"
+OCC_0098,Highway and Transportation Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"NCR, Mumbai, Hyderabad, Bengaluru"
+OCC_0098,Highway and Transportation Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"NCR, Mumbai, Hyderabad, Bengaluru"
+OCC_0098,Highway and Transportation Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"NCR, Mumbai, Hyderabad, Bengaluru"
+OCC_0099,Water Resources Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,National / State Capitals
+OCC_0099,Water Resources Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,National / State Capitals
+OCC_0099,Water Resources Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,National / State Capitals
+OCC_0100,Environmental Impact Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"NCR, Mumbai, Bengaluru, Kolkata"
+OCC_0100,Environmental Impact Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"NCR, Mumbai, Bengaluru, Kolkata"
+OCC_0100,Environmental Impact Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"NCR, Mumbai, Bengaluru, Kolkata"
+OCC_0101,Construction Project Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0101,Construction Project Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0101,Construction Project Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0102,Quantity Surveyor and Cost Estimator,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0102,Quantity Surveyor and Cost Estimator,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0102,Quantity Surveyor and Cost Estimator,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0103,Electrical Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Chennai, Pune, Vadodara"
+OCC_0103,Electrical Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Chennai, Pune, Vadodara"
+OCC_0103,Electrical Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Chennai, Pune, Vadodara"
+OCC_0104,Power Systems Operation Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,National / Utility Hubs
+OCC_0104,Power Systems Operation Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,National / Utility Hubs
+OCC_0104,Power Systems Operation Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,National / Utility Hubs
+OCC_0105,Electrical Substation Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,National / Regional Grids
+OCC_0105,Electrical Substation Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,National / Regional Grids
+OCC_0105,Electrical Substation Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,National / Regional Grids
+OCC_0106,Renewable Energy Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Rajasthan, Gujarat, Bengaluru, Tamil Nadu"
+OCC_0106,Renewable Energy Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Rajasthan, Gujarat, Bengaluru, Tamil Nadu"
+OCC_0106,Renewable Energy Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Rajasthan, Gujarat, Bengaluru, Tamil Nadu"
+OCC_0107,Solar PV Plant Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Gujarat, Rajasthan, Karnataka, Telangana"
+OCC_0107,Solar PV Plant Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Gujarat, Rajasthan, Karnataka, Telangana"
+OCC_0107,Solar PV Plant Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Gujarat, Rajasthan, Karnataka, Telangana"
+OCC_0108,Wind Turbine Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Tamil Nadu, Gujarat, Maharashtra"
+OCC_0108,Wind Turbine Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Tamil Nadu, Gujarat, Maharashtra"
+OCC_0108,Wind Turbine Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Tamil Nadu, Gujarat, Maharashtra"
+OCC_0109,Chemical Process Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Gujarat (Dahej/Vadodara), Mumbai, Vizag"
+OCC_0109,Chemical Process Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Gujarat (Dahej/Vadodara), Mumbai, Vizag"
+OCC_0109,Chemical Process Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Gujarat (Dahej/Vadodara), Mumbai, Vizag"
+OCC_0110,Refinery Operations Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Jamnagar, Kochi, Paradip, Mumbai"
+OCC_0110,Refinery Operations Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Jamnagar, Kochi, Paradip, Mumbai"
+OCC_0110,Refinery Operations Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Jamnagar, Kochi, Paradip, Mumbai"
+OCC_0111,Petrochemical Synthesis Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Vadodara, Dahej, Haldia, Panipat"
+OCC_0111,Petrochemical Synthesis Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Vadodara, Dahej, Haldia, Panipat"
+OCC_0111,Petrochemical Synthesis Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Vadodara, Dahej, Haldia, Panipat"
+OCC_0112,Polymer Process Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Gujarat, Maharashtra, Chennai"
+OCC_0112,Polymer Process Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Gujarat, Maharashtra, Chennai"
+OCC_0112,Polymer Process Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Gujarat, Maharashtra, Chennai"
+OCC_0113,Process Safety Management Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Gujarat Chemical Belt, Mumbai, Hyderabad"
+OCC_0113,Process Safety Management Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Gujarat Chemical Belt, Mumbai, Hyderabad"
+OCC_0113,Process Safety Management Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Gujarat Chemical Belt, Mumbai, Hyderabad"
+OCC_0114,Aerospace Propulsion Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad, Thiruvananthapuram"
+OCC_0114,Aerospace Propulsion Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad, Thiruvananthapuram"
+OCC_0114,Aerospace Propulsion Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad, Thiruvananthapuram"
+OCC_0115,Aerodynamics Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad"
+OCC_0115,Aerodynamics Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad"
+OCC_0115,Aerodynamics Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad"
+OCC_0116,Avionics Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad"
+OCC_0116,Avionics Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad"
+OCC_0116,Avionics Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad"
+OCC_0117,UAV Systems Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, NCR, Hyderabad, Chennai"
+OCC_0117,UAV Systems Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, NCR, Hyderabad, Chennai"
+OCC_0117,UAV Systems Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, NCR, Hyderabad, Chennai"
+OCC_0118,Marine Propulsion Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, Kochi, Chennai, Visakhapatnam"
+OCC_0118,Marine Propulsion Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, Kochi, Chennai, Visakhapatnam"
+OCC_0118,Marine Propulsion Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, Kochi, Chennai, Visakhapatnam"
+OCC_0119,Naval Architect,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Kochi, Visakhapatnam, Mumbai, Kolkata"
+OCC_0119,Naval Architect,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Kochi, Visakhapatnam, Mumbai, Kolkata"
+OCC_0119,Naval Architect,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Kochi, Visakhapatnam, Mumbai, Kolkata"
+OCC_0120,Petroleum Reservoir Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Dehradun, Mumbai, Barmer, Ahmedabad"
+OCC_0120,Petroleum Reservoir Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Dehradun, Mumbai, Barmer, Ahmedabad"
+OCC_0120,Petroleum Reservoir Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Dehradun, Mumbai, Barmer, Ahmedabad"
+OCC_0121,Drilling Operations Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Offshore Mumbai High, Assam, Barmer"
+OCC_0121,Drilling Operations Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Offshore Mumbai High, Assam, Barmer"
+OCC_0121,Drilling Operations Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Offshore Mumbai High, Assam, Barmer"
+OCC_0122,Biomedical Equipment Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Chennai, Mumbai, NCR"
+OCC_0122,Biomedical Equipment Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Chennai, Mumbai, NCR"
+OCC_0122,Biomedical Equipment Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Chennai, Mumbai, NCR"
+OCC_0123,Medical Device R&D Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad, NCR"
+OCC_0123,Medical Device R&D Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad, NCR"
+OCC_0123,Medical Device R&D Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0124,Materials and Metallurgy Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Jamshedpur, Rourkela, Pune, Bellary"
+OCC_0124,Materials and Metallurgy Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Jamshedpur, Rourkela, Pune, Bellary"
+OCC_0124,Materials and Metallurgy Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Jamshedpur, Rourkela, Pune, Bellary"
+OCC_0125,Corrosion Control Specialist,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Mumbai, Vadodara, Visakhapatnam"
+OCC_0125,Corrosion Control Specialist,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Mumbai, Vadodara, Visakhapatnam"
+OCC_0125,Corrosion Control Specialist,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Mumbai, Vadodara, Visakhapatnam"
+OCC_0126,Precision Agriculture Machinery Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Pune, Ludhiana, Chennai, Faridabad"
+OCC_0126,Precision Agriculture Machinery Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Pune, Ludhiana, Chennai, Faridabad"
+OCC_0126,Precision Agriculture Machinery Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Pune, Ludhiana, Chennai, Faridabad"
+OCC_0127,VLSI Design Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad, Noida, Pune"
+OCC_0127,VLSI Design Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad, Noida, Pune"
+OCC_0127,VLSI Design Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad, Noida, Pune"
+OCC_0128,Semiconductor Verification Engineer,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,"Bengaluru, Hyderabad, Noida"
+OCC_0128,Semiconductor Verification Engineer,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,"Bengaluru, Hyderabad, Noida"
+OCC_0128,Semiconductor Verification Engineer,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,"Bengaluru, Hyderabad, Noida"
+OCC_0129,General Physician,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Urban & Rural Centers
+OCC_0129,General Physician,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Urban & Rural Centers
+OCC_0129,General Physician,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Urban & Rural Centers
+OCC_0130,Internal Medicine Specialist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Major Hospitals
+OCC_0130,Internal Medicine Specialist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Major Hospitals
+OCC_0130,Internal Medicine Specialist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Major Hospitals
+OCC_0131,General Surgeon,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / Tier-1 & Tier-2 Hospitals
+OCC_0131,General Surgeon,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / Tier-1 & Tier-2 Hospitals
+OCC_0131,General Surgeon,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / Tier-1 & Tier-2 Hospitals
+OCC_0132,Pediatrician,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Major Cities
+OCC_0132,Pediatrician,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Major Cities
+OCC_0132,Pediatrician,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Major Cities
+OCC_0133,Cardiologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,All Metro Cities & State Capitals
+OCC_0133,Cardiologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,All Metro Cities & State Capitals
+OCC_0133,Cardiologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,All Metro Cities & State Capitals
+OCC_0134,Neurologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,Metro Cities & Tier-1 Hubs
+OCC_0134,Neurologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,Metro Cities & Tier-1 Hubs
+OCC_0134,Neurologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,Metro Cities & Tier-1 Hubs
+OCC_0135,Orthopedic Surgeon,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Tier-1 & Tier-2 Cities
+OCC_0135,Orthopedic Surgeon,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Tier-1 & Tier-2 Cities
+OCC_0135,Orthopedic Surgeon,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Tier-1 & Tier-2 Cities
+OCC_0136,Diagnostic Radiologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Major Cities
+OCC_0136,Diagnostic Radiologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Major Cities
+OCC_0136,Diagnostic Radiologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Major Cities
+OCC_0137,Clinical Pathologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Cities
+OCC_0137,Clinical Pathologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Cities
+OCC_0137,Clinical Pathologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Cities
+OCC_0138,Anesthesiologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Hospitals
+OCC_0138,Anesthesiologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Hospitals
+OCC_0138,Anesthesiologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Hospitals
+OCC_0139,Dermatologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / Tier-1 & Tier-2 Cities
+OCC_0139,Dermatologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / Tier-1 & Tier-2 Cities
+OCC_0139,Dermatologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / Tier-1 & Tier-2 Cities
+OCC_0140,Psychiatrist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Major Cities
+OCC_0140,Psychiatrist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Major Cities
+OCC_0140,Psychiatrist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Major Cities
+OCC_0141,General Dental Practitioner,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Urban Centers
+OCC_0141,General Dental Practitioner,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Urban Centers
+OCC_0141,General Dental Practitioner,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Urban Centers
+OCC_0142,Orthodontist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / Urban Cities
+OCC_0142,Orthodontist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / Urban Cities
+OCC_0142,Orthodontist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / Urban Cities
+OCC_0143,Oral and Maxillofacial Surgeon,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,Major Cities & Medical Colleges
+OCC_0143,Oral and Maxillofacial Surgeon,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,Major Cities & Medical Colleges
+OCC_0143,Oral and Maxillofacial Surgeon,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,Major Cities & Medical Colleges
+OCC_0144,Ayurvedic Medical Officer,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Kerala, Maharashtra, Gujarat, NCR, Pan-India"
+OCC_0144,Ayurvedic Medical Officer,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Kerala, Maharashtra, Gujarat, NCR, Pan-India"
+OCC_0144,Ayurvedic Medical Officer,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Kerala, Maharashtra, Gujarat, NCR, Pan-India"
+OCC_0145,Clinical Psychologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Metro Cities
+OCC_0145,Clinical Psychologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Metro Cities
+OCC_0145,Clinical Psychologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Metro Cities
+OCC_0146,Counseling Psychologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Urban Cities
+OCC_0146,Counseling Psychologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Urban Cities
+OCC_0146,Counseling Psychologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Urban Cities
+OCC_0147,Neuropsychologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,Metro Cities & Research Institutes
+OCC_0147,Neuropsychologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,Metro Cities & Research Institutes
+OCC_0147,Neuropsychologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,Metro Cities & Research Institutes
+OCC_0148,Psychiatric Social Worker,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Bengaluru, NCR, Mumbai, Kerala"
+OCC_0148,Psychiatric Social Worker,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Bengaluru, NCR, Mumbai, Kerala"
+OCC_0148,Psychiatric Social Worker,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Bengaluru, NCR, Mumbai, Kerala"
+OCC_0149,Registered Staff Nurse,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Healthcare Facilities
+OCC_0149,Registered Staff Nurse,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Healthcare Facilities
+OCC_0149,Registered Staff Nurse,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Healthcare Facilities
+OCC_0150,Critical Care ICU Specialist Nurse,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,All Major Hospitals
+OCC_0150,Critical Care ICU Specialist Nurse,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,All Major Hospitals
+OCC_0150,Critical Care ICU Specialist Nurse,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,All Major Hospitals
+OCC_0151,Community Health Nurse,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,Pan-India / District Health Missions
+OCC_0151,Community Health Nurse,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,Pan-India / District Health Missions
+OCC_0151,Community Health Nurse,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,Pan-India / District Health Missions
+OCC_0152,Nursing Supervisor,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,All Major Hospitals
+OCC_0152,Nursing Supervisor,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,All Major Hospitals
+OCC_0152,Nursing Supervisor,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,All Major Hospitals
+OCC_0153,Consultant Physiotherapist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / Urban & Semi-Urban
+OCC_0153,Consultant Physiotherapist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / Urban & Semi-Urban
+OCC_0153,Consultant Physiotherapist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / Urban & Semi-Urban
+OCC_0154,Sports Rehabilitation Specialist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Bengaluru, Mumbai, NCR, Pune"
+OCC_0154,Sports Rehabilitation Specialist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Bengaluru, Mumbai, NCR, Pune"
+OCC_0154,Sports Rehabilitation Specialist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Bengaluru, Mumbai, NCR, Pune"
+OCC_0155,Retail and Dispensing Pharmacist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Cities & Towns
+OCC_0155,Retail and Dispensing Pharmacist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Cities & Towns
+OCC_0155,Retail and Dispensing Pharmacist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Cities & Towns
+OCC_0156,Hospital Clinical Pharmacist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,Tier-1 & Tier-2 Hospitals
+OCC_0156,Hospital Clinical Pharmacist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,Tier-1 & Tier-2 Hospitals
+OCC_0156,Hospital Clinical Pharmacist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,Tier-1 & Tier-2 Hospitals
+OCC_0157,Industrial Pharmaceutical Formulation Scientist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Hyderabad, Ahmedabad, Mumbai, Baddi, Goa"
+OCC_0157,Industrial Pharmaceutical Formulation Scientist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Hyderabad, Ahmedabad, Mumbai, Baddi, Goa"
+OCC_0157,Industrial Pharmaceutical Formulation Scientist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Hyderabad, Ahmedabad, Mumbai, Baddi, Goa"
+OCC_0158,Pharmaceutical Quality Control Analyst,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Hyderabad, Ahmedabad, Baddi, Vizag"
+OCC_0158,Pharmaceutical Quality Control Analyst,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Hyderabad, Ahmedabad, Baddi, Vizag"
+OCC_0158,Pharmaceutical Quality Control Analyst,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Hyderabad, Ahmedabad, Baddi, Vizag"
+OCC_0159,Regulatory Affairs Officer - Pharma,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Mumbai, Hyderabad, Ahmedabad, Bengaluru"
+OCC_0159,Regulatory Affairs Officer - Pharma,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Mumbai, Hyderabad, Ahmedabad, Bengaluru"
+OCC_0159,Regulatory Affairs Officer - Pharma,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Mumbai, Hyderabad, Ahmedabad, Bengaluru"
+OCC_0160,Clinical Research Associate,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Bengaluru, Hyderabad, Mumbai, NCR"
+OCC_0160,Clinical Research Associate,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Bengaluru, Hyderabad, Mumbai, NCR"
+OCC_0160,Clinical Research Associate,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Bengaluru, Hyderabad, Mumbai, NCR"
+OCC_0161,Pharmacovigilance Associate,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0161,Pharmacovigilance Associate,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0161,Pharmacovigilance Associate,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0162,Medical Diagnostic Lab Technologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Cities
+OCC_0162,Medical Diagnostic Lab Technologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Cities
+OCC_0162,Medical Diagnostic Lab Technologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Cities
+OCC_0163,Radiologic and CT/MRI Technologist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Hospitals
+OCC_0163,Radiologic and CT/MRI Technologist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Hospitals
+OCC_0163,Radiologic and CT/MRI Technologist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Hospitals
+OCC_0164,Clinical Optometrist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / All Cities
+OCC_0164,Clinical Optometrist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / All Cities
+OCC_0164,Clinical Optometrist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / All Cities
+OCC_0165,Hospital Operations Administrator,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,National / Major Hospitals
+OCC_0165,Hospital Operations Administrator,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,National / Major Hospitals
+OCC_0165,Hospital Operations Administrator,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,National / Major Hospitals
+OCC_0166,Healthcare Quality Accreditation Manager,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,Tier-1 & Tier-2 Hospitals
+OCC_0166,Healthcare Quality Accreditation Manager,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,Tier-1 & Tier-2 Hospitals
+OCC_0166,Healthcare Quality Accreditation Manager,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,Tier-1 & Tier-2 Hospitals
+OCC_0167,Medical Information Writer,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,"Bengaluru, Mumbai, NCR, Hyderabad"
+OCC_0167,Medical Information Writer,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,"Bengaluru, Mumbai, NCR, Hyderabad"
+OCC_0167,Medical Information Writer,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,"Bengaluru, Mumbai, NCR, Hyderabad"
+OCC_0168,Dietitian and Clinical Nutritionist,Healthcare & Hospitals,Tertiary Multi-Specialty Hospital Care,Multi-Specialty Hospital Chains & Medical Trusts,High,National / Urban Centers
+OCC_0168,Dietitian and Clinical Nutritionist,Pharmaceuticals,Formulation R&D & Clinical Manufacturing,Global Pharma MNCs & Generic Manufacturers,High,National / Urban Centers
+OCC_0168,Dietitian and Clinical Nutritionist,Public Health,Government Health Missions & Community Clinics,National Health Mission & State Primary Centers,Medium,National / Urban Centers
+OCC_0169,Chartered Accountant,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru, Chennai, Kolkata"
+OCC_0169,Chartered Accountant,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru, Chennai, Kolkata"
+OCC_0169,Chartered Accountant,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru, Chennai, Kolkata"
+OCC_0170,Corporate Tax Consultant,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0170,Corporate Tax Consultant,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0170,Corporate Tax Consultant,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0171,Forensic Auditor,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru"
+OCC_0171,Forensic Auditor,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru"
+OCC_0171,Forensic Auditor,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru"
+OCC_0172,Internal Audit Manager,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru, Pune"
+OCC_0172,Internal Audit Manager,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru, Pune"
+OCC_0172,Internal Audit Manager,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru, Pune"
+OCC_0173,Management Accountant,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Pune, Chennai, Ahmedabad, Mumbai"
+OCC_0173,Management Accountant,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Pune, Chennai, Ahmedabad, Mumbai"
+OCC_0173,Management Accountant,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Pune, Chennai, Ahmedabad, Mumbai"
+OCC_0174,Financial Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0174,Financial Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0174,Financial Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0175,Senior Financial Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0175,Senior Financial Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0175,Senior Financial Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, NCR, Pune"
+OCC_0176,Equity Research Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, NCR"
+OCC_0176,Equity Research Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, NCR"
+OCC_0176,Equity Research Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, NCR"
+OCC_0177,Investment Banking Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, Gurugram"
+OCC_0177,Investment Banking Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, Gurugram"
+OCC_0177,Investment Banking Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, Gurugram"
+OCC_0178,Investment Banking Associate,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, Gurugram"
+OCC_0178,Investment Banking Associate,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, Gurugram"
+OCC_0178,Investment Banking Associate,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, Gurugram"
+OCC_0179,Portfolio Manager,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru"
+OCC_0179,Portfolio Manager,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru"
+OCC_0179,Portfolio Manager,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru"
+OCC_0180,Financial Risk Manager,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, NCR"
+OCC_0180,Financial Risk Manager,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, NCR"
+OCC_0180,Financial Risk Manager,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, NCR"
+OCC_0181,Credit Risk Underwriter,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Chennai, Kolkata"
+OCC_0181,Credit Risk Underwriter,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Chennai, Kolkata"
+OCC_0181,Credit Risk Underwriter,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Chennai, Kolkata"
+OCC_0182,Treasury and Cash Management Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru"
+OCC_0182,Treasury and Cash Management Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru"
+OCC_0182,Treasury and Cash Management Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru"
+OCC_0183,Wealth Management Advisor,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0183,Wealth Management Advisor,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0183,Wealth Management Advisor,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0184,Certified Financial Planner,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,National / Tier-1 & Tier-2 Cities
+OCC_0184,Certified Financial Planner,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,National / Tier-1 & Tier-2 Cities
+OCC_0184,Certified Financial Planner,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,National / Tier-1 & Tier-2 Cities
+OCC_0185,Mergers and Acquisitions Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Bengaluru, NCR"
+OCC_0185,Mergers and Acquisitions Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Bengaluru, NCR"
+OCC_0185,Mergers and Acquisitions Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Bengaluru, NCR"
+OCC_0186,Commercial Banking Branch Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,National / All Districts
+OCC_0186,Commercial Banking Branch Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,National / All Districts
+OCC_0186,Commercial Banking Branch Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,National / All Districts
+OCC_0187,Corporate Relationship Manager,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0187,Corporate Relationship Manager,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0187,Corporate Relationship Manager,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0188,Loan Syndication Officer,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, NCR"
+OCC_0188,Loan Syndication Officer,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, NCR"
+OCC_0188,Loan Syndication Officer,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, NCR"
+OCC_0189,FinTech Product Specialist,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Bengaluru, NCR, Mumbai"
+OCC_0189,FinTech Product Specialist,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Bengaluru, NCR, Mumbai"
+OCC_0189,FinTech Product Specialist,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Bengaluru, NCR, Mumbai"
+OCC_0190,Actuarial Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Gurugram, Bengaluru"
+OCC_0190,Actuarial Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Gurugram, Bengaluru"
+OCC_0190,Actuarial Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Gurugram, Bengaluru"
+OCC_0191,Credentialed Actuary,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Gurugram"
+OCC_0191,Credentialed Actuary,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Gurugram"
+OCC_0191,Credentialed Actuary,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Gurugram"
+OCC_0192,Company Secretary,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Kolkata, Chennai, Bengaluru"
+OCC_0192,Company Secretary,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Kolkata, Chennai, Bengaluru"
+OCC_0192,Company Secretary,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Kolkata, Chennai, Bengaluru"
+OCC_0193,Venture Capital Associate,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Bengaluru, Mumbai, NCR"
+OCC_0193,Venture Capital Associate,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Bengaluru, Mumbai, NCR"
+OCC_0193,Venture Capital Associate,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Bengaluru, Mumbai, NCR"
+OCC_0194,Private Equity Analyst,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Gurugram"
+OCC_0194,Private Equity Analyst,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Gurugram"
+OCC_0194,Private Equity Analyst,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Gurugram"
+OCC_0195,Chief Financial Officer,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Bengaluru, NCR"
+OCC_0195,Chief Financial Officer,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Bengaluru, NCR"
+OCC_0195,Chief Financial Officer,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Bengaluru, NCR"
+OCC_0196,Treasury Operations Specialist,Banking & Financial Services,Commercial & Retail Lending Operations,"Public & Private Sector Commercial Banks, NBFCs",High,"Mumbai, Chennai, Pune, Kolkata"
+OCC_0196,Treasury Operations Specialist,Capital Markets,Investment Banking & Wealth Advisory,Boutique Advisory & Institutional Asset Managers,High,"Mumbai, Chennai, Pune, Kolkata"
+OCC_0196,Treasury Operations Specialist,Professional Services,Statutory Audit & Tax Consulting,Big 4 Accounting & Specialized Tax Firms,High,"Mumbai, Chennai, Pune, Kolkata"
+OCC_0197,Management Consultant,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0197,Management Consultant,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0197,Management Consultant,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0198,Strategy and Operations Consultant,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru"
+OCC_0198,Strategy and Operations Consultant,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru"
+OCC_0198,Strategy and Operations Consultant,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0199,Corporate Strategy Associate,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Bengaluru, NCR"
+OCC_0199,Corporate Strategy Associate,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Bengaluru, NCR"
+OCC_0199,Corporate Strategy Associate,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Bengaluru, NCR"
+OCC_0200,Business Analyst,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0200,Business Analyst,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0200,Business Analyst,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, Pune, NCR, Chennai"
+OCC_0201,Senior Business Analyst,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0201,Senior Business Analyst,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0201,Senior Business Analyst,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0202,Project Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Pune, Hyderabad, NCR, Mumbai"
+OCC_0202,Project Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Pune, Hyderabad, NCR, Mumbai"
+OCC_0202,Project Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Pune, Hyderabad, NCR, Mumbai"
+OCC_0203,Senior Program Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0203,Senior Program Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0203,Senior Program Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, NCR, Mumbai"
+OCC_0204,Agile Delivery Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, Pune"
+OCC_0204,Agile Delivery Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, Pune"
+OCC_0204,Agile Delivery Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, Pune"
+OCC_0205,Chief of Staff,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, NCR, Mumbai"
+OCC_0205,Chief of Staff,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, NCR, Mumbai"
+OCC_0205,Chief of Staff,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0206,Operations Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,National / All Metro Cities
+OCC_0206,Operations Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,National / All Metro Cities
+OCC_0206,Operations Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,National / All Metro Cities
+OCC_0207,Supply Chain Analyst,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Bengaluru, NCR, Chennai"
+OCC_0207,Supply Chain Analyst,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Bengaluru, NCR, Chennai"
+OCC_0207,Supply Chain Analyst,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Bengaluru, NCR, Chennai"
+OCC_0208,Global Supply Chain Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Bengaluru, NCR, Chennai"
+OCC_0208,Global Supply Chain Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Bengaluru, NCR, Chennai"
+OCC_0208,Global Supply Chain Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Bengaluru, NCR, Chennai"
+OCC_0209,Strategic Procurement Specialist,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Pune, Bengaluru, NCR"
+OCC_0209,Strategic Procurement Specialist,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Pune, Bengaluru, NCR"
+OCC_0209,Strategic Procurement Specialist,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Pune, Bengaluru, NCR"
+OCC_0210,Logistics Operations Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bhiwandi, NCR, Bengaluru, Chennai"
+OCC_0210,Logistics Operations Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bhiwandi, NCR, Bengaluru, Chennai"
+OCC_0210,Logistics Operations Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bhiwandi, NCR, Bengaluru, Chennai"
+OCC_0211,Warehouse and Fulfillment Center Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"NCR, Bengaluru, Mumbai, Hyderabad"
+OCC_0211,Warehouse and Fulfillment Center Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"NCR, Bengaluru, Mumbai, Hyderabad"
+OCC_0211,Warehouse and Fulfillment Center Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"NCR, Bengaluru, Mumbai, Hyderabad"
+OCC_0212,Product Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, NCR, Hyderabad, Mumbai"
+OCC_0212,Product Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, NCR, Hyderabad, Mumbai"
+OCC_0212,Product Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, NCR, Hyderabad, Mumbai"
+OCC_0213,Senior Product Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, NCR, Hyderabad, Mumbai"
+OCC_0213,Senior Product Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, NCR, Hyderabad, Mumbai"
+OCC_0213,Senior Product Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, NCR, Hyderabad, Mumbai"
+OCC_0214,Group Product Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, NCR, Mumbai"
+OCC_0214,Group Product Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, NCR, Mumbai"
+OCC_0214,Group Product Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0215,Technical Product Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, Hyderabad, NCR"
+OCC_0215,Technical Product Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, Hyderabad, NCR"
+OCC_0215,Technical Product Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0216,Growth Product Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, NCR, Mumbai"
+OCC_0216,Growth Product Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, NCR, Mumbai"
+OCC_0216,Growth Product Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0217,General Management Trainee,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru, Kolkata"
+OCC_0217,General Management Trainee,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru, Kolkata"
+OCC_0217,General Management Trainee,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru, Kolkata"
+OCC_0218,Business Operations Specialist,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Bengaluru, NCR, Hyderabad"
+OCC_0218,Business Operations Specialist,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Bengaluru, NCR, Hyderabad"
+OCC_0218,Business Operations Specialist,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Bengaluru, NCR, Hyderabad"
+OCC_0219,Risk and Governance Analyst,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru"
+OCC_0219,Risk and Governance Analyst,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru"
+OCC_0219,Risk and Governance Analyst,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0220,Chief Operating Officer,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, Bengaluru, NCR"
+OCC_0220,Chief Operating Officer,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, Bengaluru, NCR"
+OCC_0220,Chief Operating Officer,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, Bengaluru, NCR"
+OCC_0221,Digital Marketing Strategist,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0221,Digital Marketing Strategist,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0221,Digital Marketing Strategist,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0222,SEO Specialist,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Pune, Jaipur"
+OCC_0222,SEO Specialist,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Pune, Jaipur"
+OCC_0222,SEO Specialist,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Pune, Jaipur"
+OCC_0223,Performance Marketing Manager,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Mumbai"
+OCC_0223,Performance Marketing Manager,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Mumbai"
+OCC_0223,Performance Marketing Manager,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0224,Social Media Marketing Lead,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Mumbai, NCR, Bengaluru"
+OCC_0224,Social Media Marketing Lead,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Mumbai, NCR, Bengaluru"
+OCC_0224,Social Media Marketing Lead,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0225,Content Marketing Strategist,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Mumbai"
+OCC_0225,Content Marketing Strategist,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Mumbai"
+OCC_0225,Content Marketing Strategist,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0226,Brand Manager,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Mumbai, NCR, Bengaluru, Kolkata"
+OCC_0226,Brand Manager,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Mumbai, NCR, Bengaluru, Kolkata"
+OCC_0226,Brand Manager,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Mumbai, NCR, Bengaluru, Kolkata"
+OCC_0227,Product Marketing Manager,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Hyderabad"
+OCC_0227,Product Marketing Manager,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Hyderabad"
+OCC_0227,Product Marketing Manager,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Hyderabad"
+OCC_0228,Market Research Analyst,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Mumbai, NCR, Bengaluru"
+OCC_0228,Market Research Analyst,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Mumbai, NCR, Bengaluru"
+OCC_0228,Market Research Analyst,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0229,Public Relations Specialist,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Mumbai, NCR, Bengaluru"
+OCC_0229,Public Relations Specialist,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Mumbai, NCR, Bengaluru"
+OCC_0229,Public Relations Specialist,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0230,Corporate Communications Manager,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Mumbai, NCR, Bengaluru"
+OCC_0230,Corporate Communications Manager,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Mumbai, NCR, Bengaluru"
+OCC_0230,Corporate Communications Manager,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0231,Enterprise Software Sales Executive,Technology & Telecommunications,Enterprise Software & Cloud Licensing,Global Cloud Providers & Software Resellers,High,"Bengaluru, Mumbai, NCR"
+OCC_0231,Enterprise Software Sales Executive,Financial Services,Retail Wealth & Corporate Insurance,"Banks, Insurance Companies & Asset Managers",High,"Bengaluru, Mumbai, NCR"
+OCC_0231,Enterprise Software Sales Executive,Industrial Products,B2B Industrial Machinery & OEM Parts,Manufacturing Conglomerates & Capital Goods Vendors,Medium,"Bengaluru, Mumbai, NCR"
+OCC_0232,Business Development Representative,Technology & Telecommunications,Enterprise Software & Cloud Licensing,Global Cloud Providers & Software Resellers,High,"Bengaluru, NCR, Pune, Hyderabad"
+OCC_0232,Business Development Representative,Financial Services,Retail Wealth & Corporate Insurance,"Banks, Insurance Companies & Asset Managers",High,"Bengaluru, NCR, Pune, Hyderabad"
+OCC_0232,Business Development Representative,Industrial Products,B2B Industrial Machinery & OEM Parts,Manufacturing Conglomerates & Capital Goods Vendors,Medium,"Bengaluru, NCR, Pune, Hyderabad"
+OCC_0233,Key Account Manager,Technology & Telecommunications,Enterprise Software & Cloud Licensing,Global Cloud Providers & Software Resellers,High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0233,Key Account Manager,Financial Services,Retail Wealth & Corporate Insurance,"Banks, Insurance Companies & Asset Managers",High,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0233,Key Account Manager,Industrial Products,B2B Industrial Machinery & OEM Parts,Manufacturing Conglomerates & Capital Goods Vendors,Medium,"Mumbai, NCR, Bengaluru, Chennai"
+OCC_0234,Customer Success Manager,Technology & Telecommunications,Enterprise Software & Cloud Licensing,Global Cloud Providers & Software Resellers,High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0234,Customer Success Manager,Financial Services,Retail Wealth & Corporate Insurance,"Banks, Insurance Companies & Asset Managers",High,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0234,Customer Success Manager,Industrial Products,B2B Industrial Machinery & OEM Parts,Manufacturing Conglomerates & Capital Goods Vendors,Medium,"Bengaluru, Hyderabad, NCR, Pune"
+OCC_0235,Sales Operations Analyst,Technology & Telecommunications,Enterprise Software & Cloud Licensing,Global Cloud Providers & Software Resellers,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0235,Sales Operations Analyst,Financial Services,Retail Wealth & Corporate Insurance,"Banks, Insurance Companies & Asset Managers",High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0235,Sales Operations Analyst,Industrial Products,B2B Industrial Machinery & OEM Parts,Manufacturing Conglomerates & Capital Goods Vendors,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0236,Growth Marketing Lead,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Mumbai"
+OCC_0236,Growth Marketing Lead,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Mumbai"
+OCC_0236,Growth Marketing Lead,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0237,E-Commerce Channel Manager,Advertising & Media,Performance Advertising & Creative Agencies,Global Advertising Networks & Growth Boutiques,High,"Bengaluru, NCR, Mumbai"
+OCC_0237,E-Commerce Channel Manager,Fast Moving Consumer Goods,Consumer Brand Management & Retail Push,FMCG Majors & Consumer Goods Conglomerates,High,"Bengaluru, NCR, Mumbai"
+OCC_0237,E-Commerce Channel Manager,Technology & SaaS,Product Marketing & B2B Inbound Growth,B2B SaaS Companies & Enterprise Software Firms,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0238,Chief Marketing Officer,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru"
+OCC_0238,Chief Marketing Officer,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru"
+OCC_0238,Chief Marketing Officer,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0239,UI Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0239,UI Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0239,UI Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0240,UX Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, NCR, Mumbai, Hyderabad"
+OCC_0240,UX Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, NCR, Mumbai, Hyderabad"
+OCC_0240,UX Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, NCR, Mumbai, Hyderabad"
+OCC_0241,Senior Product Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, NCR, Mumbai"
+OCC_0241,Senior Product Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0241,Senior Product Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, NCR, Mumbai"
+OCC_0242,UX Research Specialist,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, NCR, Mumbai"
+OCC_0242,UX Research Specialist,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, NCR, Mumbai"
+OCC_0242,UX Research Specialist,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, NCR, Mumbai"
+OCC_0243,Visual and Brand Identity Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Mumbai, NCR, Bengaluru, Pune"
+OCC_0243,Visual and Brand Identity Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Mumbai, NCR, Bengaluru, Pune"
+OCC_0243,Visual and Brand Identity Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Mumbai, NCR, Bengaluru, Pune"
+OCC_0244,Motion Graphics Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Mumbai, Bengaluru, NCR, Hyderabad"
+OCC_0244,Motion Graphics Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Mumbai, Bengaluru, NCR, Hyderabad"
+OCC_0244,Motion Graphics Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Mumbai, Bengaluru, NCR, Hyderabad"
+OCC_0245,3D Modeling Artist,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Pune, Mumbai, Hyderabad, Bengaluru"
+OCC_0245,3D Modeling Artist,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Pune, Mumbai, Hyderabad, Bengaluru"
+OCC_0245,3D Modeling Artist,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Pune, Mumbai, Hyderabad, Bengaluru"
+OCC_0246,Animation Artist,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Mumbai, Hyderabad, Pune, Chennai"
+OCC_0246,Animation Artist,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Mumbai, Hyderabad, Pune, Chennai"
+OCC_0246,Animation Artist,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Mumbai, Hyderabad, Pune, Chennai"
+OCC_0247,Game Level Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0247,Game Level Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0247,Game Level Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, Pune, Hyderabad, Mumbai"
+OCC_0248,Industrial and Physical Product Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, Pune, Ahmedabad, NCR"
+OCC_0248,Industrial and Physical Product Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, Pune, Ahmedabad, NCR"
+OCC_0248,Industrial and Physical Product Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, Pune, Ahmedabad, NCR"
+OCC_0249,Architectural Designer,Real Estate & Urban Planning,Architectural Consultancies & Smart Cities,Architecture Firms & Municipal Corporations,High,National / All Metro & Developing Cities
+OCC_0249,Architectural Designer,Construction & Infrastructure,Commercial High-Rise & Turnkey Fit-Outs,EPC Developers & Interior Fit-Out Firms,High,National / All Metro & Developing Cities
+OCC_0249,Architectural Designer,Hospitality & Leisure,Resort Masterplanning & Heritage Restoration,Hospitality Groups & Conservation Trusts,Niche,National / All Metro & Developing Cities
+OCC_0250,Senior Project Architect,Real Estate & Urban Planning,Architectural Consultancies & Smart Cities,Architecture Firms & Municipal Corporations,High,"Mumbai, NCR, Bengaluru, Ahmedabad"
+OCC_0250,Senior Project Architect,Construction & Infrastructure,Commercial High-Rise & Turnkey Fit-Outs,EPC Developers & Interior Fit-Out Firms,High,"Mumbai, NCR, Bengaluru, Ahmedabad"
+OCC_0250,Senior Project Architect,Hospitality & Leisure,Resort Masterplanning & Heritage Restoration,Hospitality Groups & Conservation Trusts,Niche,"Mumbai, NCR, Bengaluru, Ahmedabad"
+OCC_0251,Landscape Architect,Real Estate & Urban Planning,Architectural Consultancies & Smart Cities,Architecture Firms & Municipal Corporations,High,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0251,Landscape Architect,Construction & Infrastructure,Commercial High-Rise & Turnkey Fit-Outs,EPC Developers & Interior Fit-Out Firms,High,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0251,Landscape Architect,Hospitality & Leisure,Resort Masterplanning & Heritage Restoration,Hospitality Groups & Conservation Trusts,Niche,"Bengaluru, NCR, Mumbai, Pune"
+OCC_0252,Urban and Regional Planner,Real Estate & Urban Planning,Architectural Consultancies & Smart Cities,Architecture Firms & Municipal Corporations,High,"NCR, Mumbai, Bengaluru, Hyderabad, Ahmedabad"
+OCC_0252,Urban and Regional Planner,Construction & Infrastructure,Commercial High-Rise & Turnkey Fit-Outs,EPC Developers & Interior Fit-Out Firms,High,"NCR, Mumbai, Bengaluru, Hyderabad, Ahmedabad"
+OCC_0252,Urban and Regional Planner,Hospitality & Leisure,Resort Masterplanning & Heritage Restoration,Hospitality Groups & Conservation Trusts,Niche,"NCR, Mumbai, Bengaluru, Hyderabad, Ahmedabad"
+OCC_0253,Sustainable Building Energy Modeler,Real Estate & Urban Planning,Architectural Consultancies & Smart Cities,Architecture Firms & Municipal Corporations,High,"NCR, Bengaluru, Mumbai, Pune"
+OCC_0253,Sustainable Building Energy Modeler,Construction & Infrastructure,Commercial High-Rise & Turnkey Fit-Outs,EPC Developers & Interior Fit-Out Firms,High,"NCR, Bengaluru, Mumbai, Pune"
+OCC_0253,Sustainable Building Energy Modeler,Hospitality & Leisure,Resort Masterplanning & Heritage Restoration,Hospitality Groups & Conservation Trusts,Niche,"NCR, Bengaluru, Mumbai, Pune"
+OCC_0254,Interior Experience Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,National / All Metro Cities
+OCC_0254,Interior Experience Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,National / All Metro Cities
+OCC_0254,Interior Experience Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,National / All Metro Cities
+OCC_0255,Commercial Interior Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0255,Commercial Interior Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0255,Commercial Interior Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0256,Fashion and Apparel Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"NCR, Mumbai, Bengaluru, Tirupur, Kolkata"
+OCC_0256,Fashion and Apparel Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"NCR, Mumbai, Bengaluru, Tirupur, Kolkata"
+OCC_0256,Fashion and Apparel Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"NCR, Mumbai, Bengaluru, Tirupur, Kolkata"
+OCC_0257,Textile Surface Designer,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Surat, Ahmedabad, NCR, Jaipur, Tirupur"
+OCC_0257,Textile Surface Designer,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Surat, Ahmedabad, NCR, Jaipur, Tirupur"
+OCC_0257,Textile Surface Designer,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Surat, Ahmedabad, NCR, Jaipur, Tirupur"
+OCC_0258,Creative Art Director,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Mumbai, NCR, Bengaluru"
+OCC_0258,Creative Art Director,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0258,Creative Art Director,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Mumbai, NCR, Bengaluru"
+OCC_0259,Design Systems Lead,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, NCR, Remote"
+OCC_0259,Design Systems Lead,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, NCR, Remote"
+OCC_0259,Design Systems Lead,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, NCR, Remote"
+OCC_0260,Information Architect,Technology & Digital Products,Digital User Experience & SaaS Interfaces,Tech Product Firms & UX Design Agencies,High,"Bengaluru, Pune, Hyderabad"
+OCC_0260,Information Architect,Creative & Advertising,"Branding, Packaging & Motion Animation",Creative Studios & Advertising Agencies,Medium,"Bengaluru, Pune, Hyderabad"
+OCC_0260,Information Architect,Consumer Hardware,Industrial Product Styling & Ergonomics,Electronics OEMs & Hardware Startups,Niche,"Bengaluru, Pune, Hyderabad"
+OCC_0261,Corporate Legal Associate,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Mumbai, NCR, Bengaluru"
+OCC_0261,Corporate Legal Associate,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Mumbai, NCR, Bengaluru"
+OCC_0261,Corporate Legal Associate,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Mumbai, NCR, Bengaluru"
+OCC_0262,Senior In-House Legal Counsel,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0262,Senior In-House Legal Counsel,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0262,Senior In-House Legal Counsel,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0263,Commercial Litigation Advocate,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Mumbai, Delhi, Bengaluru, Chennai, Kolkata"
+OCC_0263,Commercial Litigation Advocate,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Mumbai, Delhi, Bengaluru, Chennai, Kolkata"
+OCC_0263,Commercial Litigation Advocate,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Mumbai, Delhi, Bengaluru, Chennai, Kolkata"
+OCC_0264,Intellectual Property and Patent Attorney,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"NCR, Mumbai, Bengaluru"
+OCC_0264,Intellectual Property and Patent Attorney,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"NCR, Mumbai, Bengaluru"
+OCC_0264,Intellectual Property and Patent Attorney,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"NCR, Mumbai, Bengaluru"
+OCC_0265,Patent Examination Specialist,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"NCR, Bengaluru, Mumbai, Chennai"
+OCC_0265,Patent Examination Specialist,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"NCR, Bengaluru, Mumbai, Chennai"
+OCC_0265,Patent Examination Specialist,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"NCR, Bengaluru, Mumbai, Chennai"
+OCC_0266,Cyber Law and Privacy Legal Advisor,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Bengaluru, NCR, Mumbai"
+OCC_0266,Cyber Law and Privacy Legal Advisor,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Bengaluru, NCR, Mumbai"
+OCC_0266,Cyber Law and Privacy Legal Advisor,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Bengaluru, NCR, Mumbai"
+OCC_0267,Banking and Finance Lawyer,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Mumbai, NCR"
+OCC_0267,Banking and Finance Lawyer,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Mumbai, NCR"
+OCC_0267,Banking and Finance Lawyer,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Mumbai, NCR"
+OCC_0268,Criminal Defense Advocate,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,National / All Court Jurisdictions
+OCC_0268,Criminal Defense Advocate,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,National / All Court Jurisdictions
+OCC_0268,Criminal Defense Advocate,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,National / All Court Jurisdictions
+OCC_0269,Commercial Arbitration Specialist,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Delhi, Mumbai, Bengaluru"
+OCC_0269,Commercial Arbitration Specialist,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Delhi, Mumbai, Bengaluru"
+OCC_0269,Commercial Arbitration Specialist,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Delhi, Mumbai, Bengaluru"
+OCC_0270,Statutory Compliance Legal Officer,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,National / All Industrial Hubs
+OCC_0270,Statutory Compliance Legal Officer,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,National / All Industrial Hubs
+OCC_0270,Statutory Compliance Legal Officer,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,National / All Industrial Hubs
+OCC_0271,Contract Lifecycle Management Specialist,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Bengaluru, Pune, Hyderabad, NCR"
+OCC_0271,Contract Lifecycle Management Specialist,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Bengaluru, Pune, Hyderabad, NCR"
+OCC_0271,Contract Lifecycle Management Specialist,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Bengaluru, Pune, Hyderabad, NCR"
+OCC_0272,Legal Research Associate,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"NCR, Mumbai, State High Courts"
+OCC_0272,Legal Research Associate,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"NCR, Mumbai, State High Courts"
+OCC_0272,Legal Research Associate,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"NCR, Mumbai, State High Courts"
+OCC_0273,Real Estate Legal Advisor,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,National / All Tier-1 & Tier-2 Cities
+OCC_0273,Real Estate Legal Advisor,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,National / All Tier-1 & Tier-2 Cities
+OCC_0273,Real Estate Legal Advisor,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,National / All Tier-1 & Tier-2 Cities
+OCC_0274,Taxation Legal Advocate,Legal Practice,Full-Service Corporate Law Firms,Tier-1 Law Firms & Specialized Chambers,High,"Mumbai, Delhi, Chennai, Kolkata"
+OCC_0274,Taxation Legal Advocate,Corporate Sector,In-House Legal & Regulatory Compliance,MNC Corporate Legal Departments,High,"Mumbai, Delhi, Chennai, Kolkata"
+OCC_0274,Taxation Legal Advocate,Judiciary & Dispute Resolution,Commercial Tribunals & Arbitration Centers,"High Courts, NCLT & Arbitration Institutions",Medium,"Mumbai, Delhi, Chennai, Kolkata"
+OCC_0275,General Counsel,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru"
+OCC_0275,General Counsel,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru"
+OCC_0275,General Counsel,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0276,Secondary STEM School Teacher,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All Cities & Towns
+OCC_0276,Secondary STEM School Teacher,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All Cities & Towns
+OCC_0276,Secondary STEM School Teacher,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All Cities & Towns
+OCC_0277,Senior Secondary Teacher PGT,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All Schools
+OCC_0277,Senior Secondary Teacher PGT,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All Schools
+OCC_0277,Senior Secondary Teacher PGT,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All Schools
+OCC_0278,Assistant Professor - Engineering,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All University Towns
+OCC_0278,Assistant Professor - Engineering,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All University Towns
+OCC_0278,Assistant Professor - Engineering,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All University Towns
+OCC_0279,Assistant Professor - Management,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / B-School Hubs
+OCC_0279,Assistant Professor - Management,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / B-School Hubs
+OCC_0279,Assistant Professor - Management,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / B-School Hubs
+OCC_0280,Assistant Professor - Sciences,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All Universities
+OCC_0280,Assistant Professor - Sciences,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All Universities
+OCC_0280,Assistant Professor - Sciences,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All Universities
+OCC_0281,Assistant Professor - Humanities,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All Universities
+OCC_0281,Assistant Professor - Humanities,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All Universities
+OCC_0281,Assistant Professor - Humanities,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All Universities
+OCC_0282,Professor and Department Chair,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,Major Universities & IITs/NITs
+OCC_0282,Professor and Department Chair,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,Major Universities & IITs/NITs
+OCC_0282,Professor and Department Chair,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,Major Universities & IITs/NITs
+OCC_0283,Postdoctoral Research Scholar,Information Technology,Enterprise IT Services,Global IT Services & Consulting MNCs,High,"IISc, IITs, TIFR, CSIR Labs"
+OCC_0283,Postdoctoral Research Scholar,Corporate Sector,Enterprise Business Operations,Diversified Corporate Groups,Medium,"IISc, IITs, TIFR, CSIR Labs"
+OCC_0283,Postdoctoral Research Scholar,Consulting & Professional Services,Business Advisory Services,Management Consulting Firms,Medium,"IISc, IITs, TIFR, CSIR Labs"
+OCC_0284,Curriculum and Instructional Designer,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,"Bengaluru, NCR, Mumbai, Hyderabad"
+OCC_0284,Curriculum and Instructional Designer,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,"Bengaluru, NCR, Mumbai, Hyderabad"
+OCC_0284,Curriculum and Instructional Designer,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,"Bengaluru, NCR, Mumbai, Hyderabad"
+OCC_0285,EdTech Academic Content Specialist,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,"Bengaluru, NCR, Pune"
+OCC_0285,EdTech Academic Content Specialist,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,"Bengaluru, NCR, Pune"
+OCC_0285,EdTech Academic Content Specialist,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,"Bengaluru, NCR, Pune"
+OCC_0286,Education Career Counselor,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All Major Cities
+OCC_0286,Education Career Counselor,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All Major Cities
+OCC_0286,Education Career Counselor,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All Major Cities
+OCC_0287,School Principal,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,National / All Major Schools
+OCC_0287,School Principal,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,National / All Major Schools
+OCC_0287,School Principal,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,National / All Major Schools
+OCC_0288,Primary School Educator,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / All Towns & Cities
+OCC_0288,Primary School Educator,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / All Towns & Cities
+OCC_0288,Primary School Educator,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / All Towns & Cities
+OCC_0289,Special Education Teacher,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,National / Major Cities
+OCC_0289,Special Education Teacher,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,National / Major Cities
+OCC_0289,Special Education Teacher,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,National / Major Cities
+OCC_0290,Corporate Learning and Development Specialist,Higher Education & Academia,"Universities, IITs, NITs & Private Colleges","State & Central Universities, Private Colleges",High,"Bengaluru, Mumbai, NCR, Pune"
+OCC_0290,Corporate Learning and Development Specialist,K-12 Education,CBSE/ICSE Schools & International Academies,School Trusts & International Educational Boards,High,"Bengaluru, Mumbai, NCR, Pune"
+OCC_0290,Corporate Learning and Development Specialist,EdTech & Corporate Learning,Digital Learning Platforms & Enterprise Upskilling,EdTech Companies & Corporate L&D Centers,Medium,"Bengaluru, Mumbai, NCR, Pune"
+OCC_0291,Investigative News Journalist,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Delhi NCR, Mumbai, Kolkata, State Capitals"
+OCC_0291,Investigative News Journalist,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Delhi NCR, Mumbai, Kolkata, State Capitals"
+OCC_0291,Investigative News Journalist,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Delhi NCR, Mumbai, Kolkata, State Capitals"
+OCC_0292,Broadcast News Anchor,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Noida / NCR, Mumbai"
+OCC_0292,Broadcast News Anchor,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Noida / NCR, Mumbai"
+OCC_0292,Broadcast News Anchor,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Noida / NCR, Mumbai"
+OCC_0293,Copywriter and Advertising Creative,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Mumbai, NCR, Bengaluru"
+OCC_0293,Copywriter and Advertising Creative,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Mumbai, NCR, Bengaluru"
+OCC_0293,Copywriter and Advertising Creative,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0294,Technical Documentation Writer,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0294,Technical Documentation Writer,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0294,Technical Documentation Writer,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0295,Digital Content Editor,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"NCR, Mumbai, Bengaluru"
+OCC_0295,Digital Content Editor,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"NCR, Mumbai, Bengaluru"
+OCC_0295,Digital Content Editor,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"NCR, Mumbai, Bengaluru"
+OCC_0296,Video Editor and Post-Production Lead,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0296,Video Editor and Post-Production Lead,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0296,Video Editor and Post-Production Lead,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Mumbai, NCR, Bengaluru, Hyderabad"
+OCC_0297,Cinematographer and Director of Photography,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Mumbai, Hyderabad, Chennai, NCR"
+OCC_0297,Cinematographer and Director of Photography,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Mumbai, Hyderabad, Chennai, NCR"
+OCC_0297,Cinematographer and Director of Photography,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Mumbai, Hyderabad, Chennai, NCR"
+OCC_0298,Audio and Sound Design Engineer,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Mumbai, Chennai, Bengaluru, Kolkata"
+OCC_0298,Audio and Sound Design Engineer,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Mumbai, Chennai, Bengaluru, Kolkata"
+OCC_0298,Audio and Sound Design Engineer,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Mumbai, Chennai, Bengaluru, Kolkata"
+OCC_0299,Podcast Producer,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Mumbai, NCR, Bengaluru"
+OCC_0299,Podcast Producer,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Mumbai, NCR, Bengaluru"
+OCC_0299,Podcast Producer,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0300,Documentary Filmmaker,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Delhi, Mumbai, Kolkata"
+OCC_0300,Documentary Filmmaker,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Delhi, Mumbai, Kolkata"
+OCC_0300,Documentary Filmmaker,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Delhi, Mumbai, Kolkata"
+OCC_0301,Social Media Influencer Manager,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Mumbai, NCR, Bengaluru"
+OCC_0301,Social Media Influencer Manager,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Mumbai, NCR, Bengaluru"
+OCC_0301,Social Media Influencer Manager,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0302,Scientific Communicator,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"Bengaluru, NCR, Pune"
+OCC_0302,Scientific Communicator,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"Bengaluru, NCR, Pune"
+OCC_0302,Scientific Communicator,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"Bengaluru, NCR, Pune"
+OCC_0303,Publishing Acquisitions Editor,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"NCR, Mumbai, Kolkata"
+OCC_0303,Publishing Acquisitions Editor,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"NCR, Mumbai, Kolkata"
+OCC_0303,Publishing Acquisitions Editor,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"NCR, Mumbai, Kolkata"
+OCC_0304,Photojournalist,News & Digital Publishing,"Print, Broadcast & Digital Newsrooms",National News Networks & Digital Media Houses,High,"NCR, Mumbai, Kolkata, Pan-India"
+OCC_0304,Photojournalist,Entertainment & Film,OTT Streaming Platforms & Production Houses,Film Studios & OTT Streaming Giants,High,"NCR, Mumbai, Kolkata, Pan-India"
+OCC_0304,Photojournalist,Corporate Communications,Enterprise PR & Reputation Management,PR Firms & Corporate PR Departments,Medium,"NCR, Mumbai, Kolkata, Pan-India"
+OCC_0305,Research Biotechnologist,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0305,Research Biotechnologist,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0305,Research Biotechnologist,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0306,Computational Bioinformatics Scientist,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0306,Computational Bioinformatics Scientist,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0306,Computational Bioinformatics Scientist,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"Bengaluru, Hyderabad, Pune, NCR"
+OCC_0307,Genomics Data Analyst,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"Bengaluru, Hyderabad, NCR"
+OCC_0307,Genomics Data Analyst,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0307,Genomics Data Analyst,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"Bengaluru, Hyderabad, NCR"
+OCC_0308,Molecular Biologist,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"Bengaluru, Pune, Hyderabad, Mohali"
+OCC_0308,Molecular Biologist,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"Bengaluru, Pune, Hyderabad, Mohali"
+OCC_0308,Molecular Biologist,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"Bengaluru, Pune, Hyderabad, Mohali"
+OCC_0309,Industrial Fermentation Specialist,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"Bengaluru, Hyderabad, Ahmedabad, Pune"
+OCC_0309,Industrial Fermentation Specialist,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"Bengaluru, Hyderabad, Ahmedabad, Pune"
+OCC_0309,Industrial Fermentation Specialist,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"Bengaluru, Hyderabad, Ahmedabad, Pune"
+OCC_0310,Agricultural Extension Specialist,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,Pan-India / Rural Districts
+OCC_0310,Agricultural Extension Specialist,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,Pan-India / Rural Districts
+OCC_0310,Agricultural Extension Specialist,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,Pan-India / Rural Districts
+OCC_0311,Soil and Crop Scientist Agronomist,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,"Punjab, Haryana, Maharashtra, Andhra Pradesh"
+OCC_0311,Soil and Crop Scientist Agronomist,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,"Punjab, Haryana, Maharashtra, Andhra Pradesh"
+OCC_0311,Soil and Crop Scientist Agronomist,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,"Punjab, Haryana, Maharashtra, Andhra Pradesh"
+OCC_0312,Precision Farming Technology Specialist,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,"Pune, Hyderabad, Bengaluru, Chandigarh"
+OCC_0312,Precision Farming Technology Specialist,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,"Pune, Hyderabad, Bengaluru, Chandigarh"
+OCC_0312,Precision Farming Technology Specialist,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,"Pune, Hyderabad, Bengaluru, Chandigarh"
+OCC_0313,Horticulture Development Officer,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,"Himachal Pradesh, Maharashtra, Karnataka"
+OCC_0313,Horticulture Development Officer,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,"Himachal Pradesh, Maharashtra, Karnataka"
+OCC_0313,Horticulture Development Officer,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,"Himachal Pradesh, Maharashtra, Karnataka"
+OCC_0314,Food Safety and Quality Assurance Officer,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,National / Food Processing Clusters
+OCC_0314,Food Safety and Quality Assurance Officer,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,National / Food Processing Clusters
+OCC_0314,Food Safety and Quality Assurance Officer,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,National / Food Processing Clusters
+OCC_0315,Dairy and Food Processing Technologist,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,"Gujarat (Anand), Punjab, Haryana, Tamil Nadu"
+OCC_0315,Dairy and Food Processing Technologist,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,"Gujarat (Anand), Punjab, Haryana, Tamil Nadu"
+OCC_0315,Dairy and Food Processing Technologist,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,"Gujarat (Anand), Punjab, Haryana, Tamil Nadu"
+OCC_0316,Seed Production and Genetics Specialist,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,"Hyderabad, Jalna, Bengaluru"
+OCC_0316,Seed Production and Genetics Specialist,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,"Hyderabad, Jalna, Bengaluru"
+OCC_0316,Seed Production and Genetics Specialist,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,"Hyderabad, Jalna, Bengaluru"
+OCC_0317,Environmental Microbiologist,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"Pune, Vadodara, Bengaluru"
+OCC_0317,Environmental Microbiologist,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"Pune, Vadodara, Bengaluru"
+OCC_0317,Environmental Microbiologist,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"Pune, Vadodara, Bengaluru"
+OCC_0318,Plant Tissue Culture Specialist,Agri-Business & Farming,Commercial Farms & Agri-Input Companies,Fertilizer & Agro-Chemical Conglomerates,High,"Pune, Bengaluru, Gujarat, Kolkata"
+OCC_0318,Plant Tissue Culture Specialist,Food Processing,Post-Harvest Processing & Cold Chains,Food Processing Majors & Dairy Cooperatives,High,"Pune, Bengaluru, Gujarat, Kolkata"
+OCC_0318,Plant Tissue Culture Specialist,Rural Development,Government Agriculture Directorates,State Agriculture Departments & ICAR Centers,Medium,"Pune, Bengaluru, Gujarat, Kolkata"
+OCC_0319,Bio-Safety and Regulatory Associate,Biotechnology & Life Sciences,Biologics R&D & Contract Research (CRO),Biotech Giants & Contract Research Organizations,High,"NCR, Bengaluru, Hyderabad"
+OCC_0319,Bio-Safety and Regulatory Associate,Agriculture & Seeds,Crop Genetics & Plant Biotechnology,Agri-Biotech Firms & Seed Producers,Medium,"NCR, Bengaluru, Hyderabad"
+OCC_0319,Bio-Safety and Regulatory Associate,Academic Research,National Laboratories & Research Institutes,CSIR Institutes & Department of Biotechnology Labs,Medium,"NCR, Bengaluru, Hyderabad"
+OCC_0320,Civil Services Administrative Officer,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,Pan-India / All Districts & State Capitals
+OCC_0320,Civil Services Administrative Officer,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,Pan-India / All Districts & State Capitals
+OCC_0320,Civil Services Administrative Officer,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,Pan-India / All Districts & State Capitals
+OCC_0321,Police and Law Enforcement Officer,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,Pan-India / All Districts
+OCC_0321,Police and Law Enforcement Officer,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,Pan-India / All Districts
+OCC_0321,Police and Law Enforcement Officer,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,Pan-India / All Districts
+OCC_0322,Public Policy Research Analyst,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,"Delhi NCR, Bengaluru, Mumbai"
+OCC_0322,Public Policy Research Analyst,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,"Delhi NCR, Bengaluru, Mumbai"
+OCC_0322,Public Policy Research Analyst,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,"Delhi NCR, Bengaluru, Mumbai"
+OCC_0323,Urban Governance Specialist,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,State Capitals & Smart Cities
+OCC_0323,Urban Governance Specialist,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,State Capitals & Smart Cities
+OCC_0323,Urban Governance Specialist,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,State Capitals & Smart Cities
+OCC_0324,Non-Profit Development Program Manager,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,"NCR, Mumbai, Bengaluru, Rural Belts"
+OCC_0324,Non-Profit Development Program Manager,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,"NCR, Mumbai, Bengaluru, Rural Belts"
+OCC_0324,Non-Profit Development Program Manager,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,"NCR, Mumbai, Bengaluru, Rural Belts"
+OCC_0325,Monitoring and Evaluation Specialist,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,"Delhi NCR, Mumbai, Bengaluru"
+OCC_0325,Monitoring and Evaluation Specialist,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,"Delhi NCR, Mumbai, Bengaluru"
+OCC_0325,Monitoring and Evaluation Specialist,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,"Delhi NCR, Mumbai, Bengaluru"
+OCC_0326,Disaster Management Operations Specialist,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,"Delhi NCR, State Capitals, Coastal Hubs"
+OCC_0326,Disaster Management Operations Specialist,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,"Delhi NCR, State Capitals, Coastal Hubs"
+OCC_0326,Disaster Management Operations Specialist,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,"Delhi NCR, State Capitals, Coastal Hubs"
+OCC_0327,International Development Consultant,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,"Delhi NCR, Washington, Geneva"
+OCC_0327,International Development Consultant,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,"Delhi NCR, Washington, Geneva"
+OCC_0327,International Development Consultant,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,"Delhi NCR, Washington, Geneva"
+OCC_0328,Panchayati Raj and Rural Development Officer,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,Pan-India / Rural Districts
+OCC_0328,Panchayati Raj and Rural Development Officer,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,Pan-India / Rural Districts
+OCC_0328,Panchayati Raj and Rural Development Officer,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,Pan-India / Rural Districts
+OCC_0329,Sustainability and CSR Manager,Management Consulting,Strategic Transformation & Operations,Top Tier Strategy Firms & Boutique Consultancies,High,"Mumbai, NCR, Bengaluru"
+OCC_0329,Sustainability and CSR Manager,Technology & Internet,Digital Product Delivery & Program Management,Tech Startups & Global Development Centers,High,"Mumbai, NCR, Bengaluru"
+OCC_0329,Sustainability and CSR Manager,Retail & FMCG,Supply Chain & Multi-Brand Distribution,FMCG Conglomerates & Retail Chains,Medium,"Mumbai, NCR, Bengaluru"
+OCC_0330,Diplomatic and Foreign Service Officer,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,New Delhi & Indian Embassies Worldwide
+OCC_0330,Diplomatic and Foreign Service Officer,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,New Delhi & Indian Embassies Worldwide
+OCC_0330,Diplomatic and Foreign Service Officer,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,New Delhi & Indian Embassies Worldwide
+OCC_0331,State Tax and Revenue Officer,Public Administration,Central & State Civil Services Secretariat,"District Collectorates, Ministries & Secretariats",High,All State Capitals & District Hubs
+OCC_0331,State Tax and Revenue Officer,Urban Governance & Smart Cities,Municipal Corporations & Development Authorities,City Municipal Bodies & Smart City Missions,High,All State Capitals & District Hubs
+OCC_0331,State Tax and Revenue Officer,Think Tanks & Multilateral Agencies,Policy Research Institutes & United Nations,Policy Think Tanks & Multilateral Development Banks,Medium,All State Capitals & District Hubs
+OCC_0332,Hotel Front Office Operations Manager,Hospitality & Tourism,Five-Star Luxury Hotels & International Chains,Global Hotel Chains & Luxury Resorts,High,"Goa, Delhi NCR, Mumbai, Jaipur, Kerala"
+OCC_0332,Hotel Front Office Operations Manager,Food & Beverage,Fine Dining Chains & Cloud Kitchen Networks,Restaurant Franchises & Food Service Operators,High,"Goa, Delhi NCR, Mumbai, Jaipur, Kerala"
+OCC_0332,Hotel Front Office Operations Manager,Travel & Cruise Lines,Corporate Travel & Luxury Cruise Operators,Travel Management Companies & Cruise Lines,Medium,"Goa, Delhi NCR, Mumbai, Jaipur, Kerala"
+OCC_0333,Food and Beverage Service Director,Hospitality & Tourism,Five-Star Luxury Hotels & International Chains,Global Hotel Chains & Luxury Resorts,High,"Mumbai, Delhi NCR, Bengaluru, Goa"
+OCC_0333,Food and Beverage Service Director,Food & Beverage,Fine Dining Chains & Cloud Kitchen Networks,Restaurant Franchises & Food Service Operators,High,"Mumbai, Delhi NCR, Bengaluru, Goa"
+OCC_0333,Food and Beverage Service Director,Travel & Cruise Lines,Corporate Travel & Luxury Cruise Operators,Travel Management Companies & Cruise Lines,Medium,"Mumbai, Delhi NCR, Bengaluru, Goa"
+OCC_0334,Executive Sous Chef,Hospitality & Tourism,Five-Star Luxury Hotels & International Chains,Global Hotel Chains & Luxury Resorts,High,"Mumbai, Delhi NCR, Goa, Bengaluru"
+OCC_0334,Executive Sous Chef,Food & Beverage,Fine Dining Chains & Cloud Kitchen Networks,Restaurant Franchises & Food Service Operators,High,"Mumbai, Delhi NCR, Goa, Bengaluru"
+OCC_0334,Executive Sous Chef,Travel & Cruise Lines,Corporate Travel & Luxury Cruise Operators,Travel Management Companies & Cruise Lines,Medium,"Mumbai, Delhi NCR, Goa, Bengaluru"
+OCC_0335,Industrial CNC Machinist and Programmer,Precision Engineering,Automotive Component & Machine Tool Plants,Tier-1 Auto Ancillaries & Tooling Shops,High,"Pune, Coimbatore, Rajkot, Chennai"
+OCC_0335,Industrial CNC Machinist and Programmer,Industrial Goods,Heavy Electricals & Process Equipment,Heavy Engineering Giants & Fabricators,High,"Pune, Coimbatore, Rajkot, Chennai"
+OCC_0335,Industrial CNC Machinist and Programmer,Defense Production,Ordnance & Private Aerospace Component Hubs,Defense PSUs & Private Defense Tier-1 Vendors,Medium,"Pune, Coimbatore, Rajkot, Chennai"
+OCC_0336,Electrical Maintenance Master Technician,Precision Engineering,Automotive Component & Machine Tool Plants,Tier-1 Auto Ancillaries & Tooling Shops,High,National / All Industrial Zones
+OCC_0336,Electrical Maintenance Master Technician,Industrial Goods,Heavy Electricals & Process Equipment,Heavy Engineering Giants & Fabricators,High,National / All Industrial Zones
+OCC_0336,Electrical Maintenance Master Technician,Defense Production,Ordnance & Private Aerospace Component Hubs,Defense PSUs & Private Defense Tier-1 Vendors,Medium,National / All Industrial Zones
+OCC_0337,Automotive Master Service Technician,Information Technology,Enterprise IT Services,Global IT Services & Consulting MNCs,High,National / All Cities & Towns
+OCC_0337,Automotive Master Service Technician,Corporate Sector,Enterprise Business Operations,Diversified Corporate Groups,Medium,National / All Cities & Towns
+OCC_0337,Automotive Master Service Technician,Consulting & Professional Services,Business Advisory Services,Management Consulting Firms,Medium,National / All Cities & Towns
+OCC_0338,HVAC Systems Field Technician,Automotive & Heavy Industry,Electric Mobility & Assembly,Automotive OEMs & Tier-1 Suppliers,High,National / All Metro Hubs
+OCC_0338,HVAC Systems Field Technician,Infrastructure & Construction,Civil EPC & Structural Real Estate,EPC Giants & Real Estate Developers,High,National / All Metro Hubs
+OCC_0338,HVAC Systems Field Technician,Energy & Utilities,Renewable Solar/Wind & Power Transmission,CleanTech Developers & State Utilities,Medium,National / All Metro Hubs
+OCC_0339,Fleet Operations Supervisor,Supply Chain & Freight,Third-Party Logistics (3PL) & Express Cargo,Global 3PL Providers & Freight Forwarders,High,Major Logistics Hubs
+OCC_0339,Fleet Operations Supervisor,E-Commerce Logistics,Fulfillment Centers & Last-Mile Delivery,E-Commerce Fulfillment Networks & Logistics Tech,High,Major Logistics Hubs
+OCC_0339,Fleet Operations Supervisor,Maritime & Ports,Container Terminals & Container Freight Stations,Major Port Trusts & Private Port Operators,Medium,Major Logistics Hubs
+OCC_0340,Airline Commercial Pilot,Aviation & Airlines,Commercial Airlines & Airport Operators,National Carriers & International Airports,High,"Delhi, Mumbai, Bengaluru, Hyderabad"
+OCC_0340,Airline Commercial Pilot,Facility Management,Commercial IT Parks & Corporate Campuses,Integrated Facilities Management Providers,High,"Delhi, Mumbai, Bengaluru, Hyderabad"
+OCC_0340,Airline Commercial Pilot,Corporate Operations,Global Business Services & Shared Centers,Multinational Shared Service Centers,Medium,"Delhi, Mumbai, Bengaluru, Hyderabad"
+OCC_0341,Air Traffic Control Specialist,Aviation & Airlines,Commercial Airlines & Airport Operators,National Carriers & International Airports,High,Major International Airports
+OCC_0341,Air Traffic Control Specialist,Facility Management,Commercial IT Parks & Corporate Campuses,Integrated Facilities Management Providers,High,Major International Airports
+OCC_0341,Air Traffic Control Specialist,Corporate Operations,Global Business Services & Shared Centers,Multinational Shared Service Centers,Medium,Major International Airports

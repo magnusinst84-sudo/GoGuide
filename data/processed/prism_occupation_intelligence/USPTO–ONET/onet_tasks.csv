@@ -1,0 +1,1601 @@
+soc_code,job_title,task_id,task_description,task_type
+100001,AI Specialist 1,T1,Develop machine learning solutions for large-scale systems,supplemental
+100001,AI Specialist 1,T2,Design and optimize deep neural networks architectures,core
+100001,AI Specialist 1,T3,Improve efficiency and reliability of machine learning systems,supplemental
+100001,AI Specialist 1,T4,Develop computer vision solutions for large-scale systems,core
+100001,AI Specialist 1,T5,Develop machine learning solutions for large-scale systems,core
+100001,AI Specialist 1,T6,Implement testing and validation procedures for deep neural networks,supplemental
+100001,AI Specialist 1,T7,Design and optimize computer vision architectures,supplemental
+100001,AI Specialist 1,T8,Document technical specifications related to computer vision,core
+100001,AI Specialist 1,T9,Analyze performance of computer vision components,supplemental
+100001,AI Specialist 1,T10,Integrate machine learning into existing operational workflows,supplemental
+100001,AI Specialist 1,T11,Analyze performance of natural language processing components,core
+100001,AI Specialist 1,T12,Integrate deep neural networks into existing operational workflows,core
+100001,AI Specialist 1,T13,Document technical specifications related to machine learning,core
+100001,AI Specialist 1,T14,Implement testing and validation procedures for data mining,core
+100001,AI Specialist 1,T15,Improve efficiency and reliability of machine learning systems,core
+100001,AI Specialist 1,T16,Document technical specifications related to machine learning,core
+100001,AI Specialist 1,T17,Integrate data mining into existing operational workflows,supplemental
+100001,AI Specialist 1,T18,Implement testing and validation procedures for data mining,core
+100001,AI Specialist 1,T19,Develop machine learning solutions for large-scale systems,supplemental
+100001,AI Specialist 1,T20,Develop data mining solutions for large-scale systems,supplemental
+100001,AI Specialist 1,T21,Document technical specifications related to machine learning,core
+100001,AI Specialist 1,T22,Design and optimize data mining architectures,core
+100001,AI Specialist 1,T23,Improve efficiency and reliability of deep neural networks systems,core
+100001,AI Specialist 1,T24,Implement testing and validation procedures for machine learning,supplemental
+100001,AI Specialist 1,T25,Improve efficiency and reliability of computer vision systems,core
+100001,AI Specialist 1,T26,Document technical specifications related to natural language processing,core
+100001,AI Specialist 1,T27,Design and optimize computer vision architectures,supplemental
+100001,AI Specialist 1,T28,Design and optimize machine learning architectures,supplemental
+100001,AI Specialist 1,T29,Document technical specifications related to data mining,core
+100001,AI Specialist 1,T30,Implement testing and validation procedures for deep neural networks,supplemental
+100001,AI Specialist 1,T31,Design and optimize data mining architectures,supplemental
+100001,AI Specialist 1,T32,Improve efficiency and reliability of natural language processing systems,core
+100001,AI Specialist 1,T33,Design and optimize data mining architectures,core
+100001,AI Specialist 1,T34,Implement testing and validation procedures for computer vision,core
+100001,AI Specialist 1,T35,Document technical specifications related to computer vision,supplemental
+100001,AI Specialist 1,T36,Analyze performance of natural language processing components,core
+100001,AI Specialist 1,T37,Implement testing and validation procedures for deep neural networks,core
+100001,AI Specialist 1,T38,Integrate machine learning into existing operational workflows,core
+100001,AI Specialist 1,T39,Integrate deep neural networks into existing operational workflows,supplemental
+100001,AI Specialist 1,T40,Develop computer vision solutions for large-scale systems,core
+100002,AI Specialist 2,T41,Document technical specifications related to computer vision,core
+100002,AI Specialist 2,T42,Integrate computer vision into existing operational workflows,supplemental
+100002,AI Specialist 2,T43,Improve efficiency and reliability of machine learning systems,supplemental
+100002,AI Specialist 2,T44,Integrate data mining into existing operational workflows,supplemental
+100002,AI Specialist 2,T45,Analyze performance of machine learning components,core
+100002,AI Specialist 2,T46,Develop natural language processing solutions for large-scale systems,supplemental
+100002,AI Specialist 2,T47,Implement testing and validation procedures for data mining,supplemental
+100002,AI Specialist 2,T48,Develop computer vision solutions for large-scale systems,supplemental
+100002,AI Specialist 2,T49,Integrate data mining into existing operational workflows,supplemental
+100002,AI Specialist 2,T50,Design and optimize computer vision architectures,core
+100002,AI Specialist 2,T51,Implement testing and validation procedures for deep neural networks,supplemental
+100002,AI Specialist 2,T52,Develop computer vision solutions for large-scale systems,core
+100002,AI Specialist 2,T53,Develop natural language processing solutions for large-scale systems,core
+100002,AI Specialist 2,T54,Integrate data mining into existing operational workflows,supplemental
+100002,AI Specialist 2,T55,Develop deep neural networks solutions for large-scale systems,core
+100002,AI Specialist 2,T56,Develop computer vision solutions for large-scale systems,core
+100002,AI Specialist 2,T57,Integrate natural language processing into existing operational workflows,core
+100002,AI Specialist 2,T58,Integrate computer vision into existing operational workflows,core
+100002,AI Specialist 2,T59,Implement testing and validation procedures for natural language processing,core
+100002,AI Specialist 2,T60,Integrate computer vision into existing operational workflows,supplemental
+100002,AI Specialist 2,T61,Implement testing and validation procedures for deep neural networks,supplemental
+100002,AI Specialist 2,T62,Improve efficiency and reliability of deep neural networks systems,core
+100002,AI Specialist 2,T63,Document technical specifications related to data mining,supplemental
+100002,AI Specialist 2,T64,Develop natural language processing solutions for large-scale systems,core
+100002,AI Specialist 2,T65,Analyze performance of machine learning components,core
+100002,AI Specialist 2,T66,Design and optimize computer vision architectures,core
+100002,AI Specialist 2,T67,Develop machine learning solutions for large-scale systems,supplemental
+100002,AI Specialist 2,T68,Design and optimize machine learning architectures,core
+100002,AI Specialist 2,T69,Integrate machine learning into existing operational workflows,core
+100002,AI Specialist 2,T70,Design and optimize computer vision architectures,core
+100002,AI Specialist 2,T71,Design and optimize natural language processing architectures,core
+100002,AI Specialist 2,T72,Implement testing and validation procedures for computer vision,core
+100002,AI Specialist 2,T73,Integrate natural language processing into existing operational workflows,core
+100002,AI Specialist 2,T74,Develop machine learning solutions for large-scale systems,supplemental
+100002,AI Specialist 2,T75,Document technical specifications related to data mining,core
+100002,AI Specialist 2,T76,Improve efficiency and reliability of machine learning systems,supplemental
+100002,AI Specialist 2,T77,Develop machine learning solutions for large-scale systems,core
+100002,AI Specialist 2,T78,Integrate data mining into existing operational workflows,supplemental
+100002,AI Specialist 2,T79,Design and optimize deep neural networks architectures,core
+100002,AI Specialist 2,T80,Design and optimize natural language processing architectures,core
+100003,AI Specialist 3,T81,Document technical specifications related to data mining,core
+100003,AI Specialist 3,T82,Document technical specifications related to machine learning,supplemental
+100003,AI Specialist 3,T83,Develop computer vision solutions for large-scale systems,core
+100003,AI Specialist 3,T84,Integrate computer vision into existing operational workflows,core
+100003,AI Specialist 3,T85,Integrate machine learning into existing operational workflows,supplemental
+100003,AI Specialist 3,T86,Document technical specifications related to deep neural networks,core
+100003,AI Specialist 3,T87,Integrate deep neural networks into existing operational workflows,core
+100003,AI Specialist 3,T88,Design and optimize machine learning architectures,core
+100003,AI Specialist 3,T89,Analyze performance of natural language processing components,supplemental
+100003,AI Specialist 3,T90,Analyze performance of natural language processing components,core
+100003,AI Specialist 3,T91,Improve efficiency and reliability of computer vision systems,supplemental
+100003,AI Specialist 3,T92,Design and optimize deep neural networks architectures,core
+100003,AI Specialist 3,T93,Implement testing and validation procedures for machine learning,supplemental
+100003,AI Specialist 3,T94,Improve efficiency and reliability of machine learning systems,core
+100003,AI Specialist 3,T95,Implement testing and validation procedures for machine learning,core
+100003,AI Specialist 3,T96,Design and optimize computer vision architectures,core
+100003,AI Specialist 3,T97,Develop computer vision solutions for large-scale systems,supplemental
+100003,AI Specialist 3,T98,Implement testing and validation procedures for machine learning,core
+100003,AI Specialist 3,T99,Document technical specifications related to deep neural networks,core
+100003,AI Specialist 3,T100,Design and optimize computer vision architectures,core
+100003,AI Specialist 3,T101,Implement testing and validation procedures for machine learning,core
+100003,AI Specialist 3,T102,Implement testing and validation procedures for computer vision,core
+100003,AI Specialist 3,T103,Design and optimize data mining architectures,supplemental
+100003,AI Specialist 3,T104,Design and optimize data mining architectures,core
+100003,AI Specialist 3,T105,Improve efficiency and reliability of deep neural networks systems,supplemental
+100003,AI Specialist 3,T106,Analyze performance of natural language processing components,supplemental
+100003,AI Specialist 3,T107,Develop machine learning solutions for large-scale systems,core
+100003,AI Specialist 3,T108,Develop computer vision solutions for large-scale systems,core
+100003,AI Specialist 3,T109,Implement testing and validation procedures for deep neural networks,core
+100003,AI Specialist 3,T110,Develop data mining solutions for large-scale systems,supplemental
+100003,AI Specialist 3,T111,Analyze performance of data mining components,core
+100003,AI Specialist 3,T112,Improve efficiency and reliability of computer vision systems,core
+100003,AI Specialist 3,T113,Develop computer vision solutions for large-scale systems,supplemental
+100003,AI Specialist 3,T114,Analyze performance of computer vision components,supplemental
+100003,AI Specialist 3,T115,Design and optimize machine learning architectures,core
+100003,AI Specialist 3,T116,Improve efficiency and reliability of machine learning systems,core
+100003,AI Specialist 3,T117,Analyze performance of data mining components,supplemental
+100003,AI Specialist 3,T118,Design and optimize data mining architectures,supplemental
+100003,AI Specialist 3,T119,Implement testing and validation procedures for data mining,core
+100003,AI Specialist 3,T120,Develop machine learning solutions for large-scale systems,supplemental
+100004,AI Specialist 4,T121,Develop data mining solutions for large-scale systems,core
+100004,AI Specialist 4,T122,Improve efficiency and reliability of deep neural networks systems,supplemental
+100004,AI Specialist 4,T123,Improve efficiency and reliability of deep neural networks systems,core
+100004,AI Specialist 4,T124,Implement testing and validation procedures for natural language processing,core
+100004,AI Specialist 4,T125,Improve efficiency and reliability of machine learning systems,supplemental
+100004,AI Specialist 4,T126,Develop computer vision solutions for large-scale systems,supplemental
+100004,AI Specialist 4,T127,Implement testing and validation procedures for computer vision,core
+100004,AI Specialist 4,T128,Develop deep neural networks solutions for large-scale systems,core
+100004,AI Specialist 4,T129,Analyze performance of machine learning components,core
+100004,AI Specialist 4,T130,Improve efficiency and reliability of deep neural networks systems,core
+100004,AI Specialist 4,T131,Integrate computer vision into existing operational workflows,core
+100004,AI Specialist 4,T132,Improve efficiency and reliability of computer vision systems,core
+100004,AI Specialist 4,T133,Integrate deep neural networks into existing operational workflows,core
+100004,AI Specialist 4,T134,Document technical specifications related to deep neural networks,core
+100004,AI Specialist 4,T135,Integrate data mining into existing operational workflows,supplemental
+100004,AI Specialist 4,T136,Analyze performance of deep neural networks components,core
+100004,AI Specialist 4,T137,Document technical specifications related to machine learning,supplemental
+100004,AI Specialist 4,T138,Design and optimize natural language processing architectures,core
+100004,AI Specialist 4,T139,Analyze performance of natural language processing components,core
+100004,AI Specialist 4,T140,Design and optimize deep neural networks architectures,core
+100004,AI Specialist 4,T141,Document technical specifications related to deep neural networks,core
+100004,AI Specialist 4,T142,Integrate machine learning into existing operational workflows,core
+100004,AI Specialist 4,T143,Document technical specifications related to computer vision,supplemental
+100004,AI Specialist 4,T144,Analyze performance of computer vision components,supplemental
+100004,AI Specialist 4,T145,Analyze performance of machine learning components,core
+100004,AI Specialist 4,T146,Develop data mining solutions for large-scale systems,core
+100004,AI Specialist 4,T147,Analyze performance of natural language processing components,supplemental
+100004,AI Specialist 4,T148,Document technical specifications related to data mining,supplemental
+100004,AI Specialist 4,T149,Develop computer vision solutions for large-scale systems,core
+100004,AI Specialist 4,T150,Design and optimize computer vision architectures,core
+100004,AI Specialist 4,T151,Develop natural language processing solutions for large-scale systems,core
+100004,AI Specialist 4,T152,Improve efficiency and reliability of computer vision systems,supplemental
+100004,AI Specialist 4,T153,Analyze performance of deep neural networks components,core
+100004,AI Specialist 4,T154,Implement testing and validation procedures for data mining,core
+100004,AI Specialist 4,T155,Improve efficiency and reliability of machine learning systems,supplemental
+100004,AI Specialist 4,T156,Analyze performance of computer vision components,supplemental
+100004,AI Specialist 4,T157,Document technical specifications related to data mining,supplemental
+100004,AI Specialist 4,T158,Design and optimize computer vision architectures,core
+100004,AI Specialist 4,T159,Improve efficiency and reliability of natural language processing systems,supplemental
+100004,AI Specialist 4,T160,Implement testing and validation procedures for deep neural networks,core
+100005,AI Specialist 5,T161,Implement testing and validation procedures for natural language processing,supplemental
+100005,AI Specialist 5,T162,Analyze performance of data mining components,core
+100005,AI Specialist 5,T163,Implement testing and validation procedures for computer vision,supplemental
+100005,AI Specialist 5,T164,Document technical specifications related to natural language processing,core
+100005,AI Specialist 5,T165,Implement testing and validation procedures for deep neural networks,core
+100005,AI Specialist 5,T166,Improve efficiency and reliability of deep neural networks systems,core
+100005,AI Specialist 5,T167,Improve efficiency and reliability of computer vision systems,supplemental
+100005,AI Specialist 5,T168,Develop data mining solutions for large-scale systems,supplemental
+100005,AI Specialist 5,T169,Improve efficiency and reliability of deep neural networks systems,core
+100005,AI Specialist 5,T170,Design and optimize deep neural networks architectures,core
+100005,AI Specialist 5,T171,Document technical specifications related to deep neural networks,supplemental
+100005,AI Specialist 5,T172,Document technical specifications related to machine learning,core
+100005,AI Specialist 5,T173,Design and optimize computer vision architectures,supplemental
+100005,AI Specialist 5,T174,Document technical specifications related to natural language processing,core
+100005,AI Specialist 5,T175,Improve efficiency and reliability of deep neural networks systems,supplemental
+100005,AI Specialist 5,T176,Integrate machine learning into existing operational workflows,core
+100005,AI Specialist 5,T177,Integrate deep neural networks into existing operational workflows,supplemental
+100005,AI Specialist 5,T178,Document technical specifications related to computer vision,core
+100005,AI Specialist 5,T179,Integrate deep neural networks into existing operational workflows,core
+100005,AI Specialist 5,T180,Integrate deep neural networks into existing operational workflows,core
+100005,AI Specialist 5,T181,Implement testing and validation procedures for computer vision,core
+100005,AI Specialist 5,T182,Implement testing and validation procedures for natural language processing,supplemental
+100005,AI Specialist 5,T183,Document technical specifications related to computer vision,supplemental
+100005,AI Specialist 5,T184,Document technical specifications related to computer vision,supplemental
+100005,AI Specialist 5,T185,Document technical specifications related to natural language processing,core
+100005,AI Specialist 5,T186,Integrate deep neural networks into existing operational workflows,supplemental
+100005,AI Specialist 5,T187,Document technical specifications related to computer vision,supplemental
+100005,AI Specialist 5,T188,Document technical specifications related to data mining,core
+100005,AI Specialist 5,T189,Design and optimize data mining architectures,core
+100005,AI Specialist 5,T190,Implement testing and validation procedures for data mining,core
+100005,AI Specialist 5,T191,Design and optimize deep neural networks architectures,core
+100005,AI Specialist 5,T192,Improve efficiency and reliability of deep neural networks systems,core
+100005,AI Specialist 5,T193,Document technical specifications related to natural language processing,core
+100005,AI Specialist 5,T194,Document technical specifications related to natural language processing,core
+100005,AI Specialist 5,T195,Document technical specifications related to natural language processing,supplemental
+100005,AI Specialist 5,T196,Improve efficiency and reliability of computer vision systems,core
+100005,AI Specialist 5,T197,Document technical specifications related to computer vision,core
+100005,AI Specialist 5,T198,Analyze performance of data mining components,supplemental
+100005,AI Specialist 5,T199,Implement testing and validation procedures for natural language processing,supplemental
+100005,AI Specialist 5,T200,Integrate computer vision into existing operational workflows,supplemental
+100006,AI Specialist 6,T201,Document technical specifications related to deep neural networks,core
+100006,AI Specialist 6,T202,Document technical specifications related to natural language processing,core
+100006,AI Specialist 6,T203,Improve efficiency and reliability of data mining systems,supplemental
+100006,AI Specialist 6,T204,Improve efficiency and reliability of natural language processing systems,core
+100006,AI Specialist 6,T205,Design and optimize natural language processing architectures,supplemental
+100006,AI Specialist 6,T206,Develop computer vision solutions for large-scale systems,supplemental
+100006,AI Specialist 6,T207,Implement testing and validation procedures for computer vision,supplemental
+100006,AI Specialist 6,T208,Improve efficiency and reliability of machine learning systems,core
+100006,AI Specialist 6,T209,Design and optimize natural language processing architectures,core
+100006,AI Specialist 6,T210,Analyze performance of natural language processing components,core
+100006,AI Specialist 6,T211,Analyze performance of data mining components,supplemental
+100006,AI Specialist 6,T212,Analyze performance of natural language processing components,supplemental
+100006,AI Specialist 6,T213,Analyze performance of natural language processing components,supplemental
+100006,AI Specialist 6,T214,Develop natural language processing solutions for large-scale systems,supplemental
+100006,AI Specialist 6,T215,Analyze performance of machine learning components,core
+100006,AI Specialist 6,T216,Integrate machine learning into existing operational workflows,supplemental
+100006,AI Specialist 6,T217,Integrate machine learning into existing operational workflows,core
+100006,AI Specialist 6,T218,Design and optimize deep neural networks architectures,supplemental
+100006,AI Specialist 6,T219,Design and optimize computer vision architectures,core
+100006,AI Specialist 6,T220,Improve efficiency and reliability of natural language processing systems,core
+100006,AI Specialist 6,T221,Document technical specifications related to deep neural networks,supplemental
+100006,AI Specialist 6,T222,Design and optimize data mining architectures,supplemental
+100006,AI Specialist 6,T223,Integrate machine learning into existing operational workflows,supplemental
+100006,AI Specialist 6,T224,Develop data mining solutions for large-scale systems,core
+100006,AI Specialist 6,T225,Implement testing and validation procedures for data mining,supplemental
+100006,AI Specialist 6,T226,Document technical specifications related to natural language processing,supplemental
+100006,AI Specialist 6,T227,Develop deep neural networks solutions for large-scale systems,core
+100006,AI Specialist 6,T228,Develop deep neural networks solutions for large-scale systems,supplemental
+100006,AI Specialist 6,T229,Integrate data mining into existing operational workflows,supplemental
+100006,AI Specialist 6,T230,Integrate machine learning into existing operational workflows,supplemental
+100006,AI Specialist 6,T231,Analyze performance of machine learning components,core
+100006,AI Specialist 6,T232,Develop data mining solutions for large-scale systems,core
+100006,AI Specialist 6,T233,Develop data mining solutions for large-scale systems,supplemental
+100006,AI Specialist 6,T234,Develop natural language processing solutions for large-scale systems,core
+100006,AI Specialist 6,T235,Improve efficiency and reliability of data mining systems,supplemental
+100006,AI Specialist 6,T236,Improve efficiency and reliability of natural language processing systems,core
+100006,AI Specialist 6,T237,Improve efficiency and reliability of deep neural networks systems,core
+100006,AI Specialist 6,T238,Implement testing and validation procedures for data mining,supplemental
+100006,AI Specialist 6,T239,Integrate computer vision into existing operational workflows,core
+100006,AI Specialist 6,T240,Integrate natural language processing into existing operational workflows,supplemental
+100007,AI Specialist 7,T241,Analyze performance of data mining components,supplemental
+100007,AI Specialist 7,T242,Analyze performance of machine learning components,supplemental
+100007,AI Specialist 7,T243,Integrate deep neural networks into existing operational workflows,core
+100007,AI Specialist 7,T244,Improve efficiency and reliability of computer vision systems,core
+100007,AI Specialist 7,T245,Document technical specifications related to machine learning,supplemental
+100007,AI Specialist 7,T246,Document technical specifications related to deep neural networks,core
+100007,AI Specialist 7,T247,Analyze performance of data mining components,core
+100007,AI Specialist 7,T248,Improve efficiency and reliability of computer vision systems,supplemental
+100007,AI Specialist 7,T249,Develop computer vision solutions for large-scale systems,core
+100007,AI Specialist 7,T250,Develop deep neural networks solutions for large-scale systems,core
+100007,AI Specialist 7,T251,Document technical specifications related to natural language processing,core
+100007,AI Specialist 7,T252,Improve efficiency and reliability of deep neural networks systems,core
+100007,AI Specialist 7,T253,Document technical specifications related to natural language processing,supplemental
+100007,AI Specialist 7,T254,Analyze performance of machine learning components,core
+100007,AI Specialist 7,T255,Analyze performance of deep neural networks components,supplemental
+100007,AI Specialist 7,T256,Document technical specifications related to data mining,core
+100007,AI Specialist 7,T257,Document technical specifications related to data mining,supplemental
+100007,AI Specialist 7,T258,Analyze performance of computer vision components,core
+100007,AI Specialist 7,T259,Analyze performance of natural language processing components,core
+100007,AI Specialist 7,T260,Develop deep neural networks solutions for large-scale systems,supplemental
+100007,AI Specialist 7,T261,Develop data mining solutions for large-scale systems,supplemental
+100007,AI Specialist 7,T262,Design and optimize deep neural networks architectures,core
+100007,AI Specialist 7,T263,Analyze performance of natural language processing components,supplemental
+100007,AI Specialist 7,T264,Implement testing and validation procedures for computer vision,core
+100007,AI Specialist 7,T265,Integrate machine learning into existing operational workflows,core
+100007,AI Specialist 7,T266,Analyze performance of deep neural networks components,core
+100007,AI Specialist 7,T267,Improve efficiency and reliability of machine learning systems,core
+100007,AI Specialist 7,T268,Develop data mining solutions for large-scale systems,supplemental
+100007,AI Specialist 7,T269,Analyze performance of computer vision components,supplemental
+100007,AI Specialist 7,T270,Improve efficiency and reliability of deep neural networks systems,supplemental
+100007,AI Specialist 7,T271,Develop natural language processing solutions for large-scale systems,supplemental
+100007,AI Specialist 7,T272,Analyze performance of computer vision components,core
+100007,AI Specialist 7,T273,Analyze performance of natural language processing components,core
+100007,AI Specialist 7,T274,Analyze performance of machine learning components,supplemental
+100007,AI Specialist 7,T275,Develop natural language processing solutions for large-scale systems,supplemental
+100007,AI Specialist 7,T276,Document technical specifications related to natural language processing,core
+100007,AI Specialist 7,T277,Design and optimize machine learning architectures,core
+100007,AI Specialist 7,T278,Analyze performance of computer vision components,core
+100007,AI Specialist 7,T279,Develop deep neural networks solutions for large-scale systems,core
+100007,AI Specialist 7,T280,Implement testing and validation procedures for natural language processing,core
+100008,AI Specialist 8,T281,Design and optimize computer vision architectures,supplemental
+100008,AI Specialist 8,T282,Document technical specifications related to natural language processing,supplemental
+100008,AI Specialist 8,T283,Integrate data mining into existing operational workflows,core
+100008,AI Specialist 8,T284,Analyze performance of natural language processing components,core
+100008,AI Specialist 8,T285,Implement testing and validation procedures for machine learning,supplemental
+100008,AI Specialist 8,T286,Integrate machine learning into existing operational workflows,core
+100008,AI Specialist 8,T287,Analyze performance of deep neural networks components,supplemental
+100008,AI Specialist 8,T288,Design and optimize deep neural networks architectures,core
+100008,AI Specialist 8,T289,Design and optimize machine learning architectures,core
+100008,AI Specialist 8,T290,Improve efficiency and reliability of natural language processing systems,core
+100008,AI Specialist 8,T291,Develop data mining solutions for large-scale systems,core
+100008,AI Specialist 8,T292,Improve efficiency and reliability of data mining systems,supplemental
+100008,AI Specialist 8,T293,Improve efficiency and reliability of machine learning systems,core
+100008,AI Specialist 8,T294,Integrate data mining into existing operational workflows,supplemental
+100008,AI Specialist 8,T295,Improve efficiency and reliability of computer vision systems,supplemental
+100008,AI Specialist 8,T296,Document technical specifications related to deep neural networks,core
+100008,AI Specialist 8,T297,Improve efficiency and reliability of deep neural networks systems,core
+100008,AI Specialist 8,T298,Integrate data mining into existing operational workflows,core
+100008,AI Specialist 8,T299,Design and optimize machine learning architectures,supplemental
+100008,AI Specialist 8,T300,Improve efficiency and reliability of computer vision systems,supplemental
+100008,AI Specialist 8,T301,Document technical specifications related to data mining,core
+100008,AI Specialist 8,T302,Improve efficiency and reliability of data mining systems,core
+100008,AI Specialist 8,T303,Implement testing and validation procedures for data mining,core
+100008,AI Specialist 8,T304,Develop natural language processing solutions for large-scale systems,core
+100008,AI Specialist 8,T305,Improve efficiency and reliability of natural language processing systems,core
+100008,AI Specialist 8,T306,Develop data mining solutions for large-scale systems,core
+100008,AI Specialist 8,T307,Implement testing and validation procedures for computer vision,supplemental
+100008,AI Specialist 8,T308,Implement testing and validation procedures for data mining,core
+100008,AI Specialist 8,T309,Document technical specifications related to deep neural networks,core
+100008,AI Specialist 8,T310,Analyze performance of natural language processing components,core
+100008,AI Specialist 8,T311,Document technical specifications related to computer vision,supplemental
+100008,AI Specialist 8,T312,Develop natural language processing solutions for large-scale systems,core
+100008,AI Specialist 8,T313,Analyze performance of natural language processing components,core
+100008,AI Specialist 8,T314,Integrate machine learning into existing operational workflows,core
+100008,AI Specialist 8,T315,Improve efficiency and reliability of natural language processing systems,core
+100008,AI Specialist 8,T316,Integrate natural language processing into existing operational workflows,supplemental
+100008,AI Specialist 8,T317,Document technical specifications related to machine learning,core
+100008,AI Specialist 8,T318,Analyze performance of data mining components,core
+100008,AI Specialist 8,T319,Integrate natural language processing into existing operational workflows,core
+100008,AI Specialist 8,T320,Improve efficiency and reliability of machine learning systems,supplemental
+100009,Electronics Specialist 1,T321,Document technical specifications related to signal processing,core
+100009,Electronics Specialist 1,T322,Analyze performance of embedded systems components,supplemental
+100009,Electronics Specialist 1,T323,Improve efficiency and reliability of signal processing systems,core
+100009,Electronics Specialist 1,T324,Design and optimize electronic circuits architectures,core
+100009,Electronics Specialist 1,T325,Analyze performance of sensor systems components,core
+100009,Electronics Specialist 1,T326,Develop signal processing solutions for large-scale systems,core
+100009,Electronics Specialist 1,T327,Integrate embedded systems into existing operational workflows,core
+100009,Electronics Specialist 1,T328,Analyze performance of sensor systems components,core
+100009,Electronics Specialist 1,T329,Document technical specifications related to embedded systems,core
+100009,Electronics Specialist 1,T330,Document technical specifications related to electronic circuits,supplemental
+100009,Electronics Specialist 1,T331,Document technical specifications related to sensor systems,supplemental
+100009,Electronics Specialist 1,T332,Implement testing and validation procedures for optical devices,supplemental
+100009,Electronics Specialist 1,T333,Integrate signal processing into existing operational workflows,core
+100009,Electronics Specialist 1,T334,Design and optimize signal processing architectures,core
+100009,Electronics Specialist 1,T335,Document technical specifications related to sensor systems,core
+100009,Electronics Specialist 1,T336,Implement testing and validation procedures for embedded systems,supplemental
+100009,Electronics Specialist 1,T337,Integrate sensor systems into existing operational workflows,core
+100009,Electronics Specialist 1,T338,Analyze performance of signal processing components,supplemental
+100009,Electronics Specialist 1,T339,Analyze performance of embedded systems components,supplemental
+100009,Electronics Specialist 1,T340,Improve efficiency and reliability of optical devices systems,core
+100009,Electronics Specialist 1,T341,Implement testing and validation procedures for embedded systems,supplemental
+100009,Electronics Specialist 1,T342,Integrate signal processing into existing operational workflows,core
+100009,Electronics Specialist 1,T343,Document technical specifications related to embedded systems,core
+100009,Electronics Specialist 1,T344,Integrate embedded systems into existing operational workflows,core
+100009,Electronics Specialist 1,T345,Analyze performance of signal processing components,supplemental
+100009,Electronics Specialist 1,T346,Implement testing and validation procedures for sensor systems,core
+100009,Electronics Specialist 1,T347,Develop signal processing solutions for large-scale systems,core
+100009,Electronics Specialist 1,T348,Improve efficiency and reliability of signal processing systems,supplemental
+100009,Electronics Specialist 1,T349,Document technical specifications related to signal processing,supplemental
+100009,Electronics Specialist 1,T350,Document technical specifications related to sensor systems,supplemental
+100009,Electronics Specialist 1,T351,Implement testing and validation procedures for sensor systems,supplemental
+100009,Electronics Specialist 1,T352,Integrate optical devices into existing operational workflows,core
+100009,Electronics Specialist 1,T353,Develop signal processing solutions for large-scale systems,core
+100009,Electronics Specialist 1,T354,Develop signal processing solutions for large-scale systems,supplemental
+100009,Electronics Specialist 1,T355,Integrate signal processing into existing operational workflows,supplemental
+100009,Electronics Specialist 1,T356,Develop sensor systems solutions for large-scale systems,core
+100009,Electronics Specialist 1,T357,Analyze performance of optical devices components,supplemental
+100009,Electronics Specialist 1,T358,Improve efficiency and reliability of signal processing systems,core
+100009,Electronics Specialist 1,T359,Integrate optical devices into existing operational workflows,supplemental
+100009,Electronics Specialist 1,T360,Document technical specifications related to embedded systems,supplemental
+100010,Electronics Specialist 2,T361,Integrate signal processing into existing operational workflows,core
+100010,Electronics Specialist 2,T362,Develop embedded systems solutions for large-scale systems,core
+100010,Electronics Specialist 2,T363,Design and optimize optical devices architectures,supplemental
+100010,Electronics Specialist 2,T364,Develop signal processing solutions for large-scale systems,supplemental
+100010,Electronics Specialist 2,T365,Document technical specifications related to electronic circuits,core
+100010,Electronics Specialist 2,T366,Develop optical devices solutions for large-scale systems,core
+100010,Electronics Specialist 2,T367,Analyze performance of electronic circuits components,core
+100010,Electronics Specialist 2,T368,Design and optimize signal processing architectures,core
+100010,Electronics Specialist 2,T369,Implement testing and validation procedures for signal processing,supplemental
+100010,Electronics Specialist 2,T370,Design and optimize sensor systems architectures,core
+100010,Electronics Specialist 2,T371,Integrate embedded systems into existing operational workflows,core
+100010,Electronics Specialist 2,T372,Document technical specifications related to sensor systems,supplemental
+100010,Electronics Specialist 2,T373,Design and optimize sensor systems architectures,core
+100010,Electronics Specialist 2,T374,Document technical specifications related to optical devices,core
+100010,Electronics Specialist 2,T375,Integrate electronic circuits into existing operational workflows,core
+100010,Electronics Specialist 2,T376,Improve efficiency and reliability of optical devices systems,core
+100010,Electronics Specialist 2,T377,Document technical specifications related to electronic circuits,supplemental
+100010,Electronics Specialist 2,T378,Analyze performance of embedded systems components,supplemental
+100010,Electronics Specialist 2,T379,Improve efficiency and reliability of signal processing systems,core
+100010,Electronics Specialist 2,T380,Design and optimize optical devices architectures,supplemental
+100010,Electronics Specialist 2,T381,Develop signal processing solutions for large-scale systems,core
+100010,Electronics Specialist 2,T382,Analyze performance of embedded systems components,core
+100010,Electronics Specialist 2,T383,Develop optical devices solutions for large-scale systems,supplemental
+100010,Electronics Specialist 2,T384,Analyze performance of signal processing components,core
+100010,Electronics Specialist 2,T385,Implement testing and validation procedures for electronic circuits,supplemental
+100010,Electronics Specialist 2,T386,Integrate optical devices into existing operational workflows,supplemental
+100010,Electronics Specialist 2,T387,Integrate embedded systems into existing operational workflows,core
+100010,Electronics Specialist 2,T388,Implement testing and validation procedures for sensor systems,core
+100010,Electronics Specialist 2,T389,Improve efficiency and reliability of sensor systems systems,core
+100010,Electronics Specialist 2,T390,Analyze performance of electronic circuits components,supplemental
+100010,Electronics Specialist 2,T391,Implement testing and validation procedures for electronic circuits,core
+100010,Electronics Specialist 2,T392,Develop sensor systems solutions for large-scale systems,supplemental
+100010,Electronics Specialist 2,T393,Improve efficiency and reliability of optical devices systems,core
+100010,Electronics Specialist 2,T394,Design and optimize sensor systems architectures,supplemental
+100010,Electronics Specialist 2,T395,Implement testing and validation procedures for optical devices,core
+100010,Electronics Specialist 2,T396,Integrate optical devices into existing operational workflows,core
+100010,Electronics Specialist 2,T397,Integrate signal processing into existing operational workflows,core
+100010,Electronics Specialist 2,T398,Integrate optical devices into existing operational workflows,core
+100010,Electronics Specialist 2,T399,Design and optimize electronic circuits architectures,supplemental
+100010,Electronics Specialist 2,T400,Integrate sensor systems into existing operational workflows,supplemental
+100011,Electronics Specialist 3,T401,Integrate signal processing into existing operational workflows,supplemental
+100011,Electronics Specialist 3,T402,Develop optical devices solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T403,Analyze performance of electronic circuits components,core
+100011,Electronics Specialist 3,T404,Analyze performance of signal processing components,supplemental
+100011,Electronics Specialist 3,T405,Implement testing and validation procedures for optical devices,core
+100011,Electronics Specialist 3,T406,Develop optical devices solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T407,Develop signal processing solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T408,Analyze performance of embedded systems components,supplemental
+100011,Electronics Specialist 3,T409,Improve efficiency and reliability of sensor systems systems,core
+100011,Electronics Specialist 3,T410,Improve efficiency and reliability of signal processing systems,core
+100011,Electronics Specialist 3,T411,Develop signal processing solutions for large-scale systems,core
+100011,Electronics Specialist 3,T412,Analyze performance of electronic circuits components,supplemental
+100011,Electronics Specialist 3,T413,Develop electronic circuits solutions for large-scale systems,core
+100011,Electronics Specialist 3,T414,Design and optimize embedded systems architectures,core
+100011,Electronics Specialist 3,T415,Improve efficiency and reliability of optical devices systems,supplemental
+100011,Electronics Specialist 3,T416,Document technical specifications related to embedded systems,core
+100011,Electronics Specialist 3,T417,Document technical specifications related to sensor systems,supplemental
+100011,Electronics Specialist 3,T418,Implement testing and validation procedures for signal processing,core
+100011,Electronics Specialist 3,T419,Develop optical devices solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T420,Document technical specifications related to sensor systems,core
+100011,Electronics Specialist 3,T421,Integrate sensor systems into existing operational workflows,core
+100011,Electronics Specialist 3,T422,Implement testing and validation procedures for optical devices,supplemental
+100011,Electronics Specialist 3,T423,Develop optical devices solutions for large-scale systems,core
+100011,Electronics Specialist 3,T424,Develop sensor systems solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T425,Develop signal processing solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T426,Develop embedded systems solutions for large-scale systems,core
+100011,Electronics Specialist 3,T427,Design and optimize optical devices architectures,supplemental
+100011,Electronics Specialist 3,T428,Design and optimize embedded systems architectures,core
+100011,Electronics Specialist 3,T429,Design and optimize embedded systems architectures,core
+100011,Electronics Specialist 3,T430,Analyze performance of sensor systems components,supplemental
+100011,Electronics Specialist 3,T431,Develop embedded systems solutions for large-scale systems,core
+100011,Electronics Specialist 3,T432,Design and optimize sensor systems architectures,core
+100011,Electronics Specialist 3,T433,Develop sensor systems solutions for large-scale systems,supplemental
+100011,Electronics Specialist 3,T434,Design and optimize electronic circuits architectures,core
+100011,Electronics Specialist 3,T435,Implement testing and validation procedures for sensor systems,core
+100011,Electronics Specialist 3,T436,Analyze performance of sensor systems components,core
+100011,Electronics Specialist 3,T437,Implement testing and validation procedures for signal processing,core
+100011,Electronics Specialist 3,T438,Document technical specifications related to electronic circuits,core
+100011,Electronics Specialist 3,T439,Implement testing and validation procedures for optical devices,core
+100011,Electronics Specialist 3,T440,Implement testing and validation procedures for signal processing,core
+100012,Electronics Specialist 4,T441,Develop embedded systems solutions for large-scale systems,supplemental
+100012,Electronics Specialist 4,T442,Analyze performance of embedded systems components,core
+100012,Electronics Specialist 4,T443,Develop electronic circuits solutions for large-scale systems,supplemental
+100012,Electronics Specialist 4,T444,Document technical specifications related to signal processing,supplemental
+100012,Electronics Specialist 4,T445,Improve efficiency and reliability of signal processing systems,supplemental
+100012,Electronics Specialist 4,T446,Develop electronic circuits solutions for large-scale systems,core
+100012,Electronics Specialist 4,T447,Develop sensor systems solutions for large-scale systems,core
+100012,Electronics Specialist 4,T448,Improve efficiency and reliability of embedded systems systems,core
+100012,Electronics Specialist 4,T449,Document technical specifications related to optical devices,supplemental
+100012,Electronics Specialist 4,T450,Analyze performance of embedded systems components,core
+100012,Electronics Specialist 4,T451,Document technical specifications related to embedded systems,core
+100012,Electronics Specialist 4,T452,Integrate electronic circuits into existing operational workflows,supplemental
+100012,Electronics Specialist 4,T453,Improve efficiency and reliability of embedded systems systems,supplemental
+100012,Electronics Specialist 4,T454,Document technical specifications related to signal processing,supplemental
+100012,Electronics Specialist 4,T455,Analyze performance of signal processing components,supplemental
+100012,Electronics Specialist 4,T456,Document technical specifications related to signal processing,supplemental
+100012,Electronics Specialist 4,T457,Document technical specifications related to optical devices,core
+100012,Electronics Specialist 4,T458,Analyze performance of optical devices components,supplemental
+100012,Electronics Specialist 4,T459,Develop signal processing solutions for large-scale systems,core
+100012,Electronics Specialist 4,T460,Develop electronic circuits solutions for large-scale systems,core
+100012,Electronics Specialist 4,T461,Integrate optical devices into existing operational workflows,core
+100012,Electronics Specialist 4,T462,Implement testing and validation procedures for electronic circuits,supplemental
+100012,Electronics Specialist 4,T463,Analyze performance of embedded systems components,supplemental
+100012,Electronics Specialist 4,T464,Analyze performance of signal processing components,supplemental
+100012,Electronics Specialist 4,T465,Integrate signal processing into existing operational workflows,supplemental
+100012,Electronics Specialist 4,T466,Analyze performance of electronic circuits components,supplemental
+100012,Electronics Specialist 4,T467,Develop optical devices solutions for large-scale systems,core
+100012,Electronics Specialist 4,T468,Design and optimize sensor systems architectures,supplemental
+100012,Electronics Specialist 4,T469,Integrate sensor systems into existing operational workflows,core
+100012,Electronics Specialist 4,T470,Analyze performance of embedded systems components,core
+100012,Electronics Specialist 4,T471,Implement testing and validation procedures for optical devices,core
+100012,Electronics Specialist 4,T472,Integrate signal processing into existing operational workflows,core
+100012,Electronics Specialist 4,T473,Implement testing and validation procedures for embedded systems,supplemental
+100012,Electronics Specialist 4,T474,Develop embedded systems solutions for large-scale systems,supplemental
+100012,Electronics Specialist 4,T475,Develop optical devices solutions for large-scale systems,core
+100012,Electronics Specialist 4,T476,Analyze performance of optical devices components,core
+100012,Electronics Specialist 4,T477,Integrate sensor systems into existing operational workflows,core
+100012,Electronics Specialist 4,T478,Develop signal processing solutions for large-scale systems,core
+100012,Electronics Specialist 4,T479,Develop electronic circuits solutions for large-scale systems,supplemental
+100012,Electronics Specialist 4,T480,Document technical specifications related to sensor systems,core
+100013,Electronics Specialist 5,T481,Design and optimize optical devices architectures,core
+100013,Electronics Specialist 5,T482,Integrate optical devices into existing operational workflows,supplemental
+100013,Electronics Specialist 5,T483,Develop embedded systems solutions for large-scale systems,supplemental
+100013,Electronics Specialist 5,T484,Design and optimize sensor systems architectures,supplemental
+100013,Electronics Specialist 5,T485,Improve efficiency and reliability of electronic circuits systems,core
+100013,Electronics Specialist 5,T486,Improve efficiency and reliability of signal processing systems,core
+100013,Electronics Specialist 5,T487,Document technical specifications related to embedded systems,core
+100013,Electronics Specialist 5,T488,Integrate sensor systems into existing operational workflows,core
+100013,Electronics Specialist 5,T489,Document technical specifications related to optical devices,core
+100013,Electronics Specialist 5,T490,Document technical specifications related to embedded systems,core
+100013,Electronics Specialist 5,T491,Develop optical devices solutions for large-scale systems,core
+100013,Electronics Specialist 5,T492,Develop embedded systems solutions for large-scale systems,core
+100013,Electronics Specialist 5,T493,Design and optimize optical devices architectures,supplemental
+100013,Electronics Specialist 5,T494,Analyze performance of optical devices components,core
+100013,Electronics Specialist 5,T495,Document technical specifications related to electronic circuits,supplemental
+100013,Electronics Specialist 5,T496,Design and optimize sensor systems architectures,core
+100013,Electronics Specialist 5,T497,Implement testing and validation procedures for sensor systems,core
+100013,Electronics Specialist 5,T498,Develop optical devices solutions for large-scale systems,core
+100013,Electronics Specialist 5,T499,Document technical specifications related to electronic circuits,core
+100013,Electronics Specialist 5,T500,Integrate electronic circuits into existing operational workflows,core
+100013,Electronics Specialist 5,T501,Implement testing and validation procedures for signal processing,core
+100013,Electronics Specialist 5,T502,Analyze performance of signal processing components,core
+100013,Electronics Specialist 5,T503,Analyze performance of electronic circuits components,core
+100013,Electronics Specialist 5,T504,Document technical specifications related to embedded systems,supplemental
+100013,Electronics Specialist 5,T505,Develop optical devices solutions for large-scale systems,core
+100013,Electronics Specialist 5,T506,Design and optimize electronic circuits architectures,core
+100013,Electronics Specialist 5,T507,Implement testing and validation procedures for signal processing,core
+100013,Electronics Specialist 5,T508,Improve efficiency and reliability of optical devices systems,core
+100013,Electronics Specialist 5,T509,Integrate optical devices into existing operational workflows,core
+100013,Electronics Specialist 5,T510,Improve efficiency and reliability of embedded systems systems,core
+100013,Electronics Specialist 5,T511,Design and optimize embedded systems architectures,supplemental
+100013,Electronics Specialist 5,T512,Analyze performance of optical devices components,supplemental
+100013,Electronics Specialist 5,T513,Design and optimize sensor systems architectures,core
+100013,Electronics Specialist 5,T514,Design and optimize optical devices architectures,core
+100013,Electronics Specialist 5,T515,Integrate sensor systems into existing operational workflows,supplemental
+100013,Electronics Specialist 5,T516,Design and optimize electronic circuits architectures,supplemental
+100013,Electronics Specialist 5,T517,Document technical specifications related to signal processing,supplemental
+100013,Electronics Specialist 5,T518,Document technical specifications related to embedded systems,supplemental
+100013,Electronics Specialist 5,T519,Improve efficiency and reliability of embedded systems systems,supplemental
+100013,Electronics Specialist 5,T520,Analyze performance of embedded systems components,supplemental
+100014,Electronics Specialist 6,T521,Design and optimize optical devices architectures,core
+100014,Electronics Specialist 6,T522,Document technical specifications related to signal processing,supplemental
+100014,Electronics Specialist 6,T523,Implement testing and validation procedures for optical devices,core
+100014,Electronics Specialist 6,T524,Develop embedded systems solutions for large-scale systems,core
+100014,Electronics Specialist 6,T525,Develop signal processing solutions for large-scale systems,core
+100014,Electronics Specialist 6,T526,Develop optical devices solutions for large-scale systems,supplemental
+100014,Electronics Specialist 6,T527,Implement testing and validation procedures for electronic circuits,core
+100014,Electronics Specialist 6,T528,Document technical specifications related to signal processing,core
+100014,Electronics Specialist 6,T529,Document technical specifications related to electronic circuits,supplemental
+100014,Electronics Specialist 6,T530,Improve efficiency and reliability of embedded systems systems,core
+100014,Electronics Specialist 6,T531,Document technical specifications related to embedded systems,core
+100014,Electronics Specialist 6,T532,Document technical specifications related to electronic circuits,core
+100014,Electronics Specialist 6,T533,Improve efficiency and reliability of optical devices systems,core
+100014,Electronics Specialist 6,T534,Develop sensor systems solutions for large-scale systems,core
+100014,Electronics Specialist 6,T535,Document technical specifications related to signal processing,core
+100014,Electronics Specialist 6,T536,Design and optimize embedded systems architectures,core
+100014,Electronics Specialist 6,T537,Document technical specifications related to optical devices,core
+100014,Electronics Specialist 6,T538,Improve efficiency and reliability of optical devices systems,core
+100014,Electronics Specialist 6,T539,Develop optical devices solutions for large-scale systems,core
+100014,Electronics Specialist 6,T540,Improve efficiency and reliability of embedded systems systems,core
+100014,Electronics Specialist 6,T541,Improve efficiency and reliability of optical devices systems,supplemental
+100014,Electronics Specialist 6,T542,Integrate embedded systems into existing operational workflows,core
+100014,Electronics Specialist 6,T543,Implement testing and validation procedures for electronic circuits,supplemental
+100014,Electronics Specialist 6,T544,Analyze performance of optical devices components,supplemental
+100014,Electronics Specialist 6,T545,Design and optimize signal processing architectures,core
+100014,Electronics Specialist 6,T546,Analyze performance of electronic circuits components,core
+100014,Electronics Specialist 6,T547,Integrate optical devices into existing operational workflows,core
+100014,Electronics Specialist 6,T548,Develop embedded systems solutions for large-scale systems,supplemental
+100014,Electronics Specialist 6,T549,Implement testing and validation procedures for signal processing,core
+100014,Electronics Specialist 6,T550,Analyze performance of optical devices components,core
+100014,Electronics Specialist 6,T551,Analyze performance of sensor systems components,supplemental
+100014,Electronics Specialist 6,T552,Design and optimize signal processing architectures,core
+100014,Electronics Specialist 6,T553,Design and optimize sensor systems architectures,core
+100014,Electronics Specialist 6,T554,Implement testing and validation procedures for electronic circuits,supplemental
+100014,Electronics Specialist 6,T555,Develop embedded systems solutions for large-scale systems,supplemental
+100014,Electronics Specialist 6,T556,Design and optimize embedded systems architectures,core
+100014,Electronics Specialist 6,T557,Design and optimize sensor systems architectures,core
+100014,Electronics Specialist 6,T558,Integrate embedded systems into existing operational workflows,supplemental
+100014,Electronics Specialist 6,T559,Develop signal processing solutions for large-scale systems,core
+100014,Electronics Specialist 6,T560,Document technical specifications related to sensor systems,supplemental
+100015,Electronics Specialist 7,T561,Design and optimize signal processing architectures,core
+100015,Electronics Specialist 7,T562,Integrate optical devices into existing operational workflows,supplemental
+100015,Electronics Specialist 7,T563,Analyze performance of sensor systems components,supplemental
+100015,Electronics Specialist 7,T564,Document technical specifications related to embedded systems,core
+100015,Electronics Specialist 7,T565,Integrate optical devices into existing operational workflows,core
+100015,Electronics Specialist 7,T566,Document technical specifications related to embedded systems,supplemental
+100015,Electronics Specialist 7,T567,Integrate sensor systems into existing operational workflows,supplemental
+100015,Electronics Specialist 7,T568,Develop optical devices solutions for large-scale systems,supplemental
+100015,Electronics Specialist 7,T569,Implement testing and validation procedures for optical devices,supplemental
+100015,Electronics Specialist 7,T570,Integrate embedded systems into existing operational workflows,core
+100015,Electronics Specialist 7,T571,Integrate electronic circuits into existing operational workflows,core
+100015,Electronics Specialist 7,T572,Implement testing and validation procedures for signal processing,core
+100015,Electronics Specialist 7,T573,Develop signal processing solutions for large-scale systems,supplemental
+100015,Electronics Specialist 7,T574,Integrate sensor systems into existing operational workflows,core
+100015,Electronics Specialist 7,T575,Develop optical devices solutions for large-scale systems,core
+100015,Electronics Specialist 7,T576,Implement testing and validation procedures for signal processing,core
+100015,Electronics Specialist 7,T577,Develop signal processing solutions for large-scale systems,core
+100015,Electronics Specialist 7,T578,Analyze performance of electronic circuits components,supplemental
+100015,Electronics Specialist 7,T579,Integrate optical devices into existing operational workflows,core
+100015,Electronics Specialist 7,T580,Analyze performance of electronic circuits components,supplemental
+100015,Electronics Specialist 7,T581,Improve efficiency and reliability of signal processing systems,supplemental
+100015,Electronics Specialist 7,T582,Document technical specifications related to signal processing,supplemental
+100015,Electronics Specialist 7,T583,Develop electronic circuits solutions for large-scale systems,core
+100015,Electronics Specialist 7,T584,Implement testing and validation procedures for sensor systems,supplemental
+100015,Electronics Specialist 7,T585,Implement testing and validation procedures for embedded systems,core
+100015,Electronics Specialist 7,T586,Design and optimize optical devices architectures,core
+100015,Electronics Specialist 7,T587,Design and optimize electronic circuits architectures,core
+100015,Electronics Specialist 7,T588,Document technical specifications related to embedded systems,core
+100015,Electronics Specialist 7,T589,Implement testing and validation procedures for signal processing,core
+100015,Electronics Specialist 7,T590,Implement testing and validation procedures for embedded systems,core
+100015,Electronics Specialist 7,T591,Analyze performance of sensor systems components,core
+100015,Electronics Specialist 7,T592,Analyze performance of embedded systems components,core
+100015,Electronics Specialist 7,T593,Design and optimize signal processing architectures,supplemental
+100015,Electronics Specialist 7,T594,Implement testing and validation procedures for electronic circuits,supplemental
+100015,Electronics Specialist 7,T595,Implement testing and validation procedures for electronic circuits,core
+100015,Electronics Specialist 7,T596,Implement testing and validation procedures for embedded systems,core
+100015,Electronics Specialist 7,T597,Develop signal processing solutions for large-scale systems,supplemental
+100015,Electronics Specialist 7,T598,Analyze performance of optical devices components,supplemental
+100015,Electronics Specialist 7,T599,Integrate optical devices into existing operational workflows,core
+100015,Electronics Specialist 7,T600,Improve efficiency and reliability of sensor systems systems,supplemental
+100016,Electronics Specialist 8,T601,Integrate electronic circuits into existing operational workflows,core
+100016,Electronics Specialist 8,T602,Design and optimize optical devices architectures,core
+100016,Electronics Specialist 8,T603,Analyze performance of embedded systems components,supplemental
+100016,Electronics Specialist 8,T604,Integrate sensor systems into existing operational workflows,supplemental
+100016,Electronics Specialist 8,T605,Improve efficiency and reliability of signal processing systems,core
+100016,Electronics Specialist 8,T606,Integrate sensor systems into existing operational workflows,core
+100016,Electronics Specialist 8,T607,Develop signal processing solutions for large-scale systems,core
+100016,Electronics Specialist 8,T608,Integrate electronic circuits into existing operational workflows,core
+100016,Electronics Specialist 8,T609,Analyze performance of electronic circuits components,supplemental
+100016,Electronics Specialist 8,T610,Document technical specifications related to embedded systems,supplemental
+100016,Electronics Specialist 8,T611,Document technical specifications related to embedded systems,core
+100016,Electronics Specialist 8,T612,Analyze performance of sensor systems components,core
+100016,Electronics Specialist 8,T613,Integrate electronic circuits into existing operational workflows,supplemental
+100016,Electronics Specialist 8,T614,Develop optical devices solutions for large-scale systems,supplemental
+100016,Electronics Specialist 8,T615,Document technical specifications related to signal processing,supplemental
+100016,Electronics Specialist 8,T616,Analyze performance of signal processing components,supplemental
+100016,Electronics Specialist 8,T617,Improve efficiency and reliability of signal processing systems,core
+100016,Electronics Specialist 8,T618,Analyze performance of embedded systems components,supplemental
+100016,Electronics Specialist 8,T619,Develop signal processing solutions for large-scale systems,core
+100016,Electronics Specialist 8,T620,Implement testing and validation procedures for sensor systems,core
+100016,Electronics Specialist 8,T621,Develop electronic circuits solutions for large-scale systems,core
+100016,Electronics Specialist 8,T622,Analyze performance of optical devices components,core
+100016,Electronics Specialist 8,T623,Design and optimize signal processing architectures,supplemental
+100016,Electronics Specialist 8,T624,Document technical specifications related to optical devices,core
+100016,Electronics Specialist 8,T625,Implement testing and validation procedures for optical devices,supplemental
+100016,Electronics Specialist 8,T626,Improve efficiency and reliability of optical devices systems,supplemental
+100016,Electronics Specialist 8,T627,Develop electronic circuits solutions for large-scale systems,supplemental
+100016,Electronics Specialist 8,T628,Analyze performance of signal processing components,core
+100016,Electronics Specialist 8,T629,Develop sensor systems solutions for large-scale systems,core
+100016,Electronics Specialist 8,T630,Improve efficiency and reliability of embedded systems systems,supplemental
+100016,Electronics Specialist 8,T631,Design and optimize electronic circuits architectures,core
+100016,Electronics Specialist 8,T632,Analyze performance of optical devices components,core
+100016,Electronics Specialist 8,T633,Develop embedded systems solutions for large-scale systems,supplemental
+100016,Electronics Specialist 8,T634,Analyze performance of signal processing components,core
+100016,Electronics Specialist 8,T635,Implement testing and validation procedures for electronic circuits,core
+100016,Electronics Specialist 8,T636,Document technical specifications related to optical devices,core
+100016,Electronics Specialist 8,T637,Design and optimize optical devices architectures,supplemental
+100016,Electronics Specialist 8,T638,Improve efficiency and reliability of electronic circuits systems,core
+100016,Electronics Specialist 8,T639,Document technical specifications related to embedded systems,supplemental
+100016,Electronics Specialist 8,T640,Analyze performance of electronic circuits components,supplemental
+100017,ICT Specialist 1,T641,Design and optimize network security architectures,supplemental
+100017,ICT Specialist 1,T642,Improve efficiency and reliability of wireless transmission systems,supplemental
+100017,ICT Specialist 1,T643,Design and optimize network security architectures,core
+100017,ICT Specialist 1,T644,Document technical specifications related to information systems,core
+100017,ICT Specialist 1,T645,Develop network security solutions for large-scale systems,supplemental
+100017,ICT Specialist 1,T646,Improve efficiency and reliability of wireless transmission systems,core
+100017,ICT Specialist 1,T647,Implement testing and validation procedures for information systems,core
+100017,ICT Specialist 1,T648,Integrate wireless transmission into existing operational workflows,core
+100017,ICT Specialist 1,T649,Integrate communication networks into existing operational workflows,core
+100017,ICT Specialist 1,T650,Develop communication networks solutions for large-scale systems,supplemental
+100017,ICT Specialist 1,T651,Design and optimize communication networks architectures,supplemental
+100017,ICT Specialist 1,T652,Analyze performance of information systems components,core
+100017,ICT Specialist 1,T653,Document technical specifications related to wireless transmission,supplemental
+100017,ICT Specialist 1,T654,Implement testing and validation procedures for communication networks,supplemental
+100017,ICT Specialist 1,T655,Analyze performance of information systems components,core
+100017,ICT Specialist 1,T656,Implement testing and validation procedures for network security,core
+100017,ICT Specialist 1,T657,Integrate network security into existing operational workflows,core
+100017,ICT Specialist 1,T658,Analyze performance of communication networks components,supplemental
+100017,ICT Specialist 1,T659,Document technical specifications related to network security,supplemental
+100017,ICT Specialist 1,T660,Design and optimize wireless transmission architectures,supplemental
+100017,ICT Specialist 1,T661,Integrate communication networks into existing operational workflows,supplemental
+100017,ICT Specialist 1,T662,Implement testing and validation procedures for network security,supplemental
+100017,ICT Specialist 1,T663,Integrate information systems into existing operational workflows,core
+100017,ICT Specialist 1,T664,Analyze performance of communication networks components,core
+100017,ICT Specialist 1,T665,Improve efficiency and reliability of wireless transmission systems,core
+100017,ICT Specialist 1,T666,Integrate wireless transmission into existing operational workflows,core
+100017,ICT Specialist 1,T667,Improve efficiency and reliability of communication networks systems,supplemental
+100017,ICT Specialist 1,T668,Design and optimize wireless transmission architectures,supplemental
+100017,ICT Specialist 1,T669,Implement testing and validation procedures for information systems,supplemental
+100017,ICT Specialist 1,T670,Design and optimize communication networks architectures,supplemental
+100017,ICT Specialist 1,T671,Integrate wireless transmission into existing operational workflows,supplemental
+100017,ICT Specialist 1,T672,Integrate information systems into existing operational workflows,supplemental
+100017,ICT Specialist 1,T673,Develop information systems solutions for large-scale systems,supplemental
+100017,ICT Specialist 1,T674,Improve efficiency and reliability of wireless transmission systems,core
+100017,ICT Specialist 1,T675,Implement testing and validation procedures for network security,supplemental
+100017,ICT Specialist 1,T676,Improve efficiency and reliability of network security systems,core
+100017,ICT Specialist 1,T677,Document technical specifications related to wireless transmission,core
+100017,ICT Specialist 1,T678,Analyze performance of network security components,core
+100017,ICT Specialist 1,T679,Design and optimize information systems architectures,core
+100017,ICT Specialist 1,T680,Document technical specifications related to network security,core
+100018,ICT Specialist 2,T681,Analyze performance of communication networks components,supplemental
+100018,ICT Specialist 2,T682,Improve efficiency and reliability of wireless transmission systems,supplemental
+100018,ICT Specialist 2,T683,Document technical specifications related to wireless transmission,core
+100018,ICT Specialist 2,T684,Implement testing and validation procedures for wireless transmission,core
+100018,ICT Specialist 2,T685,Design and optimize wireless transmission architectures,core
+100018,ICT Specialist 2,T686,Document technical specifications related to wireless transmission,core
+100018,ICT Specialist 2,T687,Develop information systems solutions for large-scale systems,core
+100018,ICT Specialist 2,T688,Integrate network security into existing operational workflows,supplemental
+100018,ICT Specialist 2,T689,Integrate communication networks into existing operational workflows,supplemental
+100018,ICT Specialist 2,T690,Implement testing and validation procedures for wireless transmission,supplemental
+100018,ICT Specialist 2,T691,Integrate communication networks into existing operational workflows,core
+100018,ICT Specialist 2,T692,Document technical specifications related to network security,supplemental
+100018,ICT Specialist 2,T693,Develop network security solutions for large-scale systems,core
+100018,ICT Specialist 2,T694,Implement testing and validation procedures for network security,core
+100018,ICT Specialist 2,T695,Design and optimize communication networks architectures,core
+100018,ICT Specialist 2,T696,Develop information systems solutions for large-scale systems,core
+100018,ICT Specialist 2,T697,Analyze performance of network security components,core
+100018,ICT Specialist 2,T698,Document technical specifications related to information systems,core
+100018,ICT Specialist 2,T699,Improve efficiency and reliability of wireless transmission systems,core
+100018,ICT Specialist 2,T700,Analyze performance of network security components,core
+100018,ICT Specialist 2,T701,Implement testing and validation procedures for information systems,core
+100018,ICT Specialist 2,T702,Implement testing and validation procedures for wireless transmission,core
+100018,ICT Specialist 2,T703,Implement testing and validation procedures for network security,core
+100018,ICT Specialist 2,T704,Integrate wireless transmission into existing operational workflows,supplemental
+100018,ICT Specialist 2,T705,Design and optimize information systems architectures,supplemental
+100018,ICT Specialist 2,T706,Analyze performance of network security components,supplemental
+100018,ICT Specialist 2,T707,Implement testing and validation procedures for wireless transmission,supplemental
+100018,ICT Specialist 2,T708,Design and optimize communication networks architectures,supplemental
+100018,ICT Specialist 2,T709,Implement testing and validation procedures for network security,core
+100018,ICT Specialist 2,T710,Design and optimize information systems architectures,supplemental
+100018,ICT Specialist 2,T711,Implement testing and validation procedures for network security,core
+100018,ICT Specialist 2,T712,Analyze performance of communication networks components,supplemental
+100018,ICT Specialist 2,T713,Design and optimize wireless transmission architectures,core
+100018,ICT Specialist 2,T714,Implement testing and validation procedures for wireless transmission,core
+100018,ICT Specialist 2,T715,Improve efficiency and reliability of network security systems,core
+100018,ICT Specialist 2,T716,Integrate network security into existing operational workflows,core
+100018,ICT Specialist 2,T717,Improve efficiency and reliability of wireless transmission systems,core
+100018,ICT Specialist 2,T718,Implement testing and validation procedures for network security,core
+100018,ICT Specialist 2,T719,Implement testing and validation procedures for information systems,core
+100018,ICT Specialist 2,T720,Improve efficiency and reliability of communication networks systems,core
+100019,ICT Specialist 3,T721,Design and optimize network security architectures,core
+100019,ICT Specialist 3,T722,Design and optimize network security architectures,supplemental
+100019,ICT Specialist 3,T723,Develop communication networks solutions for large-scale systems,core
+100019,ICT Specialist 3,T724,Design and optimize information systems architectures,core
+100019,ICT Specialist 3,T725,Document technical specifications related to wireless transmission,core
+100019,ICT Specialist 3,T726,Document technical specifications related to communication networks,core
+100019,ICT Specialist 3,T727,Integrate network security into existing operational workflows,supplemental
+100019,ICT Specialist 3,T728,Improve efficiency and reliability of information systems systems,core
+100019,ICT Specialist 3,T729,Implement testing and validation procedures for communication networks,core
+100019,ICT Specialist 3,T730,Implement testing and validation procedures for network security,core
+100019,ICT Specialist 3,T731,Document technical specifications related to communication networks,supplemental
+100019,ICT Specialist 3,T732,Implement testing and validation procedures for wireless transmission,core
+100019,ICT Specialist 3,T733,Implement testing and validation procedures for wireless transmission,core
+100019,ICT Specialist 3,T734,Analyze performance of communication networks components,core
+100019,ICT Specialist 3,T735,Analyze performance of communication networks components,supplemental
+100019,ICT Specialist 3,T736,Improve efficiency and reliability of communication networks systems,supplemental
+100019,ICT Specialist 3,T737,Document technical specifications related to wireless transmission,core
+100019,ICT Specialist 3,T738,Analyze performance of wireless transmission components,core
+100019,ICT Specialist 3,T739,Document technical specifications related to network security,supplemental
+100019,ICT Specialist 3,T740,Analyze performance of communication networks components,core
+100019,ICT Specialist 3,T741,Analyze performance of information systems components,supplemental
+100019,ICT Specialist 3,T742,Improve efficiency and reliability of wireless transmission systems,core
+100019,ICT Specialist 3,T743,Integrate communication networks into existing operational workflows,core
+100019,ICT Specialist 3,T744,Design and optimize wireless transmission architectures,core
+100019,ICT Specialist 3,T745,Design and optimize communication networks architectures,core
+100019,ICT Specialist 3,T746,Improve efficiency and reliability of communication networks systems,core
+100019,ICT Specialist 3,T747,Document technical specifications related to information systems,core
+100019,ICT Specialist 3,T748,Develop network security solutions for large-scale systems,supplemental
+100019,ICT Specialist 3,T749,Develop communication networks solutions for large-scale systems,supplemental
+100019,ICT Specialist 3,T750,Document technical specifications related to communication networks,supplemental
+100019,ICT Specialist 3,T751,Document technical specifications related to network security,supplemental
+100019,ICT Specialist 3,T752,Analyze performance of wireless transmission components,core
+100019,ICT Specialist 3,T753,Integrate information systems into existing operational workflows,core
+100019,ICT Specialist 3,T754,Implement testing and validation procedures for communication networks,supplemental
+100019,ICT Specialist 3,T755,Design and optimize information systems architectures,core
+100019,ICT Specialist 3,T756,Develop communication networks solutions for large-scale systems,supplemental
+100019,ICT Specialist 3,T757,Integrate network security into existing operational workflows,core
+100019,ICT Specialist 3,T758,Develop wireless transmission solutions for large-scale systems,core
+100019,ICT Specialist 3,T759,Analyze performance of information systems components,core
+100019,ICT Specialist 3,T760,Design and optimize network security architectures,supplemental
+100020,ICT Specialist 4,T761,Analyze performance of network security components,core
+100020,ICT Specialist 4,T762,Analyze performance of information systems components,core
+100020,ICT Specialist 4,T763,Improve efficiency and reliability of network security systems,core
+100020,ICT Specialist 4,T764,Develop communication networks solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T765,Implement testing and validation procedures for wireless transmission,supplemental
+100020,ICT Specialist 4,T766,Design and optimize communication networks architectures,supplemental
+100020,ICT Specialist 4,T767,Integrate network security into existing operational workflows,core
+100020,ICT Specialist 4,T768,Develop wireless transmission solutions for large-scale systems,core
+100020,ICT Specialist 4,T769,Design and optimize information systems architectures,supplemental
+100020,ICT Specialist 4,T770,Analyze performance of network security components,supplemental
+100020,ICT Specialist 4,T771,Analyze performance of information systems components,core
+100020,ICT Specialist 4,T772,Integrate network security into existing operational workflows,core
+100020,ICT Specialist 4,T773,Analyze performance of wireless transmission components,core
+100020,ICT Specialist 4,T774,Analyze performance of information systems components,supplemental
+100020,ICT Specialist 4,T775,Develop communication networks solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T776,Analyze performance of network security components,core
+100020,ICT Specialist 4,T777,Improve efficiency and reliability of wireless transmission systems,core
+100020,ICT Specialist 4,T778,Analyze performance of wireless transmission components,supplemental
+100020,ICT Specialist 4,T779,Design and optimize communication networks architectures,core
+100020,ICT Specialist 4,T780,Improve efficiency and reliability of network security systems,supplemental
+100020,ICT Specialist 4,T781,Document technical specifications related to wireless transmission,supplemental
+100020,ICT Specialist 4,T782,Integrate network security into existing operational workflows,core
+100020,ICT Specialist 4,T783,Integrate communication networks into existing operational workflows,core
+100020,ICT Specialist 4,T784,Implement testing and validation procedures for information systems,core
+100020,ICT Specialist 4,T785,Develop wireless transmission solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T786,Develop information systems solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T787,Implement testing and validation procedures for communication networks,core
+100020,ICT Specialist 4,T788,Analyze performance of communication networks components,supplemental
+100020,ICT Specialist 4,T789,Develop network security solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T790,Develop network security solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T791,Integrate network security into existing operational workflows,core
+100020,ICT Specialist 4,T792,Implement testing and validation procedures for communication networks,core
+100020,ICT Specialist 4,T793,Implement testing and validation procedures for information systems,core
+100020,ICT Specialist 4,T794,Improve efficiency and reliability of wireless transmission systems,core
+100020,ICT Specialist 4,T795,Integrate wireless transmission into existing operational workflows,core
+100020,ICT Specialist 4,T796,Implement testing and validation procedures for communication networks,core
+100020,ICT Specialist 4,T797,Analyze performance of network security components,supplemental
+100020,ICT Specialist 4,T798,Develop information systems solutions for large-scale systems,supplemental
+100020,ICT Specialist 4,T799,Develop network security solutions for large-scale systems,core
+100020,ICT Specialist 4,T800,Integrate communication networks into existing operational workflows,core
+100021,ICT Specialist 5,T801,Analyze performance of network security components,supplemental
+100021,ICT Specialist 5,T802,Document technical specifications related to network security,supplemental
+100021,ICT Specialist 5,T803,Document technical specifications related to network security,core
+100021,ICT Specialist 5,T804,Improve efficiency and reliability of communication networks systems,supplemental
+100021,ICT Specialist 5,T805,Design and optimize information systems architectures,supplemental
+100021,ICT Specialist 5,T806,Implement testing and validation procedures for network security,core
+100021,ICT Specialist 5,T807,Integrate communication networks into existing operational workflows,core
+100021,ICT Specialist 5,T808,Analyze performance of information systems components,core
+100021,ICT Specialist 5,T809,Implement testing and validation procedures for network security,core
+100021,ICT Specialist 5,T810,Design and optimize communication networks architectures,core
+100021,ICT Specialist 5,T811,Analyze performance of communication networks components,core
+100021,ICT Specialist 5,T812,Develop information systems solutions for large-scale systems,supplemental
+100021,ICT Specialist 5,T813,Implement testing and validation procedures for network security,supplemental
+100021,ICT Specialist 5,T814,Design and optimize information systems architectures,core
+100021,ICT Specialist 5,T815,Implement testing and validation procedures for information systems,core
+100021,ICT Specialist 5,T816,Design and optimize information systems architectures,supplemental
+100021,ICT Specialist 5,T817,Document technical specifications related to network security,core
+100021,ICT Specialist 5,T818,Integrate communication networks into existing operational workflows,supplemental
+100021,ICT Specialist 5,T819,Design and optimize information systems architectures,core
+100021,ICT Specialist 5,T820,Design and optimize wireless transmission architectures,supplemental
+100021,ICT Specialist 5,T821,Implement testing and validation procedures for wireless transmission,core
+100021,ICT Specialist 5,T822,Design and optimize wireless transmission architectures,core
+100021,ICT Specialist 5,T823,Improve efficiency and reliability of communication networks systems,core
+100021,ICT Specialist 5,T824,Analyze performance of network security components,core
+100021,ICT Specialist 5,T825,Improve efficiency and reliability of communication networks systems,supplemental
+100021,ICT Specialist 5,T826,Develop network security solutions for large-scale systems,supplemental
+100021,ICT Specialist 5,T827,Integrate network security into existing operational workflows,core
+100021,ICT Specialist 5,T828,Document technical specifications related to network security,core
+100021,ICT Specialist 5,T829,Design and optimize network security architectures,supplemental
+100021,ICT Specialist 5,T830,Design and optimize network security architectures,supplemental
+100021,ICT Specialist 5,T831,Integrate wireless transmission into existing operational workflows,supplemental
+100021,ICT Specialist 5,T832,Develop network security solutions for large-scale systems,core
+100021,ICT Specialist 5,T833,Implement testing and validation procedures for network security,core
+100021,ICT Specialist 5,T834,Design and optimize network security architectures,core
+100021,ICT Specialist 5,T835,Improve efficiency and reliability of wireless transmission systems,core
+100021,ICT Specialist 5,T836,Integrate network security into existing operational workflows,core
+100021,ICT Specialist 5,T837,Develop communication networks solutions for large-scale systems,core
+100021,ICT Specialist 5,T838,Integrate information systems into existing operational workflows,core
+100021,ICT Specialist 5,T839,Document technical specifications related to communication networks,core
+100021,ICT Specialist 5,T840,Analyze performance of wireless transmission components,supplemental
+100022,ICT Specialist 6,T841,Design and optimize information systems architectures,supplemental
+100022,ICT Specialist 6,T842,Improve efficiency and reliability of information systems systems,supplemental
+100022,ICT Specialist 6,T843,Design and optimize network security architectures,supplemental
+100022,ICT Specialist 6,T844,Document technical specifications related to communication networks,supplemental
+100022,ICT Specialist 6,T845,Integrate wireless transmission into existing operational workflows,core
+100022,ICT Specialist 6,T846,Implement testing and validation procedures for network security,supplemental
+100022,ICT Specialist 6,T847,Analyze performance of wireless transmission components,core
+100022,ICT Specialist 6,T848,Document technical specifications related to network security,core
+100022,ICT Specialist 6,T849,Integrate network security into existing operational workflows,supplemental
+100022,ICT Specialist 6,T850,Analyze performance of communication networks components,core
+100022,ICT Specialist 6,T851,Implement testing and validation procedures for information systems,supplemental
+100022,ICT Specialist 6,T852,Develop communication networks solutions for large-scale systems,core
+100022,ICT Specialist 6,T853,Analyze performance of network security components,core
+100022,ICT Specialist 6,T854,Design and optimize wireless transmission architectures,core
+100022,ICT Specialist 6,T855,Document technical specifications related to communication networks,core
+100022,ICT Specialist 6,T856,Analyze performance of wireless transmission components,supplemental
+100022,ICT Specialist 6,T857,Improve efficiency and reliability of network security systems,supplemental
+100022,ICT Specialist 6,T858,Document technical specifications related to network security,core
+100022,ICT Specialist 6,T859,Design and optimize wireless transmission architectures,core
+100022,ICT Specialist 6,T860,Design and optimize network security architectures,supplemental
+100022,ICT Specialist 6,T861,Implement testing and validation procedures for information systems,core
+100022,ICT Specialist 6,T862,Integrate information systems into existing operational workflows,supplemental
+100022,ICT Specialist 6,T863,Document technical specifications related to information systems,core
+100022,ICT Specialist 6,T864,Develop communication networks solutions for large-scale systems,supplemental
+100022,ICT Specialist 6,T865,Design and optimize information systems architectures,core
+100022,ICT Specialist 6,T866,Develop wireless transmission solutions for large-scale systems,supplemental
+100022,ICT Specialist 6,T867,Improve efficiency and reliability of network security systems,core
+100022,ICT Specialist 6,T868,Implement testing and validation procedures for information systems,core
+100022,ICT Specialist 6,T869,Develop information systems solutions for large-scale systems,core
+100022,ICT Specialist 6,T870,Implement testing and validation procedures for wireless transmission,supplemental
+100022,ICT Specialist 6,T871,Implement testing and validation procedures for information systems,supplemental
+100022,ICT Specialist 6,T872,Integrate network security into existing operational workflows,supplemental
+100022,ICT Specialist 6,T873,Develop communication networks solutions for large-scale systems,supplemental
+100022,ICT Specialist 6,T874,Design and optimize communication networks architectures,core
+100022,ICT Specialist 6,T875,Integrate wireless transmission into existing operational workflows,core
+100022,ICT Specialist 6,T876,Develop network security solutions for large-scale systems,core
+100022,ICT Specialist 6,T877,Document technical specifications related to network security,core
+100022,ICT Specialist 6,T878,Analyze performance of communication networks components,supplemental
+100022,ICT Specialist 6,T879,Improve efficiency and reliability of information systems systems,supplemental
+100022,ICT Specialist 6,T880,Develop information systems solutions for large-scale systems,core
+100023,ICT Specialist 7,T881,Implement testing and validation procedures for network security,core
+100023,ICT Specialist 7,T882,Improve efficiency and reliability of information systems systems,core
+100023,ICT Specialist 7,T883,Integrate network security into existing operational workflows,core
+100023,ICT Specialist 7,T884,Implement testing and validation procedures for wireless transmission,supplemental
+100023,ICT Specialist 7,T885,Implement testing and validation procedures for information systems,supplemental
+100023,ICT Specialist 7,T886,Design and optimize communication networks architectures,supplemental
+100023,ICT Specialist 7,T887,Analyze performance of network security components,core
+100023,ICT Specialist 7,T888,Improve efficiency and reliability of information systems systems,supplemental
+100023,ICT Specialist 7,T889,Design and optimize information systems architectures,supplemental
+100023,ICT Specialist 7,T890,Develop wireless transmission solutions for large-scale systems,supplemental
+100023,ICT Specialist 7,T891,Integrate communication networks into existing operational workflows,supplemental
+100023,ICT Specialist 7,T892,Develop network security solutions for large-scale systems,core
+100023,ICT Specialist 7,T893,Implement testing and validation procedures for communication networks,supplemental
+100023,ICT Specialist 7,T894,Improve efficiency and reliability of network security systems,supplemental
+100023,ICT Specialist 7,T895,Document technical specifications related to wireless transmission,supplemental
+100023,ICT Specialist 7,T896,Integrate communication networks into existing operational workflows,supplemental
+100023,ICT Specialist 7,T897,Implement testing and validation procedures for information systems,supplemental
+100023,ICT Specialist 7,T898,Develop wireless transmission solutions for large-scale systems,core
+100023,ICT Specialist 7,T899,Integrate communication networks into existing operational workflows,core
+100023,ICT Specialist 7,T900,Integrate network security into existing operational workflows,core
+100023,ICT Specialist 7,T901,Integrate wireless transmission into existing operational workflows,supplemental
+100023,ICT Specialist 7,T902,Design and optimize network security architectures,core
+100023,ICT Specialist 7,T903,Document technical specifications related to network security,core
+100023,ICT Specialist 7,T904,Develop network security solutions for large-scale systems,supplemental
+100023,ICT Specialist 7,T905,Integrate wireless transmission into existing operational workflows,core
+100023,ICT Specialist 7,T906,Develop information systems solutions for large-scale systems,core
+100023,ICT Specialist 7,T907,Improve efficiency and reliability of network security systems,supplemental
+100023,ICT Specialist 7,T908,Improve efficiency and reliability of communication networks systems,core
+100023,ICT Specialist 7,T909,Develop wireless transmission solutions for large-scale systems,core
+100023,ICT Specialist 7,T910,Document technical specifications related to wireless transmission,core
+100023,ICT Specialist 7,T911,Develop wireless transmission solutions for large-scale systems,core
+100023,ICT Specialist 7,T912,Document technical specifications related to communication networks,core
+100023,ICT Specialist 7,T913,Develop network security solutions for large-scale systems,core
+100023,ICT Specialist 7,T914,Implement testing and validation procedures for wireless transmission,core
+100023,ICT Specialist 7,T915,Integrate wireless transmission into existing operational workflows,core
+100023,ICT Specialist 7,T916,Document technical specifications related to wireless transmission,core
+100023,ICT Specialist 7,T917,Improve efficiency and reliability of information systems systems,supplemental
+100023,ICT Specialist 7,T918,Implement testing and validation procedures for communication networks,core
+100023,ICT Specialist 7,T919,Design and optimize network security architectures,core
+100023,ICT Specialist 7,T920,Analyze performance of wireless transmission components,core
+100024,ICT Specialist 8,T921,Design and optimize information systems architectures,core
+100024,ICT Specialist 8,T922,Analyze performance of network security components,core
+100024,ICT Specialist 8,T923,Analyze performance of information systems components,core
+100024,ICT Specialist 8,T924,Improve efficiency and reliability of communication networks systems,supplemental
+100024,ICT Specialist 8,T925,Document technical specifications related to communication networks,core
+100024,ICT Specialist 8,T926,Develop wireless transmission solutions for large-scale systems,supplemental
+100024,ICT Specialist 8,T927,Integrate wireless transmission into existing operational workflows,supplemental
+100024,ICT Specialist 8,T928,Document technical specifications related to wireless transmission,core
+100024,ICT Specialist 8,T929,Analyze performance of communication networks components,core
+100024,ICT Specialist 8,T930,Document technical specifications related to communication networks,core
+100024,ICT Specialist 8,T931,Analyze performance of network security components,core
+100024,ICT Specialist 8,T932,Implement testing and validation procedures for network security,supplemental
+100024,ICT Specialist 8,T933,Document technical specifications related to wireless transmission,core
+100024,ICT Specialist 8,T934,Analyze performance of network security components,core
+100024,ICT Specialist 8,T935,Implement testing and validation procedures for communication networks,supplemental
+100024,ICT Specialist 8,T936,Improve efficiency and reliability of communication networks systems,supplemental
+100024,ICT Specialist 8,T937,Improve efficiency and reliability of information systems systems,core
+100024,ICT Specialist 8,T938,Document technical specifications related to communication networks,supplemental
+100024,ICT Specialist 8,T939,Integrate information systems into existing operational workflows,supplemental
+100024,ICT Specialist 8,T940,Improve efficiency and reliability of network security systems,core
+100024,ICT Specialist 8,T941,Design and optimize wireless transmission architectures,core
+100024,ICT Specialist 8,T942,Improve efficiency and reliability of communication networks systems,core
+100024,ICT Specialist 8,T943,Develop network security solutions for large-scale systems,core
+100024,ICT Specialist 8,T944,Implement testing and validation procedures for network security,core
+100024,ICT Specialist 8,T945,Implement testing and validation procedures for network security,core
+100024,ICT Specialist 8,T946,Improve efficiency and reliability of wireless transmission systems,supplemental
+100024,ICT Specialist 8,T947,Develop information systems solutions for large-scale systems,supplemental
+100024,ICT Specialist 8,T948,Design and optimize wireless transmission architectures,supplemental
+100024,ICT Specialist 8,T949,Implement testing and validation procedures for information systems,supplemental
+100024,ICT Specialist 8,T950,Integrate network security into existing operational workflows,core
+100024,ICT Specialist 8,T951,Develop network security solutions for large-scale systems,core
+100024,ICT Specialist 8,T952,Design and optimize wireless transmission architectures,core
+100024,ICT Specialist 8,T953,Document technical specifications related to communication networks,core
+100024,ICT Specialist 8,T954,Integrate network security into existing operational workflows,supplemental
+100024,ICT Specialist 8,T955,Analyze performance of communication networks components,supplemental
+100024,ICT Specialist 8,T956,Develop network security solutions for large-scale systems,core
+100024,ICT Specialist 8,T957,Develop information systems solutions for large-scale systems,supplemental
+100024,ICT Specialist 8,T958,Analyze performance of communication networks components,core
+100024,ICT Specialist 8,T959,Integrate network security into existing operational workflows,core
+100024,ICT Specialist 8,T960,Analyze performance of network security components,core
+100025,Manufacturing Specialist 1,T961,Improve efficiency and reliability of process control systems,supplemental
+100025,Manufacturing Specialist 1,T962,Develop production optimization solutions for large-scale systems,core
+100025,Manufacturing Specialist 1,T963,Develop industrial automation solutions for large-scale systems,supplemental
+100025,Manufacturing Specialist 1,T964,Improve efficiency and reliability of industrial automation systems,supplemental
+100025,Manufacturing Specialist 1,T965,Implement testing and validation procedures for robotic systems,core
+100025,Manufacturing Specialist 1,T966,Analyze performance of robotic systems components,core
+100025,Manufacturing Specialist 1,T967,Design and optimize process control architectures,supplemental
+100025,Manufacturing Specialist 1,T968,Design and optimize robotic systems architectures,supplemental
+100025,Manufacturing Specialist 1,T969,Document technical specifications related to process control,core
+100025,Manufacturing Specialist 1,T970,Document technical specifications related to robotic systems,core
+100025,Manufacturing Specialist 1,T971,Develop process control solutions for large-scale systems,supplemental
+100025,Manufacturing Specialist 1,T972,Analyze performance of robotic systems components,supplemental
+100025,Manufacturing Specialist 1,T973,Implement testing and validation procedures for industrial automation,core
+100025,Manufacturing Specialist 1,T974,Analyze performance of robotic systems components,core
+100025,Manufacturing Specialist 1,T975,Develop process control solutions for large-scale systems,core
+100025,Manufacturing Specialist 1,T976,Implement testing and validation procedures for process control,supplemental
+100025,Manufacturing Specialist 1,T977,Implement testing and validation procedures for production optimization,core
+100025,Manufacturing Specialist 1,T978,Implement testing and validation procedures for process control,core
+100025,Manufacturing Specialist 1,T979,Integrate production optimization into existing operational workflows,core
+100025,Manufacturing Specialist 1,T980,Integrate robotic systems into existing operational workflows,supplemental
+100025,Manufacturing Specialist 1,T981,Implement testing and validation procedures for production optimization,core
+100025,Manufacturing Specialist 1,T982,Analyze performance of robotic systems components,core
+100025,Manufacturing Specialist 1,T983,Develop production optimization solutions for large-scale systems,core
+100025,Manufacturing Specialist 1,T984,Implement testing and validation procedures for robotic systems,core
+100025,Manufacturing Specialist 1,T985,Implement testing and validation procedures for robotic systems,core
+100025,Manufacturing Specialist 1,T986,Document technical specifications related to robotic systems,supplemental
+100025,Manufacturing Specialist 1,T987,Implement testing and validation procedures for robotic systems,core
+100025,Manufacturing Specialist 1,T988,Design and optimize production optimization architectures,core
+100025,Manufacturing Specialist 1,T989,Implement testing and validation procedures for process control,core
+100025,Manufacturing Specialist 1,T990,Develop production optimization solutions for large-scale systems,core
+100025,Manufacturing Specialist 1,T991,Integrate robotic systems into existing operational workflows,core
+100025,Manufacturing Specialist 1,T992,Document technical specifications related to process control,supplemental
+100025,Manufacturing Specialist 1,T993,Improve efficiency and reliability of process control systems,supplemental
+100025,Manufacturing Specialist 1,T994,Design and optimize process control architectures,core
+100025,Manufacturing Specialist 1,T995,Integrate industrial automation into existing operational workflows,supplemental
+100025,Manufacturing Specialist 1,T996,Develop production optimization solutions for large-scale systems,core
+100025,Manufacturing Specialist 1,T997,Design and optimize production optimization architectures,supplemental
+100025,Manufacturing Specialist 1,T998,Implement testing and validation procedures for process control,core
+100025,Manufacturing Specialist 1,T999,Analyze performance of industrial automation components,supplemental
+100025,Manufacturing Specialist 1,T1000,Implement testing and validation procedures for production optimization,supplemental
+100026,Manufacturing Specialist 2,T1001,Integrate industrial automation into existing operational workflows,supplemental
+100026,Manufacturing Specialist 2,T1002,Document technical specifications related to robotic systems,core
+100026,Manufacturing Specialist 2,T1003,Analyze performance of robotic systems components,supplemental
+100026,Manufacturing Specialist 2,T1004,Document technical specifications related to industrial automation,core
+100026,Manufacturing Specialist 2,T1005,Document technical specifications related to industrial automation,supplemental
+100026,Manufacturing Specialist 2,T1006,Integrate industrial automation into existing operational workflows,supplemental
+100026,Manufacturing Specialist 2,T1007,Integrate robotic systems into existing operational workflows,supplemental
+100026,Manufacturing Specialist 2,T1008,Integrate production optimization into existing operational workflows,supplemental
+100026,Manufacturing Specialist 2,T1009,Design and optimize process control architectures,supplemental
+100026,Manufacturing Specialist 2,T1010,Integrate robotic systems into existing operational workflows,core
+100026,Manufacturing Specialist 2,T1011,Implement testing and validation procedures for industrial automation,core
+100026,Manufacturing Specialist 2,T1012,Implement testing and validation procedures for production optimization,core
+100026,Manufacturing Specialist 2,T1013,Improve efficiency and reliability of production optimization systems,core
+100026,Manufacturing Specialist 2,T1014,Integrate production optimization into existing operational workflows,core
+100026,Manufacturing Specialist 2,T1015,Design and optimize industrial automation architectures,supplemental
+100026,Manufacturing Specialist 2,T1016,Develop process control solutions for large-scale systems,supplemental
+100026,Manufacturing Specialist 2,T1017,Improve efficiency and reliability of robotic systems systems,supplemental
+100026,Manufacturing Specialist 2,T1018,Design and optimize robotic systems architectures,supplemental
+100026,Manufacturing Specialist 2,T1019,Integrate robotic systems into existing operational workflows,supplemental
+100026,Manufacturing Specialist 2,T1020,Document technical specifications related to process control,core
+100026,Manufacturing Specialist 2,T1021,Improve efficiency and reliability of production optimization systems,core
+100026,Manufacturing Specialist 2,T1022,Develop process control solutions for large-scale systems,supplemental
+100026,Manufacturing Specialist 2,T1023,Document technical specifications related to industrial automation,core
+100026,Manufacturing Specialist 2,T1024,Improve efficiency and reliability of production optimization systems,supplemental
+100026,Manufacturing Specialist 2,T1025,Document technical specifications related to production optimization,supplemental
+100026,Manufacturing Specialist 2,T1026,Implement testing and validation procedures for production optimization,core
+100026,Manufacturing Specialist 2,T1027,Improve efficiency and reliability of industrial automation systems,supplemental
+100026,Manufacturing Specialist 2,T1028,Integrate production optimization into existing operational workflows,core
+100026,Manufacturing Specialist 2,T1029,Design and optimize process control architectures,supplemental
+100026,Manufacturing Specialist 2,T1030,Document technical specifications related to robotic systems,core
+100026,Manufacturing Specialist 2,T1031,Analyze performance of production optimization components,core
+100026,Manufacturing Specialist 2,T1032,Implement testing and validation procedures for robotic systems,supplemental
+100026,Manufacturing Specialist 2,T1033,Improve efficiency and reliability of production optimization systems,supplemental
+100026,Manufacturing Specialist 2,T1034,Develop industrial automation solutions for large-scale systems,supplemental
+100026,Manufacturing Specialist 2,T1035,Develop process control solutions for large-scale systems,core
+100026,Manufacturing Specialist 2,T1036,Document technical specifications related to robotic systems,core
+100026,Manufacturing Specialist 2,T1037,Design and optimize process control architectures,supplemental
+100026,Manufacturing Specialist 2,T1038,Improve efficiency and reliability of robotic systems systems,core
+100026,Manufacturing Specialist 2,T1039,Develop production optimization solutions for large-scale systems,supplemental
+100026,Manufacturing Specialist 2,T1040,Develop production optimization solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1041,Develop robotic systems solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1042,Improve efficiency and reliability of production optimization systems,supplemental
+100027,Manufacturing Specialist 3,T1043,Document technical specifications related to robotic systems,supplemental
+100027,Manufacturing Specialist 3,T1044,Develop industrial automation solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1045,Design and optimize industrial automation architectures,core
+100027,Manufacturing Specialist 3,T1046,Develop process control solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1047,Integrate production optimization into existing operational workflows,core
+100027,Manufacturing Specialist 3,T1048,Improve efficiency and reliability of process control systems,core
+100027,Manufacturing Specialist 3,T1049,Design and optimize industrial automation architectures,core
+100027,Manufacturing Specialist 3,T1050,Develop industrial automation solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1051,Design and optimize production optimization architectures,core
+100027,Manufacturing Specialist 3,T1052,Improve efficiency and reliability of robotic systems systems,supplemental
+100027,Manufacturing Specialist 3,T1053,Develop robotic systems solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1054,Implement testing and validation procedures for industrial automation,supplemental
+100027,Manufacturing Specialist 3,T1055,Analyze performance of process control components,supplemental
+100027,Manufacturing Specialist 3,T1056,Document technical specifications related to robotic systems,supplemental
+100027,Manufacturing Specialist 3,T1057,Integrate process control into existing operational workflows,core
+100027,Manufacturing Specialist 3,T1058,Design and optimize industrial automation architectures,supplemental
+100027,Manufacturing Specialist 3,T1059,Analyze performance of process control components,supplemental
+100027,Manufacturing Specialist 3,T1060,Integrate production optimization into existing operational workflows,core
+100027,Manufacturing Specialist 3,T1061,Improve efficiency and reliability of production optimization systems,core
+100027,Manufacturing Specialist 3,T1062,Integrate production optimization into existing operational workflows,supplemental
+100027,Manufacturing Specialist 3,T1063,Integrate industrial automation into existing operational workflows,supplemental
+100027,Manufacturing Specialist 3,T1064,Design and optimize production optimization architectures,core
+100027,Manufacturing Specialist 3,T1065,Improve efficiency and reliability of robotic systems systems,core
+100027,Manufacturing Specialist 3,T1066,Integrate industrial automation into existing operational workflows,supplemental
+100027,Manufacturing Specialist 3,T1067,Document technical specifications related to robotic systems,core
+100027,Manufacturing Specialist 3,T1068,Document technical specifications related to robotic systems,supplemental
+100027,Manufacturing Specialist 3,T1069,Implement testing and validation procedures for industrial automation,supplemental
+100027,Manufacturing Specialist 3,T1070,Analyze performance of industrial automation components,supplemental
+100027,Manufacturing Specialist 3,T1071,Document technical specifications related to robotic systems,supplemental
+100027,Manufacturing Specialist 3,T1072,Analyze performance of process control components,core
+100027,Manufacturing Specialist 3,T1073,Integrate robotic systems into existing operational workflows,core
+100027,Manufacturing Specialist 3,T1074,Develop industrial automation solutions for large-scale systems,core
+100027,Manufacturing Specialist 3,T1075,Analyze performance of industrial automation components,core
+100027,Manufacturing Specialist 3,T1076,Integrate industrial automation into existing operational workflows,core
+100027,Manufacturing Specialist 3,T1077,Improve efficiency and reliability of production optimization systems,supplemental
+100027,Manufacturing Specialist 3,T1078,Document technical specifications related to process control,supplemental
+100027,Manufacturing Specialist 3,T1079,Improve efficiency and reliability of industrial automation systems,core
+100027,Manufacturing Specialist 3,T1080,Analyze performance of robotic systems components,core
+100028,Manufacturing Specialist 4,T1081,Implement testing and validation procedures for industrial automation,supplemental
+100028,Manufacturing Specialist 4,T1082,Implement testing and validation procedures for robotic systems,core
+100028,Manufacturing Specialist 4,T1083,Analyze performance of industrial automation components,supplemental
+100028,Manufacturing Specialist 4,T1084,Develop robotic systems solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1085,Develop process control solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1086,Analyze performance of industrial automation components,supplemental
+100028,Manufacturing Specialist 4,T1087,Develop robotic systems solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1088,Improve efficiency and reliability of robotic systems systems,core
+100028,Manufacturing Specialist 4,T1089,Analyze performance of process control components,core
+100028,Manufacturing Specialist 4,T1090,Design and optimize production optimization architectures,core
+100028,Manufacturing Specialist 4,T1091,Improve efficiency and reliability of production optimization systems,supplemental
+100028,Manufacturing Specialist 4,T1092,Analyze performance of industrial automation components,supplemental
+100028,Manufacturing Specialist 4,T1093,Implement testing and validation procedures for production optimization,core
+100028,Manufacturing Specialist 4,T1094,Document technical specifications related to industrial automation,core
+100028,Manufacturing Specialist 4,T1095,Develop production optimization solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1096,Analyze performance of robotic systems components,core
+100028,Manufacturing Specialist 4,T1097,Implement testing and validation procedures for industrial automation,supplemental
+100028,Manufacturing Specialist 4,T1098,Design and optimize industrial automation architectures,supplemental
+100028,Manufacturing Specialist 4,T1099,Develop industrial automation solutions for large-scale systems,supplemental
+100028,Manufacturing Specialist 4,T1100,Design and optimize industrial automation architectures,core
+100028,Manufacturing Specialist 4,T1101,Document technical specifications related to production optimization,supplemental
+100028,Manufacturing Specialist 4,T1102,Integrate robotic systems into existing operational workflows,core
+100028,Manufacturing Specialist 4,T1103,Design and optimize process control architectures,core
+100028,Manufacturing Specialist 4,T1104,Improve efficiency and reliability of process control systems,core
+100028,Manufacturing Specialist 4,T1105,Implement testing and validation procedures for industrial automation,core
+100028,Manufacturing Specialist 4,T1106,Design and optimize industrial automation architectures,core
+100028,Manufacturing Specialist 4,T1107,Document technical specifications related to industrial automation,core
+100028,Manufacturing Specialist 4,T1108,Integrate process control into existing operational workflows,core
+100028,Manufacturing Specialist 4,T1109,Analyze performance of production optimization components,core
+100028,Manufacturing Specialist 4,T1110,Develop process control solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1111,Implement testing and validation procedures for production optimization,supplemental
+100028,Manufacturing Specialist 4,T1112,Document technical specifications related to robotic systems,core
+100028,Manufacturing Specialist 4,T1113,Integrate process control into existing operational workflows,supplemental
+100028,Manufacturing Specialist 4,T1114,Design and optimize robotic systems architectures,core
+100028,Manufacturing Specialist 4,T1115,Develop process control solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1116,Improve efficiency and reliability of production optimization systems,supplemental
+100028,Manufacturing Specialist 4,T1117,Analyze performance of industrial automation components,core
+100028,Manufacturing Specialist 4,T1118,Integrate process control into existing operational workflows,supplemental
+100028,Manufacturing Specialist 4,T1119,Develop production optimization solutions for large-scale systems,core
+100028,Manufacturing Specialist 4,T1120,Document technical specifications related to robotic systems,core
+100029,Manufacturing Specialist 5,T1121,Design and optimize industrial automation architectures,supplemental
+100029,Manufacturing Specialist 5,T1122,Develop industrial automation solutions for large-scale systems,supplemental
+100029,Manufacturing Specialist 5,T1123,Improve efficiency and reliability of process control systems,supplemental
+100029,Manufacturing Specialist 5,T1124,Improve efficiency and reliability of process control systems,core
+100029,Manufacturing Specialist 5,T1125,Implement testing and validation procedures for industrial automation,core
+100029,Manufacturing Specialist 5,T1126,Develop process control solutions for large-scale systems,core
+100029,Manufacturing Specialist 5,T1127,Document technical specifications related to industrial automation,supplemental
+100029,Manufacturing Specialist 5,T1128,Design and optimize robotic systems architectures,core
+100029,Manufacturing Specialist 5,T1129,Integrate production optimization into existing operational workflows,core
+100029,Manufacturing Specialist 5,T1130,Analyze performance of production optimization components,core
+100029,Manufacturing Specialist 5,T1131,Develop robotic systems solutions for large-scale systems,supplemental
+100029,Manufacturing Specialist 5,T1132,Integrate robotic systems into existing operational workflows,supplemental
+100029,Manufacturing Specialist 5,T1133,Design and optimize industrial automation architectures,core
+100029,Manufacturing Specialist 5,T1134,Document technical specifications related to process control,core
+100029,Manufacturing Specialist 5,T1135,Implement testing and validation procedures for industrial automation,core
+100029,Manufacturing Specialist 5,T1136,Document technical specifications related to robotic systems,core
+100029,Manufacturing Specialist 5,T1137,Integrate production optimization into existing operational workflows,core
+100029,Manufacturing Specialist 5,T1138,Integrate robotic systems into existing operational workflows,supplemental
+100029,Manufacturing Specialist 5,T1139,Design and optimize industrial automation architectures,supplemental
+100029,Manufacturing Specialist 5,T1140,Design and optimize production optimization architectures,core
+100029,Manufacturing Specialist 5,T1141,Analyze performance of robotic systems components,core
+100029,Manufacturing Specialist 5,T1142,Improve efficiency and reliability of industrial automation systems,core
+100029,Manufacturing Specialist 5,T1143,Develop robotic systems solutions for large-scale systems,supplemental
+100029,Manufacturing Specialist 5,T1144,Implement testing and validation procedures for process control,supplemental
+100029,Manufacturing Specialist 5,T1145,Develop robotic systems solutions for large-scale systems,core
+100029,Manufacturing Specialist 5,T1146,Develop robotic systems solutions for large-scale systems,core
+100029,Manufacturing Specialist 5,T1147,Design and optimize robotic systems architectures,core
+100029,Manufacturing Specialist 5,T1148,Analyze performance of process control components,supplemental
+100029,Manufacturing Specialist 5,T1149,Implement testing and validation procedures for industrial automation,core
+100029,Manufacturing Specialist 5,T1150,Develop industrial automation solutions for large-scale systems,supplemental
+100029,Manufacturing Specialist 5,T1151,Improve efficiency and reliability of robotic systems systems,core
+100029,Manufacturing Specialist 5,T1152,Develop robotic systems solutions for large-scale systems,supplemental
+100029,Manufacturing Specialist 5,T1153,Develop production optimization solutions for large-scale systems,core
+100029,Manufacturing Specialist 5,T1154,Develop process control solutions for large-scale systems,core
+100029,Manufacturing Specialist 5,T1155,Integrate process control into existing operational workflows,supplemental
+100029,Manufacturing Specialist 5,T1156,Develop process control solutions for large-scale systems,core
+100029,Manufacturing Specialist 5,T1157,Design and optimize process control architectures,core
+100029,Manufacturing Specialist 5,T1158,Analyze performance of robotic systems components,core
+100029,Manufacturing Specialist 5,T1159,Develop robotic systems solutions for large-scale systems,supplemental
+100029,Manufacturing Specialist 5,T1160,Improve efficiency and reliability of robotic systems systems,core
+100030,Manufacturing Specialist 6,T1161,Implement testing and validation procedures for process control,core
+100030,Manufacturing Specialist 6,T1162,Analyze performance of industrial automation components,core
+100030,Manufacturing Specialist 6,T1163,Design and optimize process control architectures,supplemental
+100030,Manufacturing Specialist 6,T1164,Improve efficiency and reliability of robotic systems systems,supplemental
+100030,Manufacturing Specialist 6,T1165,Document technical specifications related to industrial automation,supplemental
+100030,Manufacturing Specialist 6,T1166,Document technical specifications related to production optimization,core
+100030,Manufacturing Specialist 6,T1167,Analyze performance of process control components,supplemental
+100030,Manufacturing Specialist 6,T1168,Document technical specifications related to production optimization,core
+100030,Manufacturing Specialist 6,T1169,Analyze performance of industrial automation components,core
+100030,Manufacturing Specialist 6,T1170,Integrate industrial automation into existing operational workflows,supplemental
+100030,Manufacturing Specialist 6,T1171,Integrate industrial automation into existing operational workflows,supplemental
+100030,Manufacturing Specialist 6,T1172,Integrate production optimization into existing operational workflows,core
+100030,Manufacturing Specialist 6,T1173,Design and optimize robotic systems architectures,core
+100030,Manufacturing Specialist 6,T1174,Analyze performance of robotic systems components,core
+100030,Manufacturing Specialist 6,T1175,Integrate industrial automation into existing operational workflows,supplemental
+100030,Manufacturing Specialist 6,T1176,Implement testing and validation procedures for robotic systems,supplemental
+100030,Manufacturing Specialist 6,T1177,Analyze performance of process control components,supplemental
+100030,Manufacturing Specialist 6,T1178,Design and optimize robotic systems architectures,core
+100030,Manufacturing Specialist 6,T1179,Integrate production optimization into existing operational workflows,supplemental
+100030,Manufacturing Specialist 6,T1180,Implement testing and validation procedures for production optimization,core
+100030,Manufacturing Specialist 6,T1181,Implement testing and validation procedures for production optimization,core
+100030,Manufacturing Specialist 6,T1182,Integrate robotic systems into existing operational workflows,supplemental
+100030,Manufacturing Specialist 6,T1183,Implement testing and validation procedures for process control,core
+100030,Manufacturing Specialist 6,T1184,Develop process control solutions for large-scale systems,core
+100030,Manufacturing Specialist 6,T1185,Implement testing and validation procedures for robotic systems,core
+100030,Manufacturing Specialist 6,T1186,Develop process control solutions for large-scale systems,core
+100030,Manufacturing Specialist 6,T1187,Integrate robotic systems into existing operational workflows,core
+100030,Manufacturing Specialist 6,T1188,Integrate robotic systems into existing operational workflows,supplemental
+100030,Manufacturing Specialist 6,T1189,Develop production optimization solutions for large-scale systems,core
+100030,Manufacturing Specialist 6,T1190,Integrate robotic systems into existing operational workflows,core
+100030,Manufacturing Specialist 6,T1191,Develop production optimization solutions for large-scale systems,core
+100030,Manufacturing Specialist 6,T1192,Implement testing and validation procedures for process control,core
+100030,Manufacturing Specialist 6,T1193,Analyze performance of production optimization components,core
+100030,Manufacturing Specialist 6,T1194,Improve efficiency and reliability of robotic systems systems,supplemental
+100030,Manufacturing Specialist 6,T1195,Improve efficiency and reliability of process control systems,core
+100030,Manufacturing Specialist 6,T1196,Design and optimize production optimization architectures,supplemental
+100030,Manufacturing Specialist 6,T1197,Document technical specifications related to robotic systems,core
+100030,Manufacturing Specialist 6,T1198,Design and optimize production optimization architectures,core
+100030,Manufacturing Specialist 6,T1199,Improve efficiency and reliability of industrial automation systems,supplemental
+100030,Manufacturing Specialist 6,T1200,Integrate process control into existing operational workflows,supplemental
+100031,Manufacturing Specialist 7,T1201,Design and optimize industrial automation architectures,supplemental
+100031,Manufacturing Specialist 7,T1202,Improve efficiency and reliability of robotic systems systems,core
+100031,Manufacturing Specialist 7,T1203,Design and optimize process control architectures,core
+100031,Manufacturing Specialist 7,T1204,Design and optimize industrial automation architectures,core
+100031,Manufacturing Specialist 7,T1205,Design and optimize production optimization architectures,supplemental
+100031,Manufacturing Specialist 7,T1206,Integrate industrial automation into existing operational workflows,supplemental
+100031,Manufacturing Specialist 7,T1207,Document technical specifications related to production optimization,core
+100031,Manufacturing Specialist 7,T1208,Design and optimize robotic systems architectures,supplemental
+100031,Manufacturing Specialist 7,T1209,Analyze performance of production optimization components,supplemental
+100031,Manufacturing Specialist 7,T1210,Develop industrial automation solutions for large-scale systems,core
+100031,Manufacturing Specialist 7,T1211,Design and optimize process control architectures,supplemental
+100031,Manufacturing Specialist 7,T1212,Document technical specifications related to process control,core
+100031,Manufacturing Specialist 7,T1213,Develop process control solutions for large-scale systems,supplemental
+100031,Manufacturing Specialist 7,T1214,Design and optimize robotic systems architectures,core
+100031,Manufacturing Specialist 7,T1215,Analyze performance of industrial automation components,core
+100031,Manufacturing Specialist 7,T1216,Develop production optimization solutions for large-scale systems,core
+100031,Manufacturing Specialist 7,T1217,Document technical specifications related to robotic systems,core
+100031,Manufacturing Specialist 7,T1218,Implement testing and validation procedures for industrial automation,supplemental
+100031,Manufacturing Specialist 7,T1219,Analyze performance of industrial automation components,core
+100031,Manufacturing Specialist 7,T1220,Improve efficiency and reliability of process control systems,core
+100031,Manufacturing Specialist 7,T1221,Implement testing and validation procedures for robotic systems,supplemental
+100031,Manufacturing Specialist 7,T1222,Develop robotic systems solutions for large-scale systems,core
+100031,Manufacturing Specialist 7,T1223,Design and optimize robotic systems architectures,core
+100031,Manufacturing Specialist 7,T1224,Improve efficiency and reliability of production optimization systems,core
+100031,Manufacturing Specialist 7,T1225,Develop robotic systems solutions for large-scale systems,core
+100031,Manufacturing Specialist 7,T1226,Design and optimize process control architectures,core
+100031,Manufacturing Specialist 7,T1227,Document technical specifications related to industrial automation,core
+100031,Manufacturing Specialist 7,T1228,Design and optimize process control architectures,core
+100031,Manufacturing Specialist 7,T1229,Design and optimize robotic systems architectures,supplemental
+100031,Manufacturing Specialist 7,T1230,Document technical specifications related to industrial automation,supplemental
+100031,Manufacturing Specialist 7,T1231,Integrate production optimization into existing operational workflows,core
+100031,Manufacturing Specialist 7,T1232,Improve efficiency and reliability of process control systems,core
+100031,Manufacturing Specialist 7,T1233,Design and optimize process control architectures,core
+100031,Manufacturing Specialist 7,T1234,Analyze performance of process control components,core
+100031,Manufacturing Specialist 7,T1235,Analyze performance of industrial automation components,core
+100031,Manufacturing Specialist 7,T1236,Design and optimize production optimization architectures,supplemental
+100031,Manufacturing Specialist 7,T1237,Design and optimize industrial automation architectures,supplemental
+100031,Manufacturing Specialist 7,T1238,Develop industrial automation solutions for large-scale systems,supplemental
+100031,Manufacturing Specialist 7,T1239,Integrate process control into existing operational workflows,core
+100031,Manufacturing Specialist 7,T1240,Integrate industrial automation into existing operational workflows,core
+100032,Manufacturing Specialist 8,T1241,Implement testing and validation procedures for process control,supplemental
+100032,Manufacturing Specialist 8,T1242,Implement testing and validation procedures for process control,supplemental
+100032,Manufacturing Specialist 8,T1243,Analyze performance of process control components,core
+100032,Manufacturing Specialist 8,T1244,Implement testing and validation procedures for industrial automation,core
+100032,Manufacturing Specialist 8,T1245,Develop robotic systems solutions for large-scale systems,supplemental
+100032,Manufacturing Specialist 8,T1246,Design and optimize process control architectures,supplemental
+100032,Manufacturing Specialist 8,T1247,Design and optimize robotic systems architectures,supplemental
+100032,Manufacturing Specialist 8,T1248,Develop robotic systems solutions for large-scale systems,core
+100032,Manufacturing Specialist 8,T1249,Design and optimize process control architectures,supplemental
+100032,Manufacturing Specialist 8,T1250,Integrate robotic systems into existing operational workflows,core
+100032,Manufacturing Specialist 8,T1251,Improve efficiency and reliability of production optimization systems,supplemental
+100032,Manufacturing Specialist 8,T1252,Develop industrial automation solutions for large-scale systems,core
+100032,Manufacturing Specialist 8,T1253,Implement testing and validation procedures for process control,core
+100032,Manufacturing Specialist 8,T1254,Implement testing and validation procedures for production optimization,core
+100032,Manufacturing Specialist 8,T1255,Integrate industrial automation into existing operational workflows,supplemental
+100032,Manufacturing Specialist 8,T1256,Develop process control solutions for large-scale systems,core
+100032,Manufacturing Specialist 8,T1257,Implement testing and validation procedures for robotic systems,core
+100032,Manufacturing Specialist 8,T1258,Develop industrial automation solutions for large-scale systems,core
+100032,Manufacturing Specialist 8,T1259,Integrate industrial automation into existing operational workflows,core
+100032,Manufacturing Specialist 8,T1260,Document technical specifications related to production optimization,core
+100032,Manufacturing Specialist 8,T1261,Implement testing and validation procedures for process control,supplemental
+100032,Manufacturing Specialist 8,T1262,Design and optimize industrial automation architectures,core
+100032,Manufacturing Specialist 8,T1263,Implement testing and validation procedures for robotic systems,supplemental
+100032,Manufacturing Specialist 8,T1264,Develop process control solutions for large-scale systems,core
+100032,Manufacturing Specialist 8,T1265,Improve efficiency and reliability of production optimization systems,core
+100032,Manufacturing Specialist 8,T1266,Analyze performance of process control components,supplemental
+100032,Manufacturing Specialist 8,T1267,Analyze performance of industrial automation components,supplemental
+100032,Manufacturing Specialist 8,T1268,Analyze performance of production optimization components,core
+100032,Manufacturing Specialist 8,T1269,Integrate process control into existing operational workflows,supplemental
+100032,Manufacturing Specialist 8,T1270,Integrate industrial automation into existing operational workflows,core
+100032,Manufacturing Specialist 8,T1271,Improve efficiency and reliability of production optimization systems,core
+100032,Manufacturing Specialist 8,T1272,Analyze performance of production optimization components,supplemental
+100032,Manufacturing Specialist 8,T1273,Design and optimize industrial automation architectures,core
+100032,Manufacturing Specialist 8,T1274,Improve efficiency and reliability of process control systems,core
+100032,Manufacturing Specialist 8,T1275,Integrate production optimization into existing operational workflows,core
+100032,Manufacturing Specialist 8,T1276,Develop robotic systems solutions for large-scale systems,core
+100032,Manufacturing Specialist 8,T1277,Design and optimize process control architectures,supplemental
+100032,Manufacturing Specialist 8,T1278,Design and optimize industrial automation architectures,core
+100032,Manufacturing Specialist 8,T1279,Integrate robotic systems into existing operational workflows,core
+100032,Manufacturing Specialist 8,T1280,Document technical specifications related to industrial automation,core
+100033,Biotech Specialist 1,T1281,Improve efficiency and reliability of diagnostic systems systems,core
+100033,Biotech Specialist 1,T1282,Integrate diagnostic systems into existing operational workflows,core
+100033,Biotech Specialist 1,T1283,Improve efficiency and reliability of laboratory automation systems,supplemental
+100033,Biotech Specialist 1,T1284,Design and optimize biomedical data analysis architectures,core
+100033,Biotech Specialist 1,T1285,Design and optimize laboratory automation architectures,supplemental
+100033,Biotech Specialist 1,T1286,Implement testing and validation procedures for laboratory automation,core
+100033,Biotech Specialist 1,T1287,Design and optimize diagnostic systems architectures,supplemental
+100033,Biotech Specialist 1,T1288,Improve efficiency and reliability of diagnostic systems systems,supplemental
+100033,Biotech Specialist 1,T1289,Analyze performance of biomedical data analysis components,core
+100033,Biotech Specialist 1,T1290,Design and optimize biomedical data analysis architectures,supplemental
+100033,Biotech Specialist 1,T1291,Integrate genetic sequencing into existing operational workflows,core
+100033,Biotech Specialist 1,T1292,Improve efficiency and reliability of genetic sequencing systems,core
+100033,Biotech Specialist 1,T1293,Implement testing and validation procedures for laboratory automation,core
+100033,Biotech Specialist 1,T1294,Document technical specifications related to biomedical data analysis,supplemental
+100033,Biotech Specialist 1,T1295,Implement testing and validation procedures for genetic sequencing,supplemental
+100033,Biotech Specialist 1,T1296,Analyze performance of genetic sequencing components,supplemental
+100033,Biotech Specialist 1,T1297,Improve efficiency and reliability of diagnostic systems systems,supplemental
+100033,Biotech Specialist 1,T1298,Document technical specifications related to diagnostic systems,supplemental
+100033,Biotech Specialist 1,T1299,Document technical specifications related to diagnostic systems,core
+100033,Biotech Specialist 1,T1300,Analyze performance of laboratory automation components,supplemental
+100033,Biotech Specialist 1,T1301,Implement testing and validation procedures for laboratory automation,core
+100033,Biotech Specialist 1,T1302,Implement testing and validation procedures for diagnostic systems,supplemental
+100033,Biotech Specialist 1,T1303,Analyze performance of diagnostic systems components,supplemental
+100033,Biotech Specialist 1,T1304,Develop laboratory automation solutions for large-scale systems,core
+100033,Biotech Specialist 1,T1305,Improve efficiency and reliability of diagnostic systems systems,core
+100033,Biotech Specialist 1,T1306,Analyze performance of diagnostic systems components,supplemental
+100033,Biotech Specialist 1,T1307,Design and optimize diagnostic systems architectures,core
+100033,Biotech Specialist 1,T1308,Develop genetic sequencing solutions for large-scale systems,supplemental
+100033,Biotech Specialist 1,T1309,Improve efficiency and reliability of laboratory automation systems,core
+100033,Biotech Specialist 1,T1310,Improve efficiency and reliability of genetic sequencing systems,core
+100033,Biotech Specialist 1,T1311,Analyze performance of laboratory automation components,core
+100033,Biotech Specialist 1,T1312,Document technical specifications related to laboratory automation,core
+100033,Biotech Specialist 1,T1313,Implement testing and validation procedures for biomedical data analysis,supplemental
+100033,Biotech Specialist 1,T1314,Analyze performance of genetic sequencing components,supplemental
+100033,Biotech Specialist 1,T1315,Improve efficiency and reliability of genetic sequencing systems,core
+100033,Biotech Specialist 1,T1316,Improve efficiency and reliability of laboratory automation systems,core
+100033,Biotech Specialist 1,T1317,Integrate diagnostic systems into existing operational workflows,core
+100033,Biotech Specialist 1,T1318,Analyze performance of genetic sequencing components,core
+100033,Biotech Specialist 1,T1319,Improve efficiency and reliability of genetic sequencing systems,core
+100033,Biotech Specialist 1,T1320,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100034,Biotech Specialist 2,T1321,Design and optimize biomedical data analysis architectures,core
+100034,Biotech Specialist 2,T1322,Document technical specifications related to diagnostic systems,supplemental
+100034,Biotech Specialist 2,T1323,Analyze performance of diagnostic systems components,core
+100034,Biotech Specialist 2,T1324,Document technical specifications related to diagnostic systems,supplemental
+100034,Biotech Specialist 2,T1325,Develop laboratory automation solutions for large-scale systems,supplemental
+100034,Biotech Specialist 2,T1326,Document technical specifications related to biomedical data analysis,supplemental
+100034,Biotech Specialist 2,T1327,Integrate biomedical data analysis into existing operational workflows,supplemental
+100034,Biotech Specialist 2,T1328,Document technical specifications related to diagnostic systems,core
+100034,Biotech Specialist 2,T1329,Design and optimize genetic sequencing architectures,supplemental
+100034,Biotech Specialist 2,T1330,Document technical specifications related to diagnostic systems,supplemental
+100034,Biotech Specialist 2,T1331,Design and optimize laboratory automation architectures,core
+100034,Biotech Specialist 2,T1332,Integrate genetic sequencing into existing operational workflows,core
+100034,Biotech Specialist 2,T1333,Improve efficiency and reliability of diagnostic systems systems,supplemental
+100034,Biotech Specialist 2,T1334,Improve efficiency and reliability of diagnostic systems systems,core
+100034,Biotech Specialist 2,T1335,Analyze performance of laboratory automation components,core
+100034,Biotech Specialist 2,T1336,Implement testing and validation procedures for genetic sequencing,supplemental
+100034,Biotech Specialist 2,T1337,Integrate laboratory automation into existing operational workflows,supplemental
+100034,Biotech Specialist 2,T1338,Design and optimize biomedical data analysis architectures,supplemental
+100034,Biotech Specialist 2,T1339,Document technical specifications related to laboratory automation,core
+100034,Biotech Specialist 2,T1340,Document technical specifications related to laboratory automation,core
+100034,Biotech Specialist 2,T1341,Improve efficiency and reliability of genetic sequencing systems,core
+100034,Biotech Specialist 2,T1342,Analyze performance of biomedical data analysis components,supplemental
+100034,Biotech Specialist 2,T1343,Develop genetic sequencing solutions for large-scale systems,supplemental
+100034,Biotech Specialist 2,T1344,Design and optimize genetic sequencing architectures,supplemental
+100034,Biotech Specialist 2,T1345,Analyze performance of diagnostic systems components,core
+100034,Biotech Specialist 2,T1346,Implement testing and validation procedures for laboratory automation,core
+100034,Biotech Specialist 2,T1347,Develop genetic sequencing solutions for large-scale systems,supplemental
+100034,Biotech Specialist 2,T1348,Analyze performance of diagnostic systems components,core
+100034,Biotech Specialist 2,T1349,Document technical specifications related to diagnostic systems,supplemental
+100034,Biotech Specialist 2,T1350,Analyze performance of genetic sequencing components,supplemental
+100034,Biotech Specialist 2,T1351,Analyze performance of laboratory automation components,supplemental
+100034,Biotech Specialist 2,T1352,Integrate genetic sequencing into existing operational workflows,core
+100034,Biotech Specialist 2,T1353,Design and optimize genetic sequencing architectures,supplemental
+100034,Biotech Specialist 2,T1354,Design and optimize genetic sequencing architectures,supplemental
+100034,Biotech Specialist 2,T1355,Develop genetic sequencing solutions for large-scale systems,core
+100034,Biotech Specialist 2,T1356,Document technical specifications related to biomedical data analysis,supplemental
+100034,Biotech Specialist 2,T1357,Integrate diagnostic systems into existing operational workflows,core
+100034,Biotech Specialist 2,T1358,Implement testing and validation procedures for biomedical data analysis,supplemental
+100034,Biotech Specialist 2,T1359,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100034,Biotech Specialist 2,T1360,Improve efficiency and reliability of biomedical data analysis systems,core
+100035,Biotech Specialist 3,T1361,Document technical specifications related to laboratory automation,core
+100035,Biotech Specialist 3,T1362,Document technical specifications related to diagnostic systems,supplemental
+100035,Biotech Specialist 3,T1363,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100035,Biotech Specialist 3,T1364,Analyze performance of biomedical data analysis components,core
+100035,Biotech Specialist 3,T1365,Improve efficiency and reliability of biomedical data analysis systems,core
+100035,Biotech Specialist 3,T1366,Document technical specifications related to genetic sequencing,supplemental
+100035,Biotech Specialist 3,T1367,Implement testing and validation procedures for biomedical data analysis,supplemental
+100035,Biotech Specialist 3,T1368,Analyze performance of biomedical data analysis components,core
+100035,Biotech Specialist 3,T1369,Document technical specifications related to biomedical data analysis,core
+100035,Biotech Specialist 3,T1370,Integrate genetic sequencing into existing operational workflows,core
+100035,Biotech Specialist 3,T1371,Analyze performance of genetic sequencing components,supplemental
+100035,Biotech Specialist 3,T1372,Design and optimize diagnostic systems architectures,core
+100035,Biotech Specialist 3,T1373,Design and optimize laboratory automation architectures,supplemental
+100035,Biotech Specialist 3,T1374,Analyze performance of laboratory automation components,core
+100035,Biotech Specialist 3,T1375,Improve efficiency and reliability of biomedical data analysis systems,core
+100035,Biotech Specialist 3,T1376,Integrate biomedical data analysis into existing operational workflows,core
+100035,Biotech Specialist 3,T1377,Design and optimize laboratory automation architectures,supplemental
+100035,Biotech Specialist 3,T1378,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100035,Biotech Specialist 3,T1379,Improve efficiency and reliability of diagnostic systems systems,core
+100035,Biotech Specialist 3,T1380,Analyze performance of diagnostic systems components,core
+100035,Biotech Specialist 3,T1381,Integrate biomedical data analysis into existing operational workflows,core
+100035,Biotech Specialist 3,T1382,Integrate biomedical data analysis into existing operational workflows,core
+100035,Biotech Specialist 3,T1383,Document technical specifications related to diagnostic systems,supplemental
+100035,Biotech Specialist 3,T1384,Integrate biomedical data analysis into existing operational workflows,supplemental
+100035,Biotech Specialist 3,T1385,Develop biomedical data analysis solutions for large-scale systems,supplemental
+100035,Biotech Specialist 3,T1386,Analyze performance of genetic sequencing components,core
+100035,Biotech Specialist 3,T1387,Implement testing and validation procedures for laboratory automation,core
+100035,Biotech Specialist 3,T1388,Analyze performance of biomedical data analysis components,supplemental
+100035,Biotech Specialist 3,T1389,Develop genetic sequencing solutions for large-scale systems,core
+100035,Biotech Specialist 3,T1390,Analyze performance of laboratory automation components,supplemental
+100035,Biotech Specialist 3,T1391,Integrate laboratory automation into existing operational workflows,core
+100035,Biotech Specialist 3,T1392,Develop genetic sequencing solutions for large-scale systems,core
+100035,Biotech Specialist 3,T1393,Integrate biomedical data analysis into existing operational workflows,core
+100035,Biotech Specialist 3,T1394,Implement testing and validation procedures for laboratory automation,core
+100035,Biotech Specialist 3,T1395,Design and optimize laboratory automation architectures,supplemental
+100035,Biotech Specialist 3,T1396,Implement testing and validation procedures for diagnostic systems,core
+100035,Biotech Specialist 3,T1397,Document technical specifications related to genetic sequencing,supplemental
+100035,Biotech Specialist 3,T1398,Document technical specifications related to biomedical data analysis,core
+100035,Biotech Specialist 3,T1399,Analyze performance of biomedical data analysis components,supplemental
+100035,Biotech Specialist 3,T1400,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100036,Biotech Specialist 4,T1401,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100036,Biotech Specialist 4,T1402,Document technical specifications related to biomedical data analysis,supplemental
+100036,Biotech Specialist 4,T1403,Document technical specifications related to genetic sequencing,core
+100036,Biotech Specialist 4,T1404,Design and optimize laboratory automation architectures,supplemental
+100036,Biotech Specialist 4,T1405,Develop biomedical data analysis solutions for large-scale systems,supplemental
+100036,Biotech Specialist 4,T1406,Implement testing and validation procedures for genetic sequencing,supplemental
+100036,Biotech Specialist 4,T1407,Integrate laboratory automation into existing operational workflows,core
+100036,Biotech Specialist 4,T1408,Analyze performance of laboratory automation components,core
+100036,Biotech Specialist 4,T1409,Develop diagnostic systems solutions for large-scale systems,core
+100036,Biotech Specialist 4,T1410,Document technical specifications related to laboratory automation,supplemental
+100036,Biotech Specialist 4,T1411,Document technical specifications related to biomedical data analysis,core
+100036,Biotech Specialist 4,T1412,Develop laboratory automation solutions for large-scale systems,supplemental
+100036,Biotech Specialist 4,T1413,Analyze performance of laboratory automation components,core
+100036,Biotech Specialist 4,T1414,Improve efficiency and reliability of laboratory automation systems,supplemental
+100036,Biotech Specialist 4,T1415,Document technical specifications related to biomedical data analysis,core
+100036,Biotech Specialist 4,T1416,Integrate biomedical data analysis into existing operational workflows,core
+100036,Biotech Specialist 4,T1417,Implement testing and validation procedures for diagnostic systems,core
+100036,Biotech Specialist 4,T1418,Analyze performance of laboratory automation components,core
+100036,Biotech Specialist 4,T1419,Integrate biomedical data analysis into existing operational workflows,core
+100036,Biotech Specialist 4,T1420,Analyze performance of laboratory automation components,core
+100036,Biotech Specialist 4,T1421,Improve efficiency and reliability of laboratory automation systems,supplemental
+100036,Biotech Specialist 4,T1422,Develop laboratory automation solutions for large-scale systems,core
+100036,Biotech Specialist 4,T1423,Develop genetic sequencing solutions for large-scale systems,core
+100036,Biotech Specialist 4,T1424,Implement testing and validation procedures for diagnostic systems,core
+100036,Biotech Specialist 4,T1425,Develop biomedical data analysis solutions for large-scale systems,supplemental
+100036,Biotech Specialist 4,T1426,Design and optimize laboratory automation architectures,supplemental
+100036,Biotech Specialist 4,T1427,Develop laboratory automation solutions for large-scale systems,core
+100036,Biotech Specialist 4,T1428,Design and optimize genetic sequencing architectures,core
+100036,Biotech Specialist 4,T1429,Design and optimize laboratory automation architectures,core
+100036,Biotech Specialist 4,T1430,Improve efficiency and reliability of genetic sequencing systems,core
+100036,Biotech Specialist 4,T1431,Develop laboratory automation solutions for large-scale systems,supplemental
+100036,Biotech Specialist 4,T1432,Integrate biomedical data analysis into existing operational workflows,supplemental
+100036,Biotech Specialist 4,T1433,Improve efficiency and reliability of laboratory automation systems,core
+100036,Biotech Specialist 4,T1434,Document technical specifications related to genetic sequencing,core
+100036,Biotech Specialist 4,T1435,Implement testing and validation procedures for biomedical data analysis,supplemental
+100036,Biotech Specialist 4,T1436,Implement testing and validation procedures for laboratory automation,supplemental
+100036,Biotech Specialist 4,T1437,Improve efficiency and reliability of genetic sequencing systems,core
+100036,Biotech Specialist 4,T1438,Develop genetic sequencing solutions for large-scale systems,core
+100036,Biotech Specialist 4,T1439,Implement testing and validation procedures for diagnostic systems,supplemental
+100036,Biotech Specialist 4,T1440,Implement testing and validation procedures for laboratory automation,supplemental
+100037,Biotech Specialist 5,T1441,Analyze performance of genetic sequencing components,core
+100037,Biotech Specialist 5,T1442,Analyze performance of diagnostic systems components,core
+100037,Biotech Specialist 5,T1443,Design and optimize genetic sequencing architectures,core
+100037,Biotech Specialist 5,T1444,Integrate diagnostic systems into existing operational workflows,supplemental
+100037,Biotech Specialist 5,T1445,Improve efficiency and reliability of diagnostic systems systems,supplemental
+100037,Biotech Specialist 5,T1446,Design and optimize genetic sequencing architectures,core
+100037,Biotech Specialist 5,T1447,Improve efficiency and reliability of diagnostic systems systems,core
+100037,Biotech Specialist 5,T1448,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100037,Biotech Specialist 5,T1449,Implement testing and validation procedures for genetic sequencing,core
+100037,Biotech Specialist 5,T1450,Improve efficiency and reliability of diagnostic systems systems,core
+100037,Biotech Specialist 5,T1451,Implement testing and validation procedures for diagnostic systems,core
+100037,Biotech Specialist 5,T1452,Improve efficiency and reliability of laboratory automation systems,supplemental
+100037,Biotech Specialist 5,T1453,Integrate diagnostic systems into existing operational workflows,core
+100037,Biotech Specialist 5,T1454,Implement testing and validation procedures for biomedical data analysis,core
+100037,Biotech Specialist 5,T1455,Design and optimize laboratory automation architectures,core
+100037,Biotech Specialist 5,T1456,Design and optimize biomedical data analysis architectures,core
+100037,Biotech Specialist 5,T1457,Analyze performance of genetic sequencing components,supplemental
+100037,Biotech Specialist 5,T1458,Integrate genetic sequencing into existing operational workflows,core
+100037,Biotech Specialist 5,T1459,Design and optimize diagnostic systems architectures,supplemental
+100037,Biotech Specialist 5,T1460,Analyze performance of biomedical data analysis components,supplemental
+100037,Biotech Specialist 5,T1461,Implement testing and validation procedures for biomedical data analysis,supplemental
+100037,Biotech Specialist 5,T1462,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100037,Biotech Specialist 5,T1463,Design and optimize laboratory automation architectures,core
+100037,Biotech Specialist 5,T1464,Improve efficiency and reliability of diagnostic systems systems,supplemental
+100037,Biotech Specialist 5,T1465,Document technical specifications related to laboratory automation,core
+100037,Biotech Specialist 5,T1466,Implement testing and validation procedures for diagnostic systems,core
+100037,Biotech Specialist 5,T1467,Design and optimize diagnostic systems architectures,supplemental
+100037,Biotech Specialist 5,T1468,Integrate laboratory automation into existing operational workflows,core
+100037,Biotech Specialist 5,T1469,Integrate diagnostic systems into existing operational workflows,core
+100037,Biotech Specialist 5,T1470,Integrate genetic sequencing into existing operational workflows,supplemental
+100037,Biotech Specialist 5,T1471,Analyze performance of genetic sequencing components,core
+100037,Biotech Specialist 5,T1472,Design and optimize biomedical data analysis architectures,supplemental
+100037,Biotech Specialist 5,T1473,Document technical specifications related to biomedical data analysis,core
+100037,Biotech Specialist 5,T1474,Implement testing and validation procedures for diagnostic systems,core
+100037,Biotech Specialist 5,T1475,Implement testing and validation procedures for genetic sequencing,supplemental
+100037,Biotech Specialist 5,T1476,Analyze performance of biomedical data analysis components,core
+100037,Biotech Specialist 5,T1477,Develop genetic sequencing solutions for large-scale systems,core
+100037,Biotech Specialist 5,T1478,Implement testing and validation procedures for diagnostic systems,core
+100037,Biotech Specialist 5,T1479,Document technical specifications related to diagnostic systems,supplemental
+100037,Biotech Specialist 5,T1480,Develop diagnostic systems solutions for large-scale systems,supplemental
+100038,Biotech Specialist 6,T1481,Implement testing and validation procedures for diagnostic systems,core
+100038,Biotech Specialist 6,T1482,Implement testing and validation procedures for genetic sequencing,core
+100038,Biotech Specialist 6,T1483,Document technical specifications related to genetic sequencing,core
+100038,Biotech Specialist 6,T1484,Develop laboratory automation solutions for large-scale systems,core
+100038,Biotech Specialist 6,T1485,Improve efficiency and reliability of genetic sequencing systems,core
+100038,Biotech Specialist 6,T1486,Analyze performance of diagnostic systems components,core
+100038,Biotech Specialist 6,T1487,Implement testing and validation procedures for laboratory automation,supplemental
+100038,Biotech Specialist 6,T1488,Develop biomedical data analysis solutions for large-scale systems,supplemental
+100038,Biotech Specialist 6,T1489,Design and optimize laboratory automation architectures,supplemental
+100038,Biotech Specialist 6,T1490,Develop genetic sequencing solutions for large-scale systems,supplemental
+100038,Biotech Specialist 6,T1491,Document technical specifications related to diagnostic systems,supplemental
+100038,Biotech Specialist 6,T1492,Document technical specifications related to biomedical data analysis,core
+100038,Biotech Specialist 6,T1493,Develop diagnostic systems solutions for large-scale systems,supplemental
+100038,Biotech Specialist 6,T1494,Implement testing and validation procedures for diagnostic systems,supplemental
+100038,Biotech Specialist 6,T1495,Document technical specifications related to laboratory automation,core
+100038,Biotech Specialist 6,T1496,Analyze performance of genetic sequencing components,core
+100038,Biotech Specialist 6,T1497,Design and optimize biomedical data analysis architectures,supplemental
+100038,Biotech Specialist 6,T1498,Improve efficiency and reliability of biomedical data analysis systems,core
+100038,Biotech Specialist 6,T1499,Integrate genetic sequencing into existing operational workflows,supplemental
+100038,Biotech Specialist 6,T1500,Design and optimize biomedical data analysis architectures,core
+100038,Biotech Specialist 6,T1501,Improve efficiency and reliability of laboratory automation systems,supplemental
+100038,Biotech Specialist 6,T1502,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100038,Biotech Specialist 6,T1503,Document technical specifications related to biomedical data analysis,supplemental
+100038,Biotech Specialist 6,T1504,Develop biomedical data analysis solutions for large-scale systems,core
+100038,Biotech Specialist 6,T1505,Integrate genetic sequencing into existing operational workflows,core
+100038,Biotech Specialist 6,T1506,Implement testing and validation procedures for biomedical data analysis,supplemental
+100038,Biotech Specialist 6,T1507,Document technical specifications related to diagnostic systems,core
+100038,Biotech Specialist 6,T1508,Document technical specifications related to laboratory automation,core
+100038,Biotech Specialist 6,T1509,Improve efficiency and reliability of laboratory automation systems,core
+100038,Biotech Specialist 6,T1510,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100038,Biotech Specialist 6,T1511,Integrate biomedical data analysis into existing operational workflows,supplemental
+100038,Biotech Specialist 6,T1512,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100038,Biotech Specialist 6,T1513,Implement testing and validation procedures for diagnostic systems,core
+100038,Biotech Specialist 6,T1514,Implement testing and validation procedures for diagnostic systems,core
+100038,Biotech Specialist 6,T1515,Document technical specifications related to laboratory automation,core
+100038,Biotech Specialist 6,T1516,Document technical specifications related to biomedical data analysis,core
+100038,Biotech Specialist 6,T1517,Design and optimize genetic sequencing architectures,supplemental
+100038,Biotech Specialist 6,T1518,Improve efficiency and reliability of diagnostic systems systems,core
+100038,Biotech Specialist 6,T1519,Develop diagnostic systems solutions for large-scale systems,core
+100038,Biotech Specialist 6,T1520,Develop genetic sequencing solutions for large-scale systems,core
+100039,Biotech Specialist 7,T1521,Implement testing and validation procedures for laboratory automation,core
+100039,Biotech Specialist 7,T1522,Analyze performance of biomedical data analysis components,core
+100039,Biotech Specialist 7,T1523,Design and optimize diagnostic systems architectures,core
+100039,Biotech Specialist 7,T1524,Design and optimize genetic sequencing architectures,core
+100039,Biotech Specialist 7,T1525,Design and optimize diagnostic systems architectures,core
+100039,Biotech Specialist 7,T1526,Integrate biomedical data analysis into existing operational workflows,supplemental
+100039,Biotech Specialist 7,T1527,Improve efficiency and reliability of laboratory automation systems,core
+100039,Biotech Specialist 7,T1528,Improve efficiency and reliability of diagnostic systems systems,core
+100039,Biotech Specialist 7,T1529,Design and optimize biomedical data analysis architectures,supplemental
+100039,Biotech Specialist 7,T1530,Analyze performance of laboratory automation components,core
+100039,Biotech Specialist 7,T1531,Develop genetic sequencing solutions for large-scale systems,core
+100039,Biotech Specialist 7,T1532,Design and optimize biomedical data analysis architectures,core
+100039,Biotech Specialist 7,T1533,Analyze performance of laboratory automation components,supplemental
+100039,Biotech Specialist 7,T1534,Improve efficiency and reliability of diagnostic systems systems,core
+100039,Biotech Specialist 7,T1535,Integrate diagnostic systems into existing operational workflows,core
+100039,Biotech Specialist 7,T1536,Design and optimize laboratory automation architectures,core
+100039,Biotech Specialist 7,T1537,Integrate genetic sequencing into existing operational workflows,core
+100039,Biotech Specialist 7,T1538,Analyze performance of laboratory automation components,supplemental
+100039,Biotech Specialist 7,T1539,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100039,Biotech Specialist 7,T1540,Document technical specifications related to laboratory automation,core
+100039,Biotech Specialist 7,T1541,Document technical specifications related to diagnostic systems,core
+100039,Biotech Specialist 7,T1542,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100039,Biotech Specialist 7,T1543,Integrate diagnostic systems into existing operational workflows,supplemental
+100039,Biotech Specialist 7,T1544,Analyze performance of genetic sequencing components,supplemental
+100039,Biotech Specialist 7,T1545,Improve efficiency and reliability of biomedical data analysis systems,core
+100039,Biotech Specialist 7,T1546,Integrate biomedical data analysis into existing operational workflows,core
+100039,Biotech Specialist 7,T1547,Integrate biomedical data analysis into existing operational workflows,core
+100039,Biotech Specialist 7,T1548,Integrate laboratory automation into existing operational workflows,core
+100039,Biotech Specialist 7,T1549,Implement testing and validation procedures for biomedical data analysis,core
+100039,Biotech Specialist 7,T1550,Improve efficiency and reliability of laboratory automation systems,supplemental
+100039,Biotech Specialist 7,T1551,Document technical specifications related to diagnostic systems,core
+100039,Biotech Specialist 7,T1552,Design and optimize diagnostic systems architectures,core
+100039,Biotech Specialist 7,T1553,Document technical specifications related to biomedical data analysis,core
+100039,Biotech Specialist 7,T1554,Improve efficiency and reliability of biomedical data analysis systems,core
+100039,Biotech Specialist 7,T1555,Integrate genetic sequencing into existing operational workflows,core
+100039,Biotech Specialist 7,T1556,Design and optimize laboratory automation architectures,core
+100039,Biotech Specialist 7,T1557,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100039,Biotech Specialist 7,T1558,Develop diagnostic systems solutions for large-scale systems,core
+100039,Biotech Specialist 7,T1559,Design and optimize laboratory automation architectures,core
+100039,Biotech Specialist 7,T1560,Design and optimize diagnostic systems architectures,core
+100040,Biotech Specialist 8,T1561,Implement testing and validation procedures for genetic sequencing,supplemental
+100040,Biotech Specialist 8,T1562,Document technical specifications related to diagnostic systems,core
+100040,Biotech Specialist 8,T1563,Develop laboratory automation solutions for large-scale systems,core
+100040,Biotech Specialist 8,T1564,Develop diagnostic systems solutions for large-scale systems,supplemental
+100040,Biotech Specialist 8,T1565,Integrate diagnostic systems into existing operational workflows,supplemental
+100040,Biotech Specialist 8,T1566,Document technical specifications related to genetic sequencing,supplemental
+100040,Biotech Specialist 8,T1567,Implement testing and validation procedures for diagnostic systems,supplemental
+100040,Biotech Specialist 8,T1568,Implement testing and validation procedures for biomedical data analysis,core
+100040,Biotech Specialist 8,T1569,Implement testing and validation procedures for genetic sequencing,core
+100040,Biotech Specialist 8,T1570,Document technical specifications related to diagnostic systems,supplemental
+100040,Biotech Specialist 8,T1571,Implement testing and validation procedures for biomedical data analysis,supplemental
+100040,Biotech Specialist 8,T1572,Design and optimize laboratory automation architectures,core
+100040,Biotech Specialist 8,T1573,Design and optimize diagnostic systems architectures,core
+100040,Biotech Specialist 8,T1574,Analyze performance of genetic sequencing components,supplemental
+100040,Biotech Specialist 8,T1575,Improve efficiency and reliability of biomedical data analysis systems,core
+100040,Biotech Specialist 8,T1576,Improve efficiency and reliability of diagnostic systems systems,core
+100040,Biotech Specialist 8,T1577,Document technical specifications related to laboratory automation,core
+100040,Biotech Specialist 8,T1578,Improve efficiency and reliability of genetic sequencing systems,supplemental
+100040,Biotech Specialist 8,T1579,Design and optimize biomedical data analysis architectures,core
+100040,Biotech Specialist 8,T1580,Design and optimize genetic sequencing architectures,supplemental
+100040,Biotech Specialist 8,T1581,Implement testing and validation procedures for biomedical data analysis,core
+100040,Biotech Specialist 8,T1582,Analyze performance of genetic sequencing components,supplemental
+100040,Biotech Specialist 8,T1583,Implement testing and validation procedures for laboratory automation,supplemental
+100040,Biotech Specialist 8,T1584,Improve efficiency and reliability of biomedical data analysis systems,supplemental
+100040,Biotech Specialist 8,T1585,Develop diagnostic systems solutions for large-scale systems,core
+100040,Biotech Specialist 8,T1586,Integrate laboratory automation into existing operational workflows,core
+100040,Biotech Specialist 8,T1587,Integrate genetic sequencing into existing operational workflows,core
+100040,Biotech Specialist 8,T1588,Integrate genetic sequencing into existing operational workflows,core
+100040,Biotech Specialist 8,T1589,Implement testing and validation procedures for genetic sequencing,supplemental
+100040,Biotech Specialist 8,T1590,Design and optimize diagnostic systems architectures,supplemental
+100040,Biotech Specialist 8,T1591,Document technical specifications related to diagnostic systems,core
+100040,Biotech Specialist 8,T1592,Design and optimize biomedical data analysis architectures,core
+100040,Biotech Specialist 8,T1593,Develop genetic sequencing solutions for large-scale systems,core
+100040,Biotech Specialist 8,T1594,Integrate laboratory automation into existing operational workflows,core
+100040,Biotech Specialist 8,T1595,Design and optimize biomedical data analysis architectures,core
+100040,Biotech Specialist 8,T1596,Integrate biomedical data analysis into existing operational workflows,core
+100040,Biotech Specialist 8,T1597,Develop biomedical data analysis solutions for large-scale systems,core
+100040,Biotech Specialist 8,T1598,Implement testing and validation procedures for genetic sequencing,core
+100040,Biotech Specialist 8,T1599,Integrate biomedical data analysis into existing operational workflows,supplemental
+100040,Biotech Specialist 8,T1600,Implement testing and validation procedures for laboratory automation,core
