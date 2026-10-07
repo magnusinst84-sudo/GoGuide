@@ -79,9 +79,16 @@
     "exams": [
       "SRMJEEE"
     ],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
     "adjacent": [
-      "btech-cse-govt"
+      "btech-cse-govt",
+      "mbbs-govt",
+      "mbbs-private"
     ],
     "sources": {
       "_note": "Representative institution type: mid-tier private engineering university in South India (e.g., SRM Institute of Science and Technology).",
@@ -197,7 +204,12 @@
     "exams": [
       "JEE Main"
     ],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
     "adjacent": [
       "biomedical-eng"
     ],
@@ -299,9 +311,7 @@
     ],
     "exams": [],
     "scholarship_ids": [],
-    "adjacent": [
-      "btech-cse-govt"
-    ],
+    "adjacent": [],
     "sources": {
       "_note": "Placeholder values; not sourced. Salary, tuition, coaching and city_demand are unsupported guesses. Exclude from any result that is shown as data until replaced."
     },
@@ -406,7 +416,12 @@
     "exams": [
       "SRMJEEE"
     ],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
     "adjacent": [
       "btech-cse-govt"
     ],
@@ -533,7 +548,12 @@
     "exams": [
       "SRMJEEE"
     ],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
     "adjacent": [
       "btech-cse-private",
       "btech-cse-govt"
@@ -652,9 +672,13 @@
     "exams": [
       "NEET"
     ],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pm-csss",
+      "pudhumai-penn"
+    ],
     "adjacent": [
-      "mbbs-private"
+      "mbbs-private",
+      "biomedical-eng"
     ],
     "sources": {
       "_note": "Representative institution type: government medical college (state or central). Tuition based on MCC/state counselling fee schedules. salary.y1 and y3 reflect government resident/house officer stipend; y5 assumes post-PG independent practice.",
@@ -772,9 +796,13 @@
     "exams": [
       "NEET"
     ],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pm-csss",
+      "pudhumai-penn"
+    ],
     "adjacent": [
-      "mbbs-govt"
+      "mbbs-govt",
+      "biomedical-eng"
     ],
     "sources": {
       "_note": "Representative institution type: private medical college admitted via MCC/state NEET counselling. Tuition tests the affordability gate. Salary fields identical to mbbs-govt (same clinical path); career_risk higher due to loan burden.",
@@ -885,7 +913,9 @@
       }
     ],
     "exams": [],
-    "scholarship_ids": [],
+    "scholarship_ids": [
+      "pudhumai-penn"
+    ],
     "adjacent": [
       "btech-cse-govt"
     ],
