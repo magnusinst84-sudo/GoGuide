@@ -1,0 +1,56 @@
+[
+  {
+    "id": "blr-water-tanker",
+    "city": "Bengaluru",
+    "problem": "Peripheral areas of the city rely on private water tankers with little price transparency or quality assurance, making it hard for residents to compare vendors or raise complaints.",
+    "domain_tags": ["water", "civic-tech", "logistics"],
+    "skill_tags": ["programming", "logic"],
+    "project_idea": "A web or WhatsApp-based aggregator for registered water tanker vendors, letting residents compare rates and report quality issues to the relevant civic authority.",
+    "source": "idea"
+  },
+  {
+    "id": "blr-ewaste-dropoff",
+    "city": "Bengaluru",
+    "problem": "Urban households have limited awareness of authorised e-waste collection points. Informal collectors often handle e-waste without safety measures.",
+    "domain_tags": ["e-waste", "environment", "civic-tech"],
+    "skill_tags": ["programming", "design"],
+    "project_idea": "A map of authorised e-waste collection points maintained by the state pollution control authority, with a simple booking flow for household drop-offs.",
+    "source": "idea"
+  },
+  {
+    "id": "chn-flood-alert",
+    "city": "Chennai",
+    "problem": "Low-lying neighbourhoods experience recurrent waterlogging during the northeast monsoon, and early warnings do not reliably reach residents in local languages.",
+    "domain_tags": ["climate", "disaster-risk", "civic-tech"],
+    "skill_tags": ["programming", "statistics", "communication"],
+    "project_idea": "A Tamil-language flood alert bot (Telegram or WhatsApp) ingesting publicly available rainfall data from the national weather agency and sending ward-level warnings ahead of expected flooding.",
+    "source": "idea"
+  },
+  {
+    "id": "chn-govt-hospital-queue",
+    "city": "Chennai",
+    "problem": "Patients at government hospitals spend considerable time waiting for OPD tokens with no prior visibility into department load, leading to avoidable travel during high-demand periods.",
+    "domain_tags": ["health", "civic-tech"],
+    "skill_tags": ["programming", "design", "communication"],
+    "project_idea": "A live queue display (web dashboard or in-hospital screen) showing OPD load by department, so patients can check before travelling.",
+    "source": "idea"
+  },
+  {
+    "id": "hyd-air-quality-hyperlocal",
+    "city": "Hyderabad",
+    "problem": "The official air quality monitoring network has limited coverage in older city areas and near industrial zones, leaving residents without hyperlocal pollution data.",
+    "domain_tags": ["environment", "health", "iot"],
+    "skill_tags": ["electronics", "programming", "statistics"],
+    "project_idea": "A low-cost PM2.5 sensor network deployed at schools and community centres, with a live map shared with the state pollution control authority.",
+    "source": "idea"
+  },
+  {
+    "id": "pune-solid-waste",
+    "city": "Pune",
+    "problem": "Wet and dry waste segregation compliance varies across city wards, and civic supervisors lack a real-time view of which areas need follow-up.",
+    "domain_tags": ["environment", "civic-tech", "logistics"],
+    "skill_tags": ["programming", "statistics", "logic"],
+    "project_idea": "A mobile app for waste collection staff to log segregation status per stop, with a ward-level compliance heatmap for supervisors.",
+    "source": "idea"
+  }
+]

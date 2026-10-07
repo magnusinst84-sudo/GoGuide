@@ -1,0 +1,194 @@
+[
+  {
+    "id": "i01",
+    "kind": "interest",
+    "text": "I enjoy taking things apart to see how they work.",
+    "dimension": "R"
+  },
+  {
+    "id": "i02",
+    "kind": "interest",
+    "text": "I like fixing everyday objects, cycles, or loose furniture with hand tools.",
+    "dimension": "R"
+  },
+  {
+    "id": "i03",
+    "kind": "interest",
+    "text": "I enjoy working outdoors with plants, soil, or physical building materials.",
+    "dimension": "R"
+  },
+  {
+    "id": "i04",
+    "kind": "interest",
+    "text": "I like assembling models, physical crafts, or DIY kits with my hands.",
+    "dimension": "R"
+  },
+  {
+    "id": "i05",
+    "kind": "interest",
+    "text": "I enjoy doing experiments to see how different things react.",
+    "dimension": "I"
+  },
+  {
+    "id": "i06",
+    "kind": "interest",
+    "text": "I like researching the scientific reasons behind natural phenomena or daily events.",
+    "dimension": "I"
+  },
+  {
+    "id": "i07",
+    "kind": "interest",
+    "text": "I enjoy solving brain teasers, riddles, or math puzzles for fun.",
+    "dimension": "I"
+  },
+  {
+    "id": "i08",
+    "kind": "interest",
+    "text": "I like reading articles about scientific discoveries or new technologies.",
+    "dimension": "I"
+  },
+  {
+    "id": "i09",
+    "kind": "interest",
+    "text": "I enjoy drawing, sketching, painting, or creating digital artwork.",
+    "dimension": "A"
+  },
+  {
+    "id": "i10",
+    "kind": "interest",
+    "text": "I like writing short stories, poems, personal blogs, or essays.",
+    "dimension": "A"
+  },
+  {
+    "id": "i11",
+    "kind": "interest",
+    "text": "I enjoy playing a musical instrument or singing.",
+    "dimension": "A"
+  },
+  {
+    "id": "i12",
+    "kind": "interest",
+    "text": "I like designing visually appealing slides, posters, or room decorations.",
+    "dimension": "A"
+  },
+  {
+    "id": "i13",
+    "kind": "interest",
+    "text": "I enjoy explaining difficult school topics or homework to my friends.",
+    "dimension": "S"
+  },
+  {
+    "id": "i14",
+    "kind": "interest",
+    "text": "I like volunteering to help people in my school or neighborhood.",
+    "dimension": "S"
+  },
+  {
+    "id": "i15",
+    "kind": "interest",
+    "text": "I enjoy listening to people when they talk about their problems.",
+    "dimension": "S"
+  },
+  {
+    "id": "i16",
+    "kind": "interest",
+    "text": "I like helping friends sort out a disagreement.",
+    "dimension": "S"
+  },
+  {
+    "id": "i17",
+    "kind": "interest",
+    "text": "I enjoy pitching new project ideas or persuading others to join them.",
+    "dimension": "E"
+  },
+  {
+    "id": "i18",
+    "kind": "interest",
+    "text": "I like taking the lead when a team needs direction on a task.",
+    "dimension": "E"
+  },
+  {
+    "id": "i19",
+    "kind": "interest",
+    "text": "I enjoy planning school stalls, events, or fundraising activities.",
+    "dimension": "E"
+  },
+  {
+    "id": "i20",
+    "kind": "interest",
+    "text": "I like negotiating prices, trades, or finding win-win agreements.",
+    "dimension": "E"
+  },
+  {
+    "id": "i21",
+    "kind": "interest",
+    "text": "I enjoy keeping my notes, files, and study desk neatly organized.",
+    "dimension": "C"
+  },
+  {
+    "id": "i22",
+    "kind": "interest",
+    "text": "I prefer clear rules and step-by-step instructions to working it out myself.",
+    "dimension": "C"
+  },
+  {
+    "id": "i23",
+    "kind": "interest",
+    "text": "I enjoy tracking expenses, pocket money, or keeping careful lists of details.",
+    "dimension": "C"
+  },
+  {
+    "id": "i24",
+    "kind": "interest",
+    "text": "I like checking written work or calculations carefully to catch small errors.",
+    "dimension": "C"
+  },
+  {
+    "id": "s01",
+    "kind": "skill",
+    "text": "How comfortable are you with math and algebra concepts?",
+    "skill": "math"
+  },
+  {
+    "id": "s02",
+    "kind": "skill",
+    "text": "How comfortable are you with interpreting charts, graphs, and statistics?",
+    "skill": "statistics"
+  },
+  {
+    "id": "s03",
+    "kind": "skill",
+    "text": "How comfortable are you with writing computer code or algorithms?",
+    "skill": "programming"
+  },
+  {
+    "id": "s04",
+    "kind": "skill",
+    "text": "How comfortable are you with step-by-step logical reasoning and puzzles?",
+    "skill": "logic"
+  },
+  {
+    "id": "s05",
+    "kind": "skill",
+    "text": "How comfortable are you with speaking and writing clearly to others?",
+    "skill": "communication"
+  },
+  {
+    "id": "s06",
+    "kind": "skill",
+    "text": "How comfortable are you with visual design, layouts, and aesthetics?",
+    "skill": "design"
+  },
+  {
+    "id": "s07",
+    "kind": "skill",
+    "text": "How comfortable are you with concepts in biology and living systems?",
+    "skill": "biology"
+  },
+  {
+    "id": "s08",
+    "kind": "skill",
+    "text": "How comfortable are you with understanding circuits and electronic components?",
+    "skill": "electronics"
+  }
+]
