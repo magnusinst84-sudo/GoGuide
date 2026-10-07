@@ -1,0 +1,27 @@
+# Large generated data artifacts
+data/crosswalks/skill_crosswalk.csv
+data/processed/prism_resume_intelligence/05_person_skills.csv
+
+# Raw datasets
+data/raw/
+
+# Model weights
+models/*.gguf
+models/*.safetensors
+models/*.bin
+training/adapters/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.*.local
