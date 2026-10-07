@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
@@ -76,6 +80,8 @@ def create_action_plan(): return not_implemented_response()
 
 from app.api.llm import router as llm_router
 from app.api.guide import router as guide_router
+from app.api.quick_doubts import router as quick_doubts_router
 
 app.include_router(llm_router, prefix="/api/llm")
 app.include_router(guide_router, prefix="/api/guide")
+app.include_router(quick_doubts_router, prefix="/api/quick-doubts")
