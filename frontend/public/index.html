@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="GoGuide - Your premier academic and career pathfinder. Navigate learning roadmaps, curated resources, and career growth.">
+  <meta name="keywords" content="GoGuide, learning paths, career guide, education, skill progression">
+  <title>GoGuide - Master Your Path</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="heropage_logo.jpg">
+</head>
+
+<body>
+
+  <!-- Hero Section with heropage.jpg background -->
+  <section class="hero-wrapper" id="home">
+    <!-- Top Navigation Header -->
+    <header class="hero-header">
+      <nav class="top-nav" aria-label="Main Navigation">
+        <!-- FAQ Section Button -->
+        <a href="#faq" class="button nav-btn" id="faqNavBtn" role="button">FAQ Section</a>
+
+        <!-- GitHub Icon With Link Button -->
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="button nav-btn github-btn"
+          id="githubNavBtn" aria-label="Visit GoGuide on GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+          <span>GitHub</span>
+        </a>
+
+        <!-- Signup Button -->
+        <button type="button" class="button nav-btn" id="signupNavBtn">Signup</button>
+      </nav>
+    </header>
+
+    <!-- Main Hero Presentation Area -->
+    <main class="hero-main">
+      <div class="hero-content-box">
+        <h1 class="hero-title">
+          <span class="title-accent">GoGuide</span>
+        </h1>
+
+        <p class="hero-description">
+          Unlock structured study roadmaps, interactive skill tracking, and comprehensive industry resources built for
+          ambitious learners.
+        </p>
+
+        <!-- Start Now Button (User's btn-17 class) -->
+        <div class="hero-cta-group">
+          <button type="button" class="btn-17" id="startNowBtn">
+            <span class="text-container">
+              <span class="text">START NOW <span class="arrow">&rarr;</span></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <!-- Student Academic Inputs Section (Shares same heropage.jpg background) -->
+  <section class="student-inputs-section" id="studentInputs">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Step 1 &bull; Academic Profile</span>
+        <h2 class="section-title inputs-section-title">Enter Your Details</h2>
+        <p class="section-subtitle">
+          Tell us your stream, performance, and location so we can chart the best roadmap for you.
+        </p>
+      </div>
+
+      <div class="inputs-card">
+        <form class="inputs-form" id="studentDetailsForm">
+          <div class="inputs-grid">
+            <!-- 1. Academic stream -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="academicStream">
+                Academic stream <span class="req-star">*</span>
+              </label>
+              <select class="input" id="academicStream" name="academicStream" required>
+                <option value="" disabled selected>Select stream</option>
+                <option value="science_pcm">Science – PCM</option>
+                <option value="science_pcb">Science – PCB</option>
+                <option value="science_pcmb">Science – PCMB</option>
+                <option value="commerce_math">Commerce with Maths</option>
+                <option value="commerce_no_math">Commerce</option>
+                <option value="arts_humanities">Arts / Humanities</option>
+                <option value="engineering">Engineering (UG)</option>
+                <option value="medical">Medical Sciences</option>
+                <option value="vocational">Vocational / Diploma</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="input-helper-text">Your primary field of study</span>
+            </div>
+
+            <!-- 2. Latest marks percentage -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="marksPercentage">
+                Latest marks percentage <span class="req-star">*</span>
+              </label>
+              <div class="marks-input-container">
+                <input class="input" type="number" id="marksPercentage" name="marksPercentage" min="0" max="100" step="0.1" placeholder="e.g. 88.5" required />
+                <span class="marks-symbol">%</span>
+              </div>
+              <span class="input-helper-text">Most recent score (0–100%)</span>
+            </div>
+
+            <!-- 3. Current city -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="currentCity">
+                Current city <span class="req-star">*</span>
+              </label>
+              <input class="input" type="text" id="currentCity" name="currentCity" placeholder="e.g. Mumbai" required autocomplete="address-level2" />
+              <span class="input-helper-text">Where you study or live</span>
+            </div>
+          </div>
+
+          <div class="inputs-action-row">
+            <button type="submit" class="button continue-action-btn" id="continueToInterestBtn">
+              <span>Continue &rarr;</span>
+            </button>
+            <p class="inputs-disclaimer">Your information helps tailor your guidance milestones.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 2: 24 Interest Assessment Questions (Horizontal Scroll via GSAP) -->
+  <section class="interest-assessment-section" id="interestSection">
+    <div class="interest-fixed-header">
+      <div class="interest-header-content">
+        <span class="section-tag">Step 2 &bull; Interest Assessment</span>
+        <h2 class="section-title interest-section-title">Discover Your Passions</h2>
+        <p class="section-subtitle interest-section-subtitle">
+          Rate how genuinely each activity interests you. Scroll down to cycle horizontally through all 24 questions.
+        </p>
+
+        <!-- Progress strip & Controls -->
+        <div class="interest-tracker-bar">
+          <div class="tracker-left">
+            <span class="tracker-question-badge" id="currentQBadge">Question 1 of 24</span>
+            <div class="tracker-progress-track">
+              <div class="tracker-progress-fill" id="interestProgressFill" style="width: 4%;"></div>
+            </div>
+          </div>
+          <div class="tracker-right">
+            <span class="tracker-answered-pill" id="interestAnsweredPill">0 / 24 answered</span>
+            <div class="tracker-nav-arrows">
+              <button type="button" class="tracker-arrow-btn" id="prevQuestionBtn" aria-label="Previous question">&larr;</button>
+              <button type="button" class="tracker-arrow-btn" id="nextQuestionBtn" aria-label="Next question">&rarr;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pinned Horizontal Carousel Track -->
+    <div class="interest-viewport" id="interestViewport">
+      <div class="interest-horizontal-track" id="interestTrack">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Light Gray Body Area) -->
+  <section class="faq-section" id="faq">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Frequently Asked Questions</span>
+        <h2 class="section-title">Everything You Need to Know</h2>
+        <p class="section-subtitle">
+          Got questions about GoGuide? Here are the most common inquiries from our community.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <button type="button" class="faq-question" aria-expanded="true">
+            <span>What is GoGuide and how does it work?</span>
+            <div class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            GoGuide is an intelligent career and learning platform designed to chart clear, step-by-step roadmaps for
+            university students and self-taught developers. Simply select your desired path, and GoGuide generates
+            tailored curricula and milestones.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Is GoGuide completely free to use?</span>
+            <div class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Yes! All core learning roadmaps, community questions, and starter milestones are 100% free and open-source.
+            We believe quality education should be accessible to everyone worldwide.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Can I contribute to GoGuide on GitHub?</span>
+            <div class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Absolutely! We welcome open-source contributions from developers and educators worldwide. Click the GitHub
+            link at the top to access our repository, review issues, and submit pull requests.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>How do I get started right away?</span>
+            <div class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            Simply click the <strong>Start Now</strong> button above or hit <strong>Signup</strong> to create your
+            profile and personalize your learning journey in under 60 seconds.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 GoGuide Inc. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Back to Top</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#privacy">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Signup Modal Dialog -->
+  <dialog id="signupDialog" aria-labelledby="signupTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="signupTitle">Create Account</h2>
+          <p class="modal-subtitle">Join thousands accelerating their learning path</p>
+        </div>
+        <button type="button" class="close-btn" id="closeSignupDialog" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <form id="signupForm" onsubmit="event.preventDefault(); window.handleSignupSubmit();">
+        <div class="form-group">
+          <label for="fullName" class="form-label">Full Name</label>
+          <input type="text" id="fullName" class="form-input" placeholder="Alex Morgan" required>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" id="email" class="form-input" placeholder="alex@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" class="form-input" placeholder="••••••••" required minlength="6">
+        </div>
+
+        <button type="submit" class="submit-btn">Create Free Account</button>
+      </form>
+
+      <div class="social-auth">
+        <p class="social-title">Or continue with</p>
+        <div class="social-buttons">
+          <button type="button" class="social-btn" onclick="window.showToast('Connecting to GitHub...')">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+            GitHub
+          </button>
+          <button type="button" class="social-btn" onclick="window.showToast('Connecting to Google...')">
+            <svg viewBox="0 0 24 24">
+              <path fill="#4285F4"
+                d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z" />
+              <path fill="#34A853"
+                d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.26v3.15C3.25 21.37 7.3 24 12 24z" />
+              <path fill="#FBBC05"
+                d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.26C.46 8.17 0 9.99 0 12s.46 3.83 1.26 5.42l4.02-3.15z" />
+              <path fill="#EA4335"
+                d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.3 0 3.25 2.63 1.26 6.58l4.02 3.15c.95-2.83 3.6-4.98 6.72-4.98z" />
+            </svg>
+            Google
+          </button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Start Now Onboarding Dialog -->
+  <dialog id="startDialog" aria-labelledby="startTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="startTitle">Welcome to GoGuide! &#x1F680;</h2>
+          <p class="modal-subtitle">Pick your primary goal to begin exploration</p>
+        </div>
+        <button type="button" class="close-btn" id="closeStartDialog" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.9rem; margin: 1.5rem 0;">
+        <button type="button" class="button"
+          style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
+          onclick="window.selectTrack('Web Development & Engineering')">
+          &#128187; Software &amp; Web Development
+        </button>
+        <button type="button" class="button"
+          style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
+          onclick="window.selectTrack('Data Science & AI')">
+          &#129302; Data Science &amp; AI
+        </button>
+        <button type="button" class="button"
+          style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
+          onclick="window.selectTrack('Cybersecurity & Cloud')">
+          &#128272; Cybersecurity &amp; Cloud Systems
+        </button>
+      </div>
+
+      <p style="font-size: 0.85rem; color: #64748b; text-align: center;">
+        Need personalized assistance? Reach out anytime via our GitHub repository.
+      </p>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- GSAP, ScrollTrigger & ScrollToPlugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
