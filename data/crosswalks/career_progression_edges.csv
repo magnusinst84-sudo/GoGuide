@@ -1,0 +1,44 @@
+source_occupation_id,target_occupation_id,transition_type,source_file,confidence,provenance,notes
+GGOCC-00017,GGOCC-00015,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00017,GGOCC-00222,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00015,GGOCC-00128,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00237,GGOCC-00266,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00266,GGOCC-00124,Cross-Domain Specialization,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00236,GGOCC-00257,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00279,GGOCC-00225,Management Track,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00160,GGOCC-00016,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00036,GGOCC-00196,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00036,GGOCC-00199,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-17789,GGOCC-00290,Management Track,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-08369,GGOCC-00180,Management Track,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00110,GGOCC-00235,Cross-Domain Specialization,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00110,GGOCC-00033,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00294,GGOCC-00307,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00115,GGOCC-00222,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00115,GGOCC-00196,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00269,GGOCC-00035,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00026,GGOCC-00097,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00097,GGOCC-00326,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00306,GGOCC-01901,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00162,GGOCC-00225,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00162,GGOCC-00199,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00225,GGOCC-00199,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00036,GGOCC-00959,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-17789,GGOCC-00081,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00290,GGOCC-00180,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00222,GGOCC-00015,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00015,GGOCC-00128,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00128,GGOCC-00284,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00013,GGOCC-00059,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00266,GGOCC-00124,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00124,GGOCC-00237,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00053,GGOCC-00242,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-08369,GGOCC-00148,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00148,GGOCC-00043,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00235,GGOCC-00033,Vertical Progression,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00207,GGOCC-00110,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00207,GGOCC-00235,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00294,GGOCC-00272,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00307,GGOCC-00272,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00201,GGOCC-00263,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
+GGOCC-00287,GGOCC-00214,Lateral Career Transition,data/processed/prism_education_career/career_progression.csv,1.0,PRISM Synthetic Progression Model,Career advancement path
