@@ -1,0 +1,62 @@
+[
+  {
+    "source_dataset": "prism_india_jobs",
+    "source_file": "india_job_market_2024_2026.csv",
+    "source_filepath": "processed/prism_india_jobs/india_job_market_2024_2026.csv",
+    "source_column": "City",
+    "non_null_loc_count": 5000,
+    "unique_raw_loc_count": 17,
+    "sample_raw_values": [
+      "Remote",
+      "Kolkata",
+      "Chandigarh",
+      "Lucknow",
+      "Ahmedabad"
+    ]
+  },
+  {
+    "source_dataset": "prism_job_descriptions",
+    "source_file": "adzuna_global_job_listings_2025.csv",
+    "source_filepath": "processed/prism_job_descriptions/adzuna_global_job_listings_2025.csv",
+    "source_column": "location_display",
+    "non_null_loc_count": 17350,
+    "unique_raw_loc_count": 4985,
+    "sample_raw_values": [
+      "Armonk, Westchester County",
+      "Fountain, El Paso County",
+      "Bayou Blue, Terrebonne Parish",
+      "Town N Country, Hillsborough County",
+      "Huntington, Chittenden County"
+    ]
+  },
+  {
+    "source_dataset": "prism_resume_intelligence",
+    "source_file": "03_education.csv",
+    "source_filepath": "processed/prism_resume_intelligence/03_education.csv",
+    "source_column": "location",
+    "non_null_loc_count": 52734,
+    "unique_raw_loc_count": 3793,
+    "sample_raw_values": [
+      "Golden, CO",
+      "Fort Bragg, NC",
+      "Manassas, VA",
+      "Kendall, FL",
+      "Turlock, CA"
+    ]
+  },
+  {
+    "source_dataset": "prism_resume_intelligence",
+    "source_file": "04_experience.csv",
+    "source_filepath": "processed/prism_resume_intelligence/04_experience.csv",
+    "source_column": "location",
+    "non_null_loc_count": 212307,
+    "unique_raw_loc_count": 8542,
+    "sample_raw_values": [
+      "Golden, CO",
+      "Brooksville, FL",
+      "Corinth, Texas",
+      "Manassas, VA",
+      "Kendall, FL"
+    ]
+  }
+]

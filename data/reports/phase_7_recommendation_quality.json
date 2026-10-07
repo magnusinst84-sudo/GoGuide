@@ -1,0 +1,24 @@
+{
+  "total_students": 4529,
+  "eligible_students": 4529,
+  "total_recommendations": 22645,
+  "students_with_exactly_5": 4529,
+  "duplicate_recommendations": 0,
+  "invalid_occupation_ids": 0,
+  "invalid_student_ids": 0,
+  "score_min": 1.0,
+  "score_max": 1.0,
+  "score_mean": 1.0,
+  "confidence_distribution": {
+    "LOW": 22645
+  },
+  "factor_availability": {
+    "market_opportunity": 4529,
+    "progression": 22645,
+    "student_fit": 1
+  },
+  "market_evidence_distribution": {
+    "REAL_JOB_FEED": 4529,
+    "NOT_AVAILABLE": 18116
+  }
+}

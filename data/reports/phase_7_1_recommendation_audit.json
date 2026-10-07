@@ -1,0 +1,2868 @@
+{
+  "score_distribution": {
+    "unique_scores": [
+      1.0
+    ],
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "count": 22645,
+    "scores_by_rank_mean": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+    },
+    "students_all_5_scores_equal": 4529,
+    "pct_all_5_scores_equal": 100.0,
+    "unique_occupations_in_recs": 5
+  },
+  "sample_traces_20_students": [
+    {
+      "student_id": "STU-PSYCH-0001",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0002",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0003",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0004",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0005",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0006",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0007",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0008",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0009",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0010",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0011",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0012",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0013",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0014",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0015",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0016",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0017",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0018",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0019",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "student_id": "STU-PSYCH-0020",
+      "recommendations": [
+        {
+          "rank": "1",
+          "occupation_id": "GGOCC-00015",
+          "occupation_name": "Data Scientist",
+          "final_score": "1.0",
+          "available_factors": [
+            "market_opportunity",
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit"
+          ],
+          "factor_detail": {
+            "market_opportunity": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            },
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 0.5,
+              "weighted_contribution": 0.5
+            }
+          }
+        },
+        {
+          "rank": "2",
+          "occupation_id": "GGOCC-00016",
+          "occupation_name": "Investment Banking Analyst",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "3",
+          "occupation_id": "GGOCC-00033",
+          "occupation_name": "Product Designer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "4",
+          "occupation_id": "GGOCC-00035",
+          "occupation_name": "Manufacturing Process Engineer",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        },
+        {
+          "rank": "5",
+          "occupation_id": "GGOCC-00043",
+          "occupation_name": "Public Relations Specialist",
+          "final_score": "1.0",
+          "available_factors": [
+            "progression"
+          ],
+          "unavailable_factors": [
+            "student_fit",
+            "education_fit",
+            "skill_fit",
+            "market_opportunity"
+          ],
+          "factor_detail": {
+            "progression": {
+              "value": "1.0",
+              "original_weight": 0.1,
+              "available": true,
+              "renormalized_weight": 1.0,
+              "weighted_contribution": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "factor_audit": {
+    "student_fit": {
+      "psychometric_students": 105,
+      "total_students": 4529,
+      "unique_career_clusters": 104,
+      "clusters_in_cce": 104,
+      "clusters_matched_to_occupation": 44,
+      "clusters_unmapped": 60,
+      "students_with_usable_student_fit": 44,
+      "students_without_student_fit": 4485,
+      "reason_missing": "Each psychometric student has exactly ONE career cluster label. The cluster is matched to AT MOST one canonical occupation. For any other candidate occupation in Top-K, student_fit is unavailable. Only 1 student out of 4529 had their matched occupation appear in Top-5."
+    },
+    "education_fit": {
+      "fields_in_student_features": [
+        "A_score",
+        "Abstract Reasoning",
+        "Admission_Grade",
+        "C_score",
+        "Career",
+        "E_score",
+        "N_score",
+        "Numerical Aptitude",
+        "O_score",
+        "Perceptual Aptitude",
+        "Spatial Aptitude",
+        "Target",
+        "Tuition_Paid",
+        "Verbal Reasoning"
+      ],
+      "student_features_has_education_data": false,
+      "students_with_usable_education_evidence": 0,
+      "education_occupation_edge_count": 870,
+      "reason_missing": "student_features.csv only contains Psychometric and Academic Performance groups. Neither group contains degree, field_of_study, or education_id. No student\u2192education link exists in current Phase 6 output. education_fit is NOT_AVAILABLE for ALL 4529 students."
+    },
+    "skill_fit": {
+      "skill_fields_in_student_features": [],
+      "student_features_has_skill_evidence": false,
+      "occupation_skill_edge_count": 708,
+      "skill_gap_analysis_status": "NOT_AVAILABLE",
+      "ui_readiness": "The system is architecturally ready to accept self-reported skills from the GoGuide UI. occupation_skill_edges.csv provides occupation skill requirements. Once a student submits skills via UI, overlap can be calculated."
+    },
+    "market_opportunity": {
+      "total_market_postings": 22350,
+      "matched_postings": 6815,
+      "real_job_feed_postings": 3630,
+      "synthetic_postings": 3185,
+      "occupations_with_real_feed": 198,
+      "occupations_with_synth_feed": 18,
+      "unique_market_scores_in_recs": [
+        1.0
+      ],
+      "is_binary": true,
+      "binary_description": "market_opportunity is scored as a binary: 1.0 if MATCHED evidence exists (REAL_JOB_FEED preferred), 0.5 if SYNTHETIC_PROTOTYPE only, else NOT_AVAILABLE. This is evidence PRESENCE, not evidence STRENGTH."
+    },
+    "progression": {
+      "total_progression_edges": 43,
+      "occupations_as_target": 31,
+      "occupations_as_source": 31,
+      "total_occupations_with_progression": 49,
+      "unique_progression_scores_in_recs": [
+        "1.0"
+      ],
+      "progression_is_binary": true,
+      "explanation": "Progression is scored as binary: 1.0 if occupation_id is in the target set of career_progression_edges.csv (meaning the occupation can be transitioned INTO), 0.0 otherwise. Since candidate_occs = matched_occs | market_occ_ids | prog_targets, ALL occupations from prog_targets receive progression=1.0 by construction. This makes progression=1.0 for the ENTIRE candidate pool drawn from prog_targets."
+    }
+  },
+  "renormalization_analysis": {
+    "examples": [
+      {
+        "case": "only_progression",
+        "available": [
+          "progression"
+        ],
+        "original_weights": {
+          "progression": 0.1
+        },
+        "total_original_weight": 0.1,
+        "renormalized_weights": {
+          "progression": 1.0
+        },
+        "value": {
+          "progression": 1.0
+        },
+        "final_score": 1.0,
+        "diagnosis": "progression renormalizes from 0.10 \u2192 1.00; score collapses to 1.0"
+      },
+      {
+        "case": "market_and_progression",
+        "available": [
+          "market_opportunity",
+          "progression"
+        ],
+        "original_weights": {
+          "market_opportunity": 0.1,
+          "progression": 0.1
+        },
+        "total_original_weight": 0.2,
+        "renormalized_weights": {
+          "market_opportunity": 0.5,
+          "progression": 0.5
+        },
+        "value": {
+          "market_opportunity": 1.0,
+          "progression": 1.0
+        },
+        "final_score": 1.0,
+        "diagnosis": "both factors = 1.0, so renormalized score = 1.0 regardless of weights"
+      },
+      {
+        "case": "student_market_progression",
+        "available": [
+          "student_fit",
+          "market_opportunity",
+          "progression"
+        ],
+        "original_weights": {
+          "student_fit": 0.35,
+          "market_opportunity": 0.1,
+          "progression": 0.1
+        },
+        "total_original_weight": 0.5499999999999999,
+        "renormalized_weights": {
+          "student_fit": 0.6364,
+          "market_opportunity": 0.1818,
+          "progression": 0.1818
+        },
+        "value": {
+          "student_fit": 1.0,
+          "market_opportunity": 1.0,
+          "progression": 1.0
+        },
+        "final_score": 1.0,
+        "diagnosis": "all three factor values = 1.0, so final score = 1.0"
+      }
+    ],
+    "root_cause": "ROOT CAUSE OF SCORE COLLAPSE:\n1. candidate_occs is constructed as: matched_occs | market_occ_ids | prog_targets.\n   This means ALL candidates come from the union of those sets.\n2. For any candidate drawn from prog_targets: progression=1.0 (by construction).\n3. For any candidate drawn from market_occ_ids: market_opportunity=1.0 (binary presence).\n4. student_fit, education_fit, skill_fit are unavailable for 4528 of 4529 students.\n5. When only progression is available, renormalization makes it 100% of the score.\n   progression = 1.0  \u2192  renormalized weight = 1.0  \u2192  final_score = 1.0.\n6. When both market + progression are available, both = 1.0 \u2192  final_score = 1.0.\n7. The Top-5 is therefore purely occupation_id alphabetic ordering (tie-breaker).\nCONCLUSION: The scoring model is correct in principle, but the available evidence\ndoes NOT provide score differentiation. The ranking is a RANKING_COLLAPSE."
+  },
+  "ranking_collapse": {
+    "ranking_collapse_detected": true,
+    "ranking_collapse_flag": "RANKING_COLLAPSE",
+    "students_with_tied_top5": 4529,
+    "pct_students_with_tied_top5": 100.0,
+    "recommendations_determined_by_tiebreak": 22645,
+    "pct_recommendations_by_tiebreak": 100.0,
+    "tiebreak_rule": "occupation_id ASC (alphabetic/lexicographic)",
+    "explanation": "100.0% of students have all 5 recommendations with final_score=1.0. Top-5 selection is determined solely by the occupation_id ascending tiebreaker, not by evidence quality. The ranking is not meaningful."
+  },
+  "data_join_analysis": {
+    "student_ids_in_recs": 4529,
+    "student_ids_in_features": 4529,
+    "invalid_student_ids_in_recs": 0,
+    "occupation_ids_in_recs": 5,
+    "occupation_ids_canonical": 39068,
+    "invalid_occ_ids_in_recs": 0,
+    "market_occ_ids_not_in_canonical": 0,
+    "progression_occ_ids_not_in_canonical": 0,
+    "students_missing_education_id": 4529,
+    "students_missing_skill_evidence": 4529,
+    "students_with_cluster_match": 105,
+    "clusters_not_in_cce": 0,
+    "summary": "All student_id and occupation_id references in recommendations are valid. The join gap is VERTICAL: student_features.csv lacks education_id, skill fields. These fields were never populated because the source datasets do not contain them."
+  },
+  "recommended_fixes": [
+    {
+      "priority": 1,
+      "fix": "Minimum-evidence gate",
+      "description": "Require at least 2 usable factors before generating a recommendation. Prevents single-factor renormalization from inflating scores to 1.0."
+    },
+    {
+      "priority": 2,
+      "fix": "Market opportunity scoring: replace binary with strength metric",
+      "description": "Score market opportunity as normalized posting count per occupation (log scale), not as binary 1.0/0.5. This differentiates occupations within the candidate pool."
+    },
+    {
+      "priority": 3,
+      "fix": "Progression scoring: replace binary with path depth",
+      "description": "Score progression as 0.5 if occupation is a source AND target, 1.0 if it is only a target (higher career goal), 0.25 if it is only a source (entry-only). This replaces the current binary that makes prog_targets always 1.0."
+    },
+    {
+      "priority": 4,
+      "fix": "GoGuide UI: capture student education during onboarding",
+      "description": "The Phase 6 education_occupation_edges.csv is ready. The UI must ask for degree and field_of_study so education_fit can be calculated."
+    },
+    {
+      "priority": 5,
+      "fix": "GoGuide UI: capture self-reported skills during onboarding",
+      "description": "occupation_skill_edges.csv already has requirements. The UI must let students self-report skills so skill_fit overlap can be calculated."
+    },
+    {
+      "priority": 6,
+      "fix": "Expand cluster\u2192occupation mapping",
+      "description": "104 career clusters exist. More can be explicitly matched to canonical occupations without fuzzy matching by reviewing the UNMAPPED clusters in career_cluster_occupation_edges.csv."
+    }
+  ],
+  "executive_summary": {
+    "phase_7_production_ready": false,
+    "production_readiness_reason": "Phase 7 is NOT production-ready. The scoring engine is architecturally correct and deterministic, but available student evidence is too sparse to produce differentiated scores. 100% of students receive final_score=1.0 on all 5 recommendations, and Top-5 selection is entirely determined by occupation_id tie-breaking. The ranking is not meaningful.",
+    "scoring_engine_status": "CORRECT_BUT_EVIDENCE_STARVED",
+    "ranking_status": "RANKING_COLLAPSE",
+    "root_cause": "Single-factor renormalization + binary factors both = 1.0 for all candidates",
+    "data_integrity": "VALID \u2014 no fabricated IDs, no invalid references",
+    "skill_gap_status": "NOT_AVAILABLE \u2014 correctly labeled",
+    "market_evidence_correctly_labeled": true,
+    "recommended_action": "Implement 6 fixes before declaring Phase 7 production-ready"
+  }
+}

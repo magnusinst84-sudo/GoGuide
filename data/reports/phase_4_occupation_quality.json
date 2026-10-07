@@ -1,0 +1,35 @@
+{
+  "phase": "Phase 4 \u2014 Occupation Normalization & ESCO/O*NET Crosswalk",
+  "generated_at": "2026-10-07T20:23:48.726885",
+  "occupation_sources_audited_count": 9,
+  "total_occupation_records": 289472,
+  "unique_raw_titles_count": 43469,
+  "unique_canonical_occupations_count": 39068,
+  "esco_matched_count": 2191,
+  "onet_matched_count": 40,
+  "both_matched_count": 0,
+  "ambiguous_count": 12494,
+  "unresolved_count": 29640,
+  "seniority_extraction_summary": {
+    "MANAGER": 5875,
+    "MID": 29,
+    "LEAD": 1654,
+    "SENIOR": 4652,
+    "PRINCIPAL": 355,
+    "EXECUTIVE": 386,
+    "ENTRY": 1198,
+    "DIRECTOR": 838,
+    "JUNIOR": 1312,
+    "UNKNOWN": 28066
+  },
+  "technology_modifier_count": 3014,
+  "specialization_count": 6980,
+  "validation_checks": {
+    "raw_layer_immutability": "PASSED",
+    "no_fabricated_esco_uris": "PASSED",
+    "no_fabricated_onet_socs": "PASSED",
+    "occupation_ids_unique": "PASSED",
+    "no_pii_introduced": "PASSED",
+    "raw_titles_recoverable": "PASSED"
+  }
+}

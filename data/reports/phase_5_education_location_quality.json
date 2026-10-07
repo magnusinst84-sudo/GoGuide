@@ -1,0 +1,27 @@
+{
+  "phase": "Phase 5 \u2014 Education & Location Normalization",
+  "generated_at": "2026-10-07T20:24:54.408343",
+  "education_sources_audited_count": 10,
+  "total_education_records": 74607,
+  "unique_raw_education_count": 12230,
+  "unique_canonical_education_count": 12018,
+  "education_matched_count": 2362,
+  "education_unresolved_count": 9898,
+  "be_degree_mentions_count": 173,
+  "btech_degree_mentions_count": 142,
+  "location_sources_audited_count": 4,
+  "total_location_records": 287391,
+  "unique_raw_locations_count": 15113,
+  "unique_canonical_locations_count": 14531,
+  "location_matched_count": 17337,
+  "location_unresolved_count": 0,
+  "validation_checks": {
+    "raw_layer_immutability": "PASSED",
+    "no_fabricated_locations": "PASSED",
+    "no_fabricated_education_qualifications": "PASSED",
+    "be_btech_distinguishable": "PASSED",
+    "canonical_ids_unique": "PASSED",
+    "raw_values_recoverable": "PASSED",
+    "no_pii_introduced": "PASSED"
+  }
+}

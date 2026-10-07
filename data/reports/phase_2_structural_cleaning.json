@@ -1,0 +1,779 @@
+{
+  "phase": "Phase 2 \u2014 Structural & PII Cleaning",
+  "generated_at": "2026-10-07T20:18:35.579541",
+  "total_files_processed": 46,
+  "total_rows_before": 4579760,
+  "total_rows_after": 4579758,
+  "total_rows_removed": 2,
+  "total_cols_removed": 4,
+  "pii_findings": [
+    {
+      "file": "data/processed/prism_resume_intelligence/01_people.csv",
+      "column": "name",
+      "action": "REMOVED_PII_FIELD"
+    },
+    {
+      "file": "data/processed/prism_resume_intelligence/01_people.csv",
+      "column": "email",
+      "action": "REMOVED_PII_FIELD"
+    },
+    {
+      "file": "data/processed/prism_resume_intelligence/01_people.csv",
+      "column": "phone",
+      "action": "REMOVED_PII_FIELD"
+    },
+    {
+      "file": "data/processed/prism_resume_intelligence/01_people.csv",
+      "column": "linkedin",
+      "action": "REMOVED_PII_FIELD"
+    }
+  ],
+  "provenance_records": [
+    {
+      "raw_source": "data/raw/prism_education_career/career_progression.csv",
+      "processed_output": "data/processed/prism_education_career/career_progression.csv",
+      "rows_before": 731,
+      "rows_after": 731,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.361041",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/education_pathways.csv",
+      "processed_output": "data/processed/prism_education_career/education_pathways.csv",
+      "rows_before": 686,
+      "rows_after": 686,
+      "rows_removed": 0,
+      "cols_before": 12,
+      "cols_after": 12,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.375385",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/education_to_occupation.csv",
+      "processed_output": "data/processed/prism_education_career/education_to_occupation.csv",
+      "rows_before": 2670,
+      "rows_after": 2670,
+      "rows_removed": 0,
+      "cols_before": 18,
+      "cols_after": 18,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.430138",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/occupation_requirements.csv",
+      "processed_output": "data/processed/prism_education_career/occupation_requirements.csv",
+      "rows_before": 341,
+      "rows_after": 341,
+      "rows_removed": 0,
+      "cols_before": 9,
+      "cols_after": 9,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.439145",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/occupation_to_industry.csv",
+      "processed_output": "data/processed/prism_education_career/occupation_to_industry.csv",
+      "rows_before": 1023,
+      "rows_after": 1023,
+      "rows_removed": 0,
+      "cols_before": 7,
+      "cols_after": 7,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.444145",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/occupation_to_skill.csv",
+      "processed_output": "data/processed/prism_education_career/occupation_to_skill.csv",
+      "rows_before": 3309,
+      "rows_after": 3309,
+      "rows_removed": 0,
+      "cols_before": 7,
+      "cols_after": 7,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.460209",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/occupations.csv",
+      "processed_output": "data/processed/prism_education_career/occupations.csv",
+      "rows_before": 341,
+      "rows_after": 341,
+      "rows_removed": 0,
+      "cols_before": 16,
+      "cols_after": 16,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.460209",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_education_career/skills.csv",
+      "processed_output": "data/processed/prism_education_career/skills.csv",
+      "rows_before": 420,
+      "rows_after": 420,
+      "rows_removed": 0,
+      "cols_before": 5,
+      "cols_after": 5,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.481516",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_student_profile/Career Prediction Dataset.csv",
+      "processed_output": "data/processed/prism_student_profile/Career Prediction Dataset.csv",
+      "rows_before": 105,
+      "rows_after": 105,
+      "rows_removed": 0,
+      "cols_before": 11,
+      "cols_after": 11,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.481516",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_student_profile/Student performance (Polytechnic Institute of Portalegre).csv",
+      "processed_output": "data/processed/prism_student_profile/Student performance (Polytechnic Institute of Portalegre).csv",
+      "rows_before": 4424,
+      "rows_after": 4424,
+      "rows_removed": 0,
+      "cols_before": 37,
+      "cols_after": 37,
+      "cols_removed": [],
+      "cols_renamed": [
+        "'Daytime/evening attendance\t' -> 'Daytime/evening attendance'"
+      ],
+      "transformations": [
+        "Fixed header anomaly/whitespace: 'Daytime/evening attendance\t' -> 'Daytime/evening attendance'",
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.545588",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_india_jobs/india_job_market_2024_2026.csv",
+      "processed_output": "data/processed/prism_india_jobs/india_job_market_2024_2026.csv",
+      "rows_before": 5000,
+      "rows_after": 5000,
+      "rows_removed": 0,
+      "cols_before": 17,
+      "cols_after": 17,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.604812",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/aggregated_task_demand.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/aggregated_task_demand.csv",
+      "rows_before": 1600,
+      "rows_after": 1600,
+      "rows_removed": 0,
+      "cols_before": 4,
+      "cols_after": 4,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.621000",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/cpc_descriptions.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/cpc_descriptions.csv",
+      "rows_before": 37,
+      "rows_after": 37,
+      "rows_removed": 0,
+      "cols_before": 4,
+      "cols_after": 4,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.623999",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/onet_jobs.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/onet_jobs.csv",
+      "rows_before": 40,
+      "rows_after": 40,
+      "rows_removed": 0,
+      "cols_before": 3,
+      "cols_after": 3,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.625000",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/onet_occupations.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/onet_occupations.csv",
+      "rows_before": 40,
+      "rows_after": 40,
+      "rows_removed": 0,
+      "cols_before": 4,
+      "cols_after": 4,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.629587",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/onet_tasks.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/onet_tasks.csv",
+      "rows_before": 1600,
+      "rows_after": 1600,
+      "rows_removed": 0,
+      "cols_before": 5,
+      "cols_after": 5,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.635557",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/task_cpc_similarity_topk.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/task_cpc_similarity_topk.csv",
+      "rows_before": 8000,
+      "rows_after": 8000,
+      "rows_removed": 0,
+      "cols_before": 3,
+      "cols_after": 3,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.659843",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_occupation_intelligence/USPTO\u2013ONET/yearly_task_demand.csv",
+      "processed_output": "data/processed/prism_occupation_intelligence/USPTO\u2013ONET/yearly_task_demand.csv",
+      "rows_before": 22400,
+      "rows_after": 22400,
+      "rows_removed": 0,
+      "cols_before": 4,
+      "cols_after": 4,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.732830",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/ISCOGroups_en.csv",
+      "processed_output": "data/processed/prism_esco/ISCOGroups_en.csv",
+      "rows_before": 619,
+      "rows_after": 619,
+      "rows_removed": 0,
+      "cols_before": 8,
+      "cols_after": 8,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.768890",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/broaderRelationsOccPillar_en.csv",
+      "processed_output": "data/processed/prism_esco/broaderRelationsOccPillar_en.csv",
+      "rows_before": 3648,
+      "rows_after": 3648,
+      "rows_removed": 0,
+      "cols_before": 6,
+      "cols_after": 6,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.801768",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/broaderRelationsSkillPillar_en.csv",
+      "processed_output": "data/processed/prism_esco/broaderRelationsSkillPillar_en.csv",
+      "rows_before": 20819,
+      "rows_after": 20819,
+      "rows_removed": 0,
+      "cols_before": 6,
+      "cols_after": 6,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:17.982495",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/conceptSchemes_en.csv",
+      "processed_output": "data/processed/prism_esco/conceptSchemes_en.csv",
+      "rows_before": 20,
+      "rows_after": 20,
+      "rows_removed": 0,
+      "cols_before": 7,
+      "cols_after": 7,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.012119",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/dictionary_en.csv",
+      "processed_output": "data/processed/prism_esco/dictionary_en.csv",
+      "rows_before": 160,
+      "rows_after": 160,
+      "rows_removed": 0,
+      "cols_before": 4,
+      "cols_after": 4,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.018163",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/digCompSkillsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/digCompSkillsCollection_en.csv",
+      "rows_before": 25,
+      "rows_after": 25,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.018163",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/digitalSkillsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/digitalSkillsCollection_en.csv",
+      "rows_before": 1284,
+      "rows_after": 1284,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.048340",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/greenShareOcc_en.csv",
+      "processed_output": "data/processed/prism_esco/greenShareOcc_en.csv",
+      "rows_before": 3590,
+      "rows_after": 3590,
+      "rows_removed": 0,
+      "cols_before": 5,
+      "cols_after": 5,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.071711",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/greenSkillsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/greenSkillsCollection_en.csv",
+      "rows_before": 629,
+      "rows_after": 629,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.084769",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/languageSkillsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/languageSkillsCollection_en.csv",
+      "rows_before": 359,
+      "rows_after": 359,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:18.096035",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/occupationSkillRelations_en.csv",
+      "processed_output": "data/processed/prism_esco/occupationSkillRelations_en.csv",
+      "rows_before": 126051,
+      "rows_after": 126051,
+      "rows_removed": 0,
+      "cols_before": 6,
+      "cols_after": 6,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.206159",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/occupations_en.csv",
+      "processed_output": "data/processed/prism_esco/occupations_en.csv",
+      "rows_before": 3043,
+      "rows_after": 3043,
+      "rows_removed": 0,
+      "cols_before": 15,
+      "cols_after": 15,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.338176",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/researchOccupationsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/researchOccupationsCollection_en.csv",
+      "rows_before": 122,
+      "rows_after": 122,
+      "rows_removed": 0,
+      "cols_before": 8,
+      "cols_after": 8,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.346492",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/researchSkillsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/researchSkillsCollection_en.csv",
+      "rows_before": 40,
+      "rows_after": 40,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.346492",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/skillGroups_en.csv",
+      "processed_output": "data/processed/prism_esco/skillGroups_en.csv",
+      "rows_before": 640,
+      "rows_after": 640,
+      "rows_removed": 0,
+      "cols_before": 11,
+      "cols_after": 11,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.362691",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/skillSkillRelations_en.csv",
+      "processed_output": "data/processed/prism_esco/skillSkillRelations_en.csv",
+      "rows_before": 5818,
+      "rows_after": 5818,
+      "rows_removed": 0,
+      "cols_before": 5,
+      "cols_after": 5,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.406121",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/skillsHierarchy_en.csv",
+      "processed_output": "data/processed/prism_esco/skillsHierarchy_en.csv",
+      "rows_before": 640,
+      "rows_after": 640,
+      "rows_removed": 0,
+      "cols_before": 14,
+      "cols_after": 14,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.430009",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/skills_en.csv",
+      "processed_output": "data/processed/prism_esco/skills_en.csv",
+      "rows_before": 13960,
+      "rows_after": 13960,
+      "rows_removed": 0,
+      "cols_before": 13,
+      "cols_after": 13,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.744877",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_esco/transversalSkillsCollection_en.csv",
+      "processed_output": "data/processed/prism_esco/transversalSkillsCollection_en.csv",
+      "rows_before": 95,
+      "rows_after": 95,
+      "rows_removed": 0,
+      "cols_before": 10,
+      "cols_after": 10,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.760600",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_resume_intelligence/01_people.csv",
+      "processed_output": "data/processed/prism_resume_intelligence/01_people.csv",
+      "rows_before": 54933,
+      "rows_after": 54933,
+      "rows_removed": 0,
+      "cols_before": 5,
+      "cols_after": 1,
+      "cols_removed": [
+        "name",
+        "email",
+        "phone",
+        "linkedin"
+      ],
+      "cols_renamed": [],
+      "transformations": [
+        "Stripped PII contact columns: ['name', 'email', 'phone', 'linkedin']",
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:19.869233",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_resume_intelligence/02_abilities.csv",
+      "processed_output": "data/processed/prism_resume_intelligence/02_abilities.csv",
+      "rows_before": 1219473,
+      "rows_after": 1219473,
+      "rows_removed": 0,
+      "cols_before": 2,
+      "cols_after": 2,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:23.817004",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_resume_intelligence/03_education.csv",
+      "processed_output": "data/processed/prism_resume_intelligence/03_education.csv",
+      "rows_before": 75999,
+      "rows_after": 75999,
+      "rows_removed": 0,
+      "cols_before": 5,
+      "cols_after": 5,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:24.278326",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_resume_intelligence/04_experience.csv",
+      "processed_output": "data/processed/prism_resume_intelligence/04_experience.csv",
+      "rows_before": 265404,
+      "rows_after": 265404,
+      "rows_removed": 0,
+      "cols_before": 6,
+      "cols_after": 6,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:25.901616",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_resume_intelligence/05_person_skills.csv",
+      "processed_output": "data/processed/prism_resume_intelligence/05_person_skills.csv",
+      "rows_before": 2483376,
+      "rows_after": 2483376,
+      "rows_removed": 0,
+      "cols_before": 2,
+      "cols_after": 2,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:34.171746",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_resume_intelligence/06_skills.csv",
+      "processed_output": "data/processed/prism_resume_intelligence/06_skills.csv",
+      "rows_before": 226760,
+      "rows_after": 226758,
+      "rows_removed": 2,
+      "cols_before": 1,
+      "cols_after": 1,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Dropped 2 completely empty rows",
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:34.868515",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_job_descriptions/adzuna_global_job_listings_2025.csv",
+      "processed_output": "data/processed/prism_job_descriptions/adzuna_global_job_listings_2025.csv",
+      "rows_before": 17350,
+      "rows_after": 17350,
+      "rows_removed": 0,
+      "cols_before": 18,
+      "cols_after": 18,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:35.502376",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_job_descriptions/job_dataset.csv",
+      "processed_output": "data/processed/prism_job_descriptions/job_dataset.csv",
+      "rows_before": 1068,
+      "rows_after": 1068,
+      "rows_removed": 0,
+      "cols_before": 7,
+      "cols_after": 7,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Trimmed cell whitespace & normalized placeholder nulls to empty string"
+      ],
+      "timestamp": "2026-10-07T20:18:35.535281",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    },
+    {
+      "raw_source": "data/raw/prism_job_descriptions/job_dataset.json",
+      "processed_output": "data/processed/prism_job_descriptions/job_dataset.json",
+      "rows_before": 1068,
+      "rows_after": 1068,
+      "rows_removed": 0,
+      "cols_before": 7,
+      "cols_after": 7,
+      "cols_removed": [],
+      "cols_renamed": [],
+      "transformations": [
+        "Copied JSON dataset structure into processed layer"
+      ],
+      "timestamp": "2026-10-07T20:18:35.578911",
+      "script": "scripts/data_pipeline/execute_phase2_cleaning.py"
+    }
+  ]
+}

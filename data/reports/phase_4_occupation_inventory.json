@@ -1,0 +1,138 @@
+[
+  {
+    "source_dataset": "prism_education_career",
+    "source_file": "occupations.csv",
+    "source_filepath": "processed/prism_education_career/occupations.csv",
+    "source_column": "occupation_name",
+    "non_null_title_count": 341,
+    "unique_raw_titles_count": 341,
+    "seniority_patterns_detected": 77,
+    "tech_modifiers_detected": 7,
+    "sample_raw_titles": [
+      "Civil Site Engineer",
+      "Plant Tissue Culture Specialist",
+      "Dermatologist",
+      "Operations Manager",
+      "Radiologic and CT/MRI Technologist"
+    ]
+  },
+  {
+    "source_dataset": "prism_education_career",
+    "source_file": "occupation_requirements.csv",
+    "source_filepath": "processed/prism_education_career/occupation_requirements.csv",
+    "source_column": "occupation_name",
+    "non_null_title_count": 341,
+    "unique_raw_titles_count": 341,
+    "seniority_patterns_detected": 77,
+    "tech_modifiers_detected": 7,
+    "sample_raw_titles": [
+      "Civil Site Engineer",
+      "Plant Tissue Culture Specialist",
+      "Dermatologist",
+      "Operations Manager",
+      "Radiologic and CT/MRI Technologist"
+    ]
+  },
+  {
+    "source_dataset": "prism_india_jobs",
+    "source_file": "india_job_market_2024_2026.csv",
+    "source_filepath": "processed/prism_india_jobs/india_job_market_2024_2026.csv",
+    "source_column": "Job_Title",
+    "non_null_title_count": 5000,
+    "unique_raw_titles_count": 30,
+    "seniority_patterns_detected": 385,
+    "tech_modifiers_detected": 1550,
+    "sample_raw_titles": [
+      "Power BI Developer",
+      "Java Developer",
+      "Technical Lead",
+      "NLP Engineer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "source_dataset": "prism_job_descriptions",
+    "source_file": "adzuna_global_job_listings_2025.csv",
+    "source_filepath": "processed/prism_job_descriptions/adzuna_global_job_listings_2025.csv",
+    "source_column": "title",
+    "non_null_title_count": 17350,
+    "unique_raw_titles_count": 6592,
+    "seniority_patterns_detected": 7855,
+    "tech_modifiers_detected": 432,
+    "sample_raw_titles": [
+      "Start Your Healthcare Career Now \u2014 Flexible Caregiver Roles for Students",
+      "Senior Field Service Technician - Customer Support",
+      "Executive Director",
+      "Radiologic Technologist Capitol Hill Per Diem",
+      "Retail Sales Manager I"
+    ]
+  },
+  {
+    "source_dataset": "prism_job_descriptions",
+    "source_file": "job_dataset.csv",
+    "source_filepath": "processed/prism_job_descriptions/job_dataset.csv",
+    "source_column": "Title",
+    "non_null_title_count": 1067,
+    "unique_raw_titles_count": 218,
+    "seniority_patterns_detected": 228,
+    "tech_modifiers_detected": 131,
+    "sample_raw_titles": [
+      "Cloud Network Engineer",
+      "Principal Android Engineer",
+      "Cloud Trainee",
+      "Trainee iOS Developer",
+      "Telecom & Network Engineer"
+    ]
+  },
+  {
+    "source_dataset": "prism_resume_intelligence",
+    "source_file": "04_experience.csv",
+    "source_filepath": "processed/prism_resume_intelligence/04_experience.csv",
+    "source_column": "title",
+    "non_null_title_count": 265293,
+    "unique_raw_titles_count": 36770,
+    "seniority_patterns_detected": 90516,
+    "tech_modifiers_detected": 46851,
+    "sample_raw_titles": [
+      "Sr Staff Consultant, Marketing Performance Management",
+      "Internal Auditor III- IV",
+      "Security & Controls Analyst",
+      "Customer Care Support/Logistics Coordinator",
+      "Service Information Developer"
+    ]
+  },
+  {
+    "source_dataset": "prism_occupation_intelligence/USPTO\u2013ONET",
+    "source_file": "onet_occupations.csv",
+    "source_filepath": "processed/prism_occupation_intelligence/USPTO\u2013ONET/onet_occupations.csv",
+    "source_column": "job_title",
+    "non_null_title_count": 40,
+    "unique_raw_titles_count": 40,
+    "seniority_patterns_detected": 0,
+    "tech_modifiers_detected": 0,
+    "sample_raw_titles": [
+      "Electronics Specialist 3",
+      "AI Specialist 4",
+      "Electronics Specialist 6",
+      "Biotech Specialist 7",
+      "Electronics Specialist 7"
+    ]
+  },
+  {
+    "source_dataset": "prism_occupation_intelligence/USPTO\u2013ONET",
+    "source_file": "onet_jobs.csv",
+    "source_filepath": "processed/prism_occupation_intelligence/USPTO\u2013ONET/onet_jobs.csv",
+    "source_column": "job_title",
+    "non_null_title_count": 40,
+    "unique_raw_titles_count": 33,
+    "seniority_patterns_detected": 0,
+    "tech_modifiers_detected": 0,
+    "sample_raw_titles": [
+      "Design and optimize biomedical data analysis architectures...",
+      "Implement testing and validation procedures for genetic sequ...",
+      "Implement testing and validation procedures for laboratory a...",
+      "Develop data mining solutions for large-scale systems...",
+      "Develop robotic systems solutions for large-scale systems..."
+    ]
+  }
+]

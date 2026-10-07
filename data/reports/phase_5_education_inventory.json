@@ -1,0 +1,62 @@
+[
+  {
+    "source_dataset": "prism_education_career",
+    "source_file": "education_pathways.csv",
+    "source_filepath": "processed/prism_education_career/education_pathways.csv",
+    "source_column": "field_of_study",
+    "non_null_edu_count": 686,
+    "unique_raw_edu_count": 51,
+    "sample_raw_values": [
+      "Data Analytics (Applied)",
+      "Political Science & Public Policy",
+      "Data Science & Engineering",
+      "Computer Science",
+      "Fine Arts"
+    ]
+  },
+  {
+    "source_dataset": "prism_education_career",
+    "source_file": "education_pathways.csv",
+    "source_filepath": "processed/prism_education_career/education_pathways.csv",
+    "source_column": "degree_level",
+    "non_null_edu_count": 686,
+    "unique_raw_edu_count": 14,
+    "sample_raw_values": [
+      "Integrated Bachelor's / Law",
+      "Master's",
+      "Diploma / Professional",
+      "Bachelor's",
+      "Doctoral / Professional"
+    ]
+  },
+  {
+    "source_dataset": "prism_india_jobs",
+    "source_file": "india_job_market_2024_2026.csv",
+    "source_filepath": "processed/prism_india_jobs/india_job_market_2024_2026.csv",
+    "source_column": "Education_Required",
+    "non_null_edu_count": 5000,
+    "unique_raw_edu_count": 8,
+    "sample_raw_values": [
+      "MBA",
+      "B.Tech/B.E.",
+      "B.Com + Certification",
+      "MCA",
+      "PhD"
+    ]
+  },
+  {
+    "source_dataset": "prism_resume_intelligence",
+    "source_file": "03_education.csv",
+    "source_filepath": "processed/prism_resume_intelligence/03_education.csv",
+    "source_column": "program",
+    "non_null_edu_count": 68235,
+    "unique_raw_edu_count": 12187,
+    "sample_raw_values": [
+      "Project Management Certificate",
+      "Master's in Signal and information processing",
+      "Master of Science degree in Computer Science",
+      "Bachelor Of Technology in Computer Science",
+      "Bachelor of Arts in International Business and Economics"
+    ]
+  }
+]

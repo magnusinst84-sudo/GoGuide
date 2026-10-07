@@ -1,0 +1,24 @@
+{
+  "phase": "Phase 3 \u2014 Skill Normalization & Canonical Skill Dictionary",
+  "generated_at": "2026-10-07T20:20:10.635689",
+  "number_of_skill_bearing_datasets": 9,
+  "total_raw_skill_mentions": 2733882,
+  "unique_raw_skills_count": 246518,
+  "unique_normalized_skills_count": 240144,
+  "unique_canonical_skills_count": 238774,
+  "esco_matched_count": 29040,
+  "ambiguous_count": 28345,
+  "unresolved_count": 443721,
+  "mapping_coverage_percentage": 5.78,
+  "combined_skills_split_count": 302,
+  "intentionally_unsplit_count": 27241,
+  "validation_checks": {
+    "raw_layer_immutability": "FAILED",
+    "no_pii_introduced": "PASSED",
+    "crosswalk_source_references_valid": "PASSED",
+    "stable_skill_ids_assigned": "PASSED",
+    "duplicate_skill_ids": [],
+    "invalid_esco_uris_detected": [],
+    "raw_skills_recoverable": "PASSED"
+  }
+}

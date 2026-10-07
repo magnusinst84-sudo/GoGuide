@@ -1,0 +1,13 @@
+{
+  "student_fit": 0.35,
+  "education_fit": 0.25,
+  "skill_fit": 0.2,
+  "market_opportunity": 0.1,
+  "progression": 0.1,
+  "top_k": 5,
+  "renormalize_missing_factors": true,
+  "deterministic_sort": [
+    "final_score DESC",
+    "occupation_id ASC"
+  ]
+}

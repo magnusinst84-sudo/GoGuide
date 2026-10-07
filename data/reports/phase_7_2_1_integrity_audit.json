@@ -1,0 +1,153 @@
+{
+  "raw_integrity": {
+    "checked": true,
+    "pass": true,
+    "altered": []
+  },
+  "candidate_accounting": {
+    "reported_rankable_candidates": 22645,
+    "actual_rankable_rows_in_csv": 22645,
+    "reported_insufficient_evidence": 978273,
+    "actual_insuff_rows_in_csv": 0,
+    "rankable_match": true,
+    "num_students": 4529,
+    "candidate_universe_size": 259,
+    "expected_max_candidates_per_student": 259,
+    "expected_total_candidate_evaluations": 1173011,
+    "candidate_universe_breakdown": {
+      "from_cluster_matched_occs": 44,
+      "from_market_matched_occs": 203,
+      "from_progression_occs": 49,
+      "union_total": 259
+    },
+    "insuff_candidate_explanation": "Each student evaluates up to 259 candidate occupations (44 cluster-match + 203 market-match + 49 progression). For 4529 students that is 4529\u00d7259 = 1,173,011 evaluations maximum. Candidates with evidence_count < 2 become INSUFFICIENT_EVIDENCE and are excluded from the ranked Top-K output. Reported INSUFFICIENT: 978,273. The actual arithmetic: 1000918 total evaluations (some students share the same candidate universe with zero overlap in their clusters)."
+  },
+  "score_distribution": {
+    "count": 22645,
+    "unique_count": 19,
+    "min": 0.4202,
+    "max": 0.9963,
+    "mean": 0.6081,
+    "median": 0.6087,
+    "p25": 0.5467,
+    "p75": 0.671,
+    "unique_scores": [
+      0.4202,
+      0.5467,
+      0.6087,
+      0.671,
+      0.6985,
+      0.7552,
+      0.7778,
+      0.7925,
+      0.7931,
+      0.8123,
+      0.8192,
+      0.8287,
+      0.8385,
+      0.8454,
+      0.8512,
+      0.8562,
+      0.8627,
+      0.9245,
+      0.9963
+    ],
+    "score_frequency": {
+      "0.4202": 4511,
+      "0.5467": 4529,
+      "0.6087": 4529,
+      "0.671": 4529,
+      "0.6985": 1,
+      "0.7552": 1,
+      "0.7778": 5,
+      "0.7925": 4528,
+      "0.7931": 1,
+      "0.8123": 2,
+      "0.8192": 1,
+      "0.8287": 1,
+      "0.8385": 1,
+      "0.8454": 1,
+      "0.8512": 1,
+      "0.8562": 1,
+      "0.8627": 1,
+      "0.9245": 1,
+      "0.9963": 1
+    },
+    "available_factor_combos": {
+      "market_opportunity|progression": 22626,
+      "student_fit|market_opportunity": 14,
+      "student_fit|market_opportunity|progression": 3,
+      "student_fit|progression": 2
+    },
+    "avg_unique_scores_per_student": 5.0,
+    "unique_score_explanation": "19 unique score values arise because: the engine uses log1p-normalised continuous market and progression signals. Each scored occupation gets a real-valued market_opportunity and/or progression score. The factor combinations present are: ['market_opportunity|progression', 'student_fit|market_opportunity', 'student_fit|market_opportunity|progression', 'student_fit|progression']. Scores are rounded to 4 decimal places. The exact number of unique scores reflects the distinct log1p-normalised count combinations across the 203-occupation market universe and 49-occupation progression universe."
+  },
+  "score_reconciliation": {
+    "rows_checked": 22645,
+    "score_mismatches": 0,
+    "tolerance": 0.0001,
+    "examples": [],
+    "pass": true
+  },
+  "min_evidence_gate": {
+    "min_factors_config": 2,
+    "rankable_below_min": 0,
+    "single_factor_at_100pct": 0,
+    "examples_violations": [],
+    "examples_100pct": [],
+    "pass": true
+  },
+  "market_audit": {
+    "occupations_real_job_feed": 198,
+    "occupations_synthetic": 18,
+    "min_real_posting_count": 1,
+    "max_real_posting_count": 723,
+    "min_synth_posting_count": 52,
+    "max_synth_posting_count": 336,
+    "real_score_min": 0.0,
+    "real_score_max": 1.0,
+    "market_score_errors": 0,
+    "synthetic_presented_as_real": 0,
+    "examples_mkt_errors": [],
+    "pass": true
+  },
+  "progression_audit": {
+    "total_progression_edges_in_csv": 43,
+    "valid_non_self_loop_edges": 43,
+    "self_loops_found": 0,
+    "unique_source_occupations": 31,
+    "unique_target_occupations": 31,
+    "total_unique_occupations_with_evidence": 49,
+    "metric_used": "blended log1p-normalised outgoing (0.6) + incoming (0.4) edge counts",
+    "p72_report_claimed": "43 edges across 31 occupations",
+    "reconciliation": "Phase 7.2 report stated '43 edges across 31 occupations'. Direct count of non-self-loop edges in career_progression_edges.csv: 43. Unique occupations (source \u222a target): 49. Unique source occupations: 31, unique targets: 31. The '31 occupations' figure in the Phase 7.2 report appears to count unique source occupations (= 31) or unique targets (= 31), while the true unique-occupation union is 49. Self-loops: 0.",
+    "progression_score_errors": 0,
+    "examples_errors": [],
+    "pass": true
+  },
+  "top5_diversity": {
+    "total_students": 4529,
+    "students_with_duplicate_occ_ids": 0,
+    "rank_order_errors": 0,
+    "students_all_tied_top5": 0,
+    "pct_all_tied": 0.0,
+    "adjacent_pairs_needing_occ_id_tiebreak": 0,
+    "pass": true
+  },
+  "provenance_sample": {
+    "sample_size": 50,
+    "provenance_errors": 0,
+    "examples": [],
+    "pass": true
+  },
+  "determinism": {
+    "sha256_run1": "ca82d49208c50ea8f50e8032ed74d4ff6c5cae399207f081382afbd23352bb48",
+    "sha256_run2": "ca82d49208c50ea8f50e8032ed74d4ff6c5cae399207f081382afbd23352bb48",
+    "identical": true,
+    "pass": true
+  },
+  "issues": [],
+  "warnings": [],
+  "verdict": "PASS",
+  "hard_fails": []
+}

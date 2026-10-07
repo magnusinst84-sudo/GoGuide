@@ -1,0 +1,113 @@
+{
+  "phase": "7.2",
+  "status": "COMPLETE",
+  "ranking_collapse_resolved": true,
+  "validation_checks": {
+    "A_no_invalid_occ_ids": true,
+    "B_no_duplicate_stu_occ": true,
+    "C_no_fabricated_ids": true,
+    "D_no_fabricated_edu": true,
+    "E_no_fabricated_skills": true,
+    "F_no_fabricated_market": true,
+    "G_no_fabricated_progression": true,
+    "H_scores_in_01": true,
+    "I_no_rankable_below_min_factors": true,
+    "J_no_single_factor_100pct": true,
+    "K_synth_labeled": true,
+    "L_explanations_100pct": true,
+    "N_ranking_collapse_resolved": true
+  },
+  "all_validation_passed": true,
+  "students_processed": 4529,
+  "students_with_rankable_candidates": 4529,
+  "students_with_zero_rankable_candidates": 0,
+  "total_rankable_recommendations": 22645,
+  "total_insufficient_evidence_candidates": 978273,
+  "score_distribution": {
+    "min": 0.4202,
+    "max": 0.9963,
+    "mean": 0.6081,
+    "median": 0.6087,
+    "p25": 0.5467,
+    "p75": 0.671,
+    "unique_score_count": 19
+  },
+  "factor_availability": {
+    "student_fit_coverage": 19,
+    "education_fit_coverage": 0,
+    "skill_fit_coverage": 0,
+    "market_opportunity_coverage": 22643,
+    "progression_coverage": 22631
+  },
+  "evidence_count_distribution": {
+    "1": 978273,
+    "2": 81535,
+    "3": 3
+  },
+  "tie_diagnostics": {
+    "students_all_top5_tied": 0,
+    "students_top5_not_all_tied": 4529,
+    "pct_all_tied": 0.0,
+    "avg_unique_scores_per_student": 5.0
+  },
+  "before_after_comparison": {
+    "phase_7": {
+      "students": 4529,
+      "total_recommendations": 22645,
+      "score_min": 1.0,
+      "score_max": 1.0,
+      "score_mean": 1.0,
+      "unique_scores": 1,
+      "all_tied_pct": 100.0,
+      "confidence": "ALL LOW",
+      "ranking_collapse": true
+    },
+    "phase_7_2": {
+      "students_processed": 4529,
+      "students_with_rankable_recs": 4529,
+      "total_rankable_recs": 22645,
+      "total_insufficient_evidence_candidates": 978273,
+      "score_min": 0.4202,
+      "score_max": 0.9963,
+      "score_mean": 0.6081,
+      "score_median": 0.6087,
+      "score_p25": 0.5467,
+      "score_p75": 0.671,
+      "unique_scores": 19,
+      "all_tied_pct": 0.0,
+      "not_tied_pct": 100.0,
+      "avg_unique_scores_per_student": 5.0,
+      "ranking_collapse": false
+    }
+  },
+  "remaining_limitations": [
+    "education_fit is NOT_AVAILABLE for all students in current dataset (no degree/field_of_study in student_features.csv); UI must collect this.",
+    "skill_fit is NOT_AVAILABLE for all students in current dataset (no self-reported skills); UI must collect this.",
+    "student_fit is available only for students whose cluster maps to a MATCHED occupation (44 of 104 clusters are MATCHED).",
+    "Market scoring uses REAL_JOB_FEED where available (198 occupations) and SYNTHETIC_PROTOTYPE as fallback (18 additional); SYNTHETIC scores are clearly labeled.",
+    "Progression graph has 43 edges across 31 occupations only; most occupations lack progression evidence. This limits progression_score coverage.",
+    "The engine does NOT include financial feasibility (separate GoGuide layer).",
+    "cluster_to_occ mappings are from crosswalk MATCHED status only; 60 clusters remain UNMAPPED."
+  ],
+  "config": {
+    "student_fit": 0.35,
+    "education_fit": 0.25,
+    "skill_fit": 0.2,
+    "market_opportunity": 0.1,
+    "progression": 0.1,
+    "top_k": 5,
+    "min_factors_for_ranking": 2,
+    "renormalize_missing_factors": true,
+    "min_evidence_gate": true,
+    "market_scoring": "log1p_min_max_normalized_by_source_type",
+    "progression_scoring": "log1p_outgoing_edges_normalized",
+    "deterministic_sort": [
+      "final_score DESC",
+      "evidence_count DESC",
+      "occupation_id ASC"
+    ],
+    "skill_gap_policy": "NOT_AVAILABLE_unless_student_skills_provided_and_occ_skills_known",
+    "education_fit_policy": "NOT_AVAILABLE_unless_student_education_provided",
+    "financial_feasibility": "EXCLUDED \u2014 separate GoGuide decision layer"
+  }
+}

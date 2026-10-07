@@ -1,0 +1,76 @@
+{
+  "phase": "Phase 6 \u2014 Unified GoGuide Intelligence Graph",
+  "generated_at": "2026-10-07T21:03:44.477407",
+  "entity_counts": {
+    "education_count": 12018,
+    "occupation_count": 39068,
+    "skill_count": 238774,
+    "location_count": 14531,
+    "industry_count": 61
+  },
+  "edge_counts": {
+    "education_to_occupation": 870,
+    "occupation_to_skill": 708,
+    "occupation_to_industry": 240,
+    "career_progression": 43,
+    "occupation_to_market": 22350,
+    "career_cluster_to_occupation": 104
+  },
+  "market_data_breakdown": {
+    "synthetic_prototype_edges": 5000,
+    "real_job_feed_edges": 17350
+  },
+  "market_mapping_metrics": {
+    "total_market_postings": 22350,
+    "mapped_postings": 6815,
+    "ambiguous_postings": 2083,
+    "unmapped_postings": 13452,
+    "mapping_coverage_percent": 30.49,
+    "unique_market_titles": 6436,
+    "unique_market_titles_mapped": 285,
+    "unique_market_titles_ambiguous": 868,
+    "unique_market_titles_unmapped": 5283
+  },
+  "integrity_metrics": {
+    "self_loops_removed": 13,
+    "duplicate_progression_edges_removed": 5,
+    "fabricated_ids_removed": "GGOCC-SYNTH, GGOCC-REAL, GGOCC-CLUSTER (all removed)",
+    "provenance_coverage_percent": 100.0,
+    "invalid_education_occupation_edges": 0,
+    "invalid_occupation_skill_edges": 0,
+    "invalid_occupation_industry_edges": 0,
+    "invalid_progression_edges": 0,
+    "invalid_market_occupation_ids": 0
+  },
+  "coverage_metrics": {
+    "occupations_with_skills": 69,
+    "occupations_with_education": 39,
+    "occupations_with_industry": 69,
+    "occupations_with_progression": 31
+  },
+  "graph_export": {
+    "graph_nodes_count": 289921,
+    "graph_edges_count": 1861,
+    "market_edges_in_graph": false,
+    "design_note": "nodes.csv + edges.csv = structural canonical graph. occupation_market_edges.csv = separate market evidence layer. No market nodes in the canonical graph."
+  },
+  "student_data": {
+    "pip_max_rows_constant": null,
+    "pip_rows_used": 4424,
+    "psych_rows_used": 105
+  },
+  "validation_checks": {
+    "raw_integrity_pre": "PASSED",
+    "raw_integrity_post": "PASSED",
+    "entity_primary_keys": "PASSED",
+    "education_occupation_foreign_keys": "PASSED",
+    "occupation_skill_foreign_keys": "PASSED",
+    "occupation_industry_foreign_keys": "PASSED",
+    "progression_foreign_keys": "PASSED",
+    "market_foreign_keys": "PASSED",
+    "duplicate_edges": "PASSED",
+    "progression_self_loops": "PASSED",
+    "fabricated_ids": "PASSED"
+  },
+  "phase_6_status": "SUCCESS \u2014 all validation checks passed"
+}

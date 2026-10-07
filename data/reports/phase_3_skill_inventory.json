@@ -1,0 +1,145 @@
+[
+  {
+    "source_dataset": "prism_education_career",
+    "source_file": "skills.csv",
+    "source_filepath": "processed/prism_education_career/skills.csv",
+    "source_column": "skill_name",
+    "non_null_skill_count": 420,
+    "unique_raw_skills_count": 420,
+    "delimiters_detected": [
+      "/"
+    ],
+    "combined_skill_candidates_count": 121,
+    "sample_raw_values": [
+      "Continuous Deployment (CD)",
+      "Email Marketing Automation",
+      "Clinical Biochemistry Diagnostics",
+      "Operations Capacity Planning",
+      "Network Protocols"
+    ]
+  },
+  {
+    "source_dataset": "prism_education_career",
+    "source_file": "occupation_to_skill.csv",
+    "source_filepath": "processed/prism_education_career/occupation_to_skill.csv",
+    "source_column": "skill_name",
+    "non_null_skill_count": 3309,
+    "unique_raw_skills_count": 110,
+    "delimiters_detected": [
+      "/"
+    ],
+    "combined_skill_candidates_count": 38,
+    "sample_raw_values": [
+      "Performance Marketing & ROAS",
+      "RESTful API Design",
+      "Operations Capacity Planning",
+      "Advanced Microsoft Excel",
+      "Critical Thinking"
+    ]
+  },
+  {
+    "source_dataset": "prism_esco",
+    "source_file": "skills_en.csv",
+    "source_filepath": "processed/prism_esco/skills_en.csv",
+    "source_column": "preferredLabel",
+    "non_null_skill_count": 13960,
+    "unique_raw_skills_count": 13939,
+    "delimiters_detected": [
+      "/",
+      ","
+    ],
+    "combined_skill_candidates_count": 327,
+    "sample_raw_values": [
+      "prepare equipment for harvest",
+      "support social service users' positiveness",
+      "control reorder points",
+      "maintain wood thickness",
+      "create 3D characters"
+    ]
+  },
+  {
+    "source_dataset": "prism_india_jobs",
+    "source_file": "india_job_market_2024_2026.csv",
+    "source_filepath": "processed/prism_india_jobs/india_job_market_2024_2026.csv",
+    "source_column": "Skills_Required",
+    "non_null_skill_count": 5000,
+    "unique_raw_skills_count": 4817,
+    "delimiters_detected": [
+      "/",
+      ","
+    ],
+    "combined_skill_candidates_count": 536,
+    "sample_raw_values": [
+      "TensorFlow, AWS, MLOps",
+      "NLP, Publications, PyTorch",
+      "REST APIs, SwiftUI, Swift, Core Data, Xcode",
+      "TypeScript, JavaScript, Node.js, Express.js",
+      "CSS, Adobe XD, Prototyping, Wireframing, User Research"
+    ]
+  },
+  {
+    "source_dataset": "prism_job_descriptions",
+    "source_file": "job_dataset.csv",
+    "source_filepath": "processed/prism_job_descriptions/job_dataset.csv",
+    "source_column": "Skills",
+    "non_null_skill_count": 1068,
+    "unique_raw_skills_count": 969,
+    "delimiters_detected": [
+      "/",
+      ",",
+      ";"
+    ],
+    "combined_skill_candidates_count": 533,
+    "sample_raw_values": [
+      "C++, C# expert; JavaScript advanced; Python basics; Unity, Unreal Engine expert; ARKit, ARCore, Vuforia; Advanced 3D modeling and animation; UI/UX expert; Spatial computing; Gesture/motion tracking; Performance optimization; Cross-platform development; Machine learning basics; Leadership; Project coordination; Team collaboration",
+      "Node.js; Python; Java; Go; Express.js; Django; Flask; Spring Boot; MySQL; PostgreSQL; MongoDB; Redis; RESTful API; GraphQL; gRPC; Git; Docker; Kubernetes; CI/CD; Cloud Platforms; Agile",
+      "Python; R; SQL; Java/Scala; Regression; Classification; NLP; Reinforcement Learning; Spark; Hadoop; AWS; Azure; ETL pipelines; Feature engineering; Tableau; PowerBI",
+      "Python basics; JavaScript basics; SQL fundamentals; Blockchain basics; Introductory machine learning; Cybersecurity basics; Financial domain knowledge; API integration basics; AWS/Azure basics; Problem-solving; Communication; Collaboration; Adaptability",
+      "Team Management; Scheduling; Process Optimization; Workflow Automation; Budget Oversight; Data Analysis; ERP Systems; KPI Reporting; Cross-Functional Coordination; Problem Solving"
+    ]
+  },
+  {
+    "source_dataset": "prism_resume_intelligence",
+    "source_file": "05_person_skills.csv",
+    "source_filepath": "processed/prism_resume_intelligence/05_person_skills.csv",
+    "source_column": "skill",
+    "non_null_skill_count": 2483367,
+    "unique_raw_skills_count": 226758,
+    "delimiters_detected": [
+      "/",
+      ",",
+      "|",
+      ";"
+    ],
+    "combined_skill_candidates_count": 72632,
+    "sample_raw_values": [
+      "Response and repair time reduction",
+      "TECHNICAL ANALYST",
+      "activists",
+      "HTML5/XHTML",
+      "Implemented Enterprise Portal 8.8 and integration into SA 8.0"
+    ]
+  },
+  {
+    "source_dataset": "prism_resume_intelligence",
+    "source_file": "06_skills.csv",
+    "source_filepath": "processed/prism_resume_intelligence/06_skills.csv",
+    "source_column": "skill",
+    "non_null_skill_count": 226758,
+    "unique_raw_skills_count": 226758,
+    "delimiters_detected": [
+      "/",
+      ",",
+      "|",
+      ";"
+    ],
+    "combined_skill_candidates_count": 72632,
+    "sample_raw_values": [
+      "HTML5/XHTML",
+      "Response and repair time reduction",
+      "TECHNICAL ANALYST",
+      "activists",
+      "Implemented Enterprise Portal 8.8 and integration into SA 8.0"
+    ]
+  }
+]
