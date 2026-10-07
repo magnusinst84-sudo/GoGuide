@@ -51,5 +51,8 @@ def get_pathways(career_id: str): return not_implemented_response()
 @app.post("/api/action-plan")
 def create_action_plan(): return not_implemented_response()
 
-@app.post("/api/llm/chat")
-def chat_with_llm(): return not_implemented_response()
+from app.api.llm import router as llm_router
+from app.api.guide import router as guide_router
+
+app.include_router(llm_router, prefix="/api/llm")
+app.include_router(guide_router, prefix="/api/guide")
