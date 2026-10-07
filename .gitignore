@@ -25,3 +25,8 @@ node_modules/
 .env
 .env.local
 .env.*.local
+
+# Large/supporting processed datasets kept outside Git
+data/processed/prism_resume_intelligence/
+data/processed/recommendations/
+data/processed/prism_job_descriptions/adzuna_global_job_listings_2025.csv
