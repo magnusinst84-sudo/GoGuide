@@ -22,6 +22,18 @@
         <!-- FAQ Section Button -->
         <a href="#faq" class="button nav-btn" id="faqNavBtn" role="button">FAQ Section</a>
 
+        <!-- AI Advisor Chatbot Button on Landing Header -->
+        <button type="button" class="button nav-btn ai-header-btn" id="heroAiBotBtn" aria-label="Open AI Advisor Chat" aria-expanded="false">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px; vertical-align: middle;">
+            <rect x="3" y="11" width="18" height="10" rx="3"></rect>
+            <circle cx="12" cy="5" r="2.5"></circle>
+            <path d="M12 7.5v3.5"></path>
+            <line x1="8" y1="16" x2="8.01" y2="16"></line>
+            <line x1="16" y1="16" x2="16.01" y2="16"></line>
+          </svg>
+          <span>AI Bot</span>
+        </button>
+
         <!-- GitHub Icon With Link Button -->
         <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="button nav-btn github-btn"
           id="githubNavBtn" aria-label="Visit GoGuide on GitHub">
@@ -34,6 +46,15 @@
 
         <!-- Signup Button -->
         <button type="button" class="button nav-btn" id="signupNavBtn">Signup</button>
+
+        <!-- Settings Dropdown Trigger Button on Landing Header -->
+        <button type="button" class="button nav-btn settings-header-btn" id="heroSettingsBtn" aria-label="Settings and Profile" aria-expanded="false">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px; vertical-align: middle;">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+          <span id="heroSettingsBtnText">Settings</span>
+        </button>
       </nav>
     </header>
 
@@ -125,6 +146,205 @@
               <span>Continue &rarr;</span>
             </button>
             <p class="inputs-disclaimer">Your information helps tailor your guidance milestones.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parent Financial Inputs Section (Shares same heropage.jpg background) -->
+  <section class="student-inputs-section parent-inputs-section" id="parentInputs">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Parent Input &bull; Financial Profile</span>
+        <h2 class="section-title inputs-section-title">Financial Information</h2>
+        <p class="section-subtitle">
+          Provide your household financial overview to help us evaluate feasible education plans and funding recommendations.
+        </p>
+      </div>
+
+      <div class="inputs-card parent-inputs-card">
+        <form class="inputs-form" id="parentDetailsForm">
+          <div class="inputs-grid parent-inputs-grid">
+            <!-- 1. Annual Household Income -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="annualIncome">
+                Annual income <span class="req-star">*</span>
+              </label>
+              <div class="currency-input-container">
+                <span class="currency-symbol">&#8377;</span>
+                <input class="input currency-input" type="number" id="annualIncome" name="annualIncome" min="0" step="5000"
+                  placeholder="e.g. 1200000" required />
+              </div>
+              <span class="input-helper-text">Annual household income</span>
+            </div>
+
+            <!-- 2. Savings Available -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="savingsAvailable">
+                Savings available <span class="req-star">*</span>
+              </label>
+              <div class="currency-input-container">
+                <span class="currency-symbol">&#8377;</span>
+                <input class="input currency-input" type="number" id="savingsAvailable" name="savingsAvailable" min="0" step="5000"
+                  placeholder="e.g. 500000" required />
+              </div>
+              <span class="input-helper-text">Current savings for education</span>
+            </div>
+
+            <!-- 3. Annual Education Budget -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="annualBudget">
+                Education budget <span class="req-star">*</span>
+              </label>
+              <div class="currency-input-container">
+                <span class="currency-symbol">&#8377;</span>
+                <input class="input currency-input" type="number" id="annualBudget" name="annualBudget" min="0" step="5000"
+                  placeholder="e.g. 300000" required />
+              </div>
+              <span class="input-helper-text">Annual education budget</span>
+            </div>
+
+            <!-- 4. Maximum Loan Willing to Take -->
+            <div class="input-field-wrap">
+              <label class="input-label" for="maxLoan">
+                Max loan willing <span class="req-star">*</span>
+              </label>
+              <div class="currency-input-container">
+                <span class="currency-symbol">&#8377;</span>
+                <input class="input currency-input" type="number" id="maxLoan" name="maxLoan" min="0" step="5000"
+                  placeholder="e.g. 800000" required />
+              </div>
+              <span class="input-helper-text">Maximum loan willingness</span>
+            </div>
+          </div>
+
+          <div class="inputs-action-row">
+            <button type="submit" class="button continue-action-btn" id="continueFromParentBtn">
+              <span>Continue &rarr;</span>
+            </button>
+            <p class="inputs-disclaimer">Financial data is kept private and used only for roadmap affordability evaluation.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parent Preferences Section (Shares same heropage.jpg background) -->
+  <section class="student-inputs-section parent-preferences-section" id="parentPreferencesSection">
+    <div class="section-container" style="max-width: 900px; width: 100%;">
+      <div class="section-header">
+        <span class="section-tag">Parent Input &bull; Preferences</span>
+        <h2 class="section-title inputs-section-title">Parent Preferences</h2>
+        <p class="section-subtitle">
+          Help us align career trajectories with your family's risk appetite and timeline priorities.
+        </p>
+      </div>
+
+      <div class="inputs-card parent-preferences-card" style="max-width: 860px; width: 100%;">
+        <form class="inputs-form" id="parentPreferencesForm" onsubmit="event.preventDefault();">
+          <!-- 1. Risk Appetite (1–5) -->
+          <div class="pref-field-group" style="width: 100%; margin-bottom: 2.25rem;">
+            <label class="input-label" style="font-size: 1.05rem; margin-bottom: 0.8rem; width: 100%;">
+              Risk appetite (1–5) <span class="req-star">*</span>
+            </label>
+
+            <div class="radio-input risk-radio-group parent-scale-group" role="radiogroup" aria-label="Risk appetite scale 1 to 5">
+              <label class="label" for="parent_risk_1" title="1 = Very Low Risk">
+                <input value="1" name="parent_risk_appetite" id="parent_risk_1" type="radio" required />
+                <span class="text">1 &bull; Very Low</span>
+              </label>
+              <label class="label" for="parent_risk_2" title="2 = Low Risk">
+                <input value="2" name="parent_risk_appetite" id="parent_risk_2" type="radio" />
+                <span class="text">2 &bull; Low</span>
+              </label>
+              <label class="label" for="parent_risk_3" title="3 = Moderate Risk">
+                <input value="3" name="parent_risk_appetite" id="parent_risk_3" type="radio" checked />
+                <span class="text">3 &bull; Moderate</span>
+              </label>
+              <label class="label" for="parent_risk_4" title="4 = High Risk">
+                <input value="4" name="parent_risk_appetite" id="parent_risk_4" type="radio" />
+                <span class="text">4 &bull; High</span>
+              </label>
+              <label class="label" for="parent_risk_5" title="5 = Very High Risk">
+                <input value="5" name="parent_risk_appetite" id="parent_risk_5" type="radio" />
+                <span class="text">5 &bull; Very High</span>
+              </label>
+            </div>
+            <span class="input-helper-text" style="margin-top: 0.6rem; display: block;">Willingness to explore unconventional or variable-income career paths</span>
+          </div>
+
+          <!-- 2. Need for early employment (1–5) -->
+          <div class="pref-field-group" style="width: 100%; margin-bottom: 2.5rem;">
+            <label class="input-label" style="font-size: 1.05rem; margin-bottom: 0.8rem; width: 100%;">
+              Need for early employment (1–5) <span class="req-star">*</span>
+            </label>
+
+            <div class="radio-input risk-radio-group parent-scale-group" role="radiogroup" aria-label="Need for early employment scale 1 to 5">
+              <label class="label" for="parent_employ_1" title="1 = Flexible (Can pursue extended education/PG)">
+                <input value="1" name="parent_early_employment" id="parent_employ_1" type="radio" required />
+                <span class="text">1 &bull; Flexible</span>
+              </label>
+              <label class="label" for="parent_employ_2" title="2 = Low Urgency">
+                <input value="2" name="parent_early_employment" id="parent_employ_2" type="radio" />
+                <span class="text">2 &bull; Low Urgency</span>
+              </label>
+              <label class="label" for="parent_employ_3" title="3 = Balanced Priority">
+                <input value="3" name="parent_early_employment" id="parent_employ_3" type="radio" checked />
+                <span class="text">3 &bull; Balanced</span>
+              </label>
+              <label class="label" for="parent_employ_4" title="4 = High Priority (Prefer quick job placement)">
+                <input value="4" name="parent_early_employment" id="parent_employ_4" type="radio" />
+                <span class="text">4 &bull; High Priority</span>
+              </label>
+              <label class="label" for="parent_employ_5" title="5 = Critical (Immediate placement essential)">
+                <input value="5" name="parent_early_employment" id="parent_employ_5" type="radio" />
+                <span class="text">5 &bull; Critical</span>
+              </label>
+            </div>
+            <span class="input-helper-text" style="margin-top: 0.6rem; display: block;">Urgency to start earning post-graduation vs continuing advanced research/degrees</span>
+          </div>
+
+          <div class="inputs-action-row">
+            <button type="submit" class="button continue-action-btn" id="continueFromParentPrefBtn">
+              <span>Continue &rarr;</span>
+            </button>
+            <p class="inputs-disclaimer">Preferences guide roadmap timeline, job placement urgency, and specialization options.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parent Expected Careers Section (Shares same heropage.jpg background) -->
+  <section class="student-inputs-section parent-careers-section" id="parentCareersSection">
+    <div class="section-container" style="max-width: 980px; width: 100%;">
+      <div class="section-header">
+        <span class="section-tag">Parent Input &bull; Expected Careers</span>
+        <h2 class="section-title inputs-section-title">Expected Careers</h2>
+        <p class="section-subtitle">
+          Select between <strong>3 to 5</strong> careers you currently expect or desire for the student.
+        </p>
+      </div>
+
+      <div class="inputs-card parent-careers-card" style="max-width: 940px; width: 100%;">
+        <form class="inputs-form" id="parentCareersForm" onsubmit="event.preventDefault();">
+          <!-- Selection counter badge & instructions -->
+          <div class="career-select-header">
+            <span class="career-count-pill" id="careerSelectionCountBadge">0 of 3–5 selected</span>
+            <span class="career-guide-note">Click chips below to select or unselect. (Min: 3, Max: 5)</span>
+          </div>
+
+          <!-- Career Selection Chips Grid -->
+          <div class="career-chips-grid" id="parentCareersGrid">
+            <!-- Dynamically populated or pre-rendered with rich modern interactive tags -->
+          </div>
+
+          <div class="inputs-action-row" style="margin-top: 2.25rem;">
+            <button type="submit" class="button continue-action-btn" id="continueFromParentCareersBtn">
+              <span>Continue &rarr;</span>
+            </button>
+            <p class="inputs-disclaimer">These selections are mapped against student passions to identify shared interests and growth paths.</p>
           </div>
         </form>
       </div>
@@ -361,6 +581,542 @@
       </div>
     </section>
 
+    <!-- ==========================================================================
+         RESULTS PAGE: PRISM Engine Output (Top Matches, Left Rail, Conflict, Detail)
+         ========================================================================== -->
+    <section class="results-page-section" id="resultsSection" aria-label="PRISM Career Results">
+      <!-- Top Navigation bar for Results Section -->
+      <nav class="results-subnav" aria-label="Results Navigation">
+        <div class="results-subnav-left">
+          <div class="results-brand">
+            <span class="prism-badge">PRISM</span>
+            <span class="results-title-text">Decision Engine &bull; Output</span>
+          </div>
+          <div class="results-tabs" role="tablist">
+            <button type="button" class="results-tab-btn active" id="tabRecommendationsBtn" role="tab" aria-selected="true" onclick="window.switchResultsTab('recommendations')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>Top Matches</span>
+            </button>
+            <button type="button" class="results-tab-btn" id="tabConflictBtn" role="tab" aria-selected="false" onclick="window.switchResultsTab('conflict')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><path d="M11 18H8a2 2 0 0 1-2-2V9"/></svg>
+              <span>Conflict View</span>
+            </button>
+            <button type="button" class="results-tab-btn" id="tabLocalBtn" role="tab" aria-selected="false" onclick="window.switchResultsTab('local')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Local Opportunity</span>
+            </button>
+            <button type="button" class="results-tab-btn" id="tabSwotBtn" role="tab" aria-selected="false" onclick="window.switchResultsTab('swot')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="12" y1="3" x2="12" y2="21"/></svg>
+              <span>SWOT Matrix</span>
+            </button>
+          </div>
+        </div>
+        <div class="results-subnav-right">
+          <span class="results-status-indicator">
+            <span class="status-dot"></span> Provenance Preserved &bull; Deterministic
+          </span>
+        </div>
+      </nav>
+
+      <!-- Main Results Layout Container (Left Rail + Main Content) -->
+      <div class="results-layout-container">
+        <!-- Persistent Left Sidebar / Rail -->
+        <aside class="results-left-rail" id="resultsLeftRail" aria-label="Profile and Simulation Rail">
+          <!-- 1. Student Profile Summary -->
+          <div class="rail-card student-summary-card">
+            <div class="rail-header">
+              <span class="rail-tag">Profile Summary</span>
+              <h3 class="rail-title" id="railStudentStream">Science – PCM</h3>
+            </div>
+            <div class="rail-meta-list">
+              <div class="rail-meta-item">
+                <span class="meta-label">Latest Marks</span>
+                <span class="meta-value" id="railStudentMarks">88.5%</span>
+              </div>
+              <div class="rail-meta-item">
+                <span class="meta-label">Location</span>
+                <span class="meta-value" id="railStudentCity">Mumbai, MH</span>
+              </div>
+              <div class="rail-meta-item">
+                <span class="meta-label">Family Income</span>
+                <span class="meta-value" id="railFamilyIncome">&#8377;12.0 L/yr</span>
+              </div>
+              <div class="rail-meta-item">
+                <span class="meta-label">Liquid Savings</span>
+                <span class="meta-value" id="railFamilySavings">&#8377;5.0 L</span>
+              </div>
+            </div>
+
+            <!-- Strongest Interest Dimensions -->
+            <div class="rail-subgroup">
+              <span class="subgroup-title">Strongest Interest Dimensions</span>
+              <div class="interest-dim-tags" id="railInterestDimensions">
+                <span class="dim-tag">Investigative (0.84)</span>
+                <span class="dim-tag">Realistic (0.76)</span>
+                <span class="dim-tag">Enterprising (0.62)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Interactive PRISM Weight Sliders -->
+          <div class="rail-card weights-card">
+            <div class="rail-header-row">
+              <div>
+                <span class="rail-tag">PRISM Engine</span>
+                <h3 class="rail-title">Weight Sliders</h3>
+              </div>
+              <button type="button" class="back-defaults-btn" id="resetWeightsBtn" title="Reset to standard defaults">
+                Back to defaults
+              </button>
+            </div>
+            <p class="rail-instruction">Weights instantly reorder candidate career ranks in real-time.</p>
+
+            <div class="weights-sliders-list">
+              <!-- Fit Weight Slider -->
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <span class="weight-name"><span class="color-badge badge-fit"></span> Fit</span>
+                  <span class="weight-val-num" id="fitWeightVal">40%</span>
+                </div>
+                <input type="range" class="weight-slider slider-fit" id="sliderFit" min="5" max="70" step="5" value="40" aria-label="Fit weight percentage" />
+              </div>
+
+              <!-- Market Weight Slider -->
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <span class="weight-name"><span class="color-badge badge-market"></span> Market</span>
+                  <span class="weight-val-num" id="marketWeightVal">30%</span>
+                </div>
+                <input type="range" class="weight-slider slider-market" id="sliderMarket" min="5" max="70" step="5" value="30" aria-label="Market weight percentage" />
+              </div>
+
+              <!-- Financial Weight Slider -->
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <span class="weight-name"><span class="color-badge badge-financial"></span> Financial</span>
+                  <span class="weight-val-num" id="financialWeightVal">15%</span>
+                </div>
+                <input type="range" class="weight-slider slider-financial" id="sliderFinancial" min="5" max="70" step="5" value="15" aria-label="Financial weight percentage" />
+              </div>
+
+              <!-- Risk Weight Slider -->
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <span class="weight-name"><span class="color-badge badge-risk"></span> Risk</span>
+                  <span class="weight-val-num" id="riskWeightVal">15%</span>
+                </div>
+                <input type="range" class="weight-slider slider-risk" id="sliderRisk" min="5" max="70" step="5" value="15" aria-label="Risk weight percentage" />
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Compact Assumptions Panel -->
+          <div class="rail-card assumptions-card">
+            <span class="rail-tag">Solver Parameters</span>
+            <h3 class="rail-title">Compact Assumptions</h3>
+            <div class="assumptions-table">
+              <div class="assumption-row">
+                <span class="a-label">Loan rate:</span>
+                <span class="a-val">9.5% p.a. (SBI Ed-Loan)</span>
+              </div>
+              <div class="assumption-row">
+                <span class="a-label">Loan tenure:</span>
+                <span class="a-val">10 years (120 mo)</span>
+              </div>
+              <div class="assumption-row">
+                <span class="a-label">EMI limit:</span>
+                <span class="a-val">&le; 40% of entry salary</span>
+              </div>
+              <div class="assumption-row">
+                <span class="a-label">Current weights:</span>
+                <span class="a-val" id="assumptionsWeightDisplay">40 / 30 / 15 / 15</span>
+              </div>
+              <div class="assumption-row">
+                <span class="a-label">Data dates:</span>
+                <span class="a-val">O*NET 28.1 &bull; AISHE 2024</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Results Area -->
+        <main class="results-main-area" id="resultsMainArea">
+          <!-- TAB 1: RECOMMENDATIONS (Top matches + Blocked careers) -->
+          <div class="results-tab-panel active" id="tabRecommendationsPanel" role="tabpanel">
+            <div class="results-panel-header">
+              <div>
+                <h2 class="results-main-heading">Your top matches</h2>
+                <p class="results-subheading">Ranked feasible careers evaluated through the deterministic Phase 7.2 PRISM formula. Click any career row to view deep pathway analysis.</p>
+              </div>
+              <div class="prism-legend-inline" aria-label="PRISM Score Component Legend">
+                <span class="legend-item"><span class="legend-box" style="background: #5B4FCF;"></span> FIT (0.40)</span>
+                <span class="legend-item"><span class="legend-box" style="background: #0A8FA3;"></span> MARKET (0.30)</span>
+                <span class="legend-item"><span class="legend-box" style="background: #2D6CDF;"></span> FINANCIAL (0.15)</span>
+                <span class="legend-item"><span class="legend-box" style="background: #B8307A;"></span> RISK (0.15)</span>
+                <span class="legend-item"><span class="legend-box legend-hatched"></span> CONFLICT DEDUCTION</span>
+              </div>
+            </div>
+
+            <!-- Ranked Feasible Careers List (Rank 1–5) -->
+            <div class="ranked-careers-list" id="rankedCareersList" role="list">
+              <!-- Populated by JavaScript with high precision PRISM rendering -->
+            </div>
+
+            <!-- Blocked Careers (Not Affordable with Current Plan) -->
+            <div class="blocked-careers-container" id="blockedCareersContainer">
+              <div class="blocked-header">
+                <div class="blocked-badge-icon">&#9888;&#65039;</div>
+                <div>
+                  <h3 class="blocked-title">Not affordable with the current plan</h3>
+                  <p class="blocked-subtitle">Careers strictly blocked by the deterministic Financial Feasibility Gate. Kept separate from ranked feasible options for total transparency.</p>
+                </div>
+              </div>
+
+              <div class="blocked-careers-list" id="blockedCareersList">
+                <!-- Blocked career items populated by JavaScript -->
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: CONFLICT VIEW -->
+          <div class="results-tab-panel" id="tabConflictPanel" role="tabpanel" style="display: none;">
+            <div class="results-panel-header">
+              <div>
+                <h2 class="results-main-heading">Student &bull; Parent Conflict Analysis</h2>
+                <p class="results-subheading">Objective vector difference between student RIASEC preferences and parent expectations. Explicit, non-judgmental alignment metrics.</p>
+              </div>
+            </div>
+
+            <div class="conflict-content-grid">
+              <!-- Conflict Index Gauge & Horizontal Scale -->
+              <div class="conflict-gauge-card">
+                <div class="gauge-top-row">
+                  <div>
+                    <span class="rail-tag">Alignment Metric</span>
+                    <h3 class="conflict-card-title">Overall Conflict Index (CI)</h3>
+                    <p class="conflict-formula-text">CI = 1 &minus; cos(student, parent) = <strong id="conflictScoreText">0.34</strong> (Low-Moderate Disagreement)</p>
+                  </div>
+                  <div class="conflict-score-circle" id="conflictScoreCircle">
+                    <span class="score-num">34</span>
+                    <span class="score-unit">/ 100</span>
+                  </div>
+                </div>
+
+                <!-- Shared Horizontal Scale with You and Parent markers -->
+                <div class="conflict-scale-container">
+                  <div class="scale-labels">
+                    <span>0.0 Full Agreement</span>
+                    <span>0.5 Moderate</span>
+                    <span>1.0 Complete Divergence</span>
+                  </div>
+                  <div class="scale-track">
+                    <div class="scale-fill" style="width: 34%;"></div>
+                    <div class="marker marker-student" style="left: 28%;" title="Student centroid position">
+                      <span class="marker-pin"></span>
+                      <span class="marker-label">You</span>
+                    </div>
+                    <div class="marker marker-parent" style="left: 62%;" title="Parent expectations centroid">
+                      <span class="marker-pin"></span>
+                      <span class="marker-label">Parent</span>
+                    </div>
+                  </div>
+                  <div class="scale-gap-indicator">
+                    <span>Visual Vector Gap: <strong>0.34 radians</strong></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Prominent Compromise Card -->
+              <div class="compromise-hero-card" id="compromiseCard">
+                <div class="compromise-badge">&#129309; Reconciled Pathway</div>
+                <h3 class="compromise-title" id="compromiseCareerTitle">A compromise: Biomedical Engineering</h3>
+                <p class="compromise-desc" id="compromiseCareerText">
+                  Fits you at <strong>0.47</strong> and fits your family&rsquo;s picks at <strong>0.88</strong>. Reconciles technical innovation with clinical stability.
+                </p>
+                <div class="compromise-metrics-row">
+                  <div class="c-metric">
+                    <span class="c-metric-lbl">Student Fit</span>
+                    <span class="c-metric-val">0.78 / 1.0</span>
+                  </div>
+                  <div class="c-metric">
+                    <span class="c-metric-lbl">Parent Affinity</span>
+                    <span class="c-metric-val">0.88 / 1.0</span>
+                  </div>
+                  <div class="c-metric">
+                    <span class="c-metric-lbl">5-Yr Feasibility</span>
+                    <span class="c-metric-val text-green">&#10003; 100% Feasible</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Risk Disagreement & Per-Career Comparison Table -->
+            <div class="conflict-table-wrapper">
+              <h3 class="table-section-title">Per-Career Alignment &amp; Risk Breakdown</h3>
+              <table class="conflict-table" aria-label="Student vs Parent Career Match Comparison">
+                <thead>
+                  <tr>
+                    <th>Career</th>
+                    <th>You (Fit)</th>
+                    <th>Parent (Affinity)</th>
+                    <th>Difference</th>
+                    <th>Risk Disagreement</th>
+                    <th>Resolution Note</th>
+                  </tr>
+                </thead>
+                <tbody id="conflictTableBody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- TAB 3: LOCAL OPPORTUNITY -->
+          <div class="results-tab-panel" id="tabLocalPanel" role="tabpanel" style="display: none;">
+            <div class="results-panel-header">
+              <div>
+                <h2 class="results-main-heading">Local Hyper-Opportunity Card</h2>
+                <p class="results-subheading">Grounding career paths in real challenges and industries specific to the student&rsquo;s home location.</p>
+              </div>
+            </div>
+
+            <div class="local-card-container">
+              <div class="local-opportunity-card">
+                <div class="local-top-bar">
+                  <span class="local-city-tag" id="localCardCity">&#128205; Mumbai Metropolitan Region</span>
+                  <span class="local-source-badge">Source: NITI Aayog Urban Infrastructure 2024</span>
+                </div>
+                <h3 class="local-problem-title" id="localCardProblem">Urban Drainage &amp; Real-Time IoT Logistics Optimization</h3>
+                <p class="local-problem-desc" id="localCardProblemDesc">
+                  Mumbai experiences severe seasonal monsoon transport congestion and supply-chain blockages across key municipal corridors. High demand exists for telemetry software and predictive sensor arrays.
+                </p>
+                <div class="local-grid-2col">
+                  <div class="local-subbox">
+                    <span class="subbox-label">Matching Student Skills</span>
+                    <div class="local-skill-chips" id="localCardSkills">
+                      <span class="l-chip">Python / Analytics</span>
+                      <span class="l-chip">Embedded Logic</span>
+                      <span class="l-chip">Spatial Mapping</span>
+                    </div>
+                  </div>
+                  <div class="local-subbox">
+                    <span class="subbox-label">Recommended Project Idea</span>
+                    <p class="project-idea-text" id="localCardProject">
+                      &ldquo;Build an open-source precipitation routing telemetry dashboard for Ward D using municipal sensor feeds and open map APIs.&rdquo;
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 4: SWOT MATRIX -->
+          <div class="results-tab-panel" id="tabSwotPanel" role="tabpanel" style="display: none;">
+            <div class="results-panel-header">
+              <div>
+                <h2 class="results-main-heading">Personalized SWOT Matrix</h2>
+                <p class="results-subheading">Holistic multi-dimensional evaluation synthesizing student strengths, developmental needs, market openings, and external hazards.</p>
+              </div>
+            </div>
+
+            <div class="swot-grid" id="swotGrid">
+              <!-- Strengths -->
+              <div class="swot-cell swot-strengths">
+                <div class="swot-cell-header">
+                  <span class="swot-icon">&#128170;</span>
+                  <h3 class="swot-title">Strengths</h3>
+                </div>
+                <ul class="swot-list" id="swotStrengthsList">
+                  <li>Strong quantitative baseline (88.5% in Science PCM stream).</li>
+                  <li>High self-reported affinity for mathematical logic and algorithm scripting.</li>
+                  <li>Clear preference alignment with engineering and analytical occupational families.</li>
+                </ul>
+              </div>
+
+              <!-- Weaknesses -->
+              <div class="swot-cell swot-weaknesses">
+                <div class="swot-cell-header">
+                  <span class="swot-icon">&#9888;&#65039;</span>
+                  <h3 class="swot-title">Weaknesses / Gaps</h3>
+                </div>
+                <ul class="swot-list" id="swotWeaknessesList">
+                  <li>Limited formal portfolio in system architecture or open-source software codebases.</li>
+                  <li>Unobserved public speaking and technical leadership scores in initial profile.</li>
+                  <li>High reliance on educational loans if selecting tier-1 private universities.</li>
+                </ul>
+              </div>
+
+              <!-- Opportunities -->
+              <div class="swot-cell swot-opportunities">
+                <div class="swot-cell-header">
+                  <span class="swot-icon">&#128640;</span>
+                  <h3 class="swot-title">Opportunities</h3>
+                </div>
+                <ul class="swot-list" id="swotOpportunitiesList">
+                  <li>Rising Indian domestic demand in Edge Computing, Cloud DevOps, and AI Infrastructure.</li>
+                  <li>Availability of full merit-cum-means fee waivers in premier state technological institutes.</li>
+                  <li>Emerging hyper-local civic tech problem statements across metropolitan hubs.</li>
+                </ul>
+              </div>
+
+              <!-- Threats -->
+              <div class="swot-cell swot-threats">
+                <div class="swot-cell-header">
+                  <span class="swot-icon">&#128737;&#65039;</span>
+                  <h3 class="swot-title">Threats / Risks</h3>
+                </div>
+                <ul class="swot-list" id="swotThreatsList">
+                  <li>Heavy entrance exam competition ratios for general category quota seats.</li>
+                  <li>Private medical and management college tuition inflationary spikes outpacing salary growth.</li>
+                  <li>Tech industry junior-level hiring volatility requiring verified hands-on skills over paper credentials.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- Career Detail Modal / Slide-Out View -->
+    <div class="career-detail-overlay" id="careerDetailOverlay" aria-modal="true" role="dialog" aria-hidden="true" style="display: none;">
+      <div class="career-detail-panel" id="careerDetailPanel">
+        <div class="detail-header">
+          <div>
+            <div class="detail-badges-row">
+              <span class="detail-cluster-tag" id="modalCareerCluster">Information Technology</span>
+              <span class="detail-flag-tag" id="modalCareerFlag">Entrance Exam Required</span>
+            </div>
+            <h2 class="detail-career-title" id="modalCareerTitle">Software Architect &amp; Systems Engineer</h2>
+          </div>
+          <button type="button" class="close-detail-btn" id="closeCareerDetailBtn" aria-label="Close career details">&times;</button>
+        </div>
+
+        <div class="detail-scroll-content">
+          <!-- 1. Match Index & PRISM Breakdown -->
+          <div class="detail-section">
+            <div class="detail-score-banner">
+              <div>
+                <span class="score-banner-label">PRISM Composite Match</span>
+                <div class="score-banner-val" id="modalMatchScore">88.4 / 100</div>
+              </div>
+              <div class="detail-prism-bar-wrap">
+                <div class="prism-component-bar lg" id="modalPrismBar"></div>
+              </div>
+            </div>
+
+            <div class="detail-components-grid">
+              <div class="d-comp-box" style="border-left-color: #5B4FCF;">
+                <span class="d-comp-lbl">Fit Score</span>
+                <span class="d-comp-val" id="modalFitVal">0.92</span>
+              </div>
+              <div class="d-comp-box" style="border-left-color: #0A8FA3;">
+                <span class="d-comp-lbl">Market Score</span>
+                <span class="d-comp-val" id="modalMarketVal">0.86</span>
+              </div>
+              <div class="d-comp-box" style="border-left-color: #2D6CDF;">
+                <span class="d-comp-lbl">Financial Feasibility</span>
+                <span class="d-comp-val" id="modalFinVal">0.88</span>
+              </div>
+              <div class="d-comp-box" style="border-left-color: #B8307A;">
+                <span class="d-comp-lbl">Risk Alignment</span>
+                <span class="d-comp-val" id="modalRiskVal">0.82</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Cost and Funding Solver -->
+          <div class="detail-section">
+            <h3 class="detail-sec-heading">&#128176; Cost and Funding Breakdown</h3>
+            <div class="funding-solver-grid">
+              <div class="f-stat"><span class="f-lbl">Total 4-Yr Cost</span><span class="f-val" id="modalTotalCost">&#8377;14,50,000</span></div>
+              <div class="f-stat"><span class="f-lbl">Family Savings Allocated</span><span class="f-val" id="modalSavings">&#8377;4,00,000</span></div>
+              <div class="f-stat"><span class="f-lbl">Scholarship Assumed</span><span class="f-val" id="modalScholarship">&#8377;1,50,000</span></div>
+              <div class="f-stat"><span class="f-lbl">Funding Shortfall</span><span class="f-val" id="modalFundingReq">&#8377;9,00,000</span></div>
+              <div class="f-stat"><span class="f-lbl">Loan Principal Needed</span><span class="f-val" id="modalLoanNeed">&#8377;9,00,000</span></div>
+              <div class="f-stat"><span class="f-lbl">Monthly Loan EMI (10y @ 9.5%)</span><span class="f-val" id="modalMonthlyEmi">&#8377;11,640 / mo</span></div>
+              <div class="f-stat highlighted"><span class="f-lbl">EMI / Entry Salary Ratio</span><span class="f-val" id="modalEmiRatio">17.9% (&lt; 40% Safe)</span></div>
+            </div>
+          </div>
+
+          <!-- 3. Skill Gaps -->
+          <div class="detail-section">
+            <h3 class="detail-sec-heading">&#128736;&#65039; Skill Gap Analysis</h3>
+            <div class="skill-gaps-group">
+              <div class="gap-tier">
+                <span class="gap-tag tag-large">Large Gap</span>
+                <div class="gap-chips" id="modalLargeGaps">
+                  <span class="gap-chip">Distributed Systems</span>
+                  <span class="gap-chip">Cloud Orchestration (Kubernetes)</span>
+                </div>
+              </div>
+              <div class="gap-tier">
+                <span class="gap-tag tag-some">Some Gap</span>
+                <div class="gap-chips" id="modalSomeGaps">
+                  <span class="gap-chip">Relational Database Indexing</span>
+                  <span class="gap-chip">Data Structures &amp; Algorithms</span>
+                </div>
+              </div>
+              <div class="gap-tier">
+                <span class="gap-tag tag-ontrack">On Track</span>
+                <div class="gap-chips" id="modalOnTrackSkills">
+                  <span class="gap-chip">Python Scripting</span>
+                  <span class="gap-chip">Mathematical Logic</span>
+                  <span class="gap-chip">System Debugging</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Action Roadmap (0–3m, 3–6m, 6–12m) -->
+          <div class="detail-section">
+            <h3 class="detail-sec-heading">&#128197; Grounded Action Roadmap</h3>
+            <div class="detail-timeline">
+              <div class="timeline-step">
+                <div class="timeline-marker">0–3 mo</div>
+                <div class="timeline-body">
+                  <strong>Foundation &amp; Entrance Prep:</strong> Focus on PCM entrance syllabi (JEE / CET). Complete algorithmic scripting fundamentals in Python or C++.
+                </div>
+              </div>
+              <div class="timeline-step">
+                <div class="timeline-marker">3–6 mo</div>
+                <div class="timeline-body">
+                  <strong>Application &amp; Practical Artifact:</strong> Sit for state engineering entrance examinations. Build 1 end-to-end fullstack data project for local portfolio.
+                </div>
+              </div>
+              <div class="timeline-step">
+                <div class="timeline-marker">6–12 mo</div>
+                <div class="timeline-body">
+                  <strong>Admission &amp; Core Specialization:</strong> Complete enrollment counselling. Apply for central state merit scholarships before August deadlines.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Exams, Scholarships, Adjacent Careers & Provenance -->
+          <div class="detail-section">
+            <div class="detail-subgrid-2">
+              <div>
+                <h4 class="subhead">&#128221; Required Entrance Exams</h4>
+                <p class="subtext" id="modalExams">JEE Main, MHT-CET, BITSAT</p>
+                <h4 class="subhead" style="margin-top: 1rem;">&#127891; Scholarships &amp; Deadlines</h4>
+                <p class="subtext" id="modalScholarships">Reliance Foundation Undergraduate Scholarship (Dec 15) &bull; National Scholarship Portal (Oct 31)</p>
+              </div>
+              <div>
+                <h4 class="subhead">&#128256; Adjacent Resilient Careers</h4>
+                <div class="adjacent-chips" id="modalAdjacentCareers">
+                  <span class="adj-chip">Data Engineering</span>
+                  <span class="adj-chip">Cybersecurity Architect</span>
+                  <span class="adj-chip">Product Specialist</span>
+                </div>
+                <h4 class="subhead" style="margin-top: 1rem;">&#128196; Sources &amp; Data Dates</h4>
+                <p class="subtext">ESCO Canonical Occupation Graph (2024) &bull; O*NET v28.1 &bull; India Job Market Feed (Q3 2024)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="page-footer">
       <div class="footer-inner">
@@ -494,6 +1250,20 @@
             <div class="text">AI Bot</div>
           </li>
 
+          <li class="iso-pro" id="navItemResults" title="PRISM Results">
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#resultsSection" id="bottomNavResultsBtn" aria-label="PRISM Results">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </a>
+            <div class="text">Results</div>
+          </li>
+
           <li class="iso-pro" id="navItemSettings" title="Settings">
             <span></span>
             <span></span>
@@ -509,6 +1279,188 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Settings & User Profile Dropdown Menu -->
+    <div class="settings-dropdown" id="settingsDropdown" aria-hidden="true" role="menu" aria-label="Settings and User Profile Menu">
+      <!-- 1. Logged In User Profile Header -->
+      <div class="settings-user-header" id="dropdownUserHeader">
+        <div class="settings-avatar-wrap">
+          <div class="settings-avatar" id="dropdownAvatar">AM</div>
+          <span class="settings-status-dot online" id="dropdownStatusDot" title="Status: Online"></span>
+        </div>
+        <div class="settings-user-info">
+          <div class="settings-name-row">
+            <span class="settings-name" id="dropdownUserName">Alex Morgan</span>
+            <span class="settings-badge" id="dropdownUserBadge">Active</span>
+          </div>
+          <span class="settings-email" id="dropdownUserEmail">alex.morgan@goguide.ai</span>
+          <span class="settings-role" id="dropdownUserRole">Student &bull; Science PCM</span>
+        </div>
+      </div>
+
+      <div class="settings-divider"></div>
+
+      <!-- 2. Light / Dark Mode Toggle -->
+      <div class="settings-section">
+        <div class="settings-section-head">
+          <span class="settings-section-title">Theme Mode</span>
+          <span class="theme-current-label" id="themeCurrentLabel">Dark</span>
+        </div>
+        <div class="theme-segmented-control" role="radiogroup" aria-label="Theme mode switcher">
+          <button type="button" class="theme-segment-btn" id="themeLightBtn" role="radio" aria-checked="false" aria-label="Switch to light mode">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <span>Light</span>
+          </button>
+          <button type="button" class="theme-segment-btn active" id="themeDarkBtn" role="radio" aria-checked="true" aria-label="Switch to dark mode">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <span>Dark</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="settings-divider"></div>
+
+      <!-- 3. Preferences & Audio Cues -->
+      <div class="settings-section">
+        <span class="settings-section-title">Preferences</span>
+        <div class="settings-option-row">
+          <div class="option-label-group">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            </svg>
+            <span>Sound / Cues</span>
+          </div>
+          <input type="checkbox" id="dropdownSoundToggle" checked class="settings-checkbox" aria-label="Toggle Sound Cues">
+        </div>
+        <button type="button" class="settings-action-btn" id="dropdownResetBtn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+          <span>Reset Assessment Progress</span>
+        </button>
+      </div>
+
+      <div class="settings-divider"></div>
+
+      <!-- 4. Sign Out / Sign In Action -->
+      <div class="settings-footer">
+        <button type="button" class="settings-auth-btn sign-out" id="dropdownAuthBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="auth-icon" id="dropdownAuthIcon">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg>
+          <span id="dropdownAuthText">Sign Out</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Dynamic GSAP AI Chatbot Dropdown -->
+    <div class="ai-chat-dropdown" id="aiChatDropdown" aria-hidden="true" role="dialog" aria-label="GoGuide AI Career Advisor">
+      <!-- Chat Header -->
+      <div class="ai-chat-header">
+        <div class="ai-header-info">
+          <div class="ai-avatar-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="10" rx="3"></rect>
+              <circle cx="12" cy="5" r="2.5"></circle>
+              <path d="M12 7.5v3.5"></path>
+              <line x1="8" y1="16" x2="8.01" y2="16"></line>
+              <line x1="16" y1="16" x2="16.01" y2="16"></line>
+            </svg>
+            <span class="ai-pulse-dot"></span>
+          </div>
+          <div>
+            <h3 class="ai-title">GoGuide AI Advisor</h3>
+            <span class="ai-status-text">&bull; Online &bull; Grounded in PRISM</span>
+          </div>
+        </div>
+        <div class="ai-header-actions">
+          <button type="button" class="ai-tool-btn" id="aiClearChatBtn" title="Clear conversation" aria-label="Clear conversation">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"></polyline>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            </svg>
+          </button>
+          <button type="button" class="ai-tool-btn close-chat-btn" id="aiCloseChatBtn" title="Close AI Advisor" aria-label="Close AI Advisor">&times;</button>
+        </div>
+      </div>
+
+      <!-- Quick Context Bar -->
+      <div class="ai-chat-context-bar">
+        <span class="context-pill" id="aiContextStudent">Science &bull; PCM</span>
+        <span class="context-pill" id="aiContextScore">88.5% Score</span>
+        <span class="context-pill" id="aiContextMatch">#1 Match: Software Arch.</span>
+      </div>
+
+      <!-- Chat Messages Scroll Container -->
+      <div class="ai-chat-messages" id="aiChatMessages" role="log" aria-live="polite">
+        <!-- AI Welcome Message -->
+        <div class="chat-msg ai-msg">
+          <div class="msg-avatar">🤖</div>
+          <div class="msg-bubble">
+            <p>Hello! I'm your <strong>GoGuide AI Advisor</strong>. I've analyzed your academic records, 24 interest dimensions, and deterministic PRISM scores.</p>
+            <p style="margin-top: 0.4rem;">How can I help guide your pathway today?</p>
+          </div>
+        </div>
+
+        <!-- Quick Prompt Suggestion Chips -->
+        <div class="chat-quick-chips" id="aiQuickChips">
+          <button type="button" class="chat-quick-chip" data-prompt="Why is Software Architect my #1 match?">
+            🎯 Why is Software Architect #1?
+          </button>
+          <button type="button" class="chat-quick-chip" data-prompt="Explain my loan need and EMI breakdown">
+            💰 Explain loan &amp; EMI calculation
+          </button>
+          <button type="button" class="chat-quick-chip" data-prompt="How do I reconcile parent preferences?">
+            🤝 How to resolve parent conflict?
+          </button>
+          <button type="button" class="chat-quick-chip" data-prompt="What projects should I build for local Mumbai tech?">
+            📍 Local Mumbai tech projects
+          </button>
+        </div>
+
+        <!-- Live Typing Indicator -->
+        <div class="chat-msg ai-msg typing-indicator" id="aiTypingIndicator" style="display: none;">
+          <div class="msg-avatar">🤖</div>
+          <div class="msg-bubble typing-bubble">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chat Input Area -->
+      <form class="ai-chat-form" id="aiChatForm" onsubmit="event.preventDefault(); window.handleAiChatSubmit();">
+        <div class="chat-input-wrap">
+          <input type="text" class="chat-input" id="aiChatInput" placeholder="Ask about roadmaps, loans, skills..." autocomplete="off" maxlength="300" aria-label="Message GoGuide AI Advisor" />
+          <button type="submit" class="chat-send-btn" id="aiChatSendBtn" aria-label="Send message">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <div class="chat-footer-note">
+          <span>Grounded in ESCO &bull; O*NET 28.1 &bull; Deterministic PRISM formula</span>
+        </div>
+      </form>
+    </div>
 
     <!-- AI Bot Modal Dialog -->
     <dialog id="aiBotDialog" aria-labelledby="aiBotTitle">
