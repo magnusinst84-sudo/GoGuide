@@ -102,7 +102,8 @@
                 Latest marks percentage <span class="req-star">*</span>
               </label>
               <div class="marks-input-container">
-                <input class="input" type="number" id="marksPercentage" name="marksPercentage" min="0" max="100" step="0.1" placeholder="e.g. 88.5" required />
+                <input class="input" type="number" id="marksPercentage" name="marksPercentage" min="0" max="100"
+                  step="0.1" placeholder="e.g. 88.5" required />
                 <span class="marks-symbol">%</span>
               </div>
               <span class="input-helper-text">Most recent score (0–100%)</span>
@@ -113,7 +114,8 @@
               <label class="input-label" for="currentCity">
                 Current city <span class="req-star">*</span>
               </label>
-              <input class="input" type="text" id="currentCity" name="currentCity" placeholder="e.g. Mumbai" required autocomplete="address-level2" />
+              <input class="input" type="text" id="currentCity" name="currentCity" placeholder="e.g. Mumbai" required
+                autocomplete="address-level2" />
               <span class="input-helper-text">Where you study or live</span>
             </div>
           </div>
@@ -150,8 +152,10 @@
           <div class="tracker-right">
             <span class="tracker-answered-pill" id="interestAnsweredPill">0 / 24 answered</span>
             <div class="tracker-nav-arrows">
-              <button type="button" class="tracker-arrow-btn" id="prevQuestionBtn" aria-label="Previous question">&larr;</button>
-              <button type="button" class="tracker-arrow-btn" id="nextQuestionBtn" aria-label="Next question">&rarr;</button>
+              <button type="button" class="tracker-arrow-btn" id="prevQuestionBtn"
+                aria-label="Previous question">&larr;</button>
+              <button type="button" class="tracker-arrow-btn" id="nextQuestionBtn"
+                aria-label="Next question">&rarr;</button>
             </div>
           </div>
         </div>
@@ -166,198 +170,421 @@
     </div>
   </section>
 
-  <!-- FAQ Section (Light Gray Body Area) -->
-  <section class="faq-section" id="faq">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Frequently Asked Questions</span>
-        <h2 class="section-title">Everything You Need to Know</h2>
-        <p class="section-subtitle">
-          Got questions about GoGuide? Here are the most common inquiries from our community.
-        </p>
-      </div>
+  <!-- Step 3: 8 Skill Ratings (0–100 Sliders, 2 per row) -->
+  <section class="skills-assessment-section" id="skillsSection">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Step 3 &bull; Skill Assessment</span>
+          <h2 class="section-title">Rate Your Proficiency</h2>
+          <p class="section-subtitle">
+            Rate your confidence level (0–100) across 8 core domain skills to help personalize your learning roadmap.
+          </p>
+        </div>
 
-      <div class="faq-list">
-        <div class="faq-item active">
-          <button type="button" class="faq-question" aria-expanded="true">
-            <span>What is GoGuide and how does it work?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+
+        <!-- Step 3 Action Row: Continue to Step 4 -->
+        <div class="skills-action-row"
+          style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; margin-top: 3.5rem;">
+          <button type="button" class="button continue-action-btn" id="continueToStep4Btn">
+            <span>Continue &rarr;</span>
           </button>
-          <div class="faq-answer">
-            GoGuide is an intelligent career and learning platform designed to chart clear, step-by-step roadmaps for
-            university students and self-taught developers. Simply select your desired path, and GoGuide generates
-            tailored curricula and milestones.
+          <p class="inputs-disclaimer">Next: Set your career preferences & risk tolerance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 4: Preferences & Target Career (Shares Main Hero Background) -->
+    <section class="student-inputs-section" id="preferencesSection"
+      style="min-height: 100vh; padding: 6rem 2rem; display: flex; align-items: center; justify-content: center; z-index: 5;">
+      <div class="section-container" style="max-width: 900px; width: 100%;">
+        <div class="section-header">
+          <span class="section-tag">Step 4 &bull; Preferences</span>
+          <h2 class="section-title inputs-section-title">Final Career Preferences</h2>
+          <p class="section-subtitle">
+            Set your risk tolerance level and optional target career to generate your personalized roadmap.
+          </p>
+        </div>
+
+        <!-- Step 4 Preferences Card with Prismatic Ray & Precision Lines -->
+        <div class="outer">
+          <div class="card">
+            <div class="ray"></div>
+            <div class="line topl"></div>
+            <div class="line leftl"></div>
+            <div class="line bottoml"></div>
+            <div class="line rightl"></div>
+
+            <form class="inputs-form" id="preferencesForm" onsubmit="event.preventDefault();"
+              style="position: relative; z-index: 3; width: 100%;">
+              <!-- 1. Risk Tolerance -->
+              <div class="pref-field-group" style="width: 100%;">
+                <label class="input-label" style="font-size: 1.1rem; margin-bottom: 0.8rem; width: 100%;">
+                  Risk Tolerance (1–5) <span class="req-star">*</span>
+                </label>
+
+                <div class="radio-input risk-radio-group" role="radiogroup" aria-label="Risk tolerance scale 1 to 5">
+                  <label class="label" for="risk_val_1" title="1 = Very Cautious">
+                    <input value="1" name="risk_tolerance" id="risk_val_1" type="radio" required />
+                    <span class="text">1 &bull; Very Cautious</span>
+                  </label>
+                  <label class="label" for="risk_val_2" title="2 = Cautious">
+                    <input value="2" name="risk_tolerance" id="risk_val_2" type="radio" />
+                    <span class="text">2 &bull; Cautious</span>
+                  </label>
+                  <label class="label" for="risk_val_3" title="3 = Moderate">
+                    <input value="3" name="risk_tolerance" id="risk_val_3" type="radio" checked />
+                    <span class="text">3 &bull; Moderate</span>
+                  </label>
+                  <label class="label" for="risk_val_4" title="4 = Bold">
+                    <input value="4" name="risk_tolerance" id="risk_val_4" type="radio" />
+                    <span class="text">4 &bull; Bold</span>
+                  </label>
+                  <label class="label" for="risk_val_5" title="5 = Adventurous">
+                    <input value="5" name="risk_tolerance" id="risk_val_5" type="radio" />
+                    <span class="text">5 &bull; Adventurous</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- 2. Target Career (Search Bar with Animated Borders & Floating Label) -->
+              <div class="pref-field-group" style="margin-top: 2.25rem; width: 100%;">
+                <label class="input-label" for="targetCareer"
+                  style="font-size: 1.1rem; margin-bottom: 1rem; width: 100%; display: block;">
+                  Target Career <span style="font-size: 0.8rem; opacity: 0.7; font-weight: normal;">(Optional)</span>
+                </label>
+
+                <div class="input-container">
+                  <input class="input" type="text" id="targetCareer" name="targetCareer"
+                    placeholder="e.g. Data Scientist, Software Architect, UX Designer…" autocomplete="off" />
+                  <label class="label" for="targetCareer">Target Career</label>
+                  <div class="topline"></div>
+                  <div class="underline"></div>
+                </div>
+              </div>
+
+              <!-- 3. Final Submit Button -->
+              <div class="inputs-action-row" style="margin-top: 2.5rem;">
+                <button type="button" class="btn-17" id="generateRoadmapBtn">
+                  <span class="text-container">
+                    <span class="text">GENERATE MY ROADMAP <span class="arrow">&rarr;</span></span>
+                  </span>
+                </button>
+                <p class="inputs-disclaimer">Your data is processed securely for GoGuide roadmap generation.</p>
+              </div>
+            </form>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">
-            <span>Is GoGuide completely free to use?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
+    <!-- FAQ Section (Light Gray Body Area) -->
+    <section class="faq-section" id="faq">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Frequently Asked Questions</span>
+          <h2 class="section-title">Everything You Need to Know</h2>
+          <p class="section-subtitle">
+            Got questions about GoGuide? Here are the most common inquiries from our community.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button type="button" class="faq-question" aria-expanded="true">
+              <span>What is GoGuide and how does it work?</span>
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              GoGuide is an intelligent career and learning platform designed to chart clear, step-by-step roadmaps for
+              university students and self-taught developers. Simply select your desired path, and GoGuide generates
+              tailored curricula and milestones.
             </div>
-          </button>
-          <div class="faq-answer">
-            Yes! All core learning roadmaps, community questions, and starter milestones are 100% free and open-source.
-            We believe quality education should be accessible to everyone worldwide.
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Is GoGuide completely free to use?</span>
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              Yes! All core learning roadmaps, community questions, and starter milestones are 100% free and
+              open-source.
+              We believe quality education should be accessible to everyone worldwide.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Can I contribute to GoGuide on GitHub?</span>
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              Absolutely! We welcome open-source contributions from developers and educators worldwide. Click the GitHub
+              link at the top to access our repository, review issues, and submit pull requests.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How do I get started right away?</span>
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              Simply click the <strong>Start Now</strong> button above or hit <strong>Signup</strong> to create your
+              profile and personalize your learning journey in under 60 seconds.
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">
-            <span>Can I contribute to GoGuide on GitHub?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="footer-inner">
+        <p>&copy; 2026 GoGuide Inc. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Back to Top</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#privacy">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Signup Modal Dialog -->
+    <dialog id="signupDialog" aria-labelledby="signupTitle">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="signupTitle">Create Account</h2>
+            <p class="modal-subtitle">Join thousands accelerating their learning path</p>
+          </div>
+          <button type="button" class="close-btn" id="closeSignupDialog" aria-label="Close dialog">&times;</button>
+        </div>
+
+        <form id="signupForm" onsubmit="event.preventDefault(); window.handleSignupSubmit();">
+          <div class="form-group">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" id="fullName" class="form-input" placeholder="Alex Morgan" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="alex@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-input" placeholder="••••••••" required minlength="6">
+          </div>
+
+          <button type="submit" class="submit-btn">Create Free Account</button>
+        </form>
+
+        <div class="social-auth">
+          <p class="social-title">Or continue with</p>
+          <div class="social-buttons">
+            <button type="button" class="social-btn" onclick="window.showToast('Connecting to GitHub...')">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
               </svg>
-            </div>
-          </button>
-          <div class="faq-answer">
-            Absolutely! We welcome open-source contributions from developers and educators worldwide. Click the GitHub
-            link at the top to access our repository, review issues, and submit pull requests.
+              GitHub
+            </button>
+            <button type="button" class="social-btn" onclick="window.showToast('Connecting to Google...')">
+              <svg viewBox="0 0 24 24">
+                <path fill="#4285F4"
+                  d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z" />
+                <path fill="#34A853"
+                  d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.26v3.15C3.25 21.37 7.3 24 12 24z" />
+                <path fill="#FBBC05"
+                  d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.26C.46 8.17 0 9.99 0 12s.46 3.83 1.26 5.42l4.02-3.15z" />
+                <path fill="#EA4335"
+                  d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.3 0 3.25 2.63 1.26 6.58l4.02 3.15c.95-2.83 3.6-4.98 6.72-4.98z" />
+              </svg>
+              Google
+            </button>
           </div>
         </div>
+      </div>
+    </dialog>
 
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">
-            <span>How do I get started right away?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
+    <!-- Start Now Onboarding Dialog -->
+    <dialog id="startDialog" aria-labelledby="startTitle">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="startTitle">Welcome to GoGuide! &#x1F680;</h2>
+            <p class="modal-subtitle">Pick your primary goal to begin exploration</p>
+          </div>
+          <button type="button" class="close-btn" id="closeStartDialog" aria-label="Close dialog">&times;</button>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 0.9rem; margin: 1.5rem 0;">
+          <button type="button" class="button"
+            style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
+            onclick="window.selectTrack('Web Development & Engineering')">
+            &#128187; Software &amp; Web Development
           </button>
-          <div class="faq-answer">
-            Simply click the <strong>Start Now</strong> button above or hit <strong>Signup</strong> to create your
-            profile and personalize your learning journey in under 60 seconds.
+          <button type="button" class="button"
+            style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
+            onclick="window.selectTrack('Data Science & AI')">
+            &#129302; Data Science &amp; AI
+          </button>
+          <button type="button" class="button"
+            style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
+            onclick="window.selectTrack('Cybersecurity & Cloud')">
+            &#128272; Cybersecurity &amp; Cloud Systems
+          </button>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- Floating Isometric Bottom Navigation Bar (Hidden on landing page, visible on other sections) -->
+    <nav class="bottom-nav-container" id="bottomNavContainer" aria-label="Bottom Navigation">
+      <div class="card bottom-nav-card">
+        <ul>
+          <li class="iso-pro" id="navItemHome" title="Home">
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#home" id="bottomNavHomeBtn" aria-label="Home">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9.5L12 3l9 6.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9.5z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </a>
+            <div class="text">Home</div>
+          </li>
+
+          <li class="iso-pro" id="navItemAiBot" title="AI Bot">
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="javascript:void(0)" id="bottomNavAiBotBtn" aria-label="AI Bot">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="10" rx="3"></rect>
+                <circle cx="12" cy="5" r="2.5"></circle>
+                <path d="M12 7.5v3.5"></path>
+                <line x1="8" y1="16" x2="8.01" y2="16"></line>
+                <line x1="16" y1="16" x2="16.01" y2="16"></line>
+              </svg>
+            </a>
+            <div class="text">AI Bot</div>
+          </li>
+
+          <li class="iso-pro" id="navItemSettings" title="Settings">
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="javascript:void(0)" id="bottomNavSettingsBtn" aria-label="Settings">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3.2"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+            </a>
+            <div class="text">Settings</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- AI Bot Modal Dialog -->
+    <dialog id="aiBotDialog" aria-labelledby="aiBotTitle">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="aiBotTitle">GoGuide AI Advisor &#x1F916;</h2>
+            <p class="modal-subtitle">Your intelligent career &amp; roadmap mentor</p>
+          </div>
+          <button type="button" class="close-btn" id="closeAiBotDialog" aria-label="Close dialog">&times;</button>
+        </div>
+
+        <div style="margin: 1.5rem 0; display: flex; flex-direction: column; gap: 1rem;">
+          <div style="background: rgba(15, 23, 42, 0.7); padding: 1.1rem; border-radius: 12px; border: 1px solid rgba(139, 147, 248, 0.25);">
+            <p style="font-size: 0.95rem; color: #e2e8f0; line-height: 1.6;">
+              &ldquo;Hello! I continuously evaluate your academic scores, 24 interest assessments, and 8 domain skills to recommend optimal learning milestones.&rdquo;
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+            <button type="button" class="button" style="width: 100%; justify-content: flex-start; padding: 0.75rem 1rem; font-size: 0.95rem;" onclick="window.smoothScrollTo('#studentInputs'); document.getElementById('aiBotDialog')?.close();">
+              &#x1F4CB; Step 1: Academic Profile
+            </button>
+            <button type="button" class="button" style="width: 100%; justify-content: flex-start; padding: 0.75rem 1rem; font-size: 0.95rem;" onclick="window.smoothScrollTo('#interestSection'); document.getElementById('aiBotDialog')?.close();">
+              &#x1F50D; Step 2: 24 Interest Questions
+            </button>
+            <button type="button" class="button" style="width: 100%; justify-content: flex-start; padding: 0.75rem 1rem; font-size: 0.95rem;" onclick="window.smoothScrollTo('#skillsSection'); document.getElementById('aiBotDialog')?.close();">
+              &#x1F4CA; Step 3: 8 Domain Skill Sliders
+            </button>
+            <button type="button" class="button" style="width: 100%; justify-content: flex-start; padding: 0.75rem 1rem; font-size: 0.95rem;" onclick="window.smoothScrollTo('#preferencesSection'); document.getElementById('aiBotDialog')?.close();">
+              &#x1F3AF; Step 4: Career Preferences &amp; Risk
+            </button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </dialog>
 
-  <!-- Footer -->
-  <footer class="page-footer">
-    <div class="footer-inner">
-      <p>&copy; 2026 GoGuide Inc. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="#home">Back to Top</a>
-        <a href="#faq">FAQ</a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="#privacy">Privacy</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Signup Modal Dialog -->
-  <dialog id="signupDialog" aria-labelledby="signupTitle">
-    <div class="modal-card">
-      <div class="modal-header">
-        <div>
-          <h2 class="modal-title" id="signupTitle">Create Account</h2>
-          <p class="modal-subtitle">Join thousands accelerating their learning path</p>
-        </div>
-        <button type="button" class="close-btn" id="closeSignupDialog" aria-label="Close dialog">&times;</button>
-      </div>
-
-      <form id="signupForm" onsubmit="event.preventDefault(); window.handleSignupSubmit();">
-        <div class="form-group">
-          <label for="fullName" class="form-label">Full Name</label>
-          <input type="text" id="fullName" class="form-input" placeholder="Alex Morgan" required>
-        </div>
-        <div class="form-group">
-          <label for="email" class="form-label">Email Address</label>
-          <input type="email" id="email" class="form-input" placeholder="alex@example.com" required>
-        </div>
-        <div class="form-group">
-          <label for="password" class="form-label">Password</label>
-          <input type="password" id="password" class="form-input" placeholder="••••••••" required minlength="6">
+    <!-- Platform Settings Modal Dialog -->
+    <dialog id="settingsDialog" aria-labelledby="settingsTitle">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="settingsTitle">GoGuide Settings &#x2699;&#xFE0F;</h2>
+            <p class="modal-subtitle">Manage preferences and profile state</p>
+          </div>
+          <button type="button" class="close-btn" id="closeSettingsDialog" aria-label="Close dialog">&times;</button>
         </div>
 
-        <button type="submit" class="submit-btn">Create Free Account</button>
-      </form>
-
-      <div class="social-auth">
-        <p class="social-title">Or continue with</p>
-        <div class="social-buttons">
-          <button type="button" class="social-btn" onclick="window.showToast('Connecting to GitHub...')">
-            <svg viewBox="0 0 24 24" fill="currentColor">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-            </svg>
-            GitHub
-          </button>
-          <button type="button" class="social-btn" onclick="window.showToast('Connecting to Google...')">
-            <svg viewBox="0 0 24 24">
-              <path fill="#4285F4"
-                d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z" />
-              <path fill="#34A853"
-                d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.26v3.15C3.25 21.37 7.3 24 12 24z" />
-              <path fill="#FBBC05"
-                d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.26C.46 8.17 0 9.99 0 12s.46 3.83 1.26 5.42l4.02-3.15z" />
-              <path fill="#EA4335"
-                d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.3 0 3.25 2.63 1.26 6.58l4.02 3.15c.95-2.83 3.6-4.98 6.72-4.98z" />
-            </svg>
-            Google
-          </button>
+        <div style="margin: 1.5rem 0; display: flex; flex-direction: column; gap: 1rem;">
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1rem; background: rgba(15, 23, 42, 0.6); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div>
+              <div style="font-weight: 700; color: #fff; font-size: 0.95rem;">Haptic / Audio Feedback</div>
+              <div style="font-size: 0.8rem; color: #94a3b8;">Interactive cues when sliding ratings</div>
+            </div>
+            <input type="checkbox" id="settingSoundToggle" checked style="width: 20px; height: 20px; cursor: pointer; accent-color: var(--primary-blue);" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1rem; background: rgba(15, 23, 42, 0.6); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div>
+              <div style="font-weight: 700; color: #fff; font-size: 0.95rem;">Reset All Progress</div>
+              <div style="font-size: 0.8rem; color: #94a3b8;">Clear cached answers &amp; restart fresh</div>
+            </div>
+            <button type="button" class="button" style="padding: 0.4rem 0.85rem; font-size: 0.85rem;" id="clearProgressBtn">
+              Reset
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </dialog>
+    </dialog>
 
-  <!-- Start Now Onboarding Dialog -->
-  <dialog id="startDialog" aria-labelledby="startTitle">
-    <div class="modal-card">
-      <div class="modal-header">
-        <div>
-          <h2 class="modal-title" id="startTitle">Welcome to GoGuide! &#x1F680;</h2>
-          <p class="modal-subtitle">Pick your primary goal to begin exploration</p>
-        </div>
-        <button type="button" class="close-btn" id="closeStartDialog" aria-label="Close dialog">&times;</button>
-      </div>
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
-      <div style="display: flex; flex-direction: column; gap: 0.9rem; margin: 1.5rem 0;">
-        <button type="button" class="button"
-          style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
-          onclick="window.selectTrack('Web Development & Engineering')">
-          &#128187; Software &amp; Web Development
-        </button>
-        <button type="button" class="button"
-          style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
-          onclick="window.selectTrack('Data Science & AI')">
-          &#129302; Data Science &amp; AI
-        </button>
-        <button type="button" class="button"
-          style="width: 100%; justify-content: flex-start; padding: 0.8em 1.4em; font-size: 1rem;"
-          onclick="window.selectTrack('Cybersecurity & Cloud')">
-          &#128272; Cybersecurity &amp; Cloud Systems
-        </button>
-      </div>
-
-      <p style="font-size: 0.85rem; color: #64748b; text-align: center;">
-        Need personalized assistance? Reach out anytime via our GitHub repository.
-      </p>
-    </div>
-  </dialog>
-
-  <!-- Toast Notification Container -->
-  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
-
-  <!-- GSAP, ScrollTrigger & ScrollToPlugin -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
-  <script src="script.js"></script>
+    <!-- GSAP, ScrollTrigger & ScrollToPlugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
