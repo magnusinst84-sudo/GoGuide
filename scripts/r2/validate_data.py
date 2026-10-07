@@ -65,7 +65,7 @@ for c in careers:
     if "stub" in est: warns.append(f"{i}: still a STUB")
 
 for s in schol:
-    for f in ["id","name","provider","url","verified_on"]:
+    for f in ["id","name","provider","url","checked_on"]:
         if not s.get(f): e(f"scholarship {s.get('id','?')}: missing {f}")
     if s.get("deadline") is not None and not s.get("deadline_year_note"): warns.append(f"scholarship {s.get('id')}: add deadline_year_note")
 for o in local:
