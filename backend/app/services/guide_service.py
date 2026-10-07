@@ -30,6 +30,9 @@ from app.engines.financial_solver import (
     total_cost, funding_need, monthly_emi, affordability_ratio, financial_feasibility
 )
 from app.engines.conflict_engine import preference_alignment
+from app.engines.recommendation_engine import get_recommendations
+from app.engines.skill_gap_engine import analyze_skill_gap
+from app.engines.pathway_engine import analyze_pathway
 
 logger = logging.getLogger(__name__)
 
@@ -156,27 +159,41 @@ def process_guide_request(request: GuideRequest) -> GuideResponse:
             logger.warning(f"conflict_engine failed: {e}")
             deterministic_results["conflict"] = _unavailable("conflict_engine", str(e))
 
-    # ── Recommendation engine (stub) ─────────────────────────────────────
-    if "career_recommendation" in intents:
-        deterministic_results["recommendations"] = _unavailable(
-            "recommendation_engine",
-            "Recommendation engine not yet wired to backend service layer. "
-            "See data/processed/recommendations_v2/ for pre-computed outputs."
-        )
-
-    # ── Skill gap engine (stub) ──────────────────────────────────────────
-    if "skill_gap" in intents:
-        deterministic_results["skill_gap"] = _unavailable(
-            "skill_gap_engine",
-            "Skill gap engine not yet implemented in the service layer."
-        )
-
-    # ── Pathway engine (stub) ────────────────────────────────────────────
-    if "education_pathway" in intents:
-        deterministic_results["education_pathway"] = _unavailable(
-            "pathway_engine",
-            "Pathway engine not yet implemented in the service layer."
-        )
+    # ── Recommendation engine ─────────────────────────────────────
+    if "career_recommendation" in intents or request.student_profile.get("target_career"):
+        recs = get_recommendations(request.student_profile)
+        if recs:
+            deterministic_results["recommendations"] = _authoritative(recs, "recommendation_engine")
+            engines_used.append("recommendation_engine")
+            provenance.append(Evidence(source="recommendation_engine", value="Top recommendations generated based on profile"))
+            
+            # Select the top recommendation or target career for further analysis
+            primary_occ_id = recs[0]["occupation_id"]
+            
+            # ── Skill gap engine ──────────────────────────────────────────
+            if "skill_gap" in intents or "career_recommendation" in intents:
+                sg = analyze_skill_gap(request.student_profile, primary_occ_id)
+                deterministic_results["skill_gap"] = _authoritative(sg, "skill_gap_engine")
+                engines_used.append("skill_gap_engine")
+                provenance.append(Evidence(source="skill_gap_engine", value="Skill gap analyzed against top recommendation"))
+                
+            # ── Pathway engine ────────────────────────────────────────────
+            if "education_pathway" in intents or "career_recommendation" in intents:
+                pw = analyze_pathway(primary_occ_id)
+                if pw["status"] == "AVAILABLE":
+                    deterministic_results["education_pathway"] = _authoritative(pw, "pathway_engine")
+                    engines_used.append("pathway_engine")
+                    provenance.append(Evidence(source="pathway_engine", value="Education pathways retrieved for top recommendation"))
+                else:
+                    deterministic_results["education_pathway"] = _unavailable("pathway_engine", pw["reason"])
+        else:
+            deterministic_results["recommendations"] = _unavailable("recommendation_engine", "Insufficient evidence to generate rankable recommendations.")
+    else:
+        # User didn't ask for a career and no target career provided
+        if "skill_gap" in intents:
+             deterministic_results["skill_gap"] = _unavailable("skill_gap_engine", "No target career specified for skill gap analysis.")
+        if "education_pathway" in intents:
+             deterministic_results["education_pathway"] = _unavailable("pathway_engine", "No target career specified for pathway analysis.")
 
     # ── RAG retrieval ────────────────────────────────────────────────────
     retrieved_docs = retrieve(request.message, top_k=5)
@@ -202,9 +219,14 @@ def process_guide_request(request: GuideRequest) -> GuideResponse:
     llm_resp = process_chat_request(llm_req)
 
     return GuideResponse(
+        status="AVAILABLE",
         answer=llm_resp.response_text,
         intent=intents,
-        recommendations=[],
+        recommendations=deterministic_results.get("recommendations", {}).get("value", []) if isinstance(deterministic_results.get("recommendations"), dict) else [],
+        skill_gap=deterministic_results.get("skill_gap", {}).get("value") if isinstance(deterministic_results.get("skill_gap"), dict) else None,
+        pathway=deterministic_results.get("education_pathway", {}).get("value") if isinstance(deterministic_results.get("education_pathway"), dict) else None,
+        financial=deterministic_results.get("financial"),
+        conflict=deterministic_results.get("conflict"),
         actions=[],
         sources=provenance,
         grounding=GroundingInfo(
