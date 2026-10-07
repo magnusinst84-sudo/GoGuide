@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 import pytest
 
-from app.data.loaders import (
+from backend.app.data.loaders import (
     DanglingReferenceError,
     DuplicateIDError,
     MalformedJSONError,
@@ -11,7 +11,7 @@ from app.data.loaders import (
     R2DataBundle,
     load_r2_data,
 )
-from app.data.indexes import R2Indexes
+from backend.app.data.indexes import R2Indexes
 
 
 def _write_json(path: Path, data: object) -> None:
