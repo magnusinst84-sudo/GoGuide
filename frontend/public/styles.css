@@ -2210,6 +2210,21 @@ dialog::backdrop {
   transform: translateY(0);
 }
 
+/* Absolute guarantee: Under NO circumstances will bottom-nav-container ever appear on the landing page */
+body.is-landing-page .bottom-nav-container,
+body.is-landing-page #bottomNavContainer,
+.bottom-nav-container:not(.visible) {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transform: translateY(-50px) !important;
+}
+
+body.is-landing-page .bottom-nav-container,
+body.is-landing-page #bottomNavContainer {
+  display: none !important;
+}
+
 .bottom-nav-card {
   max-width: fit-content;
   border-radius: 18px;

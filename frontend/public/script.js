@@ -1246,27 +1246,40 @@ function initBottomNavBar() {
   const heroSection = document.getElementById('home') || document.querySelector('.hero-wrapper');
   if (!container) return;
 
-  const checkVisibility = () => {
+  const isLandingPage = () => {
     const scrollY = window.pageYOffset || document.documentElement.scrollTop || window.scrollY || 0;
-    const currentHash = window.location.hash;
 
-    // Check whether the user is on the first landing page (hero at the very top)
-    let isLandingPage = false;
-    if (heroSection) {
-      const heroRect = heroSection.getBoundingClientRect();
-      // On landing page if scrollY is near top (< 80px) AND hero bottom covers the top screen
-      if (scrollY < 80 && heroRect.top >= -50 && (!currentHash || currentHash === '#home')) {
-        isLandingPage = true;
-      }
-    } else if (scrollY < 80 && (!currentHash || currentHash === '#home')) {
-      isLandingPage = true;
+    // Rule 1: Anywhere within the top 120px is unconditionally the landing page
+    if (scrollY <= 120) return true;
+
+    const hero = document.getElementById('home') || document.querySelector('.hero-wrapper');
+    const step1 = document.getElementById('studentInputs');
+
+    // Rule 2: If Step 1 has not yet reached into the viewport, user is still on the landing page
+    if (step1) {
+      const step1Rect = step1.getBoundingClientRect();
+      if (step1Rect.top > 80) return true;
     }
 
-    // Navigation bar MUST be visible on all pages/sections except the first landing page
-    if (!isLandingPage) {
-      container.classList.add('visible');
-    } else {
+    // Rule 3: If hero section bottom is still covering significant viewport height
+    if (hero) {
+      const heroRect = hero.getBoundingClientRect();
+      if (heroRect.bottom > 80) return true;
+      if (scrollY < (hero.offsetHeight * 0.75)) return true;
+    }
+
+    return false;
+  };
+
+  const checkVisibility = () => {
+    const onLanding = isLandingPage();
+
+    if (onLanding) {
+      document.body.classList.add('is-landing-page');
       container.classList.remove('visible');
+    } else {
+      document.body.classList.remove('is-landing-page');
+      container.classList.add('visible');
     }
   };
 
@@ -1275,15 +1288,34 @@ function initBottomNavBar() {
   window.addEventListener('hashchange', checkVisibility, { passive: true });
   document.addEventListener('scroll', checkVisibility, { passive: true });
 
-  // Hook into GSAP ScrollTrigger updates & pin lifecycle so it remains persistent throughout all steps
+  // Hook into GSAP ScrollTrigger updates & pin lifecycle so it stays strictly in sync
   if (typeof ScrollTrigger !== 'undefined') {
     ScrollTrigger.addEventListener('scrollEnd', checkVisibility);
     ScrollTrigger.addEventListener('refresh', checkVisibility);
+    ScrollTrigger.addEventListener('update', checkVisibility);
+  }
+
+  // IntersectionObserver specifically for landing page hero section
+  if (heroSection && 'IntersectionObserver' in window) {
+    const heroObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.boundingClientRect.bottom > 80) {
+          document.body.classList.add('is-landing-page');
+          container.classList.remove('visible');
+        } else {
+          checkVisibility();
+        }
+      });
+    }, {
+      threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0]
+    });
+    heroObserver.observe(heroSection);
   }
 
   // Check immediately and continuously upon layout changes
   checkVisibility();
-  setTimeout(checkVisibility, 100);
+  setTimeout(checkVisibility, 50);
+  setTimeout(checkVisibility, 150);
   setTimeout(checkVisibility, 400);
   setTimeout(checkVisibility, 1000);
 
@@ -1291,6 +1323,10 @@ function initBottomNavBar() {
   const homeBtn = document.getElementById('bottomNavHomeBtn');
   homeBtn?.addEventListener('click', (e) => {
     e.preventDefault();
+    // Instantly hide nav bar before scroll animation begins
+    document.body.classList.add('is-landing-page');
+    container.classList.remove('visible');
+
     if (typeof window.smoothScrollTo === 'function') {
       window.smoothScrollTo('#home', 0.9);
     } else {
@@ -1301,6 +1337,13 @@ function initBottomNavBar() {
     } else {
       location.hash = '#home';
     }
+  });
+
+  // Footer Back to Top link
+  const backToTopLink = document.querySelector('a[href="#home"]');
+  backToTopLink?.addEventListener('click', () => {
+    document.body.classList.add('is-landing-page');
+    container.classList.remove('visible');
   });
 
   // AI Bot Button: Toggles the dynamic GSAP AI Chatbot Dropdown
