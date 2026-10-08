@@ -49,7 +49,7 @@ async def generate_quick_doubt_answer(message: str) -> str:
     }
 
     try:
-        async with httpx.AsyncClient(timeout=10.0) as client:
+        async with httpx.AsyncClient(timeout=30.0) as client:
             response = await client.post(url, json=payload)
             response.raise_for_status()
             data = response.json()
