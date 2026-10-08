@@ -32,6 +32,25 @@ function smoothScrollTo(target, duration = 0.9, onComplete = null) {
 window.smoothScrollTo = smoothScrollTo;
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Reset questionnaire state on fresh page load to ensure clean start
+  function clearQuestionnaireStorage() {
+    const keysToKeep = [
+      'goguide_theme', 
+      'goguide_user_name', 
+      'goguide_user_email', 
+      'goguide_is_logged_in'
+    ];
+    const keysToRemove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith('goguide_') && !keysToKeep.includes(key)) {
+        keysToRemove.push(key);
+      }
+    }
+    keysToRemove.forEach(k => localStorage.removeItem(k));
+  }
+  clearQuestionnaireStorage();
+
   // 1. FAQ Accordion interaction
   const faqItems = document.querySelectorAll('.faq-item');
   faqItems.forEach(item => {
@@ -1062,40 +1081,56 @@ function initStep4Handlers() {
   // Generate My Roadmap button
   const btn = document.getElementById('generateRoadmapBtn');
   btn?.addEventListener('click', () => {
-    // Collect all profile data from Steps 1, 2, 3, and 4
-    const stream = localStorage.getItem('goguide_stream') || document.getElementById('academicStream')?.value || '';
-    const marks = localStorage.getItem('goguide_marks') || document.getElementById('marksPercentage')?.value || '';
-    const city = localStorage.getItem('goguide_city') || document.getElementById('currentCity')?.value || '';
+    // Collect all profile data directly from DOM or localStorage without fake fallbacks
+    const stream = document.getElementById('academicStream')?.value || localStorage.getItem('goguide_stream') || null;
+    const marksRaw = document.getElementById('marksPercentage')?.value || localStorage.getItem('goguide_marks');
+    const marks = marksRaw ? parseFloat(marksRaw) : null;
+    const city = document.getElementById('currentCity')?.value || localStorage.getItem('goguide_city') || null;
 
     // Interests
     const interests = {};
     INTEREST_QUESTIONS.forEach(q => {
       const val = localStorage.getItem(`goguide_interest_${q.id}`);
-      if (val) interests[q.id] = parseInt(val, 10);
+      if (val !== null && val !== '') {
+        interests[q.id] = parseInt(val, 10);
+      }
     });
 
     // Skills
     const skills = {};
     SKILLS.forEach(s => {
-      const val = localStorage.getItem(`goguide_skill_${s.id}`) || '50';
-      skills[s.id] = parseInt(val, 10);
+      const val = localStorage.getItem(`goguide_skill_${s.id}`);
+      if (val !== null && val !== '') {
+        skills[s.id] = parseInt(val, 10);
+      }
     });
 
     // Risk tolerance
     const riskChecked = document.querySelector('input[name="risk_tolerance"]:checked');
-    const risk = riskChecked ? parseInt(riskChecked.value, 10) : 3;
+    const risk = riskChecked ? parseInt(riskChecked.value, 10) : null;
 
     // Target career
-    const targetCareer = document.getElementById('targetCareer')?.value.trim() || null;
+    const targetCareerRaw = document.getElementById('targetCareer')?.value;
+    const targetCareer = targetCareerRaw && targetCareerRaw.trim() !== '' ? targetCareerRaw.trim() : null;
+
+    // Financial fields (extract without '0' fallback if empty)
+    const incomeRaw = document.getElementById('annualIncome')?.value || localStorage.getItem('goguide_annual_income');
+    const savingsRaw = document.getElementById('savingsAvailable')?.value || localStorage.getItem('goguide_savings_available');
+    const budgetRaw = document.getElementById('annualBudget')?.value || localStorage.getItem('goguide_annual_budget');
+    const maxLoanRaw = document.getElementById('maxLoan')?.value || localStorage.getItem('goguide_max_loan');
 
     const payload = {
       academic_stream: stream,
-      marks_percentage: parseFloat(marks) || null,
+      marks_percentage: marks,
       current_city: city,
       interests,
       skills,
       risk_tolerance: risk,
-      target_career: targetCareer
+      target_career: targetCareer,
+      annual_income: incomeRaw ? parseFloat(incomeRaw) : null,
+      savings: savingsRaw ? parseFloat(savingsRaw) : null,
+      annual_budget: budgetRaw ? parseFloat(budgetRaw) : null,
+      max_loan: maxLoanRaw ? parseFloat(maxLoanRaw) : null,
     };
 
     console.log('[GoGuide] Final Profile Payload:', payload);
@@ -1109,32 +1144,96 @@ function initStep4Handlers() {
     if (textEl) textEl.textContent = 'GENERATING ROADMAP…';
     btn.disabled = true;
 
-    const apiUrl = window.API_URL || '';
-    fetch(`${apiUrl}/api/students`, {
+    // Clear previous results
+    CANONICAL_FEASIBLE_CAREERS.length = 0;
+    CANONICAL_BLOCKED_CAREERS.length = 0;
+    CONFLICT_COMPARISON_DATA.length = 0;
+    renderRankedCareers();
+    renderBlockedCareers();
+    renderConflictTable();
+
+    // Hide results section initially
+    const resultsContainer = document.getElementById('resultsSection');
+    if (resultsContainer) {
+      resultsContainer.style.display = 'none';
+    }
+
+    // Build the GuideRequest payload expected by the backend
+    const guidePayload = {
+      message: "career fit me job consider skill gap pathway degree",
+      student_profile: payload,
+      parent_profile: null,
+    };
+
+    // Attach parent preference vectors if available
+    const parentRiskChecked = document.querySelector('input[name="parent_risk_appetite"]:checked');
+    const parentRisk = parentRiskChecked ? parentRiskChecked.value : localStorage.getItem('goguide_parent_risk');
+    
+    const parentEmployChecked = document.querySelector('input[name="parent_early_employment"]:checked');
+    const parentEmploy = parentEmployChecked ? parentEmployChecked.value : localStorage.getItem('goguide_parent_employment');
+    
+    let parentCareers = [];
+    try {
+      parentCareers = JSON.parse(localStorage.getItem('goguide_parent_careers') || '[]');
+    } catch (e) {}
+
+    if (parentRisk || parentEmploy || parentCareers.length > 0) {
+      guidePayload.parent_profile = {
+        risk_appetite: parentRisk ? parseInt(parentRisk, 10) : null,
+        early_employment: parentEmploy ? parseInt(parentEmploy, 10) : null,
+        expected_careers: parentCareers,
+      };
+    }
+
+    console.log('[GoGuide] GuideRequest Payload:', guidePayload);
+
+    // Call real backend endpoint
+    fetch('http://127.0.0.1:8001/api/guide', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
+      body: JSON.stringify(guidePayload),
     })
       .then(async res => {
-        const data = await res.json().catch(() => ({}));
-        console.log('[GoGuide] Backend response:', data);
-        window.showToast('Profile saved to GoGuide! Generating your personalized roadmap…', 'success');
-        if (textEl) textEl.textContent = '✓ SUBMITTED!';
-        setTimeout(() => {
-          if (typeof window.smoothScrollTo === 'function') {
-            window.smoothScrollTo('#resultsSection', 1.0);
+        if (!res.ok) {
+          const errText = await res.text().catch(() => '');
+          throw new Error(`Backend returned ${res.status}: ${errText}`);
+        }
+        return res.json();
+      })
+      .then(data => {
+        console.log('[GoGuide] /api/guide response:', data);
+        if (data.status === 'AVAILABLE' || data.recommendations) {
+          window._guideResponse = data;
+          
+          // Hide hero and forms
+          const heroContent = document.querySelector('.hero-content');
+          const studentInputs = document.querySelectorAll('.student-inputs-section, .interest-assessment-section, .skills-assessment-section, .parent-inputs-section, .parent-preferences-section, .parent-careers-section');
+          
+          if (heroContent) heroContent.style.display = 'none';
+          studentInputs.forEach(el => el.style.display = 'none');
+          window.scrollTo(0, 0);
+          
+          // Populate UI with real backend response
+          populateResultsFromBackend(data);
+          
+          // Reveal dashboard
+          if (resultsContainer) {
+            resultsContainer.style.display = 'block';
+            if (typeof ScrollTrigger !== 'undefined') {
+              setTimeout(() => ScrollTrigger.refresh(), 100);
+            }
           }
-        }, 700);
+
+          window.showToast('Your personalized PRISM roadmap is ready!', 'success');
+          if (textEl) textEl.textContent = '✓ ROADMAP READY!';
+        } else {
+          throw new Error('API returned UNAVAILABLE');
+        }
       })
       .catch(err => {
-        console.warn('[GoGuide] Backend note:', err.message);
-        window.showToast('Profile saved locally! Displaying your PRISM matches.', 'success');
-        if (textEl) textEl.textContent = '✓ SAVED LOCALLY!';
-        setTimeout(() => {
-          if (typeof window.smoothScrollTo === 'function') {
-            window.smoothScrollTo('#resultsSection', 1.0);
-          }
-        }, 700);
+        console.error('[GoGuide] /api/guide error:', err);
+        window.showToast('Failed to generate roadmap. Please check inputs and try again.', 'error');
+        if (textEl) textEl.textContent = '⚠ ERROR GENERATING';
       })
       .finally(() => {
         setTimeout(() => {
@@ -1261,6 +1360,182 @@ function initBottomNavBar() {
 }
 
 // ==========================================================================
+// Backend Response → Results Population
+// Maps /api/guide GuideResponse into existing PRISM results UI
+// ==========================================================================
+
+function populateResultsFromBackend(data) {
+  if (!data) return;
+
+  // --- Populate LLM answer summary ---
+  const answerEl = document.getElementById('prismAnswerSummary');
+  if (answerEl && data.answer) {
+    answerEl.innerHTML = formatChatMarkdown ? formatChatMarkdown(data.answer) : data.answer;
+    answerEl.style.display = 'block';
+  }
+
+  // --- Populate recommendations into CANONICAL_FEASIBLE_CAREERS ---
+  if (data.recommendations && Array.isArray(data.recommendations) && data.recommendations.length > 0) {
+    // Clear the hardcoded array and replace with backend data
+    CANONICAL_FEASIBLE_CAREERS.length = 0;
+
+    data.recommendations.forEach((rec, idx) => {
+      const career = {
+        id: rec.occupation_id || rec.title?.toLowerCase().replace(/[^a-z0-9]+/g, '-') || `career-${idx}`,
+        name: rec.title || rec.occupation_id || 'Unknown Career',
+        cluster: rec.category || rec.cluster || 'General',
+        flags: [],
+        fit: typeof rec.fit_score === 'number' ? rec.fit_score : (typeof rec.composite_score === 'number' ? rec.composite_score : 0.5),
+        market: typeof rec.market_score === 'number' ? rec.market_score : 0.5,
+        fin: typeof rec.financial_score === 'number' ? rec.financial_score : 0.5,
+        risk: typeof rec.risk_score === 'number' ? rec.risk_score : 0.5,
+        conflict: typeof rec.conflict_score === 'number' ? rec.conflict_score : 0.0,
+        total_cost: rec.total_cost || 'Not available',
+        savings: rec.savings || 'Not available',
+        scholarship: rec.scholarship || 'Not available',
+        funding_req: rec.funding_req || 'Not available',
+        loan_need: rec.loan_need || 'Not available',
+        monthly_emi: rec.monthly_emi || 'Not available',
+        emi_ratio: rec.emi_ratio || 'Not available',
+        skill_gaps: {
+          large: [],
+          some: [],
+          on_track: [],
+        },
+        roadmap: [],
+        exams: rec.exams || 'Not available',
+        scholarships: rec.scholarships || 'Not available',
+        adjacent: rec.adjacent || [],
+        sources: rec.sources || 'GoGuide Engine',
+      };
+
+      // Build flags from available data
+      if (rec.composite_score && rec.composite_score > 0.85) career.flags.push('High Match');
+      if (rec.demand_label) career.flags.push(rec.demand_label);
+      if (rec.category) career.flags.push(rec.category);
+      if (career.flags.length === 0) career.flags.push(`Rank #${idx + 1}`);
+
+      CANONICAL_FEASIBLE_CAREERS.push(career);
+    });
+  }
+
+  // --- Populate skill gap data ---
+  if (data.skill_gap && typeof data.skill_gap === 'object') {
+    const sg = data.skill_gap;
+
+    // Update the top-ranked career's skill_gaps if we have data
+    if (CANONICAL_FEASIBLE_CAREERS.length > 0) {
+      const topCareer = CANONICAL_FEASIBLE_CAREERS[0];
+
+      // Map strengths/gaps/unassessed from backend
+      if (sg.strengths && Array.isArray(sg.strengths)) {
+        topCareer.skill_gaps.on_track = sg.strengths.map(s =>
+          typeof s === 'string' ? s : (s.skill || s.name || JSON.stringify(s))
+        );
+      }
+      if (sg.gaps && Array.isArray(sg.gaps)) {
+        topCareer.skill_gaps.large = sg.gaps.map(g =>
+          typeof g === 'string' ? g : (g.skill || g.name || JSON.stringify(g))
+        );
+      }
+      if (sg.moderate_gaps && Array.isArray(sg.moderate_gaps)) {
+        topCareer.skill_gaps.some = sg.moderate_gaps.map(g =>
+          typeof g === 'string' ? g : (g.skill || g.name || JSON.stringify(g))
+        );
+      }
+      if (sg.unassessed && Array.isArray(sg.unassessed)) {
+        // Append unassessed to "some" gaps category
+        const unassessedLabels = sg.unassessed.map(u =>
+          typeof u === 'string' ? `${u} (unassessed)` : `${u.skill || u.name || ''} (unassessed)`
+        );
+        topCareer.skill_gaps.some = topCareer.skill_gaps.some.concat(unassessedLabels);
+      }
+    }
+  }
+
+  // --- Populate pathway data ---
+  if (data.pathway && typeof data.pathway === 'object' && data.pathway.status === 'AVAILABLE') {
+    const pw = data.pathway;
+    if (CANONICAL_FEASIBLE_CAREERS.length > 0) {
+      const topCareer = CANONICAL_FEASIBLE_CAREERS[0];
+
+      if (pw.education_pathways && Array.isArray(pw.education_pathways)) {
+        topCareer.roadmap = pw.education_pathways.map((ep, i) => ({
+          time: ep.duration || `Phase ${i + 1}`,
+          title: ep.degree || ep.name || `Pathway ${i + 1}`,
+          desc: ep.description || ep.institutions?.join(', ') || 'Details not available',
+        }));
+      }
+      if (pw.entrance_exams && Array.isArray(pw.entrance_exams)) {
+        topCareer.exams = pw.entrance_exams.join(', ');
+      }
+    }
+  }
+
+  // --- Populate financial data ---
+  if (data.financial && typeof data.financial === 'object') {
+    const fin = data.financial;
+    if (CANONICAL_FEASIBLE_CAREERS.length > 0) {
+      const topCareer = CANONICAL_FEASIBLE_CAREERS[0];
+      const getVal = (obj) => {
+        if (!obj) return 'Not available';
+        if (typeof obj === 'object' && obj.value !== undefined) return obj.value;
+        return obj;
+      };
+
+      const tc = getVal(fin.total_cost);
+      topCareer.total_cost = typeof tc === 'number' ? `₹${(tc / 100000).toFixed(1)} L` : String(tc);
+      const fn = getVal(fin.funding_need);
+      topCareer.funding_req = typeof fn === 'number' ? `₹${(fn / 100000).toFixed(1)} L` : String(fn);
+      topCareer.loan_need = topCareer.funding_req;
+      const emi = getVal(fin.monthly_emi);
+      topCareer.monthly_emi = typeof emi === 'number' ? `₹${Math.round(emi).toLocaleString('en-IN')} / mo` : String(emi);
+      const ar = getVal(fin.affordability_ratio);
+      topCareer.emi_ratio = typeof ar === 'number' ? `${(ar * 100).toFixed(1)}%` : String(ar);
+      const isFeasible = getVal(fin.is_feasible);
+      if (typeof isFeasible === 'boolean') {
+        topCareer.fin = isFeasible ? 0.9 : 0.3;
+      }
+    }
+  }
+
+  // --- Populate conflict data ---
+  if (data.conflict && typeof data.conflict === 'object') {
+    const conf = data.conflict;
+    const getVal = (obj) => {
+      if (!obj) return null;
+      if (typeof obj === 'object' && obj.value !== undefined) return obj.value;
+      return obj;
+    };
+    const ci = getVal(conf.conflict_index);
+    if (typeof ci === 'number' && CANONICAL_FEASIBLE_CAREERS.length > 0) {
+      // Distribute conflict score to top career
+      CANONICAL_FEASIBLE_CAREERS[0].conflict = ci;
+    }
+  }
+
+  // --- Re-render results with updated data ---
+  renderRankedCareers();
+  renderBlockedCareers();
+  renderConflictTable();
+
+  // --- Populate grounding/sources if there's a place for it ---
+  const sourcesEl = document.getElementById('prismSourcesList');
+  if (sourcesEl && data.sources && Array.isArray(data.sources)) {
+    sourcesEl.innerHTML = data.sources
+      .filter(s => s.source && s.source !== 'unknown')
+      .map(s => `<span class="source-chip">${s.source}: ${s.value || ''}</span>`)
+      .join('');
+    if (sourcesEl.innerHTML) sourcesEl.style.display = 'flex';
+  }
+
+  // --- Refresh GSAP ScrollTrigger after DOM update ---
+  if (typeof ScrollTrigger !== 'undefined') {
+    setTimeout(() => ScrollTrigger.refresh(), 300);
+  }
+}
+
+// ==========================================================================
 // PRISM Engine Results Page Implementation
 // Strictly adheres to Phase 7.2 PRISM formula, PRD, and Design Specifications
 // ==========================================================================
@@ -1274,291 +1549,14 @@ const DEFAULT_PRISM_WEIGHTS = {
 
 let currentPrismWeights = { ...DEFAULT_PRISM_WEIGHTS };
 
-// 5 Feasible Canonical Careers evaluated through PRISM
-const CANONICAL_FEASIBLE_CAREERS = [
-  {
-    id: 'software-architect',
-    name: 'Software Architect & Systems Engineer',
-    cluster: 'Information Technology',
-    flags: ['High Market Demand', 'Entrance Exam Required'],
-    fit: 0.94,
-    market: 0.91,
-    fin: 0.92,
-    risk: 0.86,
-    conflict: 0.03,
-    total_cost: '₹14,50,000',
-    savings: '₹4,00,000',
-    scholarship: '₹1,50,000',
-    funding_req: '₹9,00,000',
-    loan_need: '₹9,00,000',
-    monthly_emi: '₹11,640 / mo',
-    emi_ratio: '15.5% (Safe < 40%)',
-    skill_gaps: {
-      large: ['Distributed Systems', 'Cloud Native Architecture (Kubernetes)'],
-      some: ['Relational Database Indexing', 'Data Structures & Algorithms'],
-      on_track: ['Python Scripting', 'Mathematical Logic', 'System Debugging'],
-    },
-    roadmap: [
-      {
-        time: '0–3 mo',
-        title: 'Foundation & Entrance Prep',
-        desc: 'Prepare for JEE Main / State CET. Master core data structures & algorithms in Python or C++.',
-      },
-      {
-        time: '3–6 mo',
-        title: 'Application & Practical Artifact',
-        desc: 'Build an end-to-end fullstack telemetry microservice application. Publish GitHub repository.',
-      },
-      {
-        time: '6–12 mo',
-        title: 'Admission & Core Specialization',
-        desc: 'Secure Tier-1/2 CS enrollment; apply for central state merit scholarships before August deadlines.',
-      },
-    ],
-    exams: 'JEE Main, MHT-CET, BITSAT',
-    scholarships: 'Reliance Foundation Undergraduate Scholarship (Dec 15) • National Scholarship Portal (Oct 31)',
-    adjacent: ['Cloud & DevOps Specialist', 'Data Science & AI Engineer', 'Cybersecurity Architect'],
-    sources: 'ESCO Canonical Occupation Graph (2024) • O*NET v28.1 • India Job Market Feed (Q3 2024)',
-  },
-  {
-    id: 'data-scientist-ai',
-    name: 'Data Science & AI Engineer',
-    cluster: 'Artificial Intelligence & Analytics',
-    flags: ['High Market Demand', 'Rapid Salary Escalation'],
-    fit: 0.90,
-    market: 0.95,
-    fin: 0.88,
-    risk: 0.80,
-    conflict: 0.04,
-    total_cost: '₹15,20,000',
-    savings: '₹4,00,000',
-    scholarship: '₹1,20,000',
-    funding_req: '₹10,00,000',
-    loan_need: '₹10,00,000',
-    monthly_emi: '₹12,930 / mo',
-    emi_ratio: '17.2% (Safe < 40%)',
-    skill_gaps: {
-      large: ['Deep Learning Frameworks (PyTorch)', 'LLM Fine-Tuning & Quantization'],
-      some: ['Multivariate Statistics', 'Feature Engineering'],
-      on_track: ['Python Scripting', 'SQL Queries', 'Analytical Reasoning'],
-    },
-    roadmap: [
-      {
-        time: '0–3 mo',
-        title: 'Math & Statistical Baseline',
-        desc: 'Deepen multivariate calculus, matrix operations, probability distributions, and data analysis pipelines.',
-      },
-      {
-        time: '3–6 mo',
-        title: 'Predictive Modeling Project',
-        desc: 'Deploy an open predictive machine learning inference API using FastAPI and municipal open datasets.',
-      },
-      {
-        time: '6–12 mo',
-        title: 'Degree Track & Research Lab',
-        desc: 'Pursue specialized B.Tech/B.S. in Data Engineering/AI; join university machine learning research groups.',
-      },
-    ],
-    exams: 'JEE Main, VITEEE, MET',
-    scholarships: 'Tata Trust Technical Scholarship (Nov 15) • NSP Central Sector (Oct 31)',
-    adjacent: ['Machine Learning Researcher', 'Business Intelligence Architect', 'Quantitative Analyst'],
-    sources: 'O*NET v28.1 • India Tech Labor Market Index (2024)',
-  },
-  {
-    id: 'cloud-devops',
-    name: 'Cloud & DevOps Infrastructure Specialist',
-    cluster: 'Cloud Computing & Systems',
-    flags: ['Low Early Volatility', 'High Entry Placement'],
-    fit: 0.85,
-    market: 0.92,
-    fin: 0.94,
-    risk: 0.88,
-    conflict: 0.02,
-    total_cost: '₹12,80,000',
-    savings: '₹4,00,000',
-    scholarship: '₹1,00,000',
-    funding_req: '₹7,80,000',
-    loan_need: '₹7,80,000',
-    monthly_emi: '₹10,080 / mo',
-    emi_ratio: '14.8% (Safe < 40%)',
-    skill_gaps: {
-      large: ['Kubernetes Cluster Admin', 'Terraform Infrastructure-as-Code'],
-      some: ['Linux Kernel Tuning', 'CI/CD Automated Pipelines'],
-      on_track: ['Bash Scripting', 'Networking Protocols', 'Git Workflow'],
-    },
-    roadmap: [
-      {
-        time: '0–3 mo',
-        title: 'Linux & Networking Fundamentals',
-        desc: 'Master Linux administration, TCP/IP networking, containerization fundamentals with Docker.',
-      },
-      {
-        time: '3–6 mo',
-        title: 'CI/CD Automated Deployments',
-        desc: 'Set up multi-cloud deployment pipelines on AWS/GCP with automated test runners and monitoring.',
-      },
-      {
-        time: '6–12 mo',
-        title: 'Cloud Certification & Degree',
-        desc: 'Earn AWS Solutions Architect Associate; complete B.Tech Information Technology curriculum.',
-      },
-    ],
-    exams: 'JEE Main, State CET, COMEDK',
-    scholarships: 'AICTE Pragati / Saksham Scheme (Nov 30) • Foundation for Excellence (Oct 15)',
-    adjacent: ['Site Reliability Engineer', 'Cyber Defense Analyst', 'Solutions Architect'],
-    sources: 'ESCO Cloud Domain Map • NASSCOM IT Workforce Survey 2024',
-  },
-  {
-    id: 'vlsi-embedded',
-    name: 'VLSI & Embedded Systems Design Engineer',
-    cluster: 'Electronics & Semiconductor Hardware',
-    flags: ['National Semiconductor Mission', 'Hardware Moat'],
-    fit: 0.82,
-    market: 0.88,
-    fin: 0.85,
-    risk: 0.90,
-    conflict: 0.05,
-    total_cost: '₹14,00,000',
-    savings: '₹4,00,000',
-    scholarship: '₹1,50,000',
-    funding_req: '₹8,50,000',
-    loan_need: '₹8,50,000',
-    monthly_emi: '₹10,990 / mo',
-    emi_ratio: '16.9% (Safe < 40%)',
-    skill_gaps: {
-      large: ['Verilog / SystemVerilog Synthesis', 'FPGA Hardware Emulation'],
-      some: ['Digital Circuit Timing Analysis', 'Microcontroller Interfacing'],
-      on_track: ['Physics Electromagnetism', 'Boolean Logic', 'C Programming'],
-    },
-    roadmap: [
-      {
-        time: '0–3 mo',
-        title: 'Digital Logic & Circuit Physics',
-        desc: 'Complete circuit synthesis foundations, CMOS transistor logic, and logic gate minimization.',
-      },
-      {
-        time: '3–6 mo',
-        title: 'Verilog Simulation Artifact',
-        desc: 'Simulate a 5-stage pipelined RISC-V processor in Icarus Verilog; test logic waveform traces.',
-      },
-      {
-        time: '6–12 mo',
-        title: 'Hardware Lab & Apprenticeship',
-        desc: 'B.Tech Electronics & Communication; target India Semiconductor Mission subsidized lab programs.',
-      },
-    ],
-    exams: 'JEE Main, JEE Advanced, BITSAT',
-    scholarships: 'India Semiconductor Mission Fellowship (Dec 01) • NSP Central Sector (Oct 31)',
-    adjacent: ['Firmware Engineer', 'Robotics Systems Specialist', 'IoT Hardware Architect'],
-    sources: 'India Semiconductor Mission (ISM) Roadmap • ESCO Electronics Matrix',
-  },
-  {
-    id: 'product-systems',
-    name: 'Product Systems & Operations Specialist',
-    cluster: 'Product Management & Systems',
-    flags: ['Interdisciplinary', 'High Executive Mobility'],
-    fit: 0.80,
-    market: 0.84,
-    fin: 0.90,
-    risk: 0.82,
-    conflict: 0.06,
-    total_cost: '₹13,50,000',
-    savings: '₹4,00,000',
-    scholarship: '₹1,20,000',
-    funding_req: '₹8,30,000',
-    loan_need: '₹8,30,000',
-    monthly_emi: '₹10,730 / mo',
-    emi_ratio: '16.5% (Safe < 40%)',
-    skill_gaps: {
-      large: ['Product Lifecycle Analytics', 'Quantitative A/B Testing Design'],
-      some: ['User Journey Mapping', 'Product Roadmapping'],
-      on_track: ['Analytical Writing', 'Structured Problem Solving', 'Logic'],
-    },
-    roadmap: [
-      {
-        time: '0–3 mo',
-        title: 'Data Analytics & Wireframing',
-        desc: 'Master SQL, product metrics (LTV, CAC, churn), and Figma user flow diagrams.',
-      },
-      {
-        time: '3–6 mo',
-        title: 'Civic Product Case Study',
-        desc: 'Conduct usability and efficiency audit for urban transit ticketing; publish teardown paper.',
-      },
-      {
-        time: '6–12 mo',
-        title: 'STEM + Product Degree Path',
-        desc: 'Pursue Industrial Engineering / Computer Science with product management club leadership.',
-      },
-    ],
-    exams: 'JEE Main, State CET, IPMAT',
-    scholarships: 'State Merit Scholarship (Nov 15) • Aditya Birla Scholarship (Oct 20)',
-    adjacent: ['Technical Program Manager', 'Business Operations Lead', 'UX Systems Analyst'],
-    sources: 'O*NET v28.1 • Product Management Association Survey 2024',
-  },
-];
+// Feasible Canonical Careers evaluated through PRISM
+const CANONICAL_FEASIBLE_CAREERS = [];
 
 // Blocked Careers strictly kept separate from ranked results (Financial Feasibility Gate Failed)
-const CANONICAL_BLOCKED_CAREERS = [
-  {
-    id: 'private-mbbs',
-    name: 'Private MBBS / Medical Surgeon',
-    reason: 'Financial Feasibility Gate Failed: Total cost ₹85.0 L exceeds affordable plan cap; EMI / Salary ratio 68.4% exceeds 40% safety threshold.',
-    gap: '₹63.75 lakh more than your plan covers.',
-    explanation: 'Private medical tuition in India averages ₹85 lakh across 5.5 years plus residency. With family liquid savings of ₹5 lakh and family loan tolerance of ₹16.25 lakh, there is an unbridgeable ₹63.75 lakh capital shortfall.',
-  },
-  {
-    id: 'commercial-pilot',
-    name: 'Commercial Aviation Pilot (CPL)',
-    reason: 'Financial Feasibility Gate Failed: Training cost ₹55.0 L with upfront capital blocks; monthly loan EMI ₹52,400 exceeds 40% entry co-pilot stipend.',
-    gap: '₹38.50 lakh more than your plan covers.',
-    explanation: 'Commercial Pilot License flight school requires ₹55 lakh in lump-sum tranches. Bank educational loan collateral guidelines and starting First Officer stipends trigger severe loan-stress flags.',
-  },
-];
+const CANONICAL_BLOCKED_CAREERS = [];
 
 // Per-career alignment data for Conflict View
-const CONFLICT_COMPARISON_DATA = [
-  {
-    career: 'Software Architect & Systems Engineer',
-    youFit: '0.94',
-    parentAffinity: '0.70',
-    diff: '0.24',
-    riskDisagreement: 'Low',
-    note: 'High market demand and rapid starting salary bridge family risk concerns.',
-  },
-  {
-    career: 'Data Science & AI Engineer',
-    youFit: '0.90',
-    parentAffinity: '0.75',
-    diff: '0.15',
-    riskDisagreement: 'Low',
-    note: 'Clear quantitative rigor reassures parents seeking established STEM paths.',
-  },
-  {
-    career: 'Biomedical Engineering (Compromise)',
-    youFit: '0.78',
-    parentAffinity: '0.88',
-    diff: '0.10',
-    riskDisagreement: 'Very Low',
-    note: 'Synthesizes healthcare career stability with student affinity for tech innovation.',
-  },
-  {
-    career: 'Civil & Urban Infrastructure',
-    youFit: '0.65',
-    parentAffinity: '0.85',
-    diff: '0.20',
-    riskDisagreement: 'Medium',
-    note: 'Parent priority for government/PSU stability exceeds student interest in digital domains.',
-  },
-  {
-    career: 'Pure Research (Theoretical Physics)',
-    youFit: '0.85',
-    parentAffinity: '0.35',
-    diff: '0.50',
-    riskDisagreement: 'High',
-    note: 'Extended doctoral timeline without guaranteed industry return causes family hesitation.',
-  },
-];
+const CONFLICT_COMPARISON_DATA = [];
 
 function initResultsEngine() {
   updateRailFromStorage();
@@ -2254,15 +2252,41 @@ function initAiChatDropdown() {
 
   // Hydrate context bar with student's profile & top match
   function updateAiContextBar() {
-    const stream = localStorage.getItem('goguide_stream') || 'Science – PCM';
-    const marks = localStorage.getItem('goguide_marks') || '88.5';
+    const stream = localStorage.getItem('goguide_stream');
+    const marks = localStorage.getItem('goguide_marks');
     const contextStudent = document.getElementById('aiContextStudent');
     const contextScore = document.getElementById('aiContextScore');
     const contextMatch = document.getElementById('aiContextMatch');
 
-    if (contextStudent) contextStudent.textContent = stream;
-    if (contextScore) contextScore.textContent = `${marks}% Score`;
-    if (contextMatch) contextMatch.textContent = '#1 Match: Software Arch.';
+    if (contextStudent) {
+      if (stream) {
+        contextStudent.textContent = stream;
+        contextStudent.style.display = 'inline-flex';
+      } else {
+        contextStudent.style.display = 'none';
+      }
+    }
+
+    if (contextScore) {
+      if (marks) {
+        contextScore.textContent = `${marks}% Score`;
+        contextScore.style.display = 'inline-flex';
+      } else {
+        contextScore.style.display = 'none';
+      }
+    }
+
+    if (contextMatch) {
+      if (window._guideResponse && window._guideResponse.recommendations && window._guideResponse.recommendations.length > 0) {
+        let title = window._guideResponse.recommendations[0].title || 'Unknown';
+        // Truncate if too long
+        if (title.length > 15) title = title.substring(0, 15) + '...';
+        contextMatch.textContent = `#1 Match: ${title}`;
+        contextMatch.style.display = 'inline-flex';
+      } else {
+        contextMatch.style.display = 'none';
+      }
+    }
   }
 
   // Open Dropdown with GSAP Spring Entrance
@@ -2414,6 +2438,13 @@ function initAiChatDropdown() {
     sendUserMessage(text);
   }
   window.handleAiChatSubmit = handleAiChatSubmit;
+  
+  if (chatForm) {
+    chatForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      handleAiChatSubmit();
+    });
+  }
 
   // Send User Message & Trigger Grounded Response
   function sendUserMessage(text) {
@@ -2497,33 +2528,31 @@ function initAiChatDropdown() {
       }
     }
 
-    // Simulate realistic grounded response calculation delay
-    setTimeout(() => {
-      generateAiResponse(text);
-    }, 750);
+    // Call backend Quick Doubts API
+    generateAiResponse(text);
   }
 
   // Generate Intelligent Grounded Response based on query
-  function generateAiResponse(userQuery) {
-    const q = userQuery.toLowerCase();
+  async function generateAiResponse(userQuery) {
     let reply = '';
-
-    if (q.includes('software') || q.includes('architect') || q.includes('#1') || q.includes('top match')) {
-      reply = `**Software Architect & Systems Engineer** is your **#1 match** with a composite **PRISM Match Index of 88.6/100**.\n\n• **Fit Score: 0.94** — Exceptional aptitude synergy with your Science PCM baseline (88.5%).\n• **Market Demand: 0.91** — Top tier placement volume and salary escalation across Indian tech hubs.\n• **Financial Feasibility: 0.92** — 4-year tuition of ₹14.5L requires a ₹9L loan with a safe ₹11,640/mo EMI (only 15.5% of your entry salary!).`;
-    } else if (q.includes('loan') || q.includes('emi') || q.includes('cost') || q.includes('budget') || q.includes('financ')) {
-      reply = `Here is your **Deterministic Financial Solver breakdown**:\n\n• **Total 4-Year Cost**: ₹14,50,000\n• **Family Savings Allocated**: ₹4,00,000\n• **Scholarship Assumed**: ₹1,50,000\n• **Net Loan Principal Needed**: **₹9,00,000**\n• **Monthly Loan EMI**: **₹11,640 / mo** (10-yr tenure @ 9.5% SBI Ed-Loan)\n• **Affordability Ratio**: **15.5%** of entry salary (comfortably under the 40% risk ceiling!).`;
-    } else if (q.includes('conflict') || q.includes('parent') || q.includes('family') || q.includes('reconcil')) {
-      reply = `Your **Conflict Index (CI) is 0.34 (Low-Moderate disagreement)**:\n\n• **Your Vector**: Passion for high-level software engineering and technical architecture.\n• **Parent Vector**: Preference for institutional stability, government PSU tracks, and predictable ROI.\n• **Reconciled Compromise**: **Biomedical Engineering** (Fits you at 0.78, family at 0.88), or **Cloud Infrastructure** which bridges parents' stability goals with modern tech compensation!`;
-    } else if (q.includes('mumbai') || q.includes('local') || q.includes('project') || q.includes('city')) {
-      reply = `Grounding your path in the **Mumbai Metropolitan Region**:\n\n• **Municipal Problem**: Seasonal monsoon transport bottlenecks and ward drainage delays.\n• **Recommended Project**: Build an open-source precipitation routing telemetry dashboard for Ward D using municipal sensor feeds and open map APIs.\n• **Matching Skills**: Python analytics, embedded telemetry, and spatial routing. Excellent for college admissions and GitHub portfolios!`;
-    } else if (q.includes('skill') || q.includes('gap') || q.includes('learn')) {
-      reply = `Based on our canonical **ESCO & O*NET 28.1 Skill Gap Model**:\n\n• **Large Gaps**: Distributed Systems & Cloud-Native Kubernetes Orchestration.\n• **Some Gaps**: Relational DB Indexing & Data Structures.\n• **On Track**: Python Scripting, Algorithmic Math, and System Debugging.\n• **Roadmap (0–3 Months)**: Master C++/Python data structure basics and practice coding algorithmic fundamentals!`;
-    } else if (q.includes('mbbs') || q.includes('medical') || q.includes('pilot') || q.includes('blocked')) {
-      reply = `**Private MBBS** was strictly blocked by our **Financial Feasibility Gate**:\n\n• **Reason**: 5.5-year private tuition averages ₹85 Lakh, leaving a **₹63.75 Lakh unbridgeable shortfall** beyond your plan.\n• **EMI Stress**: The projected EMI ratio of 68.4% far exceeds our 40% debt safety cap.\n• **PRISM Rule**: Blocked careers are never mixed into ranked results to protect families from dangerous over-leveraging!`;
-    } else if (q.includes('exam') || q.includes('scholarship') || q.includes('test')) {
-      reply = `Key **Entrance Exams & Scholarships** for your pathway:\n\n• **Exams**: JEE Main, MHT-CET, and BITSAT.\n• **Top Scholarships**: Reliance Foundation Undergraduate Scholarship (Dec 15 deadline) & National Scholarship Portal Central Sector Scheme (Oct 31 deadline).\n• Both schemes can provide ₹1.2L–₹2.0L in tuition fee relief!`;
-    } else {
-      reply = `I have analyzed your **Science – PCM (88.5% score)** profile and current simulation weights (40% Fit, 30% Market, 15% Financial, 15% Risk).\n\nYour optimal pathway balances **Software Architecture** with **Cloud Infrastructure**. You can adjust sliders in the Left Rail to see ranks reorder, or ask me for advice on exams, skill gaps, or financial planning!`;
+    try {
+      const response = await fetch('http://127.0.0.1:8001/api/quick-doubts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: userQuery }),
+      });
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      if (data.status === 'AVAILABLE' && data.answer) {
+        reply = data.answer;
+      } else {
+        reply = data.message || "Quick Doubts is temporarily unavailable.";
+      }
+    } catch (err) {
+      console.error('[GoGuide] Quick Doubts API Error:', err);
+      reply = "Quick Doubts is temporarily unavailable.";
     }
 
     // Hide typing indicator

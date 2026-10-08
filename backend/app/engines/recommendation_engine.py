@@ -221,10 +221,23 @@ class RecommendationEngine:
                 status = 'INSUFFICIENT_EVIDENCE'
             
             if status == 'RANKABLE':
+                # Map for frontend expected schema
+                fit_val = available.get('student_fit', final_score)
+                mkt_val = available.get('market_opportunity', final_score)
+                
                 results.append({
                     'occupation_id': occ_id,
                     'occupation_name': occ_name,
+                    'title': occ_name,
+                    'cluster': cluster if cluster else 'General',
+                    'category': cluster if cluster else 'General',
                     'final_score': final_score,
+                    'composite_score': final_score,
+                    'fit_score': fit_val,
+                    'market_score': mkt_val,
+                    'financial_score': 0.8, # fallback
+                    'risk_score': 0.8,      # fallback
+                    'conflict_score': 0.0,
                     'evidence_count': evidence_count,
                     'status': status,
                     'factors': available,

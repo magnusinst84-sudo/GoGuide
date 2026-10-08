@@ -584,7 +584,7 @@
     <!-- ==========================================================================
          RESULTS PAGE: PRISM Engine Output (Top Matches, Left Rail, Conflict, Detail)
          ========================================================================== -->
-    <section class="results-page-section" id="resultsSection" aria-label="PRISM Career Results">
+    <section class="results-page-section" id="resultsSection" aria-label="PRISM Career Results" style="display: none;">
       <!-- Top Navigation bar for Results Section -->
       <nav class="results-subnav" aria-label="Results Navigation">
         <div class="results-subnav-left">
@@ -1446,7 +1446,7 @@
       </div>
 
       <!-- Chat Input Area -->
-      <form class="ai-chat-form" id="aiChatForm" onsubmit="event.preventDefault(); window.handleAiChatSubmit();">
+      <form class="ai-chat-form" id="aiChatForm">
         <div class="chat-input-wrap">
           <input type="text" class="chat-input" id="aiChatInput" placeholder="Ask about roadmaps, loans, skills..." autocomplete="off" maxlength="300" aria-label="Message GoGuide AI Advisor" />
           <button type="submit" class="chat-send-btn" id="aiChatSendBtn" aria-label="Send message">

@@ -9,8 +9,13 @@ from typing import List, Dict, Any, Optional
 
 logger = logging.getLogger(__name__)
 
+from pathlib import Path
+
+BACKEND_ROOT = Path(__file__).resolve().parents[2]
+RAG_DIR = BACKEND_ROOT / "data" / "rag"
+
 RAG_ENABLED = os.getenv("RAG_ENABLED", "true").lower() == "true"
-RAG_INDEX_PATH = os.getenv("RAG_INDEX_PATH", os.path.join(os.getcwd(), "backend", "data", "rag"))
+RAG_INDEX_PATH = os.getenv("RAG_INDEX_PATH", str(RAG_DIR))
 RAG_TOP_K = int(os.getenv("RAG_TOP_K", "5"))
 RAG_EMBEDDING_MODEL = os.getenv("RAG_EMBEDDING_MODEL", "all-MiniLM-L6-v2")
 

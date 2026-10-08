@@ -4429,6 +4429,7 @@ dialog::backdrop {
 
 .ai-chat-dropdown.active {
   pointer-events: auto;
+  visibility: visible;
 }
 
 /* Header */

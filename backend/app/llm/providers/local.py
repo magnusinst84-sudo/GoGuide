@@ -30,6 +30,7 @@ class LocalProvider(LLMProvider):
 
     def generate(self, prompt: str) -> str:
         model_id = os.getenv("LLM_MODEL", "").strip()
+        
         if not model_id:
             raise RuntimeError(
                 "LocalProvider: LLM_MODEL environment variable is not set. "
