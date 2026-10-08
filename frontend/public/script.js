@@ -87,14 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Modals Management (Native <dialog>)
   const signupDialog = document.getElementById('signupDialog');
   const startDialog = document.getElementById('startDialog');
-  const signupNavBtn = document.getElementById('signupNavBtn');
   const closeSignupDialog = document.getElementById('closeSignupDialog');
   const closeStartDialog = document.getElementById('closeStartDialog');
-
-  // Open Signup
-  signupNavBtn?.addEventListener('click', () => {
-    signupDialog?.showModal();
-  });
 
   // Close buttons
   closeSignupDialog?.addEventListener('click', () => {
@@ -1330,16 +1324,6 @@ function initBottomNavBar() {
     }
     if (history.pushState) {
       history.pushState(null, null, '#resultsSection');
-    }
-  });
-
-  // Settings Button: Toggles Settings & User Profile Dropdown
-  const settingsBtn = document.getElementById('bottomNavSettingsBtn');
-  settingsBtn?.addEventListener('click', (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (typeof window.toggleSettingsDropdown === 'function') {
-      window.toggleSettingsDropdown();
     }
   });
 
