@@ -1,0 +1,958 @@
+[
+  {
+    "id": "biomedical-eng",
+    "name": "Biomedical Engineering (B.Tech)",
+    "riasec": [
+      0.55,
+      0.85,
+      0.45,
+      0.35,
+      0.25,
+      0.35
+    ],
+    "tuition_per_year": 275000,
+    "living_per_year": 120000,
+    "years": 4.0,
+    "coaching": 50000,
+    "salary": {
+      "y1": 50833,
+      "y3": 66083,
+      "y5": 85908
+    },
+    "years_to_first_income": 4.0,
+    "static_national": 0.6,
+    "city_demand": {
+      "Chennai": 0.8,
+      "Bengaluru": 0.7,
+      "Hyderabad": 0.6
+    },
+    "growth_index": 0.7,
+    "automation_risk": 0.3,
+    "career_risk": 0.4,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "math",
+        "required_level": 0.6
+      },
+      {
+        "name": "statistics",
+        "required_level": 0.6
+      },
+      {
+        "name": "biology",
+        "required_level": 0.7
+      },
+      {
+        "name": "electronics",
+        "required_level": 0.6
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "biology",
+        "step": "Review human anatomy and basic physiology."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Complete a foundational project on biosensors."
+      },
+      {
+        "window": "3-6",
+        "skill": "electronics",
+        "step": "Study circuit design for medical devices."
+      },
+      {
+        "window": "6-12",
+        "skill": "statistics",
+        "step": "Learn biostatistics for analyzing medical data."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Apply for internships at healthcare or med-tech companies."
+      }
+    ],
+    "exams": [
+      "SRMJEEE"
+    ],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "btech-cse-govt",
+      "mbbs-govt",
+      "mbbs-private"
+    ],
+    "sources": {
+      "_note": "Representative institution type: mid-tier private engineering university in South India (e.g., SRM Institute of Science and Technology).",
+      "tuition_per_year": "https://www.srmist.edu.in/program/b-tech-biomedical-engineering/ (Accessed 2026-10-07) - not verified",
+      "years": "https://www.srmist.edu.in/program/b-tech-biomedical-engineering/ (Accessed 2026-10-07) - not verified",
+      "salary.y1": "https://www.nirfindia.org/nirfpdfcdn/2024/pdf/Engineering/IR-E-U-0473.pdf (Accessed 2026-10-07) - read from official PDF by script; not hand-checked: \"2022-23 4195 4031 610000(Six Lakhs Ten Thousand)\" [SRM NIRF 2024 median. Note: Institute-wide median covering all branches.]",
+      "salary.y3": "ASSUMPTION: round(50833 x 1.30) = 66083. DECISIONS.md Section 3.",
+      "salary.y5": "ASSUMPTION: round(66083 x 1.30) = 85908. DECISIONS.md Section 3.",
+      "growth_index": "https://www.weforum.org/publications/the-future-of-jobs-report-2023/ (Accessed 2026-10-07) - not verified, mapped qualitative growth to 0.7.",
+      "automation_risk": "https://www.weforum.org/publications/the-future-of-jobs-report-2023/ (Accessed 2026-10-07) - not verified, mapped qualitative automation risk to 0.3.",
+      "entrance_required": "https://www.srmist.edu.in/admission-india/ (Accessed 2026-10-07) - not verified",
+      "exams": "https://www.srmist.edu.in/admission-india/ (Accessed 2026-10-07) - not verified"
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "btech-cse-govt",
+    "name": "B.Tech Computer Science (government college)",
+    "riasec": [
+      0.45,
+      0.8,
+      0.25,
+      0.2,
+      0.35,
+      0.6
+    ],
+    "tuition_per_year": 125000,
+    "living_per_year": 100000,
+    "years": 4.0,
+    "coaching": 200000,
+    "salary": {
+      "y1": 125000,
+      "y3": 162500,
+      "y5": 211250
+    },
+    "years_to_first_income": 4.0,
+    "static_national": 0.9,
+    "city_demand": {
+      "Bengaluru": 0.95,
+      "Hyderabad": 0.9,
+      "Delhi NCR": 0.9,
+      "Pune": 0.85,
+      "Chennai": 0.85,
+      "Mumbai": 0.8
+    },
+    "growth_index": 0.85,
+    "automation_risk": 0.3,
+    "career_risk": 0.15,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "math",
+        "required_level": 0.7
+      },
+      {
+        "name": "programming",
+        "required_level": 0.8
+      },
+      {
+        "name": "logic",
+        "required_level": 0.8
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "programming",
+        "step": "Learn a primary programming language like Python or C++ and basic syntax."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Build a small personal project, like a calculator or to-do list application."
+      },
+      {
+        "window": "3-6",
+        "skill": "logic",
+        "step": "Study foundational Data Structures and Algorithms (DSA) and solve daily coding problems."
+      },
+      {
+        "window": "6-12",
+        "skill": "programming",
+        "step": "Learn web or mobile development frameworks and build a full-stack application."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Apply for software engineering internships and participate in hackathons."
+      }
+    ],
+    "exams": [
+      "JEE Main"
+    ],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "biomedical-eng"
+    ],
+    "sources": {
+      "_note": "Representative institution type: NIT / state government engineering college admitted via JoSAA or state counselling.",
+      "tuition_per_year": "https://www.nitt.edu/home/academics/fee_details/ug_fee_structure/B.Tech-Institute-fee-structure-for-2023-24-admission-v3.pdf (Accessed 2026-10-07) - read from official PDF by script; not hand-checked: \"1 Tuition Fee * 62500\" [per semester, so 125000/yr. Note: 2023-24 admission batch. Footnote states: * To claim Tuition Fee waiver Parental Income certificate for the preceding financial year...]; read with SSL verification off",
+      "years": "https://josaa.nic.in/ (Accessed 2026-10-07) - from search snippets, not yet verified",
+      "salary.y1": "https://www.nirfindia.org/nirfpdfcdn/2024/pdf/Engineering/IR-E-U-0237.pdf (Accessed 2026-10-07) - read from official PDF by script; not hand-checked: \"1500000(Fifteen lakh)\" [Rule: median of Trichy (IR-E-U-0467.pdf - 1576000), Surathkal (1500000), Rourkela (IR-E-U-0357.pdf - 1250000), all-branch UG, 2022-23 batch, NIRF 2024.]",
+      "salary.y3": "ASSUMPTION: round(125000 x 1.30) = 162500. DECISIONS.md Section 3.",
+      "salary.y5": "ASSUMPTION: round(162500 x 1.30) = 211250. DECISIONS.md Section 3.",
+      "growth_index": "https://www.weforum.org/publications/the-future-of-jobs-report-2023/ (Accessed 2026-10-07) - from search snippets, not yet verified, mapped qualitative high growth to 0.85.",
+      "automation_risk": "https://www.weforum.org/publications/the-future-of-jobs-report-2023/ (Accessed 2026-10-07) - from search snippets, not yet verified, mapped qualitative low replacement risk to 0.3.",
+      "entrance_required": "https://josaa.nic.in/ (Accessed 2026-10-07) - from search snippets, not yet verified"
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "b-des-ux",
+    "name": "B.Des / UX Design",
+    "riasec": [
+      0.3,
+      0.6,
+      0.95,
+      0.5,
+      0.4,
+      0.2
+    ],
+    "tuition_per_year": 400000,
+    "living_per_year": 150000,
+    "years": 4,
+    "coaching": 100000,
+    "salary": {
+      "y1": 30000,
+      "y3": 55000,
+      "y5": 90000
+    },
+    "years_to_first_income": 4,
+    "static_national": 0.6,
+    "city_demand": {
+      "Chennai": 0.6,
+      "Bengaluru": 0.6,
+      "Hyderabad": 0.6,
+      "Pune": 0.6,
+      "Mumbai": 0.6,
+      "Delhi NCR": 0.6,
+      "Coimbatore": 0.6,
+      "Kolkata": 0.6
+    },
+    "growth_index": 0.65,
+    "automation_risk": 0.45,
+    "career_risk": 0.65,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "design",
+        "required_level": 0.8
+      },
+      {
+        "name": "communication",
+        "required_level": 0.6
+      },
+      {
+        "name": "logic",
+        "required_level": 0.5
+      }
+    ],
+    "roadmap": [
+      {
+        "skill": "design",
+        "window": "0-3",
+        "step": "Build a three-piece design portfolio."
+      },
+      {
+        "skill": null,
+        "window": "6-12",
+        "step": "Review your portfolio with a mentor or peer before applying."
+      }
+    ],
+    "exams": [],
+    "scholarship_ids": [],
+    "adjacent": [],
+    "sources": {
+      "_note": "Placeholder values; not sourced. Salary, tuition, coaching and city_demand are unsupported guesses. Exclude from any result that is shown as data until replaced."
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y1",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "skills",
+      "exams"
+    ]
+  },
+  {
+    "id": "btech-cse-private",
+    "name": "B.Tech Computer Science (private)",
+    "riasec": [
+      0.45,
+      0.8,
+      0.25,
+      0.2,
+      0.35,
+      0.6
+    ],
+    "tuition_per_year": 275000,
+    "living_per_year": 120000,
+    "years": 4.0,
+    "coaching": 50000,
+    "salary": {
+      "y1": 50833,
+      "y3": 66083,
+      "y5": 85908
+    },
+    "years_to_first_income": 4.0,
+    "static_national": 0.9,
+    "city_demand": {
+      "Bengaluru": 0.95,
+      "Hyderabad": 0.9,
+      "Pune": 0.9,
+      "Delhi NCR": 0.9,
+      "Chennai": 0.85,
+      "Mumbai": 0.8
+    },
+    "growth_index": 0.85,
+    "automation_risk": 0.3,
+    "career_risk": 0.2,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "math",
+        "required_level": 0.7
+      },
+      {
+        "name": "programming",
+        "required_level": 0.8
+      },
+      {
+        "name": "logic",
+        "required_level": 0.8
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "programming",
+        "step": "Learn a primary programming language like Python or C++ and basic syntax."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Build a small personal project, like a calculator or to-do list application."
+      },
+      {
+        "window": "3-6",
+        "skill": "logic",
+        "step": "Study foundational Data Structures and Algorithms (DSA) and solve daily coding problems."
+      },
+      {
+        "window": "6-12",
+        "skill": "programming",
+        "step": "Learn web or mobile development frameworks and build a full-stack application."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Apply for software engineering internships and participate in hackathons."
+      }
+    ],
+    "exams": [
+      "SRMJEEE"
+    ],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "btech-cse-govt"
+    ],
+    "sources": {
+      "_note": "Representative institution type: mid-tier private engineering university in South India (e.g., SRM Institute of Science and Technology).",
+      "tuition_per_year": "https://www.srmist.edu.in/program/b-tech-computer-science-and-engineering/ (Accessed 2026-10-07) - not verified",
+      "years": "https://www.srmist.edu.in/program/b-tech-computer-science-and-engineering/ (Accessed 2026-10-07) - not verified",
+      "salary.y1": "https://www.nirfindia.org/nirfpdfcdn/2024/pdf/Engineering/IR-E-U-0473.pdf (Accessed 2026-10-07) - read from official PDF by script; not hand-checked: \"2022-23 4195 4031 610000(Six Lakhs Ten Thousand)\" [SRM NIRF 2024 median. Note: Institute-wide median covering all branches.]",
+      "salary.y3": "ASSUMPTION: round(50833 x 1.30) = 66083. DECISIONS.md Section 3.",
+      "salary.y5": "ASSUMPTION: round(66083 x 1.30) = 85908. DECISIONS.md Section 3.",
+      "growth_index": "https://www.weforum.org/publications/the-future-of-jobs-report-2023/ (Accessed 2026-10-07) - not verified, mapped qualitative high growth to 0.85.",
+      "automation_risk": "https://www.weforum.org/publications/the-future-of-jobs-report-2023/ (Accessed 2026-10-07) - not verified, mapped qualitative low replacement risk to 0.3.",
+      "entrance_required": "https://www.srmist.edu.in/admission-india/ (Accessed 2026-10-07) - not verified",
+      "exams": "https://www.srmist.edu.in/admission-india/ (Accessed 2026-10-07) - not verified"
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "ai-data-science",
+    "name": "B.Tech AI and Data Science (private)",
+    "riasec": [
+      0.3,
+      0.9,
+      0.35,
+      0.2,
+      0.4,
+      0.55
+    ],
+    "tuition_per_year": 275000,
+    "living_per_year": 120000,
+    "years": 4.0,
+    "coaching": 50000,
+    "salary": {
+      "y1": 50833,
+      "y3": 66083,
+      "y5": 85908
+    },
+    "years_to_first_income": 4.0,
+    "static_national": 0.92,
+    "city_demand": {
+      "Bengaluru": 0.95,
+      "Hyderabad": 0.9,
+      "Pune": 0.9,
+      "Delhi NCR": 0.88,
+      "Chennai": 0.85,
+      "Mumbai": 0.82
+    },
+    "growth_index": 0.9,
+    "automation_risk": 0.22,
+    "career_risk": 0.2,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "math",
+        "required_level": 0.75
+      },
+      {
+        "name": "statistics",
+        "required_level": 0.8
+      },
+      {
+        "name": "programming",
+        "required_level": 0.8
+      },
+      {
+        "name": "logic",
+        "required_level": 0.75
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "math",
+        "step": "Study linear algebra and probability, the mathematical backbone of machine learning."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Complete an introductory Python course and run your first data analysis on a real dataset."
+      },
+      {
+        "window": "3-6",
+        "skill": "statistics",
+        "step": "Learn descriptive statistics, distributions, and hypothesis testing."
+      },
+      {
+        "window": "3-6",
+        "skill": "programming",
+        "step": "Build a simple end-to-end ML model, such as a price predictor."
+      },
+      {
+        "window": "6-12",
+        "skill": "logic",
+        "step": "Study neural network fundamentals and implement one from scratch."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Apply for a data science or ML internship and contribute to a Kaggle competition."
+      }
+    ],
+    "exams": [
+      "SRMJEEE"
+    ],
+    "scholarship_ids": [
+      "pm-csss",
+      "aicte-pragati",
+      "aicte-saksham",
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "btech-cse-private",
+      "btech-cse-govt"
+    ],
+    "sources": {
+      "_note": "Representative institution type: SRM Institute of Science and Technology, Category 1 fee (DECISIONS.md Section 5).",
+      "salary.y1": "nirfindia.org/nirfpdfcdn/2024/pdf/Engineering/IR-E-U-0473.pdf - script read (SSL on). Column heading: \"Median salary of placed graduates per annum (Amount in Rs.)\". Row: \"2022-23 4195 4031 610000(Six Lakhs Ten\". UG [4 Years] batch 2022-23. Machine-confirmed headings; not confirmed by a person. Institute-wide, not AI/DS-specific. 610000 / 12 = 50833.",
+      "salary.y3": "ASSUMPTION: round(50833 x 1.30) = 66083. DECISIONS.md Section 3.",
+      "salary.y5": "ASSUMPTION: round(66083 x 1.30) = 85908. DECISIONS.md Section 3.",
+      "coaching": "SRMJEEE = own-university exam. Rule: DECISIONS.md Section 2. Page not opened.",
+      "automation_risk": "Relative judgment score per DECISIONS.md Section 4. Not sourced from a published index. AI/DS anchor 0.20-0.25.",
+      "growth_index": "WEF Future of Jobs 2023 lists AI/ML Specialists as fastest-growing role. Page not opened.",
+      "entrance_required": "SRM admissions page not opened (403). SRMJEEE by rank; rule DECISIONS.md Section 1.",
+      "exams": "SRM admissions page not opened (403)."
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y1",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "mbbs-govt",
+    "name": "MBBS (government college)",
+    "riasec": [
+      0.35,
+      0.75,
+      0.3,
+      0.85,
+      0.3,
+      0.2
+    ],
+    "tuition_per_year": 13000,
+    "living_per_year": 90000,
+    "years": 5.5,
+    "coaching": 200000,
+    "salary": {
+      "y1": 55000,
+      "y3": 55000,
+      "y5": 120000
+    },
+    "years_to_first_income": 7.0,
+    "static_national": 0.85,
+    "city_demand": {
+      "Chennai": 0.9,
+      "Bengaluru": 0.85,
+      "Hyderabad": 0.85,
+      "Mumbai": 0.85,
+      "Delhi NCR": 0.8,
+      "Pune": 0.8
+    },
+    "growth_index": 0.75,
+    "automation_risk": 0.12,
+    "career_risk": 0.15,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "biology",
+        "required_level": 0.9
+      },
+      {
+        "name": "statistics",
+        "required_level": 0.55
+      },
+      {
+        "name": "communication",
+        "required_level": 0.7
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "biology",
+        "step": "Master Class 11-12 biology and chemistry to NEET standard."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Sit at least one NEET mock series and analyse your weak topics."
+      },
+      {
+        "window": "3-6",
+        "skill": "communication",
+        "step": "Practise history-taking and clinical communication with peers or online simulators."
+      },
+      {
+        "window": "6-12",
+        "skill": "statistics",
+        "step": "Learn basic biostatistics for reading research papers and evidence-based medicine."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Complete compulsory internship rotations; register with NMC."
+      }
+    ],
+    "exams": [
+      "NEET"
+    ],
+    "scholarship_ids": [
+      "pm-csss",
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "mbbs-private",
+      "biomedical-eng"
+    ],
+    "sources": {
+      "_note": "Representative institution type: government medical college (state or central). Tuition based on MCC/state counselling fee schedules. salary.y1 and y3 reflect government resident/house officer stipend; y5 assumes post-PG independent practice.",
+      "tuition_per_year": "MCC/state counselling fee schedules for government medical colleges. Page not opened. Estimate: most state govt medical colleges charge Rs 10,000-20,000/yr tuition; Rs 13,000 used as midpoint.",
+      "years": "MBBS duration per NMC regulations: 4.5 years study + 1 year compulsory rotating internship = 5.5 years. Page not opened.",
+      "salary.y1": "Government resident stipend post-internship. Page not opened. Estimate: junior resident stipends at govt hospitals approx Rs 50,000-60,000/month; Rs 55,000 used.",
+      "salary.y3": "ASSUMPTION: same as y1 (Rs 55,000) because y3 falls inside PG residency years for most students. DECISIONS.md Section 3 flat-curve exception for clinical careers.",
+      "salary.y5": "ASSUMPTION: Rs 120,000/month assuming PG completion and independent practice by year 5-6. DECISIONS.md Section 3 exception.",
+      "years_to_first_income": "DECISIONS.md Section 7: 5.5 study + 1 yr internship = 6.5; rounded to 7.0 conservatively. Page not opened.",
+      "coaching": "NEET requires 1-2 years classroom coaching. Rule: DECISIONS.md Section 2. Page not opened.",
+      "automation_risk": "Relative judgment score per DECISIONS.md Section 4. Not sourced from a published index. Clinical/MBBS anchor 0.10-0.20.",
+      "entrance_required": "NEET mandatory for all MBBS admissions per NMC rules. Page not opened.",
+      "exams": "NEET. Page not opened."
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y1",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "mbbs-private",
+    "name": "MBBS (private college)",
+    "riasec": [
+      0.35,
+      0.75,
+      0.3,
+      0.85,
+      0.3,
+      0.2
+    ],
+    "tuition_per_year": 1500000,
+    "living_per_year": 150000,
+    "years": 5.5,
+    "coaching": 200000,
+    "salary": {
+      "y1": 55000,
+      "y3": 55000,
+      "y5": 150000
+    },
+    "years_to_first_income": 6.5,
+    "static_national": 0.85,
+    "city_demand": {
+      "Chennai": 0.9,
+      "Bengaluru": 0.85,
+      "Hyderabad": 0.85,
+      "Mumbai": 0.85,
+      "Delhi NCR": 0.8,
+      "Pune": 0.8
+    },
+    "growth_index": 0.75,
+    "automation_risk": 0.12,
+    "career_risk": 0.3,
+    "entrance_required": true,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "biology",
+        "required_level": 0.9
+      },
+      {
+        "name": "statistics",
+        "required_level": 0.55
+      },
+      {
+        "name": "communication",
+        "required_level": 0.7
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "biology",
+        "step": "Master Class 11-12 biology and chemistry to NEET standard."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Sit at least one NEET mock series and analyse your weak topics."
+      },
+      {
+        "window": "3-6",
+        "skill": "communication",
+        "step": "Practise history-taking and clinical communication with peers or online simulators."
+      },
+      {
+        "window": "6-12",
+        "skill": "statistics",
+        "step": "Learn basic biostatistics for reading research papers and evidence-based medicine."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Complete compulsory internship rotations; register with NMC."
+      }
+    ],
+    "exams": [
+      "NEET"
+    ],
+    "scholarship_ids": [
+      "pm-csss",
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "mbbs-govt",
+      "biomedical-eng"
+    ],
+    "sources": {
+      "_note": "Representative institution type: private medical college admitted via MCC/state NEET counselling. Tuition tests the affordability gate. Salary fields identical to mbbs-govt (same clinical path); career_risk higher due to loan burden.",
+      "tuition_per_year": "Private medical college tuition via MCC NEET counselling. Page not opened. Estimate: NMC-regulated private fee approx Rs 10-20L/yr; Rs 15L used as conservative midpoint.",
+      "years": "Same NMC regulation as mbbs-govt: 5.5 years. Page not opened.",
+      "salary.y1": "Same clinical path as mbbs-govt. Page not opened. Estimate: Rs 55,000/month.",
+      "salary.y3": "ASSUMPTION: same as y1 (Rs 55,000) - PG residency years. DECISIONS.md Section 3 flat-curve exception.",
+      "salary.y5": "ASSUMPTION: Rs 150,000/month by year 5 assuming PG completion and private practice. DECISIONS.md Section 3 exception.",
+      "years_to_first_income": "DECISIONS.md Section 7: 5.5 study + 1 yr internship = 6.5. Page not opened.",
+      "coaching": "NEET. Rule: DECISIONS.md Section 2. Page not opened.",
+      "automation_risk": "Relative judgment score per DECISIONS.md Section 4. Not sourced from a published index. Clinical anchor 0.10-0.20.",
+      "entrance_required": "NEET mandatory. Page not opened.",
+      "exams": "NEET. Page not opened."
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y1",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "polytechnic-diploma-engg",
+    "name": "Diploma in Engineering (polytechnic)",
+    "riasec": [
+      0.75,
+      0.45,
+      0.25,
+      0.2,
+      0.2,
+      0.3
+    ],
+    "tuition_per_year": 15000,
+    "living_per_year": 60000,
+    "years": 3.0,
+    "coaching": 0,
+    "salary": {
+      "y1": 18000,
+      "y3": 23400,
+      "y5": 30420
+    },
+    "years_to_first_income": 3.0,
+    "static_national": 0.55,
+    "city_demand": {
+      "Chennai": 0.65,
+      "Bengaluru": 0.6,
+      "Hyderabad": 0.55,
+      "Pune": 0.65,
+      "Mumbai": 0.6,
+      "Coimbatore": 0.7
+    },
+    "growth_index": 0.5,
+    "automation_risk": 0.45,
+    "career_risk": 0.45,
+    "entrance_required": false,
+    "expected_scholarship": 0,
+    "skills": [
+      {
+        "name": "math",
+        "required_level": 0.45
+      },
+      {
+        "name": "electronics",
+        "required_level": 0.55
+      },
+      {
+        "name": "logic",
+        "required_level": 0.4
+      }
+    ],
+    "roadmap": [
+      {
+        "window": "0-3",
+        "skill": "math",
+        "step": "Strengthen applied mathematics: basic calculus, geometry, and mensuration used in technical drawing."
+      },
+      {
+        "window": "0-3",
+        "skill": null,
+        "step": "Build a small hands-on project in the workshop such as a simple electrical circuit or a machined part."
+      },
+      {
+        "window": "3-6",
+        "skill": "electronics",
+        "step": "Study your branch subject in depth and complete a lab project that could go on your CV."
+      },
+      {
+        "window": "6-12",
+        "skill": null,
+        "step": "Do an industrial training placement (mandatory in most polytechnic programmes) and convert it into a job offer."
+      }
+    ],
+    "exams": [],
+    "scholarship_ids": [
+      "pudhumai-penn"
+    ],
+    "adjacent": [
+      "btech-cse-govt"
+    ],
+    "sources": {
+      "_note": "Representative institution type: government polytechnic college. No entrance exam for most state polytechnics; admission by Class 10 board marks. Coimbatore included: strong manufacturing base.",
+      "tuition_per_year": "State government polytechnic fee schedules. Page not opened. Estimate: most state polytechnics charge Rs 10,000-20,000/yr; Rs 15,000 used as midpoint.",
+      "years": "Standard 3-year polytechnic diploma per AICTE/state board norms. Page not opened.",
+      "salary.y1": "Entry-level diploma engineer salary. Page not opened. Estimate: Rs 15,000-22,000/month for shop-floor or junior technical roles; Rs 18,000 used conservatively.",
+      "salary.y3": "ASSUMPTION: round(18000 x 1.30) = 23400. DECISIONS.md Section 3.",
+      "salary.y5": "ASSUMPTION: round(23400 x 1.30) = 30420. DECISIONS.md Section 3.",
+      "coaching": "No entrance exam for govt polytechnics; admission by Class 10 marks. coaching = 0. Rule: DECISIONS.md Section 2.",
+      "entrance_required": "Most state polytechnics: direct admission by Class 10 board marks. DECISIONS.md Section 1. Page not opened.",
+      "automation_risk": "Relative judgment score per DECISIONS.md Section 4. Not sourced from a published index. Trades/diploma anchor 0.30-0.50.",
+      "exams": "No entrance exam. Empty array."
+    },
+    "estimated_fields": [
+      "stub",
+      "riasec",
+      "skills",
+      "tuition_per_year",
+      "living_per_year",
+      "years",
+      "coaching",
+      "salary.y1",
+      "salary.y3",
+      "salary.y5",
+      "years_to_first_income",
+      "static_national",
+      "city_demand",
+      "growth_index",
+      "automation_risk",
+      "career_risk",
+      "entrance_required",
+      "expected_scholarship",
+      "exams",
+      "adjacent",
+      "roadmap"
+    ]
+  }
+]

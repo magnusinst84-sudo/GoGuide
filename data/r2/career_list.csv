@@ -1,0 +1,25 @@
+id,name,cluster,variant,wave,onet_code,onet_title,mapping_reason,representative_college_type,status,note
+btech-cse-govt,B.Tech Computer Science (government),Engineering and tech,govt,1,,,,,todo,in dataset (unverified)
+btech-cse-private,B.Tech Computer Science (private),Engineering and tech,private,1,,,,,todo,same colleges and fee tier as other private rows
+ai-data-science,B.Tech AI and Data Science (private),Engineering and tech,private,1,,,,,todo,
+biomedical-eng,Biomedical Engineering (B.Tech),Engineering and tech,private,1,,,,,todo,in dataset (unverified)
+mbbs-private,MBBS (private),Health,private,1,,,,,todo,very high cost; tests the affordability gate
+mbbs-govt,MBBS (government),Health,govt,1,,,,,todo,"low cost, hard NEET cutoff; pairs with private"
+b-des-ux,B.Des / UX Design,Design and arts,private,1,,,,,todo,in dataset (stub)
+polytechnic-diploma-engg,Diploma in Engineering (polytechnic),Engineering and tech,govt,1,,,,,todo,low-cost route; shows affordable options
+btech-ece-govt,B.Tech Electronics and Communication (government),Engineering and tech,govt,2,,,,,todo,
+btech-mechanical-govt,B.Tech Mechanical Engineering (government),Engineering and tech,govt,2,,,,,todo,
+btech-civil-govt,B.Tech Civil Engineering (government),Engineering and tech,govt,2,,,,,todo,
+btech-electrical-govt,B.Tech Electrical Engineering (government),Engineering and tech,govt,2,,,,,todo,
+bsc-nursing,B.Sc Nursing,Health,govt or private,2,,,,,todo,
+bpharm,B.Pharm,Health,private,2,,,,,todo,
+b-arch,B.Arch Architecture,Design and arts,private,2,,,,,todo,NATA required
+bca,BCA Computer Applications,Engineering and tech,private,2,,,,,todo,affordable alternative to B.Tech CSE
+btech-chemical-govt,B.Tech Chemical Engineering (government),Engineering and tech,govt,3,,,,,todo,
+cybersecurity-btech,B.Tech Cybersecurity (private),Engineering and tech,private,3,,,,,todo,
+bds-private,BDS Dental Surgery (private),Health,private,3,,,,,todo,
+bsc-physics-research,B.Sc Physics / research track (IISER or central univ.),Sciences,govt,3,,,,,todo,research path
+bsc-biotech,B.Sc Biotechnology,Sciences,private,3,,,,,todo,
+bsc-statistics-data,B.Sc Statistics / Data Science,Sciences,govt or private,3,,,,,todo,affordable data path
+animation-vfx,B.Sc Animation and VFX,Design and arts,private,4,,,,,todo,optional
+bsc-agriculture,B.Sc Agriculture,Sciences,govt,4,,,,,todo,optional

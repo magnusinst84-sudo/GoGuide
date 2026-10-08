@@ -46,3 +46,10 @@ data/processed/prism_esco/researchOccupationsCollection_en.csv
 data/processed/prism_esco/researchSkillsCollection_en.csv
 data/processed/prism_esco/skillGroups_en.csv
 data/processed/prism_esco/transversalSkillsCollection_en.csv
+
+# RAG vector index (generated locally - do NOT commit)
+backend/data/rag/index.faiss
+backend/data/rag/documents.jsonl
+
+# HuggingFace / sentence-transformers model cache
+.cache/

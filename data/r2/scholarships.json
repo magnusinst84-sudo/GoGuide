@@ -1,0 +1,85 @@
+[
+  {
+    "id": "pm-csss",
+    "name": "Central Sector Scheme of Scholarship for College and University Students",
+    "provider": "Ministry of Education, Government of India (via National Scholarship Portal)",
+    "amount": 12000,
+    "amount_note": "Rs 12,000 per annum for 3 years at UG level",
+    "income_cap_annual": 450000,
+    "stream_tags": [
+      "__pending_r3__"
+    ],
+    "min_marks_pct": null,
+    "_eligibility_note": "min_marks_pct is null. Eligibility requires top 20 percentile in Class 12 board; this is a rank-based rule, not a raw percentage.",
+    "deadline": null,
+    "deadline_year_note": "Annual cycle; check scholarships.gov.in for current year deadline",
+    "url": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_DOHE_CSSS.pdf",
+    "source_note": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_DOHE_CSSS.pdf (Accessed 2026-10-08) - read from official page; not hand-checked: \"Students with gross parental/family income upto  Rs. 4.5  lakh per annum  are eligible for scholarship under the scheme.\"",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "aicte-pragati",
+    "name": "AICTE Pragati Scholarship Scheme for Girl Students (Degree)",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "amount": 50000,
+    "amount_note": "Rs 50,000 per annum for up to 4 years; girls only",
+    "income_cap_annual": 800000,
+    "stream_tags": [
+      "__pending_r3__"
+    ],
+    "min_marks_pct": null,
+    "deadline": null,
+    "deadline_year_note": "Annual cycle; check scholarships.gov.in for current year deadline",
+    "url": "https://scholarships.gov.in",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "aicte-saksham",
+    "name": "AICTE Saksham Scholarship Scheme for Specially Abled Students (Degree)",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "amount": 50000,
+    "amount_note": "Rs 50,000 per annum for up to 4 years; minimum 40% disability certificate required",
+    "income_cap_annual": 800000,
+    "stream_tags": [
+      "__pending_r3__"
+    ],
+    "min_marks_pct": null,
+    "deadline": null,
+    "deadline_year_note": "Annual cycle; check scholarships.gov.in for current year deadline",
+    "url": "https://scholarships.gov.in",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "inspire-she",
+    "name": "INSPIRE Scholarship for Higher Education (SHE)",
+    "provider": "Department of Science and Technology (DST), Government of India",
+    "amount": 60000,
+    "amount_note": "Rs 60,000 per annum (Rs 5,000/month) plus Rs 20,000 annual mentorship grant",
+    "income_cap_annual": null,
+    "stream_tags": [
+      "__pending_r3__"
+    ],
+    "min_marks_pct": null,
+    "_eligibility_note": "min_marks_pct is null. Eligibility is rank-based (top 1% of board or JEE/NEET rank within top 10,000), not a raw percentage.",
+    "deadline": null,
+    "deadline_year_note": "Annual cycle; check online-inspire.gov.in. No income cap; merit-based: top 1% in Class 12 State/Central Board or JEE/NEET rank within top 10,000",
+    "url": "https://online-inspire.gov.in",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "pudhumai-penn",
+    "name": "Pudhumai Penn Scheme (Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme)",
+    "provider": "Government of Tamil Nadu",
+    "amount": 12000,
+    "amount_note": "Rs 12,000 per annum (Rs 1,000/month via DBT); girl students who studied in TN Govt schools Class 6 to 12 only",
+    "income_cap_annual": null,
+    "stream_tags": [
+      "__pending_r3__"
+    ],
+    "min_marks_pct": null,
+    "deadline": null,
+    "deadline_year_note": "Ongoing scheme; check penkalvi.tn.gov.in for current cycle",
+    "url": "https://penkalvi.tn.gov.in",
+    "checked_on": "2026-10-07"
+  }
+]
